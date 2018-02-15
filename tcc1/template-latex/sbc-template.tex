@@ -1,0 +1,89 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+% Codificação UTF-8
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{graphicx,url}
+\usepackage{courier}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{algorithmic}
+\usepackage{float, cite}
+\usepackage{booktabs}
+%\usepackage[bf,sf,footnotesize,indent,justification=centering]{caption}
+\usepackage{framed}
+\usepackage{verbatim}
+%\usepackage[caption=true,font=footnotesize]{subfig}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{arrows}
+\usepackage{xfrac}
+\usepackage{cite}
+\usepackage{amsmath, amssymb, amsfonts, bbm, amsthm, eqparbox}
+\usepackage{array, float}
+\usepackage{graphicx,epsfig}
+\usepackage[colorlinks,linkcolor=black,urlcolor=black,citecolor=black]{hyperref}
+\usepackage{url}
+\usepackage[brazil]{babel}
+\usepackage{subfigure}
+\usepackage{framed}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage{adjustbox}
+\usepackage{xcolor}
+\definecolor{lightblue}{RGB}{0,191,255}
+\usepackage[textsize=tiny,backgroundcolor=lightblue,linecolor=lightblue]{todonotes}
+
+%\captionsetup[subfigure]{justification=centering,labelfont={bf,sf},textfont={bf,sf,footnotesize},singlelinecheck=off,justification=centering}
+%\captionsetup[figure]{justification=centering,labelfont={bf,sf},textfont={bf,sf,footnotesize},singlelinecheck=off}
+%\captionsetup[table]{justification=centering,labelfont={bf,sf},textfont={bf,sf,footnotesize},singlelinecheck=off,justification=centering}
+
+\title{Tcc-Nicoli}
+
+
+\author{Nicoli Pinheiro de Araújo, Elloá B. Guedes}
+
+
+
+\address{
+Escola Superior de Tecnologia\\
+Universidade do Estado do Amazonas\\
+Av. Darcy Vargas, 1200 -- Manaus -- Amazonas
+    \email{\{npda.eng,ebgcosta\}@uea.edu.br}
+}
+\linespread{0.97}
+\begin{document}
+\selectlanguage{brazil}
+
+\maketitle
+
+\input{files/resumo}
+
+\section{Introdução}\label{sec:intro}
+\input{files/intro}
+
+\section{Fundamentação Teórica}\label{sec:fund_teorica}
+\input{files/fund_teorica}
+
+\section{Trabalhos Relacionados}\label{sec:trab_relac}
+\input{files/trab_relac}
+
+\section{Solução Proposta}\label{sec:solucao_proposta}
+\input{files/solucao_proposta}
+
+\section{Considerações Finais}\label{sec:consid_finais}
+\input{files/consid_finais}
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+\end{document}
