@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  15 FEB 2018 09:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  28 FEB 2018 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1786,7 +1786,7 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/resumo.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 1.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 71.
@@ -1795,22 +1795,135 @@ Package babel Info: Redefining portuges shorthand "|
 
 (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/intro.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 4.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 5.
+(babel)             in language  on input line 6.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 8.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 74.
 
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/fund_teorica.tex)
+(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/fund_teorica.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 10.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 10.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<img/livre.png, id=59, 444.66125pt x 444.66125pt>
+File: img/livre.png Graphic file (type png)
+ <use img/livre.png>
+Package pdftex.def Info: img/livre.png used on input line 20.
+(pdftex.def)             Requested size: 21.34087pt x 21.33875pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|\T1/ptm/m/n/12 Não re-co-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\T1/ptm/m/n/12 men-dado para
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 23--23
+\T1/ptm/m/n/12 me-no-res de dez
+ []
+
+<img/10anos.png, id=61, 401.5pt x 401.5pt>
+File: img/10anos.png Graphic file (type png)
+ <use img/10anos.png>
+Package pdftex.def Info: img/10anos.png used on input line 23.
+(pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/ptm/m/n/12 Não re-co-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+\T1/ptm/m/n/12 men-dado para
+ []
+
+<img/12anos.png, id=62, 401.5pt x 401.5pt>
+File: img/12anos.png Graphic file (type png)
+ <use img/12anos.png>
+Package pdftex.def Info: img/12anos.png used on input line 26.
+(pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/ptm/m/n/12 Não re-co-men-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\T1/ptm/m/n/12 dado para me-
+ []
+
+<img/14anos.png, id=63, 401.5pt x 401.5pt>
+File: img/14anos.png Graphic file (type png)
+ <use img/14anos.png>
+Package pdftex.def Info: img/14anos.png used on input line 29.
+(pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]|\T1/ptm/m/n/12 Não re-co-men-
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 32--32
+\T1/ptm/m/n/12 res de de-zes-seis
+ []
+
+<img/16anos.png, id=64, 401.5pt x 401.5pt>
+File: img/16anos.png Graphic file (type png)
+ <use img/16anos.png>
+Package pdftex.def Info: img/16anos.png used on input line 32.
+(pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\T1/ptm/m/n/12 Não re-co-men-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\T1/ptm/m/n/12 dado para me-
+ []
+
+<img/18anos.png, id=65, 401.5pt x 401.5pt>
+File: img/18anos.png Graphic file (type png)
+ <use img/18anos.png>
+Package pdftex.def Info: img/18anos.png used on input line 35.
+(pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
+
+Overfull \hbox (7.54721pt too wide) in paragraph at lines 16--39
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for T1+phv on input line 39.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 39.
+
+
+LaTeX Warning: Float too large for page by 19.37796pt on input line 41.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 77.
-
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/trab_relac.tex)
+ (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/trab_relac.tex)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 80.
 
@@ -1827,38 +1940,47 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 89.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 89.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+ [2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 89.
+ [3 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/livre.png> </home/n
+icoli/github/nicoli-tcc/tcc1/template-latex/img/10anos.png> </home/nicoli/githu
+b/nicoli-tcc/tcc1/template-latex/img/12anos.png> </home/nicoli/github/nicoli-tc
+c/tcc1/template-latex/img/14anos.png> </home/nicoli/github/nicoli-tcc/tcc1/temp
+late-latex/img/16anos.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/
+img/18anos.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 
 (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
 Package rerunfilecheck Info: File `sbc-template.out' has not changed.
-(rerunfilecheck)             Checksum: 9A3FF70F362A55C5693CC2758FEF0F10;530.
+(rerunfilecheck)             Checksum: 9A1C84458F5D824C3F000642AA14EBA5;632.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 30113 strings out of 493029
- 593108 string characters out of 6136234
- 615303 words of memory out of 5000000
- 33107 multiletter control sequences out of 15000+600000
- 32761 words of font info for 56 fonts, out of 8000000 for 9000
+ 30206 strings out of 493029
+ 594394 string characters out of 6136234
+ 622450 words of memory out of 5000000
+ 33182 multiletter control sequences out of 15000+600000
+ 38963 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,8n,54p,10380b,734s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,15n,54p,10380b,734s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+pe1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on /home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-templa
-te.pdf (1 page, 66877 bytes).
+te.pdf (3 pages, 118023 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 112 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
