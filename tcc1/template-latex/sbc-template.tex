@@ -1,53 +1,34 @@
 \documentclass[12pt]{article}
 
 \usepackage{sbc-template}
+
 % Codificação UTF-8
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[brazil]{babel}
-\usepackage{graphicx,url}
-\usepackage{courier}
-\usepackage{amssymb}
-\usepackage{amsmath}
-\usepackage{algorithmic}
-\usepackage{float, cite}
-\usepackage{booktabs}
-%\usepackage[bf,sf,footnotesize,indent,justification=centering]{caption}
-\usepackage{framed}
-\usepackage{verbatim}
-%\usepackage[caption=true,font=footnotesize]{subfig}
 
-\usepackage{pgf,tikz}
-\usetikzlibrary{arrows}
-\usepackage{xfrac}
-\usepackage{cite}
-\usepackage{amsmath, amssymb, amsfonts, bbm, amsthm, eqparbox}
-\usepackage{array, float}
-\usepackage{graphicx,epsfig}
+%% Cores, fontes e afins
 \usepackage[colorlinks,linkcolor=black,urlcolor=black,citecolor=black]{hyperref}
-\usepackage{url}
-\usepackage[brazil]{babel}
-\usepackage{subfigure}
-\usepackage{framed}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{siunitx}
+\usepackage{amsmath,amssymb,amsfonts, bbm, amsthm}
+\usepackage{scalefnt}
+
+% Tabelas e figuras
+\usepackage{graphicx,url}
 \usepackage{booktabs}
 \usepackage{float}
-\usepackage{color}
-\usepackage{multicol}
-\usepackage{sbc-template}
-\usepackage{graphicx,url}
-\usepackage{adjustbox}
+
+% Citações abnt
+\usepackage[alf]{abntex2cite}
+
+
+%% Comentários
 \usepackage{xcolor}
 \definecolor{lightblue}{RGB}{0,191,255}
 \usepackage[textsize=tiny,backgroundcolor=lightblue,linecolor=lightblue]{todonotes}
 
-%\captionsetup[subfigure]{justification=centering,labelfont={bf,sf},textfont={bf,sf,footnotesize},singlelinecheck=off,justification=centering}
-%\captionsetup[figure]{justification=centering,labelfont={bf,sf},textfont={bf,sf,footnotesize},singlelinecheck=off}
-%\captionsetup[table]{justification=centering,labelfont={bf,sf},textfont={bf,sf,footnotesize},singlelinecheck=off,justification=centering}
 
-\title{Estimação de Idade de Espectadores para Aplicações em Classificação Indicativa de Conteúdo}
+
+\title{Estimação de Idade de Telespectadores para Aplicações de Sugestão de Conteúdo em \emph{Smart} TVs}
 
 
 \author{Nicoli Pinheiro de Araújo, Elloá B. Guedes}
@@ -60,7 +41,7 @@ Universidade do Estado do Amazonas\\
 Av. Darcy Vargas, 1200 -- Manaus -- Amazonas
     \email{\{npda.eng,ebgcosta\}@uea.edu.br}
 }
-\linespread{0.97}
+
 \begin{document}
 \selectlanguage{brazil}
 
@@ -83,7 +64,6 @@ Av. Darcy Vargas, 1200 -- Manaus -- Amazonas
 \section{Considerações Finais}\label{sec:consid_finais}
 \input{files/consid_finais}
 
-\bibliographystyle{sbc}
 \bibliography{sbc-template}
 
 \end{document}
