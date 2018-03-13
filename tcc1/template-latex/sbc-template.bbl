@@ -5,4 +5,32 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Deputados 1995]{eca}
+\abntrefinfo{Deputados}{DEPUTADOS}{1995}
+{DEPUTADOS, C. dos. \emph{Estatuto da Criança e do Adolescente}. BRASIL:
+  [s.n.], 1995.}
+
+\bibitem[Justiça 2014]{portaria:ci}
+\abntrefinfo{Justiça}{JUSTIçA}{2014}
+{JUSTIçA, M. da. \emph{Política Pública de Classificação Indicativa}.
+  BRASIL: [s.n.], 2014.}
+
+\bibitem[Justiça 2012]{ci:guia}
+\abntrefinfo{Justiça}{JUSTIçA}{2012}
+{JUSTIçA, S.~N. de. \emph{Classificação Indicativa Guia Pratico}. BRASIL:
+  [s.n.], 2012.}
+
+\bibitem[Mich{\'e}le e Karpow 2014]{michele2014watch}
+\abntrefinfo{Mich{\'e}le e Karpow}{MICH{\'E}LE; KARPOW}{2014}
+{MICH{\'E}LE, B.; KARPOW, A. Watch and be watched: Compromising all smart tv
+  generations. In:  IEEE. \emph{Consumer Communications and Networking
+  Conference (CCNC), 2014 IEEE 11th}. [S.l.], 2014. p. 351--356.}
+
+\bibitem[Shin, Hwang e Choo 2013]{shin2013smart}
+\abntrefinfo{Shin, Hwang e Choo}{SHIN; HWANG; CHOO}{2013}
+{SHIN, D.-H.; HWANG, Y.; CHOO, H. Smart tv: are they really smart in
+  interacting with people? understanding the interactivity of korean smart tv.
+\emph{Behaviour \& information technology}, Taylor \& Francis, v.~32, n.~2, p.
+  156--172, 2013.}
+
 \end{thebibliography}
