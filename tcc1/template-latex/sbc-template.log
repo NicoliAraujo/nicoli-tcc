@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  9 MAR 2018 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  14 MAR 2018 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1151,10 +1151,29 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 
-(./files/smart_tv.tex)
+(./files/smart_tv.tex
+<img/smart_samsung.jpg, id=104, 693.59125pt x 455.7025pt>
+File: img/smart_samsung.jpg Graphic file (type jpg)
+
+<use img/smart_samsung.jpg>
+Package pdftex.def Info: img/smart_samsung.jpg used on input line 5.
+(pdftex.def)             Requested size: 426.79135pt x 280.41876pt.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 6.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 6.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 6.
+)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 6.
- (./files/classificacaoIndicativa.tex
+
+(./files/classificacaoIndicativa.tex
 Overfull \hbox (5.5173pt too wide) in paragraph at lines 3--4
 \T1/ptm/m/n/12 fi-nal aos pais e res-pon-sá-veis quanto à es-co-lha do con-teúd
 o ade-quado a es-tes([][]DEPUTADOS[][],
@@ -1168,50 +1187,43 @@ Package babel Info: Redefining portuges shorthand "|
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 (./files/tab-indicativa.tex
-LaTeX Font Info:    Try loading font information for T1+phv on input line 4.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-)
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 4.
 LaTeX Font Info:    Calculating math sizes for size <9.60004> on input line 7.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9.60004> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
-
-<img/livre.png, id=123, 444.66125pt x 444.66125pt>
+ <img/livre.png, id=129, 444.66125pt x 444.66125pt>
 File: img/livre.png Graphic file (type png)
- <use img/livre.png>
+
+<use img/livre.png>
 Package pdftex.def Info: img/livre.png used on input line 11.
 (pdftex.def)             Requested size: 21.34087pt x 21.33875pt.
-
-<img/10anos.png, id=125, 401.5pt x 401.5pt>
+ <img/10anos.png, id=131, 401.5pt x 401.5pt>
 File: img/10anos.png Graphic file (type png)
- <use img/10anos.png>
+
+<use img/10anos.png>
 Package pdftex.def Info: img/10anos.png used on input line 14.
 (pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
-
-<img/12anos.png, id=126, 401.5pt x 401.5pt>
+ <img/12anos.png, id=132, 401.5pt x 401.5pt>
 File: img/12anos.png Graphic file (type png)
- <use img/12anos.png>
+
+<use img/12anos.png>
 Package pdftex.def Info: img/12anos.png used on input line 17.
 (pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
-
-<img/14anos.png, id=127, 401.5pt x 401.5pt>
+ <img/14anos.png, id=133, 401.5pt x 401.5pt>
 File: img/14anos.png Graphic file (type png)
- <use img/14anos.png>
+
+<use img/14anos.png>
 Package pdftex.def Info: img/14anos.png used on input line 20.
 (pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
-
-<img/16anos.png, id=128, 401.5pt x 401.5pt>
+ <img/16anos.png, id=134, 401.5pt x 401.5pt>
 File: img/16anos.png Graphic file (type png)
- <use img/16anos.png>
+
+<use img/16anos.png>
 Package pdftex.def Info: img/16anos.png used on input line 23.
 (pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
-
-<img/18anos.png, id=129, 401.5pt x 401.5pt>
+ <img/18anos.png, id=135, 401.5pt x 401.5pt>
 File: img/18anos.png Graphic file (type png)
- <use img/18anos.png>
+
+<use img/18anos.png>
 Package pdftex.def Info: img/18anos.png used on input line 26.
 (pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
 
@@ -1219,7 +1231,25 @@ Overfull \hbox (21.77359pt too wide) in paragraph at lines 7--30
  [][] 
  []
 
-))
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 10.
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 8.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 8.
+ [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.8 
+     </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/smart_samsung.jpg>
+]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 9.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <13> not available
@@ -1247,43 +1277,54 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 15.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 18.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 21.
-)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 64.
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/consid_finais.tex)
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.bbl
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 13.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 13.
- [2pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
+(babel)             in language  on input line 21.
+ [3pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.13 \bibitem[JustiÃ§a 2014]{portaria:ci}
-                                          </home/nicoli/github/nicoli-tcc/tcc1/
-template-latex/img/livre.png> </home/nicoli/github/nicoli-tcc/tcc1/template-lat
-ex/img/10anos.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/12an
-os.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/14anos.png> </h
-ome/nicoli/github/nicoli-tcc/tcc1/template-latex/img/16anos.png> </home/nicoli/
-github/nicoli-tcc/tcc1/template-latex/img/18anos.png>])
+l.21 \begin{align}
+                  \label{eq:micro_averaging} </home/nicoli/github/nicoli-tcc/tc
+c1/template-latex/img/livre.png> </home/nicoli/github/nicoli-tcc/tcc1/template-
+latex/img/10anos.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/1
+2anos.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/14anos.png> 
+</home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/16anos.png> </home/nico
+li/github/nicoli-tcc/tcc1/template-latex/img/18anos.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 31.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 33.
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 64.
+
+(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/consid_finais.tex)
+(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.bbl
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 33.
+ [4])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 69.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 69.
- [3]
+
+[5]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
-
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.aux)
+ (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 Package rerunfilecheck Info: File `sbc-template.out' has not changed.
-(rerunfilecheck)             Checksum: D8D7E87EB0D5A56074DFE7FC7FB687E2;1455.
+(rerunfilecheck)             Checksum: 3DD1717C6A570410B7F566388E33CF8B;1529.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1291,25 +1332,31 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
- 18923 strings out of 493029
- 340936 string characters out of 6136234
- 420090 words of memory out of 5000000
- 21995 multiletter control sequences out of 15000+600000
- 50535 words of font info for 71 fonts, out of 8000000 for 9000
+ 19054 strings out of 493029
+ 343857 string characters out of 6136234
+ 426105 words of memory out of 5000000
+ 22111 multiletter control sequences out of 15000+600000
+ 56113 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,56p,848b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,76p,1524b,706s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
-s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucr
+r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8
+a.pfb>
 Output written on /home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-templa
-te.pdf (3 pages, 129044 bytes).
+te.pdf (5 pages, 376890 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 197 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 
