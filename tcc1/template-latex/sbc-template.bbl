@@ -26,6 +26,12 @@
 {JUSTIçA, S.~N. de. \emph{Classificação Indicativa Guia Pratico}. BRASIL:
   [s.n.], 2012.}
 
+\bibitem[Kovach 2010]{whatisasmarttv}
+\abntrefinfo{Kovach}{KOVACH}{2010}
+{KOVACH, S. \emph{What Is A Smart TV?} 2010.
+  \url{http://www.businessinsider.com/what-is-a-smart-tv-2010-12}.
+Acessado em 15 de Março de 2018.}
+
 \bibitem[Kubat 2016]{kubat2016introduction}
 \abntrefinfo{Kubat}{KUBAT}{2016}
 {KUBAT, M. \emph{An Introduction to Machine Learning}. [S.l.]: Springer, 2016.}
@@ -48,5 +54,11 @@
   interacting with people? understanding the interactivity of korean smart tv.
 \emph{Behaviour \& information technology}, Taylor \& Francis, v.~32, n.~2, p.
   156--172, 2013.}
+
+\bibitem[Smart TV: Piece by Piece 2011]{samsung:smarttv}
+\abntrefinfo{Smart\ldots}{SMART\ldots}{2011}
+{SMART TV: Piece by Piece. 2011.
+  \url{https://news.samsung.com/global/smart-tv-piece-by-piece}.
+Acessado em 15 de Março de 2018.}
 
 \end{thebibliography}
