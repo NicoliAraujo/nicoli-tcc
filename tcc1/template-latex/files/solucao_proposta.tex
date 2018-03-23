@@ -15,18 +15,18 @@
 \subsection{Métricas de Desempenho}
 
 % Escrever sobre micro-averaging
-\subsubsection{Micro-Média}
-\todo{como traduzir?}
-A micro-média é uma medida de performance utilizada em problemas de classificação multi-classe em que não há balanceamento entre os elementos de cada tipo. Assim, cada classe recebe um peso de acordo com sua frequência entre os exemplos, o que faz com que o $F1$-score das classes com mais exemplos infuencie na métrica mais que o de classes com menos exemplos \cite{ghamrawi2005collective}. A performance é dada pela média de todos os exemplos como se pertencessem a uma mesma classe, como mostra a Equação \ref{eq:micro_averaging}, sendo $PR$, $Re$ e $F1$ a precisão, revocação e $F1$-score, respectivamente, e TP, FP, FN, positivo verdadeiro, positivo falso e negativo verdadeiro\cite{kubat2016introduction}.
-\begin{align}\label{eq:micro_averaging}
-	\begin{split}
-		Pr^{\mu} = \frac{\sum_{i=1}^L TP_i}{\sum_{i=1}^L TP_i + FP_i}
-		\\ \\
-		Re^{\mu} = \frac{\sum_{i=1}^L TP_i}{\sum_{i=1}^L TP_i + FN_i}
-		\\ \\
-		F1^{\mu} = \frac{2 \times Pr^{\mu} \times Re^{\mu}}{Pr^{\mu} + Re^{\mu}}
-	\end{split}
-\end{align}
+% \subsubsection{Micro-Média}
+% \todo{como traduzir?}
+% A micro-média é uma medida de performance utilizada em problemas de classificação multi-classe em que não há balanceamento entre os elementos de cada tipo. Assim, cada classe recebe um peso de acordo com sua frequência entre os exemplos, o que faz com que o $F1$-score das classes com mais exemplos infuencie na métrica mais que o de classes com menos exemplos \cite{ghamrawi2005collective}. A performance é dada pela média de todos os exemplos como se pertencessem a uma mesma classe, como mostra a Equação \ref{eq:micro_averaging}, sendo $PR$, $Re$ e $F1$ a precisão, revocação e $F1$-score, respectivamente, e TP, FP, FN, positivo verdadeiro, positivo falso e negativo verdadeiro\cite{kubat2016introduction}.
+% \begin{align}\label{eq:micro_averaging}
+% 	\begin{split}
+% 		Pr^{\mu} = \frac{\sum_{i=1}^L TP_i}{\sum_{i=1}^L TP_i + FP_i}
+% 		\\ \\
+% 		Re^{\mu} = \frac{\sum_{i=1}^L TP_i}{\sum_{i=1}^L TP_i + FN_i}
+% 		\\ \\
+% 		F1^{\mu} = \frac{2 \times Pr^{\mu} \times Re^{\mu}}{Pr^{\mu} + Re^{\mu}}
+% 	\end{split}
+% \end{align}
 
 \subsection{Etapa de Treinamento}
 
