@@ -13,6 +13,11 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: sbc-template.bib
+I was expecting a `,' or a `}'---line 279 of file sbc-template.bib
+ : 
+ : @book{marsland2015machine,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -22,44 +27,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 11 entries,
+You've used 15 entries,
             6714 wiz_defined-function locations,
-            1255 strings with 10854 characters,
-and the built_in function-call counts, 8734 in all, are:
-= -- 847
-> -- 223
-< -- 7
-+ -- 140
-- -- 70
-* -- 550
-:= -- 1184
-add.period$ -- 42
-call.type$ -- 11
-change.case$ -- 93
-chr.to.int$ -- 14
-cite$ -- 10
-duplicate$ -- 373
-empty$ -- 738
-format.name$ -- 326
-if$ -- 2154
+            1278 strings with 11447 characters,
+and the built_in function-call counts, 12404 in all, are:
+= -- 1185
+> -- 321
+< -- 62
++ -- 223
+- -- 100
+* -- 792
+:= -- 1667
+add.period$ -- 56
+call.type$ -- 15
+change.case$ -- 125
+chr.to.int$ -- 24
+cite$ -- 14
+duplicate$ -- 671
+empty$ -- 961
+format.name$ -- 465
+if$ -- 2947
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 188
-newline$ -- 51
-num.names$ -- 45
-pop$ -- 272
+missing$ -- 265
+newline$ -- 69
+num.names$ -- 65
+pop$ -- 369
 preamble$ -- 1
-purify$ -- 38
+purify$ -- 52
 quote$ -- 0
-skip$ -- 563
+skip$ -- 846
 stack$ -- 1
-substring$ -- 371
-swap$ -- 177
-text.length$ -- 6
+substring$ -- 483
+swap$ -- 290
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 6
 warning$ -- 0
-while$ -- 71
+while$ -- 96
 width$ -- 0
-write$ -- 162
+write$ -- 223
+(There was 1 error message)

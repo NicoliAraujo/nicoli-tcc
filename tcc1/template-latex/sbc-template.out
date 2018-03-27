@@ -7,16 +7,24 @@
 \BOOKMARK [2][-]{subsection.2.1}{Smart TVs}{section.2}% 7
 \BOOKMARK [2][-]{subsection.2.2}{Classifica\347\343o Indicativa para Conte\372do Televisivo}{section.2}% 8
 \BOOKMARK [2][-]{subsection.2.3}{Aprendizagem de M\341quina}{section.2}% 9
-\BOOKMARK [1][-]{section.3}{Deep Learning}{}% 10
-\BOOKMARK [2][-]{subsection.3.1}{Redes Neurais Convolucionais}{section.3}% 11
-\BOOKMARK [1][-]{section.4}{Trabalhos Relacionados}{}% 12
-\BOOKMARK [1][-]{section.5}{Solu\347\343o Proposta}{}% 13
-\BOOKMARK [2][-]{subsection.5.1}{Tarefa de Previs\343o Considerada}{section.5}% 14
-\BOOKMARK [2][-]{subsection.5.2}{Elabora\347\343o e Descri\347\343o da Base de Dados}{section.5}% 15
-\BOOKMARK [2][-]{subsection.5.3}{Modelos de CNN Considerados}{section.5}% 16
-\BOOKMARK [2][-]{subsection.5.4}{Par\342metros e Hiperpar\342metros}{section.5}% 17
-\BOOKMARK [2][-]{subsection.5.5}{M\351tricas de Desempenho}{section.5}% 18
-\BOOKMARK [3][-]{subsubsection.5.5.1}{Micro-M\351dia}{subsection.5.5}% 19
-\BOOKMARK [2][-]{subsection.5.6}{Etapa de Treinamento}{section.5}% 20
-\BOOKMARK [2][-]{subsection.5.7}{Etapa de Testes}{section.5}% 21
-\BOOKMARK [1][-]{section.6}{Considera\347\365es Finais}{}% 22
+\BOOKMARK [2][-]{subsection.2.4}{Deep Learning}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.5}{Redes Neurais Convolucionais}{section.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Convolu\347\343o}{subsection.2.5}% 12
+\BOOKMARK [3][-]{subsubsection.2.5.2}{Pooling}{subsection.2.5}% 13
+\BOOKMARK [2][-]{subsection.2.6}{Modelos cl\341ssicos de Redes Neurais Convolucionais}{section.2}% 14
+\BOOKMARK [3][-]{subsubsection.2.6.1}{LeNet}{subsection.2.6}% 15
+\BOOKMARK [3][-]{subsubsection.2.6.2}{AlexNet}{subsection.2.6}% 16
+\BOOKMARK [3][-]{subsubsection.2.6.3}{GoogleLeNet ou Inception}{subsection.2.6}% 17
+\BOOKMARK [3][-]{subsubsection.2.6.4}{ResNet}{subsection.2.6}% 18
+\BOOKMARK [3][-]{subsubsection.2.6.5}{SSD}{subsection.2.6}% 19
+\BOOKMARK [3][-]{subsubsection.2.6.6}{YOLO}{subsection.2.6}% 20
+\BOOKMARK [1][-]{section.3}{Trabalhos Relacionados}{}% 21
+\BOOKMARK [1][-]{section.4}{Solu\347\343o Proposta}{}% 22
+\BOOKMARK [2][-]{subsection.4.1}{Tarefa de Previs\343o Considerada}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.2}{Elabora\347\343o e Descri\347\343o da Base de Dados}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.3}{Modelos de CNN Considerados}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.4}{Par\342metros e Hiperpar\342metros}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.5}{M\351tricas de Desempenho}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.6}{Etapa de Treinamento}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.7}{Etapa de Testes}{section.4}% 29
+\BOOKMARK [1][-]{section.5}{Considera\347\365es Finais}{}% 30
