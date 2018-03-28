@@ -11,6 +11,31 @@
 \emph{Foundations and trends{\textregistered} in Machine Learning}, Now
   Publishers, Inc., v.~2, n.~1, p. 1--127, 2009.}
 
+\bibitem[Between]{differencebetween}
+\abntrefinfo{Between}{BETWEEN}{}
+{BETWEEN, D. \emph{Difference between Smart TV and Normal TV}.
+  \url{http://www.differencebetween.info/difference-between-smart-tv-and-normal-tv}.
+Acessado em 21 de Março de 2018.}
+
+\bibitem[Bracewell e Bracewell 1986]{bracewell1986fourier}
+\abntrefinfo{Bracewell e Bracewell}{BRACEWELL; BRACEWELL}{1986}
+{BRACEWELL, R.~N.; BRACEWELL, R.~N. \emph{The Fourier transform and its
+  applications}. [S.l.]: McGraw-Hill New York, 1986. v. 31999.}
+
+\bibitem[Braziliense 2018]{correiopnad}
+\abntrefinfo{Braziliense}{BRAZILIENSE}{2018}
+{BRAZILIENSE, C. \emph{Copa e novas tecnologias prometem aumentar venda de TVs
+  no Brasil em 2018}. 2018.
+  \url{http://www.correiobraziliense.com.br/app/noticia/economia/2018/01/23/internas_economia,654966/copa-e-novas-tecnologias-prometem-aumentar-venda-de-tvs-no-brasil.shtml}.
+Acessado em 21 de Março de 2018.}
+
+\bibitem[Ciriaco]{canaltech:streaming}
+\abntrefinfo{Ciriaco}{CIRIACO}{}
+{CIRIACO, D. \emph{Os melhores serviços de streaming de vídeo disponíveis no
+  Brasil}.
+  \url{https://canaltech.com.br/internet/os-melhores-servicos-de-streaming-de-video-disponiveis-no-brasil/}.
+Acessado em 20 de Março de 2018.}
+
 \bibitem[Deputados 1995]{eca}
 \abntrefinfo{Deputados}{DEPUTADOS}{1995}
 {DEPUTADOS, C. dos. \emph{Estatuto da Criança e do Adolescente}. BRASIL:
@@ -22,12 +47,26 @@
 {GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep learning}. [S.l.]: MIT
   press Cambridge, 2016. v.~1.}
 
+\bibitem[Guimarães 2017]{leiajabuscasmart}
+\abntrefinfo{Guimarães}{GUIMARãES}{2017}
+{GUIMARãES, N. \emph{Com fim do sinal analógico, busca por smart TVs cresce
+  11%}. 2017.
+  \url{http://www.leiaja.com/tecnologia/2017/07/17/com-fim-do-sinal-analogico-busca-por-smart-tvs-cresce-11/}.
+Acessado em 22 de Março de 2018.}
+
+\bibitem[IBGE 2015]{pnad2015}
+\abntrefinfo{IBGE}{IBGE}{2015}
+{IBGE. \emph{Pesquisa Nacional por Amostra de Domicílios: Acesso à INternet e
+  à Telvisão e Posse de Telefone Móvel Celular para Uso Pessoal}. 2015.
+  \url{https://biblioteca.ibge.gov.br/visualizacao/livros/liv99054.pdf}.
+Acessado em 16 de Março de 2018.}
+
 \bibitem[IBM 2017]{ibm2017bigdata}
 \abntrefinfo{IBM}{IBM}{2017}
 {IBM, M.~C. \emph{10 Key Marketing Trends for 2017 and Ideas for Exceeding
   Customer Expectations}. 2017.
-  \url{{https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN}},
-  note={Acessado em 23 de Março de 2018}.}
+  \url{https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN}.
+Acessado em 23 de Março de 2018.}
 
 \bibitem[Justiça 2014]{portaria:ci}
 \abntrefinfo{Justiça}{JUSTIçA}{2014}
@@ -54,6 +93,12 @@ Acessado em 15 de Março de 2018.}
 {MARSLAND, S. \emph{Machine learning: an algorithmic perspective}. [S.l.]: CRC
   press, 2015.}
 
+\bibitem[Mautilus 2013]{mautilus:specificationsforsmart}
+\abntrefinfo{Mautilus}{MAUTILUS}{2013}
+{MAUTILUS. \emph{Specifications details for Smart TVs platforms}. 2013.
+  \url{https://www.mautilus.com/blog/specifications-details-for-smart-tvs-platforms}.
+Acessado em 23 de Março de 2018.}
+
 \bibitem[Mich{\'e}le e Karpow 2014]{michele2014watch}
 \abntrefinfo{Mich{\'e}le e Karpow}{MICH{\'E}LE; KARPOW}{2014}
 {MICH{\'E}LE, B.; KARPOW, A. Watch and be watched: Compromising all smart tv
@@ -73,6 +118,18 @@ ISBN 9780070428072. Dispon{\'\i}vel em:
   applications on smart tv systems. In:  ACM. \emph{Proceedings of the 20th
   International Conference on 3D Web Technology}. [S.l.], 2015. p. 165--166.}
 
+\bibitem[Quain 2018]{tomsguid:everythingsmart}
+\abntrefinfo{Quain}{QUAIN}{2018}
+{QUAIN, J.~R. \emph{Smart TVs: Everything You Need to Know}. 2018.
+  \url{https://www.tomsguide.com/us/smart-tv-faq,review-2111.html}.
+Acessado em 23 de Março de 2018.}
+
+\bibitem[SBT 2015]{sbt:tvconectada}
+\abntrefinfo{SBT}{SBT}{2015}
+{SBT. \emph{SMART TV - TV CONECTADA}. 2015.
+  \url{http://www.sbt.com.br/tvconectada/}.
+Acessado em 23 de Março de 2018.}
+
 \bibitem[Shin, Hwang e Choo 2013]{shin2013smart}
 \abntrefinfo{Shin, Hwang e Choo}{SHIN; HWANG; CHOO}{2013}
 {SHIN, D.-H.; HWANG, Y.; CHOO, H. Smart tv: are they really smart in
@@ -85,5 +142,12 @@ ISBN 9780070428072. Dispon{\'\i}vel em:
 {SMART TV: Piece by Piece. 2011.
   \url{https://news.samsung.com/global/smart-tv-piece-by-piece}.
 Acessado em 15 de Março de 2018.}
+
+\bibitem[S.Paulo 2017]{estadao:explosaovideosonline}
+\abntrefinfo{S.Paulo}{S.PAULO}{2017}
+{S.PAULO, B. C. O.~E. de. \emph{Explosão no consumo de vídeos online coloca
+  em xeque o futuro da televisão}. 2017.
+  \url{http://link.estadao.com.br/noticias/geral,explosao-no-consumo-de-videos-online-coloca-em-xeque-o-futuro-da-televisao,70001695828}.
+Acessado em 20 de Março de 2018.}
 
 \end{thebibliography}

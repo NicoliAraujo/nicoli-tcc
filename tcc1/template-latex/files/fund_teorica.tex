@@ -11,20 +11,29 @@ Aprendizado de máquina trata de criar modelos que se modificam ou adaptam suas 
 Um algoritmo que realiza aprendizado de máquina é aquele capaz de aprender a partir de dados, ou experiência, assim como humanos e outros animais. Estes, ao se depararem com determinada, costumam tentar lembrar-se se da última vez em que estiveram em uma situação parecida, tentaram alguma ação que pode ter dado certo -- então deve ser repetida-- ou errado -- então deve tentar algo diferente --adaptação \cite{marsland2015machine}, \cite{goodfellow2016deep}. De acordo com a definição clássica de \cite{mitchell1997machine}, um algoritmo que aprende a partir da experiência $E$ quanto a um conjunto de tarefas $T$ e medida de performance $P$, se sua performance nas tarefas em $T$, medida por $P$, melhora com a experiência $E$.
 Algumas tarefas que podem ser atacadas utilizando aprensdizado de máquina são a classificação, regressão, transcrição, tradução automática, detecção de anomalia, síntese e amostragem \cite{goodfellow2016deep}.
 
+\todo{gancho?}
+
 \subsection{\emph{Deep Learning}}
-Aprendizagem profunda é um conjunto de técnicas de aprendizagem de máquina que se baseiam em modelos com arquiteturas profundas, compostas de vários níveis de operações não lineares, a exemplo das redes neurais com múltiplas camadas escondidas ou um conjunto de fórmulas proposicionais que re-utiliza várias sub-fórmulas \cite{bengio2009learning}. Estes modelos ganharam popularidade com o aumento da quantidade de dados disponíveis sobre temas complexos, aliado com o aumento da disponibilidade de recursos computacionais para executar modelos mais robustos e o aumento de tamanho dos conjuntos de dados disponíveis \cite{goodfellow2016deep}. De acordo com a IBM, são gerados $2,5$ quintilhões de bytes de dados por dia, e $90\%$ do volume de dados presente no mundo hoje foi criado nos últimos dois anos \cite{ibm2017bigdata}.
+Aprendizagem profunda é um conjunto de técnicas de aprendizagem de máquina que pode ser aplicado em aprendizado supervisionado e não-supervisionado. Modelos desta sub-área são capazes de representar e reconhecer características cada vez mais complexas conforme são adicionados níveis ou camadas de operações não lineares em sua arquitetura, a exemplo das redes neurais profundas, máquinas de Boltzmann profundas e fórmulas proposicionais. Estes modelos ganharam popularidade ao se mostraram capazes de resolver problemas cada vez mais complexos com acurácia cada vez maior \cite{bengio2009learning}. Isto se deu graças ao aumento recente da quantidade de dados disponíveis sobre temas complexos, aliado com o aumento da disponibilidade de recursos computacionais para executar modelos mais robustos \cite{goodfellow2016deep}. De acordo com a IBM, são gerados $2,5$ quintilhões de bytes de dados por dia, e $90\%$ do volume de dados presente no mundo hoje foi criado nos últimos dois anos \cite{ibm2017bigdata}.
+
+\subsubsection{Breve Histórico}
+Historicamente, o conceito de deep learning se originou de pesquisas sobre Redes Neurais Artificiais (RNA). A história da pesquisa sobre este modelo está dividida em três ondas, ou gerações. A primeira geração foi marcada pelo desenvolvimento dos modelos Perceptron e Adaline, além do algoritmo de Backpropagation. A segunda onda?. A teceira onda começa em 2006 com a publicação do artigo -- sobre redes de crença profunda.
+
+Os avanços recentes alcançados no campo da visão computacional foram atingidos utilizando modelos de redes neurais convolucionais com várias camadas.
 
 
 \subsection{Redes Neurais Convolucionais}
-Redes neurais convolucionais (RNC) são um tipo de rede neural específico para o processamento de dados que têm uma topologia bem definida e estruturada em uma grade, a exemplo de séries temporais e imagens. Sua principal característica envolve o uso de convoluções no lugar de multiplicações de matrizes em ao menos uma das camadas da rede neural.\cite{goodfellow2016deep}.
+Redes neurais convolucionais (RNC) são um tipo de rede neural específico para o processamento de dados que têm uma topologia bem definida e estruturada em uma grade, a exemplo de séries temporais e imagens. Sua principal característica envolve o uso de convoluções no lugar de multiplicações de matrizes em ao menos uma das camadas da rede neural.\cite{goodfellow2016deep}. Este modelo pode ser aplicado em tarefas de classificação, regresssão, localização, detecção, entre outros.
 
 Cada camada das redes neurais convolucionais é composta por uma etapa de convolução, seguida por uma ativação não-linear, finalizando em \emph{pooling}, como mostra a Figura \ref{fig:cnn_camada}. A seguir, serão explanadas cada uma destas etapas.
 
 \begin{figure}
+	\centering
 	\includegraphics[height=0.5\textheight]{img/cnn_camada.png}
 	\caption{Componentes de uma camada de uma rede neural convolucional \cite{goodfellow2016deep}. }
 	\label{fig:cnn_camada}
 \end{figure}
+
 
 \subsubsection{Convolução}
 A operação de convolução descreve a média ponderada de uma determinada função $x_1(t)$ sob um intervalo fixo de uma variável, enquanto os pesos da média ponderada considerada pertencem à função $x_2(t)$ amostrados em intervalos $a$ \cite{bracewell1986fourier}. Assim, a convolução $s(t)$ de duas funções $x_1(t)$ e $x_2(t)$ é uma função $f: \mathds{Z} \rightarrow \mathds{R}$ representada simbolicamente por $x_1(t) * x_2(t)$ e definida de acordo com a Equação \ref{eq:int_convolucao} \cite{lathi2006sinais}.
@@ -50,21 +59,9 @@ A propriedade comutativa surge graças à ação de revolver o núcleo em relaç
 	S(i,j) = I(i,j)*K(i,j) = \sum_{m}\sum_{n}I(i+m,j+n)K(m,n)
 \end{equation}
 
+\subsubsection{Ativação}
+
+
 \subsubsection{Pooling}
 
-Depois de realizar várias operações de convolução em paralelo para gerar um conjunto de ativações lineares e alimentá-las a funções de ativação não-lineares, como \emph{ReLU}, \emph{Softmax}, etc, na chamada etapa de detecção, chega-se à etapa de \emph{pooling}. Uma função de \emph{pooling} substitui a saída da rede em determinada localização por uma síntese estatística das saídas vizinhas. Por exemplo, a função \emph{max pooling} retorna o valor máximo em uma área retangular, enquanto a \emph{average pooling} retorna a média das saídas de um retângulo. O objetivo destas funções é fazer com que
-
-
-\subsection{Modelos clássicos de Redes Neurais Convolucionais}
-Estes modelos trouxeram grandes inovações quanto à arquitetura das redes neurais convolucionais.
-\subsubsection{LeNet}
-
-\subsubsection{AlexNet}
-
-\subsubsection{GoogleLeNet ou Inception}
-
-\subsubsection{ResNet}
-
-\subsubsection{SSD}
-
-\subsubsection{YOLO}
+Depois de realizar várias operações de convolução em paralelo para gerar um conjunto de ativações lineares e alimentá-las a funções de ativação não-lineares, como \emph{ReLU}, \emph{Softmax}, etc, na chamada etapa de detecção, chega-se à etapa de \emph{pooling}. Uma função de \emph{pooling} substitui a saída da rede em determinada localização por uma síntese estatística das saídas vizinhas. Por exemplo, a função \emph{max pooling} retorna o valor máximo em uma área retangular, enquanto a \emph{average pooling} retorna a média das saídas de um retângulo. %O objetivo destas funções é fazer com que

@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2018/dev/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: sbc-template.aux
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -13,59 +13,56 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: sbc-template.bib
-I was expecting a `,' or a `}'---line 279 of file sbc-template.bib
- : 
- : @book{marsland2015machine,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo year vazio ou faltando em differencebetween
+Warning--campo year vazio ou faltando em canaltech:streaming
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 15 entries,
+You've used 25 entries,
             6714 wiz_defined-function locations,
-            1278 strings with 11447 characters,
-and the built_in function-call counts, 12404 in all, are:
-= -- 1185
-> -- 321
-< -- 62
-+ -- 223
-- -- 100
-* -- 792
-:= -- 1667
-add.period$ -- 56
-call.type$ -- 15
-change.case$ -- 125
-chr.to.int$ -- 24
-cite$ -- 14
-duplicate$ -- 671
-empty$ -- 961
-format.name$ -- 465
-if$ -- 2947
+            1329 strings with 13441 characters,
+and the built_in function-call counts, 18635 in all, are:
+= -- 1646
+> -- 489
+< -- 64
++ -- 281
+- -- 155
+* -- 1163
+:= -- 2527
+add.period$ -- 104
+call.type$ -- 25
+change.case$ -- 208
+chr.to.int$ -- 37
+cite$ -- 26
+duplicate$ -- 1001
+empty$ -- 1536
+format.name$ -- 719
+if$ -- 4446
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 265
-newline$ -- 69
-num.names$ -- 65
-pop$ -- 369
+missing$ -- 446
+newline$ -- 119
+num.names$ -- 115
+pop$ -- 600
 preamble$ -- 1
-purify$ -- 52
+purify$ -- 83
 quote$ -- 0
-skip$ -- 846
+skip$ -- 1196
 stack$ -- 1
-substring$ -- 483
-swap$ -- 290
-text.length$ -- 10
+substring$ -- 669
+swap$ -- 433
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 6
-warning$ -- 0
-while$ -- 96
+warning$ -- 2
+while$ -- 154
 width$ -- 0
-write$ -- 223
-(There was 1 error message)
+write$ -- 372
+(There were 2 warnings)
