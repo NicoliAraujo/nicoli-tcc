@@ -1,63 +1,58 @@
 %!TEX root = ../sbc-template.tex
 
-As \emph{Smart} TVs são tidas como aparelhos de televisão com capacidades interativas ligadas à internet, como aplicativos disponíveis em lojas; acesso a conteúdo online como notícias, previsão do tempo, informações de mercados de ações, mapas e jogos; \emph{e-commerce}; navegação web e acesso a redes sociais. Estes aparelhos podem ser equipadas com câmeras e microfones embutidos, além de óculos 3D, como mostra a Figura \ref{fig:smart_samsung}. Estas televisões utilizam os mesmos sistemas operacionais e conjuntos de aplicativos que computadores comuns, o que as torna sucetíveis às mesmas falhas e ataques de segurança que outros dispositivos semelhates. Contudo, \emph{Smart} TVs que adotem o padrão de compartilhameto de mídia DLNA(Digital Living Network Alliance) podem exibir conteúdos como filmes, imagens, músicas e outros diretamente de outros dispositivos como computadores e smartphones que estejam conectados à mesma rede sem fio \cite{michele2014watch}, \cite{shin2013smart}, \cite{perakakis2015proposed}, \cite{whatisasmarttv}.
+As \emph{Smart} TVs são o resultado da evolução tecnológica junto aos aparelhos de televisão domésticos. Possuem capacidades interativas ligadas à internet, acesso a conteúdo online, \emph{e-commerce} de conteúdo televisivo, navegação web e acesso a redes sociais. Estes aparelhos podem ser equipados com câmeras e microfones embutidos e transmitirem conteúdo 2D ou até mesmo 3D. Neste último caso, em particular, os telespectadores fazem uso de óculos especiais.
 
-O grande diferencial de hardware entre \emph{Smart} TVs e as antigas tecnologias \emph{LED} e \emph{LCD} TV reside na conexão com a internet \cite{differencebetween}. Os modelos podem vir equipados com módulo WiFi ou Ethernet \cite{tomsguid:everythingsmart}. Além disso, \emph{Smart} TVs também são equipadas com um navegador web e suas aplicações são desenvolvidas em linguagens de programação ``suportadas'' por navegadores web \cite{mautilus:specificationsforsmart}. Muitos modelos vêm equipados com ferramentas de reconhecimento de voz, como a \emph{Alexa}, que possibilita funcionalidades como troca e busca de canais, controle de volume, etc. O controle de voz também deverá estar integrado com funções de ``casa inteligente'', como os \emph{Smart Home Hubs} \cite{tomsguid:everythingsmart}. As principais marcas de \emph{Smart} TVs incluem a Hisence, LG, Panasonic, Phillips. Samsung, Sharp, Sony, TCL, Toshiba e Vizio \cite{tomsguid:everythingsmart}.
+O principal diferencial no tocante ao hardware entre \emph{Smart} TVs e as antigas tecnologias LED e LCD TV reside na conexão com a internet, a qual pode ser realizada via módulo Wi-Fi ou Ethernet \cite{differencebetween,tomsguid:everythingsmart}. Para promover esta conexão e posterior interação com o usuário, estas televisões utilizam os mesmos sistemas operacionais e conjuntos de aplicativos que computadores ou \emph{smartphones} convencionais, em especial mencionam-se navegador web e diversos aplicativos.
 
+É possível também que \emph{Smart} TVs exibam conteúdo de mídia transmitido a partir de \emph{smartphones} ou computadores conectados na mesma rede Wi-Fi, conforme o padrão de compartilhameto de mídia DLNA (\emph{Digital Living Network Alliance}) \cite{michele2014watch,shin2013smart,perakakis2015proposed,whatisasmarttv}. Muitos modelos destes televisores também possuem ferramentas para o reconhecimento de comandos de voz, possibilitando funcionalidades como troca e busca de canais, controle de volume, etc. Este controle de voz costuma também estar integrado com funções das casas inteligentes, tendência da Internet das Coisas \cite{tomsguid:everythingsmart}.
 
-\begin{figure}[t]
+A Figura \ref{fig:smart_samsung} exibe um diagrama representativo dos elementos que compõem uma \emph{Smart} TV. As legendas para os números apresentados na imagem estão na Tabela \ref{tab:smart}. Dentre os diversos fabricantes destes dispositivos,  em nível mundial destacam-se as marcas Hisence, LG, Panasonic, Phillips. Samsung, Sharp, Sony, TCL, Toshiba e Vizio \cite{tomsguid:everythingsmart}. \todo{A tabela precisa ser corrigida. O número 13 tá repetido.}
+
+\begin{figure}[h!]
 	\includegraphics[width=\textwidth]{img/smart_samsung.jpg}
-	\caption{Diagrama representativo de uma \emph{Smart} TV e seus componentes \cite{samsung:smarttv}}
+	\caption{Diagrama representativo de uma \emph{Smart} TV e seus componentes \cite{samsung:smarttv}. Ver legenda dos componentes na Tabela \ref{tab:smart}.}
 	\label{fig:smart_samsung}
 \end{figure}
 
-\begin{table}[ht]
+\begin{table}[h!]
 	\centering
-	\caption{Legenda da Figura \ref{fig:smart_samsung}}
+	\caption{Legenda dos componentes citados na Figura \ref{fig:smart_samsung}.}
 	\label{tab:smart}
-	\begin{tabular}{c l}
-		\hline
-		Número & Descrição \\
-		\hline
-		1 & Moldura \\
-		2 & Painel de cristal negro (célula) \\
-		3 & Molde da moldura do meio \\
-		4 & Folha óptica \\
-		5 & LGP (Light Guide Plate) -- Prato guia leve \\
-		6 & LED \\
-		7 & Chassi traseiro \\
-		8 & Cobertura do meio \\
-		9 & Cobertura traseira \\
-		10 & Placa de circuito principal (Placa mãe) \\
-		11 & Smart Real Engine \\
-		12 & Speed Backlite Engine \\
-		13 & Sintonizador, 4 portas HDMI e 3 portas USB \\
-		14 & 3D Hyper Real Engine \\
-		15 & Placa de Alimentação \\
-		16 & Sensor de luz ambiente \\
-		17 & Módulo bluetooth \\
-		18 & Módulo WiFi \\
-		19 & Auto-falantes \\
-		20 & Suporte quadrangular \\
-		21 & Botão touch operacional \\
-		22 & Câmera de video de telefone \\
-		23 & Suporte de parede \\
-		24 & Controle remoto QWERTY \\
-		25 & Óculos 3D \\
-		\hline
+		\begin{footnotesize}
+	\begin{tabular}{c l  c   l }
+		\toprule
+		\textbf{Número} & \textbf{Descrição} & \textbf{Número} & \textbf{Descrição}\\
+		\midrule
+		1 & Moldura & 13 & Sintonizador, 4 portas HDMI e 3 portas USB \\
+		2 & Painel de cristal negro (célula) & 14 & 3D \emph{Hyper Real Engine}\\
+		3 & Molde da moldura do meio & 15 & Placa de Alimentação \\
+		4 & Folha óptica & 16 & Sensor de luz ambiente\\
+		5 & LGP -- \emph{Light Guide Plate} & 17 &  Módulo \emph{bluetooth} \\
+		6 & LED & 18 & Módulo Wi-Fi\\
+		7 & Chassi traseiro & 19 & Auto-falantes \\
+		8 & Cobertura do meio & 20 & Suporte quadrangula\\
+		9 & Cobertura traseira & 21 & Botão \emph{touch} operacional\\
+		10 & Placa de circuito principal (Placa mãe) & 22 & Câmera de video de telefone\\
+		11 & \emph{Smart Real Engine} & 23 & Suporte de parede \\
+		12 & \emph{Speed Backlite Engine} & 24 & Controle remoto QWERTY\\
+		13 & Sintonizador, 4 portas HDMI e 3 portas USB & 25 & Óculos 3D\\
+		14 & 3D \emph{Hyper Real Engine}  & &  \\
+		\bottomrule
 	\end{tabular}
+\end{footnotesize}
 \end{table}
 
-A Figura \ref{fig:smart_samsung} exibe um diagrama representativo de uma \emph{Smart} TV. As legendas para os números apresentados na imagem estão na Tabela \ref{tab:smart}.
+As aplicações disponíveis para \emph{Smart} TVs são diversas, permitindo, por exemplo, o acesso a conteúdo de programas e também a informações esportivas, como é comum no caso do futebol. Um exemplo de aplicação disponível para \emph{Smart} TVs é a disponibilizada desde 2016 pela emissora aberta SBT, vide Figura \ref{fig:sbt_app}. Este aplicativo contém novelas, programas e outras atrações disponibilizadas pela emissora que podem ser assistidos \emph{on demand} \cite{sbt:tvconectada}. Outros exemplos compreendem os aplicativos de \emph{streaming}, tais como Netflix, Amazon Prime Video, Hulu e Pandora \cite{canaltech:streaming}.
 
-\begin{figure}[ht]
+\begin{figure}[h!]
 	\includegraphics[width=\textwidth]{img/sbt_app.jpg}
 	\caption{Aplicativo SBT. Fonte: \cite{sbt:tvconectada}}
 	\label{fig:sbt_app}
 \end{figure}
 
-Um exemplo de aplicação desenvolvida para \emph{Smart} TVs é a disponibilizada desde 2016 pela emissora SBT. O aplicativo contém novelas, programas, entre outras partes da programação da emissora completos para ser assistidos on demand, como é mostrado na Figura \ref{fig:sbt_app} \cite{sbt:tvconectada}. Outros exemplos são os aplicativos de streaming como Netflix, Amazon Prime Video, Hulu e Pandora, ainda não disponíveis no Brasil; Crackle, Telecine Play, HBO Go, NetMovies, Globo Play, Google Play, iTunes Store, E! Plus, etc \cite{canaltech:streaming}.
+Segundo a Pesquisa Nacional por Amostra de Domicílios realizada pelo IBGE em 2015, foi observado um total de 103 milhões de aparelhos de televisões em residências e pontos comerciais, das quais 16 milhões são de \emph{Smart} TVs. A pesquisa detalha que 94\% destas \emph{Smart} TVs foram adquiridas entre 2014 e 2015. Os números mostram um posterior aumento nas vendas de aparelhos televisores deste tipo, representando 68,2\% do total de televisores vendidos no primeiro semestre de 2017  \cite{pnad2015}.
 
-Segundo a PNAD realizada pelo IBGE em 2015, 103 milhoes de televisões em residências e prontos comerciais, sendo 16 milhões Smart TV, 94$\%$ adquiridas entre 2014 e 2015 \cite{pnad2015}. No primeiro semestre de 2017 foram vendidos 5,22 milhões de televisões no Brasil, sendo $68,2\%$ deste total composto de Smart TVs. Este aumento é atribuido principalmente ao fim da transmissão de sinal analógico da televisão aberta \cite{leiajabuscasmart}, à Copa do Mundo 2018 e à tecnologia $4K$ \cite{correiopnad}.
 
-Nota-se que o uso de Smart TVs está se diversificando. O consumidor pode escolher entre alternativas como serviços de streaming independente de provedores como Netflix, Google PLay e Globo Play, ou Hulu e Pandora(ainda não disponíveis no Brasil), ou alternativas como Crackle, Telecine Play e HBO Go, que requerem um provedor de serviços como Net, Claro ou Sky para que o usuário possa assinar o serviço. Há também as alternativas completamente online e gratuitas como YouTube e Facebook. Além disso, a transmissão de TV aberta digital aumenta a quantidade de canais captados gratuitamente por usuários, enquanto a qualidade de transmissão é HD, fazendo com que a tecnologia ainda seja a alternativa mais barata para o acesso de conteúdo em vídeo \cite{estadao:explosaovideosonline} \cite{tomsguid:everythingsmart}.
+Há muitos benefícios resultantes do uso de \emph{Smart} TVs quando comparadas aos aparelhos convencionais. Em especial, cita-se o aumento da qualidade na transmissão, a utilização de aplicativos diversos e a possibilidade de acesso à conteúdo \emph{online} e \emph{on demand}, gratuitos ou mediante assinaturas. Além destes benefícios, cuja maioria é resultante da conectividade com a internet, outros fatores têm justificado o aumento das vendas e do interesse do público consumidor pelas \emph{Smart} TVs, tais como o encerramento da transmissão de sinal analógico da televisão aberta, a Copa do Mundo 2018 e a tecnologia 4K \cite{leiajabuscasmart,correiopnad,estadao:explosaovideosonline}.
+
+Apesar da grande disponbilidade de conteúdo nas \emph{Smart} TVs, é imprescindível levar em conta as restrições e recomendações deste conteúdo para o público alvo a que se destina. Neste sentido, a próxima seção detalha as políticas vigentes de classificação indicativa de conteúdo televisivo.

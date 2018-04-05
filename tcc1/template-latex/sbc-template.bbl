@@ -35,6 +35,14 @@ Acessado em 21 de Março de 2018.}
   \url{http://www.correiobraziliense.com.br/app/noticia/economia/2018/01/23/internas_economia,654966/copa-e-novas-tecnologias-prometem-aumentar-venda-de-tvs-no-brasil.shtml}.
 Acessado em 21 de Março de 2018.}
 
+\bibitem[Capelas 2017]{estadao:explosaovideosonline}
+\abntrefinfo{Capelas}{CAPELAS}{2017}
+{CAPELAS, B. \emph{Explosão no consumo de vídeos online coloca em xeque o
+  futuro da televisão}. 2017. O Estado de S. Paulo.
+Acessado em 20 de Março de 2018.
+Dispon{\'\i}vel em:
+  \url{http://link.estadao.com.br/noticias/geral,explosao-no-consumo-de-videos-online-coloca-em-xeque-o-futuro-da-televisao,70001695828}.}
+
 \bibitem[Ciriaco]{canaltech:streaming}
 \abntrefinfo{Ciriaco}{CIRIACO}{}
 {CIRIACO, D. \emph{Os melhores serviços de streaming de vídeo disponíveis no
@@ -61,7 +69,7 @@ Acessado em 20 de Março de 2018.}
 \bibitem[Guimarães 2017]{leiajabuscasmart}
 \abntrefinfo{Guimarães}{GUIMARãES}{2017}
 {GUIMARãES, N. \emph{Com fim do sinal analógico, busca por smart TVs cresce
-  11%}. 2017.
+  11\%}. 2017.
   \url{http://www.leiaja.com/tecnologia/2017/07/17/com-fim-do-sinal-analogico-busca-por-smart-tvs-cresce-11/}.
 Acessado em 22 de Março de 2018.}
 
@@ -104,12 +112,6 @@ Acessado em 15 de Março de 2018.}
 {MARSLAND, S. \emph{Machine learning: an algorithmic perspective}. [S.l.]: CRC
   press, 2015.}
 
-\bibitem[Mautilus 2013]{mautilus:specificationsforsmart}
-\abntrefinfo{Mautilus}{MAUTILUS}{2013}
-{MAUTILUS. \emph{Specifications details for Smart TVs platforms}. 2013.
-  \url{https://www.mautilus.com/blog/specifications-details-for-smart-tvs-platforms}.
-Acessado em 23 de Março de 2018.}
-
 \bibitem[Mich{\'e}le e Karpow 2014]{michele2014watch}
 \abntrefinfo{Mich{\'e}le e Karpow}{MICH{\'E}LE; KARPOW}{2014}
 {MICH{\'E}LE, B.; KARPOW, A. Watch and be watched: Compromising all smart tv
@@ -137,7 +139,7 @@ Acessado em 23 de Março de 2018.}
 
 \bibitem[SBT 2015]{sbt:tvconectada}
 \abntrefinfo{SBT}{SBT}{2015}
-{SBT. \emph{SMART TV - TV CONECTADA}. 2015.
+{SBT. \emph{Smart {TV} -- {TV} Conectada}. 2015.
   \url{http://www.sbt.com.br/tvconectada/}.
 Acessado em 23 de Março de 2018.}
 
@@ -153,12 +155,5 @@ Acessado em 23 de Março de 2018.}
 {SMART TV: Piece by Piece. 2011.
   \url{https://news.samsung.com/global/smart-tv-piece-by-piece}.
 Acessado em 15 de Março de 2018.}
-
-\bibitem[S.Paulo 2017]{estadao:explosaovideosonline}
-\abntrefinfo{S.Paulo}{S.PAULO}{2017}
-{S.PAULO, B. C. O.~E. de. \emph{Explosão no consumo de vídeos online coloca
-  em xeque o futuro da televisão}. 2017.
-  \url{http://link.estadao.com.br/noticias/geral,explosao-no-consumo-de-videos-online-coloca-em-xeque-o-futuro-da-televisao,70001695828}.
-Acessado em 20 de Março de 2018.}
 
 \end{thebibliography}

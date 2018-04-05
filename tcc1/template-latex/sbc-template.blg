@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2018/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: sbc-template.aux
 The style file: abntex2-alf.bst
@@ -24,6 +24,7 @@ Warning--campo year vazio ou faltando em canaltech:streaming
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
+<<<<<<< HEAD
 You've used 27 entries,
             6714 wiz_defined-function locations,
             1338 strings with 13744 characters,
@@ -58,11 +59,53 @@ stack$ -- 1
 substring$ -- 703
 swap$ -- 465
 text.length$ -- 11
+=======
+You've used 24 entries,
+            6714 wiz_defined-function locations,
+            1325 strings with 13266 characters,
+and the built_in function-call counts, 20500 in all, are:
+= -- 1994
+> -- 474
+< -- 193
++ -- 405
+- -- 150
+* -- 1258
+:= -- 2707
+add.period$ -- 100
+call.type$ -- 24
+change.case$ -- 200
+chr.to.int$ -- 36
+cite$ -- 25
+duplicate$ -- 1354
+empty$ -- 1479
+format.name$ -- 696
+if$ -- 4695
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 428
+newline$ -- 115
+num.names$ -- 110
+pop$ -- 578
+preamble$ -- 1
+purify$ -- 80
+quote$ -- 0
+skip$ -- 1546
+stack$ -- 1
+substring$ -- 777
+swap$ -- 547
+text.length$ -- 12
+>>>>>>> master
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 6
 warning$ -- 2
+<<<<<<< HEAD
 while$ -- 166
 width$ -- 0
 write$ -- 400
+=======
+while$ -- 149
+width$ -- 0
+write$ -- 358
+>>>>>>> master
 (There were 2 warnings)
