@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.22)  27 MAR 2018 09:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2018/dev/Debian) (preloaded format=pdflatex 2018.3.27)  5 APR 2018 10:08
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **sbc-template.sty
 (./sbc-template.sty
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 
 LaTeX Warning: You have requested package `',
                but the package provides `sbc-template'.
@@ -20,11 +20,10 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
@@ -117,8 +116,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 \renewcommand\section
-                           {\@startsection{section}{1}{\z@}%
+l.100  \renewcommand\section
+                            {\@startsection{section}{1}{\z@}%
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -129,13 +128,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 \renewcommand\subsection
-                              {\@startsection{subsection}{2}{\z@}%
+l.106  \renewcommand\subsection
+                               {\@startsection{subsection}{2}{\z@}%
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2016/03/15 v2.10.1 Sectioning titles
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box26
 \beforetitleunit=\skip41
 \aftertitleunit=\skip42
@@ -154,28 +153,12 @@ Package titlesec Warning: Non standard sectioning command detected
 Package titlesec Warning: Non standard sectioning command detected
 (titlesec)                Using default spacing and no format.
 
-/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty:1288: Undefined c
+/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty:1289: Undefined c
 ontrol sequence.
 <argument> \subsubsection 
                           
-l.1288 \ttl@extract\subsubsection
+l.1289 \ttl@extract\subsubsection
                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package titlesec Warning: Non standard sectioning command detected
-(titlesec)                Using default spacing and no format.
-
-/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty:1289: Undefined c
-ontrol sequence.
-<argument> \paragraph 
-                      
-l.1289 \ttl@extract\paragraph
-                             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -188,9 +171,25 @@ Package titlesec Warning: Non standard sectioning command detected
 
 /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty:1290: Undefined c
 ontrol sequence.
+<argument> \paragraph 
+                      
+l.1290 \ttl@extract\paragraph
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty:1291: Undefined c
+ontrol sequence.
 <argument> \subparagraph 
                          
-l.1290 \ttl@extract\subparagraph
+l.1291 \ttl@extract\subparagraph
                                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -235,10 +234,10 @@ If that doesn't work, type  X <return>  to quit.
 
  
 Here is how much of TeX's memory you used:
- 828 strings out of 493029
- 11676 string characters out of 6136234
- 70102 words of memory out of 5000000
- 4436 multiletter control sequences out of 15000+600000
+ 822 strings out of 492978
+ 11611 string characters out of 6134922
+ 70690 words of memory out of 5000000
+ 4460 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  23i,0n,19p,136b,15s stack positions out of 5000i,500n,10000p,200000b,80000s

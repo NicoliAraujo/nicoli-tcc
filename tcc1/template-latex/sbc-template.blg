@@ -24,45 +24,45 @@ Warning--campo year vazio ou faltando em canaltech:streaming
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 25 entries,
+You've used 27 entries,
             6714 wiz_defined-function locations,
-            1329 strings with 13441 characters,
-and the built_in function-call counts, 18635 in all, are:
-= -- 1646
-> -- 489
+            1338 strings with 13744 characters,
+and the built_in function-call counts, 20204 in all, are:
+= -- 1761
+> -- 555
 < -- 64
-+ -- 281
-- -- 155
-* -- 1163
-:= -- 2527
-add.period$ -- 104
-call.type$ -- 25
-change.case$ -- 208
-chr.to.int$ -- 37
-cite$ -- 26
-duplicate$ -- 1001
-empty$ -- 1536
-format.name$ -- 719
-if$ -- 4446
++ -- 305
+- -- 175
+* -- 1274
+:= -- 2737
+add.period$ -- 110
+call.type$ -- 27
+change.case$ -- 228
+chr.to.int$ -- 39
+cite$ -- 28
+duplicate$ -- 1082
+empty$ -- 1664
+format.name$ -- 812
+if$ -- 4823
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 446
-newline$ -- 119
-num.names$ -- 115
-pop$ -- 600
+missing$ -- 486
+newline$ -- 127
+num.names$ -- 125
+pop$ -- 659
 preamble$ -- 1
-purify$ -- 83
+purify$ -- 91
 quote$ -- 0
-skip$ -- 1196
+skip$ -- 1277
 stack$ -- 1
-substring$ -- 669
-swap$ -- 433
+substring$ -- 703
+swap$ -- 465
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 6
 warning$ -- 2
-while$ -- 154
+while$ -- 166
 width$ -- 0
-write$ -- 372
+write$ -- 400
 (There were 2 warnings)

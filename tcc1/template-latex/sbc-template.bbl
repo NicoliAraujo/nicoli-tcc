@@ -22,6 +22,12 @@ Acessado em 21 de Março de 2018.}
 {BRACEWELL, R.~N.; BRACEWELL, R.~N. \emph{The Fourier transform and its
   applications}. [S.l.]: McGraw-Hill New York, 1986. v. 31999.}
 
+\bibitem[Braga, Carvalho e Ludermir 2000]{braga2000redes}
+\abntrefinfo{Braga, Carvalho e Ludermir}{BRAGA; CARVALHO; LUDERMIR}{2000}
+{BRAGA, A. d.~P.; CARVALHO, A.; LUDERMIR, T.~B. \emph{Redes neurais
+  artificiais: teoria e aplica{\c{c}}{\~o}es}. [S.l.]: Livros T{\'e}cnicos e
+  Cient{\'\i}ficos, 2000.}
+
 \bibitem[Braziliense 2018]{correiopnad}
 \abntrefinfo{Braziliense}{BRAZILIENSE}{2018}
 {BRAZILIENSE, C. \emph{Copa e novas tecnologias prometem aumentar venda de TVs
@@ -40,6 +46,11 @@ Acessado em 20 de Março de 2018.}
 \abntrefinfo{Deputados}{DEPUTADOS}{1995}
 {DEPUTADOS, C. dos. \emph{Estatuto da Criança e do Adolescente}. BRASIL:
   [s.n.], 1995.}
+
+\bibitem[Flach 2012]{flach2012machine}
+\abntrefinfo{Flach}{FLACH}{2012}
+{FLACH, P. \emph{Machine learning: the art and science of algorithms that make
+  sense of data}. [S.l.]: Cambridge University Press, 2012.}
 
 \bibitem[Goodfellow, Bengio e Courville 2016]{goodfellow2016deep}
 \abntrefinfo{Goodfellow, Bengio e Courville}{GOODFELLOW; BENGIO;

@@ -2,7 +2,7 @@ PWD /home/nicoli/github/nicoli-tcc/tcc1/template-latex
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
-INPUT /home/nicoli/.texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT sbc-template.sty
 OUTPUT /home/nicoli/github/nicoli-tcc/tcc1/template-latex/.latex/sbc-template.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
