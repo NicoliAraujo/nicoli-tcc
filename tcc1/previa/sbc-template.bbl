@@ -5,4 +5,54 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[He et al. 2016]{resnet}
+\abntrefinfo{He et al.}{HE et al.}{2016}
+{HE, K. et al. Deep residual learning for image recognition. In:
+  \emph{Proceedings of the IEEE conference on computer vision and pattern
+  recognition}. [S.l.: s.n.], 2016. p. 770--778.}
+
+\bibitem[Levi e Hassner 2015]{levi2015age}
+\abntrefinfo{Levi e Hassner}{LEVI; HASSNER}{2015}
+{LEVI, G.; HASSNER, T. Age and gender classification using convolutional neural
+  networks. In:  \emph{Proceedings of the IEEE Conference on Computer Vision
+  and Pattern Recognition Workshops}. [S.l.: s.n.], 2015. p. 34--42.}
+
+\bibitem[Liu et al. 2016]{ssd}
+\abntrefinfo{Liu et al.}{LIU et al.}{2016}
+{LIU, W. et al. Ssd: Single shot multibox detector. In:  SPRINGER.
+  \emph{European conference on computer vision}. [S.l.], 2016. p. 21--37.}
+
+\bibitem[Liu et al. 2015]{liu2015agenet}
+\abntrefinfo{Liu et al.}{LIU et al.}{2015}
+{LIU, X. et al. Agenet: Deeply learned regressor and classifier for robust
+  apparent age estimation. In:  \emph{Proceedings of the IEEE International
+  Conference on Computer Vision Workshops}. [S.l.: s.n.], 2015. p. 16--24.}
+
+\bibitem[Marsland 2015]{marsland2015machine}
+\abntrefinfo{Marsland}{MARSLAND}{2015}
+{MARSLAND, S. \emph{Machine learning: an algorithmic perspective}. [S.l.]: CRC
+  press, 2015.}
+
+\bibitem[Redmon et al. 2016]{redmon2016you}
+\abntrefinfo{Redmon et al.}{REDMON et al.}{2016}
+{REDMON, J. et al. You only look once: Unified, real-time object detection. In:
+   \emph{Proceedings of the IEEE conference on computer vision and pattern
+  recognition}. [S.l.: s.n.], 2016. p. 779--788.}
+
+\bibitem[Rothe, Timofte e Gool 2015]{rothe2015dex}
+\abntrefinfo{Rothe, Timofte e Gool}{ROTHE; TIMOFTE; GOOL}{2015}
+{ROTHE, R.; TIMOFTE, R.; GOOL, L. V. Dex: Deep expectation of apparent age from
+  a single image. In:  \emph{Proceedings of the IEEE International Conference
+  on Computer Vision Workshops}. [S.l.: s.n.], 2015. p. 10--15.}
+
+\bibitem[Simonyan e Zisserman 2014]{vggnet}
+\abntrefinfo{Simonyan e Zisserman}{SIMONYAN; ZISSERMAN}{2014}
+{SIMONYAN, K.; ZISSERMAN, A. Very deep convolutional networks for large-scale
+  image recognition.
+\emph{arXiv preprint arXiv:1409.1556}, 2014.}
+
+\bibitem[Szegedy et al. 2015]{inception}
+\abntrefinfo{Szegedy et al.}{SZEGEDY et al.}{2015}
+{SZEGEDY, C. et al. Going deeper with convolutions. In:  CVPR. [S.l.], 2015.}
+
 \end{thebibliography}
