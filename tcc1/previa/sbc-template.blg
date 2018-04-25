@@ -22,7 +22,6 @@ Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-<<<<<<< HEAD
 You've used 25 entries,
             6714 wiz_defined-function locations,
             1336 strings with 14184 characters,
@@ -57,52 +56,10 @@ stack$ -- 1
 substring$ -- 1019
 swap$ -- 620
 text.length$ -- 25
-=======
-You've used 1 entry,
-            6714 wiz_defined-function locations,
-            1196 strings with 9328 characters,
-and the built_in function-call counts, 891 in all, are:
-= -- 192
-> -- 0
-< -- 0
-+ -- 46
-- -- 0
-* -- 36
-:= -- 175
-add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 3
-chr.to.int$ -- 1
-cite$ -- 0
-duplicate$ -- 3
-empty$ -- 40
-format.name$ -- 0
-if$ -- 204
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 28
-preamble$ -- 1
-purify$ -- 3
-quote$ -- 0
-skip$ -- 80
-stack$ -- 1
-substring$ -- 49
-swap$ -- 0
-text.length$ -- 0
->>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 5
 warning$ -- 0
-<<<<<<< HEAD
 while$ -- 189
 width$ -- 0
 write$ -- 394
-=======
-while$ -- 2
-width$ -- 0
-write$ -- 8
->>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias

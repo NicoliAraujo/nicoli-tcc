@@ -5,7 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-<<<<<<< HEAD
 \bibitem[Between 2017]{differencebetween}
 \abntrefinfo{Between}{BETWEEN}{2017}
 {BETWEEN, D. \emph{Difference between Smart TV and Normal TV}. 2017.
@@ -153,6 +152,4 @@ Acessado em 15 de Março de 2018.}
 \abntrefinfo{Szegedy et al.}{SZEGEDY et al.}{2015}
 {SZEGEDY, C. et al. Going deeper with convolutions. In:  CVPR. [S.l.], 2015.}
 
-=======
->>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
 \end{thebibliography}
