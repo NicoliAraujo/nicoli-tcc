@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2018/dev/Debian) (preloaded format=pdflatex 2018.3.27)  18 APR 2018 11:22
+=======
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2018/dev/Debian) (preloaded format=pdflatex 2018.3.27)  11 APR 2018 15:37
+>>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1149,12 +1153,27 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 58.
 
-(/home/nicoli/github/nicoli-tcc/tcc1/previa/files/intro.tex)
+(/home/nicoli/github/nicoli-tcc/tcc1/previa/files/intro.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 10.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 10.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 61.
 
-(/home/nicoli/github/nicoli-tcc/tcc1/previa/files/trab_relac.tex)
+(/home/nicoli/github/nicoli-tcc/tcc1/previa/files/trab_relac.tex
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
+(babel)             in language  on input line 9.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 9.
+ [2])
+Package babel Info: Redefining portuges shorthand "|
+=======
+>>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
 (babel)             in language  on input line 64.
 
 (/home/nicoli/github/nicoli-tcc/tcc1/previa/files/objetivo.tex
@@ -1178,12 +1197,23 @@ Package babel Info: Redefining portuges shorthand "|
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
+(babel)             in language  on input line 69.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 69.
+ [3]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 70.
+
+(/home/nicoli/github/nicoli-tcc/tcc1/previa/files/metodo.tex)
+=======
 (babel)             in language  on input line 70.
 
 (/home/nicoli/github/nicoli-tcc/tcc1/previa/files/metodo.tex
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 2.
 )
+>>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 73.
 
@@ -1205,6 +1235,26 @@ Overfull \hbox (25.82219pt too wide) in paragraph at lines 11--25
  []
 
 ) (/home/nicoli/github/nicoli-tcc/tcc1/previa/sbc-template.bbl
+<<<<<<< HEAD
+Underfull \vbox (badness 3701) has occurred while \output is active []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 14.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 14.
+ [4]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 53.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 53.
+
+[5]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 145.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 145.
+ [6])
+=======
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
@@ -1214,11 +1264,16 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 78.
  [2]
+>>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 78.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 78.
+<<<<<<< HEAD
+ [7]
+=======
  [3]
+>>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
  (/home/nicoli/github/nicoli-tcc/tcc1/previa/sbc-template.aux)
@@ -1229,6 +1284,15 @@ Package rerunfilecheck Info: File `sbc-template.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
+ 18921 strings out of 492978
+ 341421 string characters out of 6134922
+ 426669 words of memory out of 5000000
+ 22025 multiletter control sequences out of 15000+600000
+ 41190 words of font info for 62 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,10n,56p,1130b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
+=======
  18855 strings out of 492978
  340479 string characters out of 6134922
  424608 words of memory out of 5000000
@@ -1236,6 +1300,7 @@ Here is how much of TeX's memory you used:
  43912 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,76p,766b,706s stack positions out of 5000i,500n,10000p,200000b,80000s
+>>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/f
@@ -1245,10 +1310,18 @@ s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on /home/nicoli/github/nicoli-tcc/tcc1/previa/sbc-template.pdf (
+<<<<<<< HEAD
+7 pages, 126032 bytes).
+PDF statistics:
+ 214 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+=======
 3 pages, 93044 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream
  12 named destinations out of 1000 (max. 500000)
+>>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,4 +5,154 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+<<<<<<< HEAD
+\bibitem[Between 2017]{differencebetween}
+\abntrefinfo{Between}{BETWEEN}{2017}
+{BETWEEN, D. \emph{Difference between Smart TV and Normal TV}. 2017.
+  \url{http://www.differencebetween.info/difference-between-smart-tv-and-normal-tv}.
+Acessado em 21 de Março de 2018.}
+
+\bibitem[Braziliense 2018]{correiopnad}
+\abntrefinfo{Braziliense}{BRAZILIENSE}{2018}
+{BRAZILIENSE, C. \emph{Copa e novas tecnologias prometem aumentar venda de TVs
+  no Brasil em 2018}. 2018.
+  \url{http://www.correiobraziliense.com.br/app/noticia/economia/2018/01/23/internas_economia,654966/copa-e-novas-tecnologias-prometem-aumentar-venda-de-tvs-no-brasil.shtml}.
+Acessado em 21 de Março de 2018.}
+
+\bibitem[Capelas 2017]{estadao:explosaovideosonline}
+\abntrefinfo{Capelas}{CAPELAS}{2017}
+{CAPELAS, B. \emph{Explosão no consumo de vídeos online coloca em xeque o
+  futuro da televisão}. 2017. O Estado de S. Paulo.
+Acessado em 20 de Março de 2018.
+Dispon{\'\i}vel em:
+  \url{http://link.estadao.com.br/noticias/geral,explosao-no-consumo-de-videos-online-coloca-em-xeque-o-futuro-da-televisao,70001695828}.}
+
+\bibitem[Deputados 1995]{eca}
+\abntrefinfo{Deputados}{DEPUTADOS}{1995}
+{DEPUTADOS, C. dos. \emph{Estatuto da Criança e do Adolescente}. BRASIL:
+  [s.n.], 1995.}
+
+\bibitem[Fu, Guo e Huang 2010]{fu2010age}
+\abntrefinfo{Fu, Guo e Huang}{FU; GUO; HUANG}{2010}
+{FU, Y.; GUO, G.; HUANG, T.~S. Age synthesis and estimation via faces: A
+  survey.
+\emph{IEEE transactions on pattern analysis and machine intelligence}, IEEE,
+  v.~32, n.~11, p. 1955--1976, 2010.}
+
+\bibitem[Fu, Xu e Huang 2007]{fu2007estimating}
+\abntrefinfo{Fu, Xu e Huang}{FU; XU; HUANG}{2007}
+{FU, Y.; XU, Y.; HUANG, T.~S. Estimating human age by manifold analysis of face
+  pictures and regression on aging features. In:  IEEE. \emph{Multimedia and
+  Expo, 2007 IEEE International Conference on}. [S.l.], 2007. p. 1383--1386.}
+
+\bibitem[Guimarães 2017]{leiajabuscasmart}
+\abntrefinfo{Guimarães}{GUIMARãES}{2017}
+{GUIMARãES, N. \emph{Com fim do sinal analógico, busca por smart TVs cresce
+  11\%}. 2017.
+  \url{http://www.leiaja.com/tecnologia/2017/07/17/com-fim-do-sinal-analogico-busca-por-smart-tvs-cresce-11/}.
+Acessado em 22 de Março de 2018.}
+
+\bibitem[He et al. 2016]{resnet}
+\abntrefinfo{He et al.}{HE et al.}{2016}
+{HE, K. et al. Deep residual learning for image recognition. In:
+  \emph{Proceedings of the IEEE conference on computer vision and pattern
+  recognition}. [S.l.: s.n.], 2016. p. 770--778.}
+
+\bibitem[IBGE 2015]{pnad2015}
+\abntrefinfo{IBGE}{IBGE}{2015}
+{IBGE. \emph{Pesquisa Nacional por Amostra de Domicílios: Acesso à INternet e
+  à Telvisão e Posse de Telefone Móvel Celular para Uso Pessoal}. 2015.
+  \url{https://biblioteca.ibge.gov.br/visualizacao/livros/liv99054.pdf}.
+Acessado em 16 de Março de 2018.}
+
+\bibitem[Kwon e Lobo 1999]{kwon1999age}
+\abntrefinfo{Kwon e Lobo}{KWON; LOBO}{1999}
+{KWON, Y.~H.; LOBO, N. da V. Age classification from facial images.
+\emph{Computer vision and image understanding}, Elsevier, v.~74, n.~1, p.
+  1--21, 1999.}
+
+\bibitem[Lanitis, Taylor e Cootes 2002]{lanitis2002toward}
+\abntrefinfo{Lanitis, Taylor e Cootes}{LANITIS; TAYLOR; COOTES}{2002}
+{LANITIS, A.; TAYLOR, C.~J.; COOTES, T.~F. Toward automatic simulation of aging
+  effects on face images.
+\emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, IEEE,
+  v.~24, n.~4, p. 442--455, 2002.}
+
+\bibitem[Levi e Hassner 2015]{levi2015age}
+\abntrefinfo{Levi e Hassner}{LEVI; HASSNER}{2015}
+{LEVI, G.; HASSNER, T. Age and gender classification using convolutional neural
+  networks. In:  \emph{Proceedings of the IEEE Conference on Computer Vision
+  and Pattern Recognition Workshops}. [S.l.: s.n.], 2015. p. 34--42.}
+
+\bibitem[Liu et al. 2016]{ssd}
+\abntrefinfo{Liu et al.}{LIU et al.}{2016}
+{LIU, W. et al. Ssd: Single shot multibox detector. In:  SPRINGER.
+  \emph{European conference on computer vision}. [S.l.], 2016. p. 21--37.}
+
+\bibitem[Liu et al. 2015]{liu2015agenet}
+\abntrefinfo{Liu et al.}{LIU et al.}{2015}
+{LIU, X. et al. Agenet: Deeply learned regressor and classifier for robust
+  apparent age estimation. In:  \emph{Proceedings of the IEEE International
+  Conference on Computer Vision Workshops}. [S.l.: s.n.], 2015. p. 16--24.}
+
+\bibitem[Lou et al. 2018]{lou2018expression}
+\abntrefinfo{Lou et al.}{LOU et al.}{2018}
+{LOU, Z. et al. Expression-invariant age estimation using structured learning.
+\emph{IEEE transactions on pattern analysis and machine intelligence}, IEEE,
+  v.~40, n.~2, p. 365--375, 2018.}
+
+\bibitem[Marsland 2015]{marsland2015machine}
+\abntrefinfo{Marsland}{MARSLAND}{2015}
+{MARSLAND, S. \emph{Machine learning: an algorithmic perspective}. [S.l.]: CRC
+  press, 2015.}
+
+\bibitem[Newsroom 2011]{samsung:smarttv}
+\abntrefinfo{Newsroom}{NEWSROOM}{2011}
+{NEWSROOM, S. \emph{Smart TV: Piece by Piece}. 2011.
+  \url{https://news.samsung.com/global/smart-tv-piece-by-piece}.
+Acessado em 15 de Março de 2018.}
+
+\bibitem[Perakakis e Ghinea 2015]{perakakis2015proposed}
+\abntrefinfo{Perakakis e Ghinea}{PERAKAKIS; GHINEA}{2015}
+{PERAKAKIS, E.; GHINEA, G. A proposed model for cross-platform web 3d
+  applications on smart tv systems. In:  ACM. \emph{Proceedings of the 20th
+  International Conference on 3D Web Technology}. [S.l.], 2015. p. 165--166.}
+
+\bibitem[Redmon et al. 2016]{redmon2016you}
+\abntrefinfo{Redmon et al.}{REDMON et al.}{2016}
+{REDMON, J. et al. You only look once: Unified, real-time object detection. In:
+   \emph{Proceedings of the IEEE conference on computer vision and pattern
+  recognition}. [S.l.: s.n.], 2016. p. 779--788.}
+
+\bibitem[Rothe, Timofte e Gool 2015]{rothe2015dex}
+\abntrefinfo{Rothe, Timofte e Gool}{ROTHE; TIMOFTE; GOOL}{2015}
+{ROTHE, R.; TIMOFTE, R.; GOOL, L. V. Dex: Deep expectation of apparent age from
+  a single image. In:  \emph{Proceedings of the IEEE International Conference
+  on Computer Vision Workshops}. [S.l.: s.n.], 2015. p. 10--15.}
+
+\bibitem[Shin, Hwang e Choo 2013]{shin2013smart}
+\abntrefinfo{Shin, Hwang e Choo}{SHIN; HWANG; CHOO}{2013}
+{SHIN, D.-H.; HWANG, Y.; CHOO, H. Smart tv: are they really smart in
+  interacting with people? understanding the interactivity of korean smart tv.
+\emph{Behaviour \& information technology}, Taylor \& Francis, v.~32, n.~2, p.
+  156--172, 2013.}
+
+\bibitem[Simonyan e Zisserman 2014]{vggnet}
+\abntrefinfo{Simonyan e Zisserman}{SIMONYAN; ZISSERMAN}{2014}
+{SIMONYAN, K.; ZISSERMAN, A. Very deep convolutional networks for large-scale
+  image recognition.
+\emph{arXiv preprint arXiv:1409.1556}, 2014.}
+
+\bibitem[Suo et al. 2008]{suo2008design}
+\abntrefinfo{Suo et al.}{SUO et al.}{2008}
+{SUO, J. et al. Design sparse features for age estimation using hierarchical
+  face model. In:  IEEE. \emph{Automatic Face \& Gesture Recognition, 2008.
+  FG'08. 8th IEEE International Conference on}. [S.l.], 2008. p.~1--6.}
+
+\bibitem[Szegedy et al. 2015]{inception}
+\abntrefinfo{Szegedy et al.}{SZEGEDY et al.}{2015}
+{SZEGEDY, C. et al. Going deeper with convolutions. In:  CVPR. [S.l.], 2015.}
+
+=======
+>>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
 \end{thebibliography}

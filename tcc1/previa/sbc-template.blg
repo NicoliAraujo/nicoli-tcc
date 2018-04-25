@@ -1,27 +1,63 @@
-This is BibTeX, Version 0.99d (TeX Live 2018/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: sbc-template.aux
 The style file: abntex2-alf.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: sbc-template.bib
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
+<<<<<<< HEAD
+You've used 25 entries,
+            6714 wiz_defined-function locations,
+            1336 strings with 14184 characters,
+and the built_in function-call counts, 24184 in all, are:
+= -- 2178
+> -- 795
+< -- 158
++ -- 471
+- -- 239
+* -- 1699
+:= -- 3155
+add.period$ -- 108
+call.type$ -- 25
+change.case$ -- 285
+chr.to.int$ -- 40
+cite$ -- 24
+duplicate$ -- 1364
+empty$ -- 1667
+format.name$ -- 1149
+if$ -- 5633
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 444
+newline$ -- 117
+num.names$ -- 120
+pop$ -- 605
+preamble$ -- 1
+purify$ -- 103
+quote$ -- 0
+skip$ -- 1551
+stack$ -- 1
+substring$ -- 1019
+swap$ -- 620
+text.length$ -- 25
+=======
 You've used 1 entry,
             6714 wiz_defined-function locations,
             1196 strings with 9328 characters,
@@ -56,10 +92,17 @@ stack$ -- 1
 substring$ -- 49
 swap$ -- 0
 text.length$ -- 0
+>>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
+<<<<<<< HEAD
+while$ -- 189
+width$ -- 0
+write$ -- 394
+=======
 while$ -- 2
 width$ -- 0
 write$ -- 8
+>>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias

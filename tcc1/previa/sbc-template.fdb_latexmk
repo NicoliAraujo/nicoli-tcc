@@ -1,16 +1,31 @@
 # Fdb version 3
+<<<<<<< HEAD
+["bibtex sbc-template"] 1523753367 "sbc-template.aux" "sbc-template.bbl" "sbc-template" 1524064964
+  "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1480098425 5396 4eb260dac60f150ae608d45252853090 ""
+  "/usr/share/texlive/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1480098433 60064 6469892b646cc99dbd8ecd5e965537d8 ""
+  "sbc-template.aux" 1524064964 6672 9dd1b27fc653b2266300425ca8af518e ""
+  "sbc-template.bcf" 0 -1 0 ""
+  "sbc-template.bib" 1524064376 14761 4f975b9a0728870798e663fd12bd5568 ""
+=======
 ["bibtex sbc-template"] 1523475459 "sbc-template.aux" "sbc-template.bbl" "sbc-template" 1523475462
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1480098425 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1480098433 60064 6469892b646cc99dbd8ecd5e965537d8 ""
   "sbc-template.aux" 1523475462 2173 96f9fb3a1f569c92fb7f5a0dae19601a ""
   "sbc-template.bcf" 0 -1 0 ""
   "sbc-template.bib" 1523445547 10010 f0b4558e4ce9e253dc51ff0ae07466f5 ""
+>>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
   (generated)
   "sbc-template.bbl"
+<<<<<<< HEAD
+["pdflatex"] 1524064961 "sbc-template.tex" "/home/nicoli/github/nicoli-tcc/tcc1/previa/sbc-template.pdf" "sbc-template" 1524064964
+  "/etc/texmf/web2c/texmf.cnf" 1522194098 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/nicoli/github/nicoli-tcc/tcc1/previa/sbc-template.aux" 1524064964 6672 9dd1b27fc653b2266300425ca8af518e ""
+=======
   "sbc-template.blg"
 ["pdflatex"] 1523475461 "sbc-template.tex" "/home/nicoli/github/nicoli-tcc/tcc1/previa/sbc-template.pdf" "sbc-template" 1523475462
   "/etc/texmf/web2c/texmf.cnf" 1522194098 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/nicoli/github/nicoli-tcc/tcc1/previa/sbc-template.aux" 1523475462 2173 96f9fb3a1f569c92fb7f5a0dae19601a ""
+>>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1480098688 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -194,6 +209,18 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520341874 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1522194175 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1522194209 4136242 f136c654d9a1de854ed7a595407d1f89 ""
+<<<<<<< HEAD
+  "files/crono.tex" 1523651406 3040 f671657c498e62bc31dba43357150506 ""
+  "files/intro.tex" 1524064330 3208 cd35e2a50529f81e09665014613efcee ""
+  "files/justificativa.tex" 1524064342 1557 5bd14ca0e227dec95d59694d0f18333d ""
+  "files/metodo.tex" 1524064350 2774 1919c284da672ad8d91962f0e78be5ac ""
+  "files/objetivo.tex" 1523544634 886 a5a86ab0f52acd0f88bc12717bd29590 ""
+  "files/resumo.tex" 1524064330 1020 50e3224dfeac3175bc3597d3b18e7473 ""
+  "files/trab_relac.tex" 1524064358 3666 bc465369677f553829a86c4db7e9da7a ""
+  "sbc-template.aux" 1524064964 6672 9dd1b27fc653b2266300425ca8af518e ""
+  "sbc-template.bbl" 1524064369 7218 5bdc64366a33ccf3d3ecd34ba1918055 "bibtex sbc-template"
+  "sbc-template.out" 1524064964 296 1849468413e6d9317fd16e11c42c8f7d ""
+=======
   "files/crono.tex" 1523475426 1864 e7e949b6775e77a62c59ad33c50352bc ""
   "files/intro.tex" 1523466370 33 27b9e4e3ede8edae0726031c5ea52f8a ""
   "files/justificativa.tex" 1523472549 1644 14b4218b9ffef2a7be3b2782371e21f2 ""
@@ -204,12 +231,22 @@
   "sbc-template.aux" 1523475462 2173 96f9fb3a1f569c92fb7f5a0dae19601a ""
   "sbc-template.bbl" 1523475461 227 d7773854052dd03e5316fabde19d3ae1 "bibtex sbc-template"
   "sbc-template.out" 1523475462 296 1849468413e6d9317fd16e11c42c8f7d ""
+>>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
   "sbc-template.sty" 1523445547 5460 a5cd7094cef0ac1eb472d34784fa145c ""
-  "sbc-template.tex" 1523445969 1621 123dadcdc34f0a52e1ba2ed8ef640139 ""
+  "sbc-template.tex" 1524064330 1615 c6be31c883fb40bb35463c2742ff8c6c ""
   (generated)
+<<<<<<< HEAD
+  "sbc-template.aux"
+  "sbc-template.out"
+  "sbc-template.log"
+  "/home/nicoli/github/nicoli-tcc/tcc1/previa/sbc-template.log"
+  "sbc-template.pdf"
+  "/home/nicoli/github/nicoli-tcc/tcc1/previa/sbc-template.pdf"
+=======
   "sbc-template.pdf"
   "/home/nicoli/github/nicoli-tcc/tcc1/previa/sbc-template.pdf"
   "sbc-template.out"
   "sbc-template.log"
   "/home/nicoli/github/nicoli-tcc/tcc1/previa/sbc-template.log"
   "sbc-template.aux"
+>>>>>>> parent of df6fef4... proposta + trabalhos relacionados em referencias
