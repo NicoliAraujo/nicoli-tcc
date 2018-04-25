@@ -1,0 +1,68 @@
+%!TEX root = ../sbc-template.tex
+
+\begin{table}[ht]
+	\scalefont{0.8}
+	\centering
+	\caption{Funçoes de ativação mais populares. ---melhorar legenda}
+	\label{tab:ativacoes}
+	\begin{tabular}{l l p{6.5cm} l}
+		\toprule
+		Nome 			 		& Gráfico & Equação & Intervalo\\
+		\midrule
+		Identidade ou Linear		&
+		 	\includegraphics[width=0.1\textwidth]{img/identidade.png}
+			&
+			$
+				\begin{aligned}
+					g(z) = z
+				\end{aligned}
+			$
+			& $(-\infty, + \infty) $\\
+		\hline
+		Tangente Hiperbólica		&
+			\includegraphics[width=0.1\textwidth]{img/tanh.png}
+			&
+			$
+				\begin{aligned}
+					g(z) = tanh(z) =\frac{(e^z - e^{-z})}{(e^z + e^{-z})}
+				\end{aligned}
+			$
+			 & $(-1,1)$\\
+		\hline
+		Sigmoide ou Logística		&
+			\includegraphics[width=0.1\textwidth]{img/sigmoid.png}
+			&
+			$
+				\begin{aligned}
+					g(z) = \sigma(z) = \frac{1}{1+e^{-x}}
+				\end{aligned}
+			$
+			& $ (0,1) $\\
+		\hline
+		Unidade Linear Retificada	&
+			\includegraphics[width=0.1\textwidth]{img/relu.png}
+			&
+			$
+				\begin{aligned}
+					g(z) = max(0,z)
+				\end{aligned}
+			$
+			& $ [0, \infty) $\\
+		\hline
+		Softmax					&
+			\includegraphics[width=0.1\textwidth]{img/softmax.png}
+			&
+			$
+				\begin{aligned}
+					g(\alpha, z) =
+						\begin{cases}
+							-\frac{ln(1-\alpha(z+\alpha))}{\alpha}, & \text{se } \alpha < 0\\
+							z, & \text{se } \alpha = 0 \\
+							\frac{e^{\alpha z} -1}{\alpha} + \alpha, & \text{se } \alpha > 0
+						\end{cases}
+				\end{aligned}
+			$
+			& $(-\infty, \infty)$\\
+		\bottomrule
+	\end{tabular}
+\end{table}
