@@ -37,7 +37,7 @@ Com base neste modelo biológico, McCulloch e Pitts propuseram em \cite{mcculloc
 		\end{cases}
 \end{gather}
 
-Em 1958, Frank Rosenblatt apresenta o neurônio \emph{Perceptron} \cite{rosenblatt1958perceptron}, que mais tarde seria empregado como a unidade de processamento de uma RNA e de outros modelos de ML como as \emph{support vector machines}. O Perceptron agregou ao neurônio de McCulloch e Pitts conceitos cruciais para a caracterização das RNAs como são conhecidas hoje, como a não obrigatoriedade de igualdade dos pesos e limiares de ativação, a possibilidade de os pesos serem positivos ou negativos, a diversidade de funções de ativação, entre outros. Sua maior contribuição envolve a adição de um algoritmo de aprendizado, que permite a adaptação de seus pesos para que a rede possa se aproximar de uma função que exiba saídas adequadas para determinada tarefa de aprendizado dadas as entradas do conjunto de dados \cite{braga2000redes}.
+Em 1958, Frank Rosenblatt apresenta o neurônio \emph{Perceptron} \cite{rosenblatt1958perceptron}, que mais tarde seria empregado como a unidade de processamento de uma RNA e de outros modelos de ML como as \emph{support vector machines}. O Perceptron agregou ao neurônio de McCulloch e Pitts conceitos cruciais para a caracterização das RNAs como são conhecidas hoje, como a não obrigatoriedade de igualdade dos pesos e limiares de ativação, a possibilidade de os pesos serem positivos ou negativos, a diversidade de funções de ativação, entre outros. Sua maior contribuição envolve a adição de um algoritmo de aprendizado, que permite a adaptação de seus pesos para que haja a otimização do desempenho da rede, possa se aproximar de uma função que exiba saídas adequadas para determinada tarefa de aprendizado dadas as entradas do conjunto de dados \cite{braga2000redes}.
 
 \begin{enumerate}
 	\item Inicializar a taxa de aprendizado $\eta$ e o vetor de pesos $w$;
@@ -71,6 +71,8 @@ No que tange a conectividade, uma RNA pode ser dita: fracamente ou parcialmente 
 
 Várias funções de ativação são utilizadas para determinar as saídas dos neurônios das camadas escondidas e de saída. As funções de ativação mais comuns são a linear ou identidade, \emph{ReLU} -- unidade exponencial linear retificada e suas variações, softmax, tangente hiperbólica e sigmoide.
 \input{./files/tab_ativacao}. Todas estas alterações feitas ao modelo Perceptron inicial acabou por aumentar o escopo dos problema que podem ser resolvidos com RNAs.
+
+Uma RNA \emph{multilayer perceptron}, ou MLP, tem duas fases: a fase \emph{forward}, pra saber qual a saída da rede perante determinada entrada, e a fase \emph{backward}, para ajustar os pesos. O processo de ajuste dos pesos perante o erro entre a saída esperada e a obtida pela RNA é chamado \emph{backpropagation}. Este algoritmo de ajuste de pesos 
 
 \todo[inline]{aplicações}
 
