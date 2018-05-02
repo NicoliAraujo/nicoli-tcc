@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2018/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: sbc-template.aux
 The style file: abntex2-alf.bst
@@ -13,6 +13,8 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: sbc-template.bib
+Warning--entry type for "Guardian:CameraSmartv" isn't style-file defined
+--line 1097 of file sbc-template.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -23,45 +25,45 @@ Warning--campo year vazio ou faltando em canaltech:streaming
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 52 entries,
+You've used 53 entries,
             6714 wiz_defined-function locations,
-            1482 strings with 18298 characters,
-and the built_in function-call counts, 45721 in all, are:
-= -- 3837
-> -- 1518
+            1488 strings with 18442 characters,
+and the built_in function-call counts, 46330 in all, are:
+= -- 3882
+> -- 1533
 < -- 245
-+ -- 783
-- -- 461
-* -- 3201
-:= -- 5989
-add.period$ -- 212
-call.type$ -- 52
-change.case$ -- 545
-chr.to.int$ -- 97
-cite$ -- 52
-duplicate$ -- 2574
-empty$ -- 3333
-format.name$ -- 2187
-if$ -- 10701
++ -- 788
+- -- 466
+* -- 3237
+:= -- 6074
+add.period$ -- 217
+call.type$ -- 53
+change.case$ -- 553
+chr.to.int$ -- 98
+cite$ -- 53
+duplicate$ -- 2606
+empty$ -- 3391
+format.name$ -- 2210
+if$ -- 10847
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 943
-newline$ -- 243
-num.names$ -- 255
-pop$ -- 1253
+missing$ -- 961
+newline$ -- 248
+num.names$ -- 260
+pop$ -- 1275
 preamble$ -- 1
-purify$ -- 202
+purify$ -- 205
 quote$ -- 0
-skip$ -- 2785
+skip$ -- 2819
 stack$ -- 1
-substring$ -- 1813
-swap$ -- 1184
+substring$ -- 1834
+swap$ -- 1198
 text.length$ -- 53
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 5
 warning$ -- 1
-while$ -- 374
+while$ -- 380
 width$ -- 0
-write$ -- 821
-(There was 1 warning)
+write$ -- 836
+(There were 2 warnings)

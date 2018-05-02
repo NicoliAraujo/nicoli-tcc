@@ -3,22 +3,23 @@
 \BOOKMARK [2][-]{subsection.1.2}{Justificativa}{section.1}% 3
 \BOOKMARK [2][-]{subsection.1.3}{Metodologia}{section.1}% 4
 \BOOKMARK [2][-]{subsection.1.4}{Cronograma}{section.1}% 5
-\BOOKMARK [1][-]{section.2}{Fundamenta\347\343o Te\363rica}{}% 6
-\BOOKMARK [2][-]{subsection.2.1}{Smart TVs}{section.2}% 7
-\BOOKMARK [2][-]{subsection.2.2}{Classifica\347\343o Indicativa para Conte\372do Televisivo}{section.2}% 8
-\BOOKMARK [2][-]{subsection.2.3}{Machine Learning}{section.2}% 9
-\BOOKMARK [2][-]{subsection.2.4}{Redes Neurais Artificiais}{section.2}% 10
-\BOOKMARK [2][-]{subsection.2.5}{Deep Learning}{section.2}% 11
-\BOOKMARK [3][-]{subsubsection.2.5.1}{Breve Hist\363rico}{subsection.2.5}% 12
-\BOOKMARK [3][-]{subsubsection.2.5.2}{Redes Neurais Convolucionais}{subsection.2.5}% 13
-\BOOKMARK [3][-]{subsubsection.2.5.3}{Modelos Can\364nicos de Redes Neurais Convolucionais para Detec\347\343o de Objetos em Imagens}{subsection.2.5}% 14
-\BOOKMARK [1][-]{section.3}{Trabalhos Relacionados}{}% 15
-\BOOKMARK [1][-]{section.4}{Solu\347\343o Proposta}{}% 16
-\BOOKMARK [2][-]{subsection.4.1}{Tarefa de Previs\343o Considerada}{section.4}% 17
-\BOOKMARK [2][-]{subsection.4.2}{Elabora\347\343o e Descri\347\343o da Base de Dados}{section.4}% 18
-\BOOKMARK [2][-]{subsection.4.3}{Modelos de CNN Considerados}{section.4}% 19
-\BOOKMARK [2][-]{subsection.4.4}{Par\342metros e Hiperpar\342metros}{section.4}% 20
-\BOOKMARK [2][-]{subsection.4.5}{M\351tricas de Desempenho}{section.4}% 21
-\BOOKMARK [2][-]{subsection.4.6}{Etapa de Treinamento}{section.4}% 22
-\BOOKMARK [2][-]{subsection.4.7}{Etapa de Testes}{section.4}% 23
-\BOOKMARK [1][-]{section.5}{Considera\347\365es Finais}{}% 24
+\BOOKMARK [2][-]{subsection.1.5}{Organiza\347\343o do Documento}{section.1}% 6
+\BOOKMARK [1][-]{section.2}{Fundamenta\347\343o Te\363rica}{}% 7
+\BOOKMARK [2][-]{subsection.2.1}{Smart TVs}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.2}{Classifica\347\343o Indicativa para Conte\372do Televisivo}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.3}{Machine Learning}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.4}{Redes Neurais Artificiais}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.5}{Deep Learning}{section.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Breve Hist\363rico}{subsection.2.5}% 13
+\BOOKMARK [3][-]{subsubsection.2.5.2}{Redes Neurais Convolucionais}{subsection.2.5}% 14
+\BOOKMARK [3][-]{subsubsection.2.5.3}{Modelos Can\364nicos de Redes Neurais Convolucionais para Detec\347\343o de Objetos em Imagens}{subsection.2.5}% 15
+\BOOKMARK [1][-]{section.3}{Trabalhos Relacionados}{}% 16
+\BOOKMARK [1][-]{section.4}{Solu\347\343o Proposta}{}% 17
+\BOOKMARK [2][-]{subsection.4.1}{Tarefa de Previs\343o Considerada}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.2}{Elabora\347\343o e Descri\347\343o da Base de Dados}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.3}{Modelos de CNN Considerados}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.4}{Par\342metros e Hiperpar\342metros}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.5}{M\351tricas de Desempenho}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.6}{Etapa de Treinamento}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.7}{Etapa de Testes}{section.4}% 24
+\BOOKMARK [1][-]{section.5}{Considera\347\365es Finais}{}% 25
