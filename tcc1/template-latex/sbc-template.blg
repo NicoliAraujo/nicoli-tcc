@@ -27,10 +27,18 @@ Warning--campo year vazio ou faltando em canaltech:streaming
 +---------------------------------------------------------+
 You've used 54 entries,
             6714 wiz_defined-function locations,
+<<<<<<< HEAD
             1492 strings with 18576 characters,
 and the built_in function-call counts, 47125 in all, are:
 = -- 3945
 > -- 1565
+=======
+<<<<<<< HEAD
+            1486 strings with 18432 characters,
+and the built_in function-call counts, 46516 in all, are:
+= -- 3900
+> -- 1550
+>>>>>>> master
 < -- 245
 + -- 800
 - -- 476
@@ -56,8 +64,46 @@ purify$ -- 209
 quote$ -- 0
 skip$ -- 2861
 stack$ -- 1
+<<<<<<< HEAD
 substring$ -- 1851
 swap$ -- 1214
+=======
+substring$ -- 1830
+swap$ -- 1200
+=======
+            1488 strings with 18442 characters,
+and the built_in function-call counts, 46330 in all, are:
+= -- 3882
+> -- 1533
+< -- 245
++ -- 788
+- -- 466
+* -- 3237
+:= -- 6074
+add.period$ -- 217
+call.type$ -- 53
+change.case$ -- 553
+chr.to.int$ -- 98
+cite$ -- 53
+duplicate$ -- 2606
+empty$ -- 3391
+format.name$ -- 2210
+if$ -- 10847
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 961
+newline$ -- 248
+num.names$ -- 260
+pop$ -- 1275
+preamble$ -- 1
+purify$ -- 205
+quote$ -- 0
+skip$ -- 2819
+stack$ -- 1
+substring$ -- 1834
+swap$ -- 1198
+>>>>>>> master
+>>>>>>> master
 text.length$ -- 53
 text.prefix$ -- 0
 top$ -- 0
@@ -65,5 +111,15 @@ type$ -- 5
 warning$ -- 1
 while$ -- 386
 width$ -- 0
+<<<<<<< HEAD
 write$ -- 850
 (There were 2 warnings)
+=======
+<<<<<<< HEAD
+write$ -- 835
+(There was 1 warning)
+=======
+write$ -- 836
+(There were 2 warnings)
+>>>>>>> master
+>>>>>>> master

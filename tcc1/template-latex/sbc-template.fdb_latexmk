@@ -1,5 +1,10 @@
 # Fdb version 3
+<<<<<<< HEAD
 ["bibtex sbc-template"] 1525696796 "sbc-template.aux" "sbc-template.bbl" "sbc-template" 1525696825
+=======
+<<<<<<< HEAD
+["bibtex sbc-template"] 1525375575 "sbc-template.aux" "sbc-template.bbl" "sbc-template" 1525375578
+>>>>>>> master
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1480098425 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1480098433 60064 6469892b646cc99dbd8ecd5e965537d8 ""
   "sbc-template.aux" 1525696801 23059 036ffd8f2522468d2db34c54cc04b988 ""
@@ -256,8 +261,20 @@
   "sbc-template.tex" 1525696078 1629 69bb133c430de031adad3c629cd91d01 ""
   (generated)
   "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.pdf"
+<<<<<<< HEAD
   "sbc-template.aux"
   "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.log"
   "sbc-template.pdf"
+=======
+>>>>>>> master
+  "sbc-template.pdf"
+  "sbc-template.aux"
+  "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.log"
+  "sbc-template.log"
+<<<<<<< HEAD
+  "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.pdf"
+=======
+>>>>>>> master
+>>>>>>> master
   "sbc-template.out"
   "sbc-template.log"

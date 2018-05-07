@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2018/dev/Debian) (preloaded format=pdflatex 2018.3.27)  7 MAY 2018 08:39
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2018/dev/Debian) (preloaded format=pdflatex 2018.3.27)  3 MAY 2018 15:26
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.1)  2 MAY 2018 17:12
+>>>>>>> master
+>>>>>>> master
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1337,6 +1345,14 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 17.
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 19.
+ [9 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/machinelearningalgo
+rithms.png (PNG copy)>])
+=======
+>>>>>>> master
 (babel)             in language  on input line 17.
  [9 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/machinelearningalgo
 rithms.png (PNG copy)>]
@@ -1344,27 +1360,61 @@ LaTeX Font Info:    Try loading font information for U+dsrom on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
+<<<<<<< HEAD
 ))
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 14.
 
 (./files/rna.tex
+=======
+)
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 20.
+)
+>>>>>>> master
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 16.
+ (./files/rna.tex
+<<<<<<< HEAD
+<img/neuronio.jpg, id=298, 401.5pt x 400.49625pt>
+=======
+>>>>>>> master
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 7.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 7.
+<<<<<<< HEAD
  [10]
 <img/neuronio.jpg, id=315, 401.5pt x 400.49625pt>
+=======
+ [10] <img/neuronio.jpg, id=311, 401.5pt x 400.49625pt>
+>>>>>>> master
+>>>>>>> master
 File: img/neuronio.jpg Graphic file (type jpg)
 <use img/neuronio.jpg>
 Package pdftex.def Info: img/neuronio.jpg  used on input line 10.
 (pdftex.def)             Requested size: 207.0903pt x 206.5691pt.
+<<<<<<< HEAD
 <img/redeneuralbiologica.jpg, id=316, 497.86pt x 269.005pt>
+=======
+<<<<<<< HEAD
+<img/redeneuralbiologica.jpg, id=299, 497.86pt x 269.005pt>
+=======
+ <img/redeneuralbiologica.jpg, id=312, 497.86pt x 269.005pt>
+>>>>>>> master
+>>>>>>> master
 File: img/redeneuralbiologica.jpg Graphic file (type jpg)
 <use img/redeneuralbiologica.jpg>
 Package pdftex.def Info: img/redeneuralbiologica.jpg  used on input line 17.
 (pdftex.def)             Requested size: 256.07741pt x 138.36467pt.
+<<<<<<< HEAD
 <img/perceptron.png, id=317, 828.09375pt x 460.72125pt>
+=======
+<<<<<<< HEAD
+<img/perceptron.png, id=300, 828.09375pt x 460.72125pt>
+=======
+ <img/perceptron.png, id=313, 828.09375pt x 460.72125pt>
+>>>>>>> master
+>>>>>>> master
 File: img/perceptron.png Graphic file (type png)
 <use img/perceptron.png>
 Package pdftex.def Info: img/perceptron.png  used on input line 24.
@@ -1372,16 +1422,30 @@ Package pdftex.def Info: img/perceptron.png  used on input line 24.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 31.
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 31.
  [11 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/neuronio.jpg> </ho
 me/nicoli/github/nicoli-tcc/tcc1/template-latex/img/redeneuralbiologica.jpg>]
+=======
+(babel)             in language  on input line 38.
+<<<<<<< HEAD
+ [10]
+=======
+ [11 <./img/neuronio.jpg> <./img/redeneuralbiologica.jpg>]
+>>>>>>> master
+>>>>>>> master
 Overfull \hbox (8.3643pt too wide) in paragraph at lines 40--41
 []\T1/ptm/m/n/12 Em 1958, Frank Ro-sen-blatt apre-senta o neurô-nio \T1/ptm/m/i
 t/12 Per-cep-tron \T1/ptm/m/n/12 ([][]RO-SEN-BLATT[][], [][]1958[][]),
  []
 
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 55.
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 44.
+>>>>>>> master
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 55.
 [12 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/perceptron.png>]
@@ -1397,27 +1461,74 @@ Package babel Info: Redefining portuges shorthand "|
 
 [13 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/mlprna.jpg>]
 (./files/tab_ativacao.tex
+<<<<<<< HEAD
 <img/identidade.png, id=368, 120.45pt x 60.225pt>
+=======
+<img/identidade.png, id=352, 120.45pt x 60.225pt>
+=======
+(babel)             in language  on input line 58.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 58.
+[12 <./img/perceptron.png>] <img/mlprna.jpg, id=353, 295.1025pt x 182.8431pt>
+File: img/mlprna.jpg Graphic file (type jpg)
+ <use img/mlprna.jpg>
+Package pdftex.def Info: img/mlprna.jpg used on input line 67.
+(pdftex.def)             Requested size: 298.75264pt x 185.10808pt.
+ (./files/tab_ativacao.tex <img/identidade.png, id=354, 120.45pt x 60.225pt>
+>>>>>>> master
+>>>>>>> master
 File: img/identidade.png Graphic file (type png)
 <use img/identidade.png>
 Package pdftex.def Info: img/identidade.png  used on input line 13.
 (pdftex.def)             Requested size: 42.68173pt x 21.34004pt.
+<<<<<<< HEAD
 <img/tanh.png, id=369, 120.45pt x 60.225pt>
+=======
+<<<<<<< HEAD
+<img/tanh.png, id=353, 120.45pt x 60.225pt>
+=======
+ <img/tanh.png, id=355, 120.45pt x 60.225pt>
+>>>>>>> master
+>>>>>>> master
 File: img/tanh.png Graphic file (type png)
 <use img/tanh.png>
 Package pdftex.def Info: img/tanh.png  used on input line 23.
 (pdftex.def)             Requested size: 42.68173pt x 21.34004pt.
+<<<<<<< HEAD
 <img/sigmoid.png, id=370, 120.45pt x 60.225pt>
+=======
+<<<<<<< HEAD
+<img/sigmoid.png, id=354, 120.45pt x 60.225pt>
+=======
+ <img/sigmoid.png, id=356, 120.45pt x 60.225pt>
+>>>>>>> master
+>>>>>>> master
 File: img/sigmoid.png Graphic file (type png)
 <use img/sigmoid.png>
 Package pdftex.def Info: img/sigmoid.png  used on input line 33.
 (pdftex.def)             Requested size: 42.68173pt x 21.34004pt.
+<<<<<<< HEAD
 <img/relu.png, id=371, 120.45pt x 60.225pt>
+=======
+<<<<<<< HEAD
+<img/relu.png, id=355, 120.45pt x 60.225pt>
+=======
+ <img/relu.png, id=357, 120.45pt x 60.225pt>
+>>>>>>> master
+>>>>>>> master
 File: img/relu.png Graphic file (type png)
 <use img/relu.png>
 Package pdftex.def Info: img/relu.png  used on input line 43.
 (pdftex.def)             Requested size: 42.68173pt x 21.34004pt.
+<<<<<<< HEAD
 <img/softmax.png, id=372, 120.45pt x 60.225pt>
+=======
+<<<<<<< HEAD
+<img/softmax.png, id=356, 120.45pt x 60.225pt>
+=======
+ <img/softmax.png, id=358, 120.45pt x 60.225pt>
+>>>>>>> master
+>>>>>>> master
 File: img/softmax.png Graphic file (type png)
 <use img/softmax.png>
 Package pdftex.def Info: img/softmax.png  used on input line 53.
@@ -1428,7 +1539,27 @@ LaTeX Warning: Reference `sec:dl' on page 14 undefined on input line 100.
 
 )
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 17.
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 96.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 96.
+ [13 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/mlprna.jpg>])
+=======
+(babel)             in language  on input line 18.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 18.
+ [13 <./img/mlprna.jpg>]
+>>>>>>> master
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 19.
+ (./files/deep_learning.tex
+Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
+(babel)             in language  on input line 8.
+>>>>>>> master
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 17.
  [14 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/identidade.png> </
@@ -1437,31 +1568,62 @@ ithub/nicoli-tcc/tcc1/template-latex/img/sigmoid.png> </home/nicoli/github/nico
 li-tcc/tcc1/template-latex/img/relu.png> </home/nicoli/github/nicoli-tcc/tcc1/t
 emplate-latex/img/softmax.png>]
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 17.
  (./files/deep_learning.tex
 <img/compara_redes.png, id=405, 735.74875pt x 587.19376pt>
+=======
+(babel)             in language  on input line 10.
+ [14 <./img/identidade.png> <./img/tanh.png> <./img/sigmoid.png> <./img/relu.png> <./img/softmax.png>] <img/compara_redes.png, id=402, 735.74875pt x 587.19376pt>
+>>>>>>> master
+>>>>>>> master
 File: img/compara_redes.png Graphic file (type png)
 <use img/compara_redes.png>
 Package pdftex.def Info: img/compara_redes.png  used on input line 13.
 (pdftex.def)             Requested size: 341.43437pt x 272.50468pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 18.
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 21.
+[15 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/compara_redes.png (
+PNG copy)>]
+=======
+
+>>>>>>> master
+>>>>>>> master
 Overfull \hbox (5.27733pt too wide) in paragraph at lines 22--22
 \T1/ptm/m/n/12 como idéia cen-tral a in-te-co-ne-xão en-tre vá-rios neurô-nios 
 ([][]RU-ME-LHART; MC-CLEL-LAND[][],
  []
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<img/compara_redes_ilsvrc.png, id=433, 640.3925pt x 480.79625pt>
+=======
+>>>>>>> master
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 22.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 22.
+<<<<<<< HEAD
 [15]
 <img/compara_redes_ilsvrc.png, id=441, 640.3925pt x 480.79625pt>
+=======
+[15 <./img/compara_redes.png (PNG copy)>] <img/compara_redes_ilsvrc.png, id=438, 640.3925pt x 480.79625pt>
+>>>>>>> master
+>>>>>>> master
 File: img/compara_redes_ilsvrc.png Graphic file (type png)
 <use img/compara_redes_ilsvrc.png>
 Package pdftex.def Info: img/compara_redes_ilsvrc.png  used on input line 26.
 (pdftex.def)             Requested size: 341.43437pt x 256.34674pt.
+<<<<<<< HEAD
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1469,24 +1631,55 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 1215) has occurred while \output is active []
 
+=======
+<<<<<<< HEAD
+>>>>>>> master
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 33.
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 33.
  [16 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/compara_redes.png 
 (PNG copy)>]
+=======
+(babel)             in language  on input line 31.
+[16 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/compara_redes_ilsvr
+c.png>]
+=======
+
+>>>>>>> master
+>>>>>>> master
 Overfull \hbox (19.95512pt too wide) in paragraph at lines 33--34
 []\T1/ptm/m/n/12 Apesar de ter tido um foco ini-cial em téc-ni-cas no-vas de ap
 ren-di-zado não-supervisionado
  []
 
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 36.
 <img/cnn_camada.png, id=467, 369.38pt x 796.9775pt>
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 36.
+<img/cnn_camada.png, id=459, 369.38pt x 796.9775pt>
+=======
+(babel)             in language  on input line 34.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 34.
+[16 <./img/compara_redes_ilsvrc.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 36.
+ <img/cnn_camada.png, id=460, 369.38pt x 796.9775pt>
+>>>>>>> master
+>>>>>>> master
 File: img/cnn_camada.png Graphic file (type png)
 <use img/cnn_camada.png>
 Package pdftex.def Info: img/cnn_camada.png  used on input line 43.
 (pdftex.def)             Requested size: 95.73781pt x 206.5691pt.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
 
 Underfull \vbox (badness 1253) has occurred while \output is active []
 
@@ -1499,9 +1692,15 @@ rc.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 63.
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 63.
 
 [18 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/cnn_camada.png>]
+=======
+(babel)             in language  on input line 57.
+ [17 <./img/cnn_camada.png>]
+>>>>>>> master
+>>>>>>> master
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
@@ -1513,11 +1712,30 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 64.
  (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/trab_relac.tex
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 7.
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 11.
+>>>>>>> master
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 7.
 
 [19])
+<<<<<<< HEAD
+=======
+=======
+(babel)             in language  on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+ [18])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 66.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 66.
+ [19]
+>>>>>>> master
+>>>>>>> master
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 67.
 
@@ -1543,21 +1761,36 @@ Package babel Info: Redefining portuges shorthand "|
 (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.bbl
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
+<<<<<<< HEAD
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+=======
+<<<<<<< HEAD
+>>>>>>> master
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 13.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 13.
  [20]
+<<<<<<< HEAD
+=======
+=======
+
+>>>>>>> master
+>>>>>>> master
 Underfull \hbox (badness 1132) in paragraph at lines 54--58
 []\T1/ptm/m/n/12 CIRIACO, D. \T1/ptm/m/it/12 Os me-lho-res ser-vi-ços de stre-a
 -ming de ví- 
  []
 
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 81.
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 129.
+>>>>>>> master
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 81.
 [21]
@@ -1569,8 +1802,19 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 283.
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 283.
  [23])
+=======
+(babel)             in language  on input line 143.
+ [21]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 248.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 248.
+>>>>>>> master
+ [22])
+>>>>>>> master
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 76.
 Package babel Info: Redefining portuges shorthand "|
@@ -1594,10 +1838,18 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  19547 strings out of 492978
  354523 string characters out of 6134922
  436034 words of memory out of 5000000
  22479 multiletter control sequences out of 15000+600000
+=======
+<<<<<<< HEAD
+ 19525 strings out of 492978
+ 354022 string characters out of 6134922
+ 436442 words of memory out of 5000000
+ 22460 multiletter control sequences out of 15000+600000
+>>>>>>> master
  66374 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,26n,80p,1639b,706s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1627,4 +1879,8 @@ PDF statistics:
  617 compressed objects within 7 object streams
  140 named destinations out of 1000 (max. 500000)
  318 words of extra memory for PDF output out of 10000 (max. 10000000)
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> master
 
