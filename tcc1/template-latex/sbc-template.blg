@@ -13,6 +13,8 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: sbc-template.bib
+Warning--entry type for "Guardian:CameraSmartv" isn't style-file defined
+--line 1097 of file sbc-template.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -23,45 +25,45 @@ Warning--campo year vazio ou faltando em canaltech:streaming
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 53 entries,
+You've used 54 entries,
             6714 wiz_defined-function locations,
-            1486 strings with 18432 characters,
-and the built_in function-call counts, 46516 in all, are:
-= -- 3900
-> -- 1550
+            1492 strings with 18576 characters,
+and the built_in function-call counts, 47125 in all, are:
+= -- 3945
+> -- 1565
 < -- 245
-+ -- 795
-- -- 471
-* -- 3256
-:= -- 6094
-add.period$ -- 215
-call.type$ -- 53
-change.case$ -- 555
-chr.to.int$ -- 98
-cite$ -- 53
-duplicate$ -- 2615
-empty$ -- 3397
-format.name$ -- 2234
-if$ -- 10893
++ -- 800
+- -- 476
+* -- 3292
+:= -- 6179
+add.period$ -- 220
+call.type$ -- 54
+change.case$ -- 563
+chr.to.int$ -- 99
+cite$ -- 54
+duplicate$ -- 2647
+empty$ -- 3455
+format.name$ -- 2257
+if$ -- 11039
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 963
-newline$ -- 247
-num.names$ -- 260
-pop$ -- 1283
+missing$ -- 981
+newline$ -- 252
+num.names$ -- 265
+pop$ -- 1305
 preamble$ -- 1
-purify$ -- 206
+purify$ -- 209
 quote$ -- 0
-skip$ -- 2827
+skip$ -- 2861
 stack$ -- 1
-substring$ -- 1830
-swap$ -- 1200
+substring$ -- 1851
+swap$ -- 1214
 text.length$ -- 53
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 5
 warning$ -- 1
-while$ -- 380
+while$ -- 386
 width$ -- 0
-write$ -- 835
-(There was 1 warning)
+write$ -- 850
+(There were 2 warnings)
