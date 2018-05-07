@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2018/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: sbc-template.aux
 The style file: abntex2-alf.bst
@@ -13,6 +13,8 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: sbc-template.bib
+Warning--entry type for "Guardian:CameraSmartv" isn't style-file defined
+--line 1097 of file sbc-template.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -25,6 +27,7 @@ Warning--campo year vazio ou faltando em canaltech:streaming
 +---------------------------------------------------------+
 You've used 53 entries,
             6714 wiz_defined-function locations,
+<<<<<<< HEAD
             1486 strings with 18432 characters,
 and the built_in function-call counts, 46516 in all, are:
 = -- 3900
@@ -56,6 +59,39 @@ skip$ -- 2827
 stack$ -- 1
 substring$ -- 1830
 swap$ -- 1200
+=======
+            1488 strings with 18442 characters,
+and the built_in function-call counts, 46330 in all, are:
+= -- 3882
+> -- 1533
+< -- 245
++ -- 788
+- -- 466
+* -- 3237
+:= -- 6074
+add.period$ -- 217
+call.type$ -- 53
+change.case$ -- 553
+chr.to.int$ -- 98
+cite$ -- 53
+duplicate$ -- 2606
+empty$ -- 3391
+format.name$ -- 2210
+if$ -- 10847
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 961
+newline$ -- 248
+num.names$ -- 260
+pop$ -- 1275
+preamble$ -- 1
+purify$ -- 205
+quote$ -- 0
+skip$ -- 2819
+stack$ -- 1
+substring$ -- 1834
+swap$ -- 1198
+>>>>>>> master
 text.length$ -- 53
 text.prefix$ -- 0
 top$ -- 0
@@ -63,5 +99,10 @@ type$ -- 5
 warning$ -- 1
 while$ -- 380
 width$ -- 0
+<<<<<<< HEAD
 write$ -- 835
 (There was 1 warning)
+=======
+write$ -- 836
+(There were 2 warnings)
+>>>>>>> master

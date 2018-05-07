@@ -1,14 +1,19 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2018/dev/Debian) (preloaded format=pdflatex 2018.3.27)  3 MAY 2018 15:26
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.1)  2 MAY 2018 17:12
+>>>>>>> master
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **sbc-template.tex
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.tex
+(./sbc-template.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,25 +27,19 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.sty
+) (./sbc-template.sty
 Package: sbc-template 2001/06/09
-
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count87
@@ -55,13 +54,11 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-)
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 \c@instn=\count90
-
-(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box26
 \beforetitleunit=\skip43
@@ -72,20 +69,17 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidth=\dimen113
 \titlewidthlast=\dimen114
 \titlewidthfirst=\dimen115
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -325,8 +319,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -366,8 +359,7 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -390,59 +382,48 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/02/14 3.18 The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2017/05/19 3.10 The Babel package
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/02/14 3.18 Babel common definitions
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2017/05/19 3.10 Babel common definitions
 \babel@savecnt=\count91
 \U@D=\dimen116
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count92
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count92
 ))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
-)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen119
 \lightrulewidth=\dimen120
@@ -461,19 +442,17 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@thisruleclass=\count95
 \@lastruleclass=\count96
 \@thisrulewidth=\dimen131
-)
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count97
 \float@exts=\toks19
 \float@box=\box27
 \@float@everytoks=\toks20
 \@floatcapt=\box28
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count98
@@ -481,11 +460,9 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip46
 \rot@float@box=\box29
 \rot@mess@toks=\toks21
-)
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -498,52 +475,35 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
-
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks22
 \XKV@tempa@toks=\toks23
 )
 \XKV@depth=\count99
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks24
 \pgfutil@tempdima=\dimen132
 \pgfutil@tempdimb=\dimen133
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box30
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+)) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks25
 \pgfkeys@temptoks=\toks26
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks27
 ))
 \pgf@x=\dimen134
@@ -563,64 +523,34 @@ ex
 \t@pgf@toka=\toks28
 \t@pgf@tokb=\toks29
 \t@pgf@tokc=\toks30
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
+))) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count104
 \pgfsyssoftpath@bigbuffer@items=\count105
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+)) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen142
 \pgfmath@count=\count106
 \pgfmath@box=\box31
 \pgfmath@toks=\toks31
 \pgfmath@stack@operand=\toks32
 \pgfmath@stack@operation=\toks33
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count107
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x
+)) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen143
 \pgf@picmaxx=\dimen144
@@ -636,114 +566,75 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@yy=\dimen154
 \pgf@zx=\dimen155
 \pgf@zy=\dimen156
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen157
 \pgf@path@lasty=\dimen158
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen159
 \pgf@shorten@start@additional=\dimen160
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box32
 \pgf@hbox=\box33
 \pgf@layerbox@main=\box34
 \pgf@picture@serial@count=\count108
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen161
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen162
 \pgf@pt@y=\dimen163
 \pgf@pt@temp=\dimen164
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen165
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen166
 \pgf@sys@shading@range@num=\count109
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box35
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x
+)) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+))) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box36
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen167
 \pgf@nodesepend=\dimen168
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen169
 \pgffor@skip=\dimen170
 \pgffor@stack=\toks34
 \pgffor@toks=\toks35
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+)) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count110
 \pgfplotmarksize=\dimen171
@@ -762,24 +653,19 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofchildren=\count112
 \tikznumberofcurrentchild=\count113
 \tikz@fig@count=\count114
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count115
 \pgfmatrixcurrentcolumn=\count116
 \pgf@matrix@numberofcolumns=\count117
 )
 \tikz@expandcount=\count118
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count119
 \calc@Bcount=\count120
@@ -793,19 +679,15 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Cskip=\skip49
 )
 \c@@todonotes@numberoftodonotes=\count122
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
@@ -818,15 +700,13 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
-)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -839,106 +719,93 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen180
 \Hy@linkcounter=\count123
 \Hy@pagecounter=\count124
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count125
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
-Package hyperref Info: Hyper figures OFF on input line 4509.
-Package hyperref Info: Link nesting OFF on input line 4514.
-Package hyperref Info: Hyper index ON on input line 4517.
-Package hyperref Info: Plain pages OFF on input line 4524.
-Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4762.
+Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count126
-LaTeX Info: Redefining \url on input line 5115.
+LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen181
 \Fld@menulength=\count127
 \Field@Width=\dimen182
 \Fld@charsize=\dimen183
-Package hyperref Info: Hyper figures OFF on input line 6369.
-Package hyperref Info: Link nesting OFF on input line 6374.
-Package hyperref Info: Hyper index ON on input line 6377.
-Package hyperref Info: backreferencing OFF on input line 6384.
-Package hyperref Info: Link coloring ON on input line 6387.
-Package hyperref Info: Link coloring with OCG OFF on input line 6394.
-Package hyperref Info: PDF/A mode OFF on input line 6399.
-LaTeX Info: Redefining \ref on input line 6439.
-LaTeX Info: Redefining \pageref on input line 6443.
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring ON on input line 6376.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
 \Hy@abspage=\count128
 \c@Item=\count129
 \c@Hfootnote=\count130
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count131
 \c@bookmark@seq@number=\count132
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip50
-)
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
-
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/abntex2/abntex2abrev.sty) (/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 \minimumbiblabelwidth=\skip51
 \ABCIauxlen=\skip52
 \c@ABCIaux=\count133
 \c@ABCImax=\count134
-
-(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip53
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks36
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks37
 \ex@=\dimen184
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen185
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count135
@@ -978,26 +845,22 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks41
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/bbm.sty
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/bbm-macros/bbm.sty
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 (Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2017/10/31 v2.20.4
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks42
 \thm@bodyfont=\toks43
 \thm@headfont=\toks44
@@ -1007,12 +870,9 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@postskip=\skip58
 \thm@headsep=\skip59
 \dth@everypar=\toks47
-)
-(/usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
-)
-(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.aux)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/carlisle/scalefnt.sty) (./sbc-template.aux)
 \openout1 = `sbc-template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -1030,8 +890,7 @@ LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 51.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -1068,7 +927,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count147
 \scratchdimen=\dimen193
@@ -1081,31 +940,23 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \MPnumerator=\count151
 \makeMPintoPDFobject=\count152
 \everyMPtoPDFconversion=\toks49
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-ABD: EveryShipout initializing macros
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box44
 Package hyperref Info: Link coloring ON on input line 51.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count153
@@ -1113,9 +964,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 51.
 LaTeX Info: Redefining \pageref on input line 51.
 LaTeX Info: Redefining \nameref on input line 51.
-
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.out)
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.out)
+ (./sbc-template.out) (./sbc-template.out)
 \@outlinefile=\write4
 \openout4 = `sbc-template.out'.
 
@@ -1126,21 +975,17 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <16> not available
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 55.
 LaTeX Font Info:    Try loading font information for U+msa on input line 55.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 55.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 55.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/resumo.tex
+) (./files/resumo.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 2.
 )
@@ -1148,50 +993,56 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 58.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 58.
-
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/intro.tex
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/intro_intro.tex
+ (./files/intro.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 10.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 10.
+(babel)             in language  on input line 9.
+ [1
 
-[1
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (3.03442pt too wide) in paragraph at lines 10--11
+[]\T1/ptm/m/n/12 Apesar das di-fi-cul-da-des prá-ti-cas men-ci-o-na-das, é in-te-res-sante no-tar que mui-tas \T1/ptm/m/it/12 Smart
+ []
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 4.
-
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/objetivo.tex
+(babel)             in language  on input line 14.
+(./files/introducao/objetivo.tex
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+
+Overfull \hbox (1.06819pt too wide) in paragraph at lines 5--6
+[]\T1/ptm/m/n/12 Formular um re-fe-ren-cial teó-rico so-bre re-des neu-rais con-vo-lu-ci-o-nais, con-tem-plando
+ []
+
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 7.
-
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/justificativa.tex)
+(babel)             in language  on input line 17.
+ (./files/introducao/justificativa.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 10.
+(babel)             in language  on input line 4.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 10.
-
-[2]
+(babel)             in language  on input line 4.
+ [2])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 10.
- (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/metodo.tex)
+(babel)             in language  on input line 20.
+ (./files/introducao/metodo.tex)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 13.
-
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/crono.tex
+(babel)             in language  on input line 23.
+ (./files/introducao/crono.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 5.
+[3]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 13.
 
@@ -1199,28 +1050,25 @@ Overfull \hbox (2.87221pt too wide) in paragraph at lines 11--34
  [] 
  []
 
-))
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 26.
+)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 61.
- (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/fund_teorica.tex
+ (./files/fund_teorica.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
-
-(./files/smart_tv.tex
+(babel)             in language  on input line 7.
+ (./files/smart_tv.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 4.
+(babel)             in language  on input line 6.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 4.
- [3]
-<img/smart_samsung.jpg, id=175, 652.4375pt x 421.575pt>
+(babel)             in language  on input line 6.
+ [4] <img/smart_samsung.jpg, id=189, 652.4375pt x 421.575pt>
 File: img/smart_samsung.jpg Graphic file (type jpg)
-<use img/smart_samsung.jpg>
-Package pdftex.def Info: img/smart_samsung.jpg  used on input line 12.
+ <use img/smart_samsung.jpg>
+Package pdftex.def Info: img/smart_samsung.jpg used on input line 12.
 (pdftex.def)             Requested size: 426.79135pt x 275.78305pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
 
@@ -1238,56 +1086,51 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 45.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 45.
-[4]
-<img/sbt_app.jpg, id=201, 602.25pt x 335.2525pt>
+[5 <./img/smart_samsung.jpg>] <img/sbt_app.jpg, id=214, 602.25pt x 335.2525pt>
 File: img/sbt_app.jpg Graphic file (type jpg)
-<use img/sbt_app.jpg>
-Package pdftex.def Info: img/sbt_app.jpg  used on input line 47.
+ <use img/sbt_app.jpg>
+Package pdftex.def Info: img/sbt_app.jpg used on input line 47.
 (pdftex.def)             Requested size: 426.79135pt x 237.591pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
-[5 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/smart_samsung.jpg>])
+(babel)             in language  on input line 55.
+ [6 <./img/sbt_app.jpg>])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 6.
-(./files/classificacao_indicativa.tex (./files/tab-indicativa.tex
+(babel)             in language  on input line 10.
+ (./files/classificacao_indicativa.tex (./files/tab-indicativa.tex
 LaTeX Font Info:    Calculating math sizes for size <9.60004> on input line 7.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9.60004> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
-<img/livre.png, id=225, 444.66125pt x 444.66125pt>
+ <img/livre.png, id=237, 444.66125pt x 444.66125pt>
 File: img/livre.png Graphic file (type png)
-<use img/livre.png>
-Package pdftex.def Info: img/livre.png  used on input line 11.
+ <use img/livre.png>
+Package pdftex.def Info: img/livre.png used on input line 11.
 (pdftex.def)             Requested size: 21.34087pt x 21.33875pt.
-<img/10anos.png, id=227, 401.5pt x 401.5pt>
+ <img/10anos.png, id=239, 401.5pt x 401.5pt>
 File: img/10anos.png Graphic file (type png)
-<use img/10anos.png>
-Package pdftex.def Info: img/10anos.png  used on input line 14.
+ <use img/10anos.png>
+Package pdftex.def Info: img/10anos.png used on input line 14.
 (pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
-<img/12anos.png, id=228, 401.5pt x 401.5pt>
+ <img/12anos.png, id=240, 401.5pt x 401.5pt>
 File: img/12anos.png Graphic file (type png)
-<use img/12anos.png>
-Package pdftex.def Info: img/12anos.png  used on input line 17.
+ <use img/12anos.png>
+Package pdftex.def Info: img/12anos.png used on input line 17.
 (pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
-<img/14anos.png, id=229, 401.5pt x 401.5pt>
+ <img/14anos.png, id=241, 401.5pt x 401.5pt>
 File: img/14anos.png Graphic file (type png)
-<use img/14anos.png>
-Package pdftex.def Info: img/14anos.png  used on input line 20.
+ <use img/14anos.png>
+Package pdftex.def Info: img/14anos.png used on input line 20.
 (pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
-<img/16anos.png, id=230, 401.5pt x 401.5pt>
+ <img/16anos.png, id=242, 401.5pt x 401.5pt>
 File: img/16anos.png Graphic file (type png)
-<use img/16anos.png>
-Package pdftex.def Info: img/16anos.png  used on input line 23.
+ <use img/16anos.png>
+Package pdftex.def Info: img/16anos.png used on input line 23.
 (pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
-<img/18anos.png, id=231, 401.5pt x 401.5pt>
+ <img/18anos.png, id=243, 401.5pt x 401.5pt>
 File: img/18anos.png Graphic file (type png)
-<use img/18anos.png>
-Package pdftex.def Info: img/18anos.png  used on input line 26.
+ <use img/18anos.png>
+Package pdftex.def Info: img/18anos.png used on input line 26.
 (pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
 
 Overfull \hbox (21.77359pt too wide) in paragraph at lines 7--30
@@ -1299,61 +1142,69 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 9.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 9.
- [6 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/sbt_app.jpg>])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+ [7 <./img/livre.png> <./img/10anos.png> <./img/12anos.png> <./img/14anos.png> <./img/16anos.png> <./img/18anos.png>])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 8.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 8.
- [7 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/livre.png> </home/n
-icoli/github/nicoli-tcc/tcc1/template-latex/img/10anos.png> </home/nicoli/githu
-b/nicoli-tcc/tcc1/template-latex/img/12anos.png> </home/nicoli/github/nicoli-tc
-c/tcc1/template-latex/img/14anos.png> </home/nicoli/github/nicoli-tcc/tcc1/temp
-late-latex/img/16anos.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/
-img/18anos.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 9.
- (./files/machine_learning.tex
-<img/machinelearningalgorithms.png, id=267, 1170.3725pt x 747.79375pt>
+(babel)             in language  on input line 13.
+ (./files/machine_learning.tex <img/machinelearningalgorithms.png, id=275, 1170.3725pt x 747.79375pt>
 File: img/machinelearningalgorithms.png Graphic file (type png)
-<use img/machinelearningalgorithms.png>
-Package pdftex.def Info: img/machinelearningalgorithms.png  used on input line 
-10.
+ <use img/machinelearningalgorithms.png>
+Package pdftex.def Info: img/machinelearningalgorithms.png used on input line 10.
 (pdftex.def)             Requested size: 688.5567pt x 439.96216pt.
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 18.
-
-(/usr/share/texlive/texmf-dist/tex/latex/doublestroke/Udsrom.fd
-File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 17.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 17.
  [8]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 17.
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 19.
  [9 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/machinelearningalgo
 rithms.png (PNG copy)>])
+=======
+(babel)             in language  on input line 17.
+ [9 <./img/machinelearningalgorithms.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 18.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/doublestroke/Udsrom.fd
+File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
+)
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 20.
+)
+>>>>>>> master
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 12.
+(babel)             in language  on input line 16.
  (./files/rna.tex
+<<<<<<< HEAD
 <img/neuronio.jpg, id=298, 401.5pt x 400.49625pt>
+=======
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 7.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 7.
+ [10] <img/neuronio.jpg, id=311, 401.5pt x 400.49625pt>
+>>>>>>> master
 File: img/neuronio.jpg Graphic file (type jpg)
-<use img/neuronio.jpg>
-Package pdftex.def Info: img/neuronio.jpg  used on input line 10.
+ <use img/neuronio.jpg>
+Package pdftex.def Info: img/neuronio.jpg used on input line 10.
 (pdftex.def)             Requested size: 207.0903pt x 206.5691pt.
+<<<<<<< HEAD
 <img/redeneuralbiologica.jpg, id=299, 497.86pt x 269.005pt>
+=======
+ <img/redeneuralbiologica.jpg, id=312, 497.86pt x 269.005pt>
+>>>>>>> master
 File: img/redeneuralbiologica.jpg Graphic file (type jpg)
-<use img/redeneuralbiologica.jpg>
-Package pdftex.def Info: img/redeneuralbiologica.jpg  used on input line 17.
+ <use img/redeneuralbiologica.jpg>
+Package pdftex.def Info: img/redeneuralbiologica.jpg used on input line 17.
 (pdftex.def)             Requested size: 256.07741pt x 138.36467pt.
+<<<<<<< HEAD
 <img/perceptron.png, id=300, 828.09375pt x 460.72125pt>
+=======
+ <img/perceptron.png, id=313, 828.09375pt x 460.72125pt>
+>>>>>>> master
 File: img/perceptron.png Graphic file (type png)
-<use img/perceptron.png>
-Package pdftex.def Info: img/perceptron.png  used on input line 24.
+ <use img/perceptron.png>
+Package pdftex.def Info: img/perceptron.png used on input line 24.
 (pdftex.def)             Requested size: 298.75264pt x 166.21805pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1362,13 +1213,17 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 38.
+<<<<<<< HEAD
  [10]
+=======
+ [11 <./img/neuronio.jpg> <./img/redeneuralbiologica.jpg>]
+>>>>>>> master
 Overfull \hbox (8.3643pt too wide) in paragraph at lines 40--41
-[]\T1/ptm/m/n/12 Em 1958, Frank Ro-sen-blatt apre-senta o neurô-nio \T1/ptm/m/i
-t/12 Per-cep-tron \T1/ptm/m/n/12 ([][]RO-SEN-BLATT[][], [][]1958[][]),
+[]\T1/ptm/m/n/12 Em 1958, Frank Ro-sen-blatt apre-senta o neurô-nio \T1/ptm/m/it/12 Per-cep-tron \T1/ptm/m/n/12 ([][]RO-SEN-BLATT[][], [][]1958[][]),
  []
 
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 44.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
@@ -1389,40 +1244,79 @@ Package babel Info: Redefining portuges shorthand "|
 [12 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/perceptron.png>]
 (./files/tab_ativacao.tex
 <img/identidade.png, id=352, 120.45pt x 60.225pt>
+=======
+(babel)             in language  on input line 58.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 58.
+[12 <./img/perceptron.png>] <img/mlprna.jpg, id=353, 295.1025pt x 182.8431pt>
+File: img/mlprna.jpg Graphic file (type jpg)
+ <use img/mlprna.jpg>
+Package pdftex.def Info: img/mlprna.jpg used on input line 67.
+(pdftex.def)             Requested size: 298.75264pt x 185.10808pt.
+ (./files/tab_ativacao.tex <img/identidade.png, id=354, 120.45pt x 60.225pt>
+>>>>>>> master
 File: img/identidade.png Graphic file (type png)
-<use img/identidade.png>
-Package pdftex.def Info: img/identidade.png  used on input line 13.
+ <use img/identidade.png>
+Package pdftex.def Info: img/identidade.png used on input line 13.
 (pdftex.def)             Requested size: 42.68173pt x 21.34004pt.
+<<<<<<< HEAD
 <img/tanh.png, id=353, 120.45pt x 60.225pt>
+=======
+ <img/tanh.png, id=355, 120.45pt x 60.225pt>
+>>>>>>> master
 File: img/tanh.png Graphic file (type png)
-<use img/tanh.png>
-Package pdftex.def Info: img/tanh.png  used on input line 23.
+ <use img/tanh.png>
+Package pdftex.def Info: img/tanh.png used on input line 23.
 (pdftex.def)             Requested size: 42.68173pt x 21.34004pt.
+<<<<<<< HEAD
 <img/sigmoid.png, id=354, 120.45pt x 60.225pt>
+=======
+ <img/sigmoid.png, id=356, 120.45pt x 60.225pt>
+>>>>>>> master
 File: img/sigmoid.png Graphic file (type png)
-<use img/sigmoid.png>
-Package pdftex.def Info: img/sigmoid.png  used on input line 33.
+ <use img/sigmoid.png>
+Package pdftex.def Info: img/sigmoid.png used on input line 33.
 (pdftex.def)             Requested size: 42.68173pt x 21.34004pt.
+<<<<<<< HEAD
 <img/relu.png, id=355, 120.45pt x 60.225pt>
+=======
+ <img/relu.png, id=357, 120.45pt x 60.225pt>
+>>>>>>> master
 File: img/relu.png Graphic file (type png)
-<use img/relu.png>
-Package pdftex.def Info: img/relu.png  used on input line 43.
+ <use img/relu.png>
+Package pdftex.def Info: img/relu.png used on input line 43.
 (pdftex.def)             Requested size: 42.68173pt x 21.34004pt.
+<<<<<<< HEAD
 <img/softmax.png, id=356, 120.45pt x 60.225pt>
+=======
+ <img/softmax.png, id=358, 120.45pt x 60.225pt>
+>>>>>>> master
 File: img/softmax.png Graphic file (type png)
-<use img/softmax.png>
-Package pdftex.def Info: img/softmax.png  used on input line 53.
+ <use img/softmax.png>
+Package pdftex.def Info: img/softmax.png used on input line 53.
 (pdftex.def)             Requested size: 42.68173pt x 21.34004pt.
 )
+
+LaTeX Warning: Reference `sec:dl' on page 13 undefined on input line 79.
+
+)
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 96.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 96.
  [13 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/mlprna.jpg>])
+=======
+(babel)             in language  on input line 18.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 18.
+ [13 <./img/mlprna.jpg>]
+>>>>>>> master
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 19.
  (./files/deep_learning.tex
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 8.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 8.
@@ -1432,46 +1326,77 @@ ithub/nicoli-tcc/tcc1/template-latex/img/sigmoid.png> </home/nicoli/github/nico
 li-tcc/tcc1/template-latex/img/relu.png> </home/nicoli/github/nicoli-tcc/tcc1/t
 emplate-latex/img/softmax.png>]
 <img/compara_redes.png, id=398, 735.74875pt x 587.19376pt>
+=======
+(babel)             in language  on input line 10.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 10.
+ [14 <./img/identidade.png> <./img/tanh.png> <./img/sigmoid.png> <./img/relu.png> <./img/softmax.png>] <img/compara_redes.png, id=402, 735.74875pt x 587.19376pt>
+>>>>>>> master
 File: img/compara_redes.png Graphic file (type png)
-<use img/compara_redes.png>
-Package pdftex.def Info: img/compara_redes.png  used on input line 13.
+ <use img/compara_redes.png>
+Package pdftex.def Info: img/compara_redes.png used on input line 13.
 (pdftex.def)             Requested size: 341.43437pt x 272.50468pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 18.
+<<<<<<< HEAD
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 21.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 21.
 [15 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/compara_redes.png (
 PNG copy)>]
+=======
+
+>>>>>>> master
 Overfull \hbox (5.27733pt too wide) in paragraph at lines 22--22
-\T1/ptm/m/n/12 como idéia cen-tral a in-te-co-ne-xão en-tre vá-rios neurô-nios 
-([][]RU-ME-LHART; MC-CLEL-LAND[][],
+\T1/ptm/m/n/12 como idéia cen-tral a in-te-co-ne-xão en-tre vá-rios neurô-nios ([][]RU-ME-LHART; MC-CLEL-LAND[][],
  []
 
+<<<<<<< HEAD
 <img/compara_redes_ilsvrc.png, id=433, 640.3925pt x 480.79625pt>
+=======
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 22.
+[15 <./img/compara_redes.png (PNG copy)>] <img/compara_redes_ilsvrc.png, id=438, 640.3925pt x 480.79625pt>
+>>>>>>> master
 File: img/compara_redes_ilsvrc.png Graphic file (type png)
-<use img/compara_redes_ilsvrc.png>
-Package pdftex.def Info: img/compara_redes_ilsvrc.png  used on input line 26.
+ <use img/compara_redes_ilsvrc.png>
+Package pdftex.def Info: img/compara_redes_ilsvrc.png used on input line 26.
 (pdftex.def)             Requested size: 341.43437pt x 256.34674pt.
+<<<<<<< HEAD
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 31.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 31.
 [16 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/compara_redes_ilsvr
 c.png>]
+=======
+
+>>>>>>> master
 Overfull \hbox (19.95512pt too wide) in paragraph at lines 33--34
-[]\T1/ptm/m/n/12 Apesar de ter tido um foco ini-cial em téc-ni-cas no-vas de ap
-ren-di-zado não-supervisionado
+[]\T1/ptm/m/n/12 Apesar de ter tido um foco ini-cial em téc-ni-cas no-vas de apren-di-zado não-supervisionado
  []
 
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 36.
 <img/cnn_camada.png, id=459, 369.38pt x 796.9775pt>
+=======
+(babel)             in language  on input line 34.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 34.
+[16 <./img/compara_redes_ilsvrc.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 36.
+ <img/cnn_camada.png, id=460, 369.38pt x 796.9775pt>
+>>>>>>> master
 File: img/cnn_camada.png Graphic file (type png)
-<use img/cnn_camada.png>
-Package pdftex.def Info: img/cnn_camada.png  used on input line 43.
+ <use img/cnn_camada.png>
+Package pdftex.def Info: img/cnn_camada.png used on input line 43.
 (pdftex.def)             Requested size: 95.73781pt x 206.5691pt.
+<<<<<<< HEAD
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1480,6 +1405,13 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 52.
  [17 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/cnn_camada.png>]
+=======
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 57.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 57.
+ [17 <./img/cnn_camada.png>]
+>>>>>>> master
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
@@ -1494,16 +1426,29 @@ Package babel Info: Redefining portuges shorthand "|
 ))
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 64.
- (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/trab_relac.tex
+ (./files/trab_relac.tex
+Underfull \vbox (badness 2197) has occurred while \output is active []
+
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 11.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 11.
 [19])
+=======
+(babel)             in language  on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+ [18])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 66.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 66.
+ [19]
+>>>>>>> master
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 67.
-
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/solucao_proposta.tex
+ (./files/solucao_proposta.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
@@ -1521,21 +1466,24 @@ Package babel Info: Redefining portuges shorthand "|
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 70.
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/consid_finais.tex)
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.bbl
+ (./files/consid_finais.tex) (./sbc-template.bbl
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
+<<<<<<< HEAD
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 43.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 43.
  [20]
+=======
+
+>>>>>>> master
 Underfull \hbox (badness 1132) in paragraph at lines 54--58
-[]\T1/ptm/m/n/12 CIRIACO, D. \T1/ptm/m/it/12 Os me-lho-res ser-vi-ços de stre-a
--ming de ví- 
+[]\T1/ptm/m/n/12 CIRIACO, D. \T1/ptm/m/it/12 Os me-lho-res ser-vi-ços de stre-a-ming de ví- 
  []
 
 Package babel Info: Redefining portuges shorthand "|
+<<<<<<< HEAD
 (babel)             in language  on input line 129.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 129.
@@ -1544,6 +1492,21 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 235.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 235.
+=======
+(babel)             in language  on input line 58.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 58.
+[20]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 143.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 143.
+ [21]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 248.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 248.
+>>>>>>> master
  [22])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 76.
@@ -1552,12 +1515,14 @@ Package babel Info: Redefining portuges shorthand "|
  [23]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
-
-(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.aux)
+ (./sbc-template.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `sbc-template.out' has not changed.
-(rerunfilecheck)             Checksum: 294FB5FA26563E6A4788BA2B64884B27;1776.
+(rerunfilecheck)             Checksum: E9403399A09AE87ABCDA4D7290B7BCFB;1856.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1565,6 +1530,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  19525 strings out of 492978
  354022 string characters out of 6134922
  436442 words of memory out of 5000000
@@ -1598,4 +1564,21 @@ PDF statistics:
  602 compressed objects within 7 object streams
  136 named destinations out of 1000 (max. 500000)
  310 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 19529 strings out of 492995
+ 353711 string characters out of 6132705
+ 438999 words of memory out of 5000000
+ 22453 multiletter control sequences out of 15000+600000
+ 66374 words of font info for 100 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,26n,80p,1639b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/doublestroke/dsrom12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sbc-template.pdf (23 pages, 1099872 bytes).
+PDF statistics:
+ 698 PDF objects out of 1000 (max. 8388607)
+ 603 compressed objects within 7 object streams
+ 137 named destinations out of 1000 (max. 500000)
+ 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> master
 
