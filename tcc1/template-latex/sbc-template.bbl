@@ -127,6 +127,11 @@ Acessado em 22 de Março de 2018.}
 {HOCHREITER, S.; SCHMIDHUBER, J. Long short-term memory.
 \emph{Neural computation}, MIT Press, v.~9, n.~8, p. 1735--1780, 1997.}
 
+\bibitem[Hornik 1991]{hornik1991approximation}
+\abntrefinfo{Hornik}{HORNIK}{1991}
+{HORNIK, K. Approximation capabilities of multilayer feedforward networks.
+\emph{Neural networks}, Elsevier, v.~4, n.~2, p. 251--257, 1991.}
+
 \bibitem[IBGE 2015]{pnad2015}
 \abntrefinfo{IBGE}{IBGE}{2015}
 {IBGE. \emph{Pesquisa Nacional por Amostra de Domicílios: Acesso à INternet e
