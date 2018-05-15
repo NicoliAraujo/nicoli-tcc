@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2018/dev/Debian) (preloaded format=pdflatex 2018.3.27)  11 MAY 2018 09:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2018/dev/Debian) (preloaded format=pdflatex 2018.5.14)  15 MAY 2018 13:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1535,49 +1535,78 @@ File: img/mlprna.jpg Graphic file (type jpg)
 Package pdftex.def Info: img/mlprna.jpg  used on input line 93.
 (pdftex.def)             Requested size: 298.75264pt x 185.10808pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 112.
+(babel)             in language  on input line 107.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 112.
+(babel)             in language  on input line 107.
 
 [15 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/mlprna.jpg>]
+<img/maximum.pdf, id=403, 433.62pt x 289.08pt>
+File: img/maximum.pdf Graphic file (type pdf)
+<use img/maximum.pdf>
+Package pdftex.def Info: img/maximum.pdf  used on input line 110.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/minimum.pdf, id=404, 433.62pt x 289.08pt>
+File: img/minimum.pdf Graphic file (type pdf)
+<use img/minimum.pdf>
+Package pdftex.def Info: img/minimum.pdf  used on input line 116.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/saddle.pdf, id=405, 433.62pt x 289.08pt>
+File: img/saddle.pdf Graphic file (type pdf)
+<use img/saddle.pdf>
+Package pdftex.def Info: img/saddle.pdf  used on input line 122.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+
 (./files/tab_ativacao.tex
-<img/identidade.pdf, id=411, 433.62pt x 289.08pt>
+<img/identidade.pdf, id=416, 433.62pt x 289.08pt>
 File: img/identidade.pdf Graphic file (type pdf)
 <use img/identidade.pdf>
 Package pdftex.def Info: img/identidade.pdf  used on input line 14.
 (pdftex.def)             Requested size: 64.01608pt x 42.67642pt.
-<img/tanh.pdf, id=412, 433.62pt x 289.08pt>
+<img/tanh.pdf, id=417, 433.62pt x 289.08pt>
 File: img/tanh.pdf Graphic file (type pdf)
 <use img/tanh.pdf>
 Package pdftex.def Info: img/tanh.pdf  used on input line 24.
 (pdftex.def)             Requested size: 64.01608pt x 42.67642pt.
-<img/sigmoid.pdf, id=413, 433.62pt x 289.08pt>
+<img/sigmoid.pdf, id=418, 433.62pt x 289.08pt>
 File: img/sigmoid.pdf Graphic file (type pdf)
 <use img/sigmoid.pdf>
 Package pdftex.def Info: img/sigmoid.pdf  used on input line 34.
 (pdftex.def)             Requested size: 64.01608pt x 42.67642pt.
-<img/relu.pdf, id=414, 433.62pt x 289.08pt>
+<img/relu.pdf, id=419, 433.62pt x 289.08pt>
 File: img/relu.pdf Graphic file (type pdf)
 <use img/relu.pdf>
 Package pdftex.def Info: img/relu.pdf  used on input line 44.
 (pdftex.def)             Requested size: 64.01608pt x 42.67642pt.
-<img/softmax.pdf, id=415, 433.62pt x 289.08pt>
+<img/softmax.pdf, id=420, 433.62pt x 289.08pt>
 File: img/softmax.pdf Graphic file (type pdf)
 <use img/softmax.pdf>
 Package pdftex.def Info: img/softmax.pdf  used on input line 54.
 (pdftex.def)             Requested size: 64.01608pt x 42.67642pt.
 )
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 127.
-)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 153.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 153.
+ [16 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/maximum.pdf> </hom
+e/nicoli/github/nicoli-tcc/tcc1/template-latex/img/minimum.pdf
+
+pdfTeX warning: pdflatex (file /home/nicoli/github/nicoli-tcc/tcc1/template-lat
+ex/img/minimum.pdf): PDF inclusion: multiple pdfs with page group included in a
+ single page
+> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/saddle.pdf
+
+pdfTeX warning: pdflatex (file /home/nicoli/github/nicoli-tcc/tcc1/template-lat
+ex/img/saddle.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
+>])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 17.
  (./files/deep_learning.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 4.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 4.
- [16 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/identidade.pdf> </
+(babel)             in language  on input line 5.
+ [17 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/identidade.pdf> </
 home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/tanh.pdf
 
 pdfTeX warning: pdflatex (file /home/nicoli/github/nicoli-tcc/tcc1/template-lat
@@ -1599,7 +1628,7 @@ pdfTeX warning: pdflatex (file /home/nicoli/github/nicoli-tcc/tcc1/template-lat
 ex/img/softmax.pdf): PDF inclusion: multiple pdfs with page group included in a
  single page
 >]
-<img/compara_redes.png, id=506, 735.74875pt x 587.19376pt>
+<img/compara_redes.png, id=478, 735.74875pt x 587.19376pt>
 File: img/compara_redes.png Graphic file (type png)
 <use img/compara_redes.png>
 Package pdftex.def Info: img/compara_redes.png  used on input line 13.
@@ -1607,74 +1636,72 @@ Package pdftex.def Info: img/compara_redes.png  used on input line 13.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 18.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 21.
+ [18 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/compara_redes.png 
+(PNG copy)>]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 22.
+
 Overfull \hbox (5.27733pt too wide) in paragraph at lines 22--22
 \T1/ptm/m/n/12 como idéia cen-tral a in-te-co-ne-xão en-tre vá-rios neurô-nios 
 ([][]RU-ME-LHART; MC-CLEL-LAND[][],
  []
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 22.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 22.
-[17]
-<img/compara_redes_ilsvrc.png, id=542, 547.04375pt x 327.2225pt>
+<img/compara_redes_ilsvrc.png, id=512, 547.04375pt x 327.2225pt>
 File: img/compara_redes_ilsvrc.png Graphic file (type png)
 <use img/compara_redes_ilsvrc.png>
 Package pdftex.def Info: img/compara_redes_ilsvrc.png  used on input line 26.
 (pdftex.def)             Requested size: 341.43437pt x 204.23395pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 31.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 31.
+[19 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/compara_redes_ilsvr
+c.png>]
 Overfull \hbox (19.95512pt too wide) in paragraph at lines 33--34
 []\T1/ptm/m/n/12 Apesar de ter tido um foco ini-cial em téc-ni-cas no-vas de ap
 ren-di-zado não-supervisionado
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 34.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 34.
- [18 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/compara_redes.png 
-(PNG copy)>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 36.
-<img/cnn_camada.png, id=567, 369.38pt x 796.9775pt>
+<img/cnn_camada.png, id=539, 369.38pt x 796.9775pt>
 File: img/cnn_camada.png Graphic file (type png)
 <use img/cnn_camada.png>
 Package pdftex.def Info: img/cnn_camada.png  used on input line 43.
 (pdftex.def)             Requested size: 95.73781pt x 206.5691pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 54.
- [19 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/compara_redes_ilsv
-rc.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 69.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 69.
- [20 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/cnn_camada.png>]
+(babel)             in language  on input line 57.
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 77.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 77.
+[21 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/cnn_camada.png>]
+Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 82.
 ))
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 66.
- (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/trab_relac.tex
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 9.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 9.
 
-[21])
+(/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/trab_relac.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 11.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 11.
+
+[22])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 69.
 
@@ -1701,35 +1728,35 @@ Package babel Info: Redefining portuges shorthand "|
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 19.
- [22]
+(babel)             in language  on input line 37.
+ [23]
 Underfull \hbox (badness 1132) in paragraph at lines 54--58
 []\T1/ptm/m/n/12 CIRIACO, D. \T1/ptm/m/it/12 Os me-lho-res ser-vi-ços de stre-a
 -ming de ví- 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 112.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 112.
-[23]
+(babel)             in language  on input line 120.
+[24]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 215.
- [24]
+(babel)             in language  on input line 224.
+ [25]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 320.
+(babel)             in language  on input line 329.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 320.
- [25])
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 329.
+ [26])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 78.
- [26]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 78.
+ [27]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
 
@@ -1748,10 +1775,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21701 strings out of 492978
- 390634 string characters out of 6134922
- 478609 words of memory out of 5000000
- 24578 multiletter control sequences out of 15000+600000
+ 21748 strings out of 492978
+ 391725 string characters out of 6134922
+ 481879 words of memory out of 5000000
+ 24616 multiletter control sequences out of 15000+600000
  68715 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,94p,1635b,607s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1775,10 +1802,10 @@ pe1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on /home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-templa
-te.pdf (26 pages, 1381113 bytes).
+te.pdf (27 pages, 1377306 bytes).
 PDF statistics:
- 814 PDF objects out of 1000 (max. 8388607)
- 667 compressed objects within 7 object streams
- 139 named destinations out of 1000 (max. 500000)
- 343 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 788 PDF objects out of 1000 (max. 8388607)
+ 677 compressed objects within 7 object streams
+ 145 named destinations out of 1000 (max. 500000)
+ 358 words of extra memory for PDF output out of 10000 (max. 10000000)
 

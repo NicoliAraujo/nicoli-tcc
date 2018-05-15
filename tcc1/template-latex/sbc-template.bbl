@@ -73,6 +73,13 @@ Acessado em 20 de Março de 2018.}
 {DEPUTADOS, C. dos. \emph{Estatuto da Criança e do Adolescente}. BRASIL:
   [s.n.], 1995.}
 
+\bibitem[Dubrovina et al. 2018]{dubrovina2018mammography}
+\abntrefinfo{Dubrovina et al.}{DUBROVINA et al.}{2018}
+{DUBROVINA, A. et al. Computational mammography using deep neural networks.
+\emph{Computer Methods in Biomechanics and Biomedical Engineering: Imaging \&
+  Visualization}, Taylor \& Francis, v.~6, n.~3, p. 243--247, 2018.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1080/21681163.2015.1131197}.}
+
 \bibitem[Ecarlat 2017]{mediumcnn}
 \abntrefinfo{Ecarlat}{ECARLAT}{2017}
 {ECARLAT, P. \emph{CNN -- Do we need to go deeper?} [S.l.]: Medium, 2017.
@@ -96,6 +103,14 @@ Acessado em 23 de Abril de 2018.}
 {FU, Y.; XU, Y.; HUANG, T.~S. Estimating human age by manifold analysis of face
   pictures and regression on aging features. In:  IEEE. \emph{Multimedia and
   Expo, 2007 IEEE International Conference on}. [S.l.], 2007. p. 1383--1386.}
+
+\bibitem[Gao et al. 2018]{mingchen2018holistic}
+\abntrefinfo{Gao et al.}{GAO et al.}{2018}
+{GAO, M. et al. Holistic classification of ct attenuation patterns for
+  interstitial lung diseases via deep convolutional neural networks.
+\emph{Computer Methods in Biomechanics and Biomedical Engineering: Imaging \&
+  Visualization}, Taylor \& Francis, v.~6, n.~1, p.~1--6, 2018.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1080/21681163.2015.1124249}.}
 
 \bibitem[Goodfellow, Bengio e Courville 2016]{goodfellow2016deep}
 \abntrefinfo{Goodfellow, Bengio e Courville}{GOODFELLOW; BENGIO;
@@ -238,6 +253,13 @@ ISBN 9780070428072. Dispon{\'\i}vel em:
   \url{https://news.samsung.com/global/smart-tv-piece-by-piece}.
 Acessado em 15 de Março de 2018.}
 
+\bibitem[Oktay et al. 2018]{oktay2018anatomically}
+\abntrefinfo{Oktay et al.}{OKTAY et al.}{2018}
+{OKTAY, O. et al. Anatomically constrained neural networks (acnns): application
+  to cardiac image enhancement and segmentation.
+\emph{IEEE transactions on medical imaging}, IEEE, v.~37, n.~2, p. 384--395,
+  2018.}
+
 \bibitem[Perakakis e Ghinea 2015]{perakakis2015proposed}
 \abntrefinfo{Perakakis e Ghinea}{PERAKAKIS; GHINEA}{2015}
 {PERAKAKIS, E.; GHINEA, G. A proposed model for cross-platform web 3d
@@ -320,6 +342,12 @@ Acessado em \today.}
 \bibitem[Szegedy et al. 2015]{inception}
 \abntrefinfo{Szegedy et al.}{SZEGEDY et al.}{2015}
 {SZEGEDY, C. et al. Going deeper with convolutions. In:  CVPR. [S.l.], 2015.}
+
+\bibitem[Widrow, Rumelhart e Lehr 1994]{widrow1994neural}
+\abntrefinfo{Widrow, Rumelhart e Lehr}{WIDROW; RUMELHART; LEHR}{1994}
+{WIDROW, B.; RUMELHART, D.~E.; LEHR, M.~A. Neural networks: applications in
+  industry, business and science.
+\emph{Communications of the ACM}, ACM, v.~37, n.~3, p. 93--105, 1994.}
 
 \bibitem[Wikipedia 2018]{televisioncontentwiki}
 \abntrefinfo{Wikipedia}{WIKIPEDIA}{2018}

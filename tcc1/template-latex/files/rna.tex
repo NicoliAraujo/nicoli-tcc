@@ -39,7 +39,7 @@ Com base neste modelo biológico, McCulloch e Pitts propuseram em \cite{mcculloc
 
 Em 1958, Frank Rosenblatt apresenta o neurônio \emph{Perceptron} \cite{rosenblatt1958perceptron}, que mais tarde seria empregado como a unidade de processamento de uma RNA e de outros modelos de ML como as \emph{support vector machines}. O Perceptron agregou ao neurônio de McCulloch e Pitts conceitos cruciais para a caracterização das RNAs como são conhecidas hoje, como a não obrigatoriedade de igualdade dos pesos e limiares de ativação, a possibilidade de os pesos serem positivos ou negativos, a diversidade de funções de ativação, entre outros. Sua maior contribuição envolve a adição de um algoritmo de aprendizado que permite a adaptação dos pesos de uma RNA através da otimização do desempenho da rede. Isto atribuiu ao modelo Perceptron a capacidade de aprender tarefas que contenham dados linearmente separáveis \cite{braga2000redes}.
 
-Este modelo inicial apresentava algumas limitações, atribuídas principalmente à sua linearidade e simplicidade, características que possibilitam resolver apenas problemas linearmente separáveis \cite{braga2000redes}. Um modelo Perceptron é incapaz de aprender a função XOR, por exemplo \cite{goodfellow2016deep}. A adição de camadas e de funções de ativação nas saídas dos neurônios atribuiu às RNAs a potencialidade de serem aproximadas a qualquer função contínua, através da otimização por minimização da diferença entre o valor previsto pela rede $y_t$ e o valor real $y$. Atualmente, as redes neurais artificiais podem apresentar diversos tipos de arquitetura, ao variar-se parâmetros como o número de camadas de neurônios, número de nós em cada camada, os tipos de conexões entre neurônios e topologia de rede. Alguns exemplos de arquiteturas podem ser encontrados na Figura \ref{fig:popular_archs}.
+Este modelo inicial apresentava algumas limitações, atribuídas principalmente à sua linearidade e simplicidade, características que possibilitam resolver apenas problemas linearmente separáveis \cite{braga2000redes}. Um modelo Perceptron é incapaz de aprender a função XOR, por exemplo \cite{goodfellow2016deep}. A adição de camadas e de funções de ativação nas saídas dos neurônios atribuiu às RNAs a potencialidade de serem aproximadas a qualquer função contínua, através da otimização por minimização da dissimilaridade entre o valor previsto pela rede $y_t$ e o valor real $y$. Atualmente, as redes neurais artificiais podem apresentar diversos tipos de arquitetura, ao variar-se parâmetros como o número de camadas de neurônios, número de nós em cada camada, os tipos de conexões entre neurônios e topologia de rede. Alguns exemplos de arquiteturas podem ser encontrados na Figura \ref{fig:popular_archs}.
 
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{img/popular_archs}
@@ -97,33 +97,58 @@ Segundo o teorema da aproximação universal exposto em \cite{hornik1991approxim
 
 O objetivo das RNAs é aproximar-se de funções que mapeiem as entradas $X$ às saídas $Y$. Para atingir este objetivo, o modelo \emph{multilayer perceptron}, ou MLP, tem duas fases: a fase \emph{forward}, na qual há a inferência da saída da rede perante determinada entrada, e a fase \emph{backward}, em que há o processo de ajuste dos pesos dos neurônios para minimizar o erro, ou perda, da saída prevista pela rede e o valor alvo. Este processo é chamado \emph{backpropagation}.
 
-No contexto da otimização do desempenho resultante do ajuste de pesos de determinada RNA, a diferença entre as saídas previstas $y_t$ e as saídas reais $y$ presentes no conjunto de dados deve ser minimizada. A função, $y=f(x)$, que se deseja minimizar, é chamada de \emph{função objetiva ou critério}. Quando no processo de minimização, esta se chama \emph{função custo}, \emph{função erro} ou \emph{função perda}, comumente referenciada em inglês, \emph{loss function}.
-
-Uma função de perda que é comumente aplicada às RNAs está na Equação \ref{eq:perda}.
-\begin{equation}\label{eq:perda}
-	L(x, y, \theta) = - \log p (y|x;\theta)
-\end{equation}
-A função custo é descrita pela Equação \ref{eq:custo}
-\begin{equation}\label{eq:custo}
-	J(\theta) = E_{x,y \sim \hat{p}_{data}} L(x, y, \theta) = \frac{1}{m} \sum_{i=1}^{m} L(x^{(i)}, y^{(i)}, \theta)
-\end{equation}
-
 A derivada $f^\prime$ de uma função $y = f(x)$ é dada pela fórmula na Equação \ref{eq:derivada}, e fornece a inclinação de $f(x)$ no ponto $x$. Aplicada a uma função custo, esta operação especifica como escalar uma pequena mudança nos pesos $w$ aplicados à entrada $x$ para obter uma mudança correspondente na saída $y$. A técnica de realizar pequenos incrementos na entrada $w$ no valor oposto ao da derivada é chamada de \emph{gradiente descendente}.
 
 \begin{equation}\label{eq:derivada}
 	f(x+\epsilon) \approx f(x) + \epsilon f^\prime(x)
 \end{equation}
 
-Ao observar a Equação \ref{eq:derivada}, percebe-se que que se $f^\prime(x) =0 $, a derivada não provê informações sobre a direção correta para onde a função deve se mover. Estes pontos, conhecidos como pontos críticos, podem ser máximos locais, mínimos locais ou pontos de sela.
+Ao observar a Equação \ref{eq:derivada}, percebe-se que que se $f^\prime(x) =0 $, a derivada não provê informações sobre a direção correta para onde a função deve se mover. Estes pontos, conhecidos como pontos críticos, podem ser máximos locais, mínimos locais ou pontos de sela, como mostra a Figura \ref{fig:pontos_criticos}. Um máximo local é um ponto onde $f(x)$ é maior que todos os pontos vizinhos, o que impossibilita o aumento do $f(x)$. Um mínimo local é um ponto onde $f(x)$ é menor que todos os pontos vizinhos, o que impossibilita a diminuição do $f(x)$. Um ponto de sela é um ponto estacionário que não se refere nem a um máximo ou a um mínimo.
 
-\cite{goodfellow2016deep}
+\begin{figure}
+	\begin{subfigure}[h]{0.3\linewidth}
+		\includegraphics[width=\linewidth]{img/maximum}
+		\caption{Ponto máximo}
+		\label{fig:maximo}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[h]{0.3\linewidth}
+		\includegraphics[width=\linewidth]{img/minimum}
+		\caption{Ponto mínimo}
+		\label{fig:minimo}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[h]{0.3\linewidth}
+		\includegraphics[width=\linewidth]{img/saddle}
+		\caption{Ponto de sela}
+		\label{fig:sela}
+	\end{subfigure}%
+	\caption{Exemplos de cada um dos três tipos de pontos críticos em funções no $R^2$}
+	\label{fig:pontos_criticos}
+\end{figure}
 
+No contexto da otimização do desempenho resultante do ajuste de pesos de determinada RNA, a disparidade entre as saídas previstas $y_t$ e as saídas reais $y$ presentes no conjunto de dados deve ser minimizada. A função $y=f(x)$ que exprime a variância entre estes valores para um modelo de \emph{ML}, é comumente chamada de \emph{função custo}, e definida a partir da estimativa por máxima verossimilhança. Esta estimativa consiste de um método estatístico aplicado com o objetivo de minimizar a dissimilaridade entre a distribuição empírica $\hat{p}_{data}$ definida pelo conjunto de treinamento
+e a distribuição do modelo.
 
+A função custo utilizada por uma RNA é decomposta como uma soma de funções de perda aplicadas aos exemplos de treinamento. Uma das funções custo que podem ser utilizadas, descrita na Equação \ref{eq:custo}, consiste na probabilidade logarítmica condicional negativa dos dados de treinamento, onde $L$ é a perda calculada para cada exemplo dada na Equação \ref{eq:perda}.
 
+\begin{equation}\label{eq:perda}
+	L(x, y, \theta) = - \log p (y|x;\theta)
+\end{equation}
 
-Várias funções de ativação são utilizadas para determinar as saídas dos neurônios das camadas escondidas e de saída. As funções de ativação mais comuns são a linear ou identidade, \emph{ReLU} -- unidade exponencial linear retificada e suas variações, softmax, tangente hiperbólica e sigmoide.
-\input{./files/tab_ativacao}.
+\begin{equation}\label{eq:custo}
+	J(\theta) = E_{x,y \sim \hat{p}_{data}} L(x, y, \theta) = \frac{1}{m} \sum_{i=1}^{m} L(x^{(i)}, y^{(i)}, \theta)
+\end{equation}
 
-\todo[inline]{aplicações}
+Para estas funções custo, o gradiente descendente é computado através da Equação
+\ref{eq:gradiente}. O custo operacional desta operação é $O(m)$, sendo $m$ o número de exemplos no conjunto de treinamento. Assim, o custo computacional cresce de maneira proporcional ao tamanho do conjunto de treinamento.
 
-As RNAs \emph{feedforward} formam a base para muitas aplicações, o que faz com que este modelo seja de extrema importância para profissionais da área de ML. Para exemplificar, as RNA convolucionais utilizadas para reconhecimento de objetos a partir de imagens são um tipo de RNAs \emph{feedforward}. Estes modelos de RNA são parte da sub-área \emph{Deep Learning}, que será tratada na Seção \ref{sec:dl}.
+\begin{equation}\label{eq:gradiente}
+	\nabla_{\theta} J(\theta) = \frac{1}{m} \sum_{i=1}^{m} \nabla_{\theta} L(x^{(i)}, y^{(i)}, \theta)
+\end{equation}
+
+A escolha da função de ativação está diretamente relacionada às escolhas de funções de ativação $g(z)$ de camadas ocultas e da camada de saída. Várias funções podem ser utilizadas, a depender do tipo de processamento e de saída desejada, contanto que sejam contínuas e deriváveis \cite{hornik1991approximation}. As funções de ativação mais comuns estão detalhadas na Tabela \ref{tab:ativacoes}.
+
+\input{./files/tab_ativacao}
+
+As RNAs \emph{feedforward} formam a base para muitas aplicações. Inicialmente, este modelo era aplicado principalmente no mercado financeiro. Um exemplo desta utilização é o Sistema de Marketing Alvo, em inglês \emph{Target Marketing System}, utilizado nos anos 1990 pela \emph{Veratex Corp} para otimizar estratégias de marketing e cortar custos de marketing ao remover improváveis futuros consumidores de listas de compradores potenciais \cite{widrow1994neural}. Usos mais tardios também envolvem alocação de assentos em aviões, aprovação de empréstimo, controle de qualidade em processos industriais, entre outros. Quanto à detecção de padrões, destaca-se o uso de redes neurais convolucionais no reconhecimento de caracteres e dígitos escritos à mão, à exemplo de \cite{lenet}. Na medicina, algumas aplicações de RNA convolucionais, compreendidas na sub-área \emph{Deep Learning} (DL), podem compreender o aprimoramento e na segmentação de imagens cardíacas \cite{oktay2018anatomically}, aa classificação holistica de padrões de atenuação em tomografias computadorizadas para doenças do tecido intersticial do pulmão \cite{mingchen2018holistic}, e a leitura de mamografias computarizadas \cite{dubrovina2018mammography}. Atualmente, o modelo de RNA \emph{feedforward multilayer perceptron} tem grande destaque dentre as técnicas de ML. Estes modelos são parte da sub-área \emph{Deep Learning}, que será tratada na Seção \ref{sec:dl}.
