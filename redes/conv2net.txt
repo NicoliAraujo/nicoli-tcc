@@ -1,0 +1,100 @@
+nicoli@nicoli-Vostro-3560:~/github/deep-learning-learning/redes-tcc$ python3 lenet64_training_imdb.py 
+/usr/local/lib/python3.5/dist-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+Number of images in the dataset: 195923
+Number of images in the dataset: 37167
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d_1 (Conv2D)            (None, 64, 64, 20)        1520      
+_________________________________________________________________
+activation_1 (Activation)    (None, 64, 64, 20)        0         
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 32, 32, 20)        0         
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 32, 32, 50)        25050     
+_________________________________________________________________
+activation_2 (Activation)    (None, 32, 32, 50)        0         
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 16, 16, 50)        0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 12800)             0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 500)               6400500   
+_________________________________________________________________
+activation_3 (Activation)    (None, 500)               0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 2)                 1002      
+_________________________________________________________________
+activation_4 (Activation)    (None, 2)                 0         
+=================================================================
+Total params: 6,428,072
+Trainable params: 6,428,072
+Non-trainable params: 0
+_________________________________________________________________
+WARNING:tensorflow:Variable *= will be deprecated. Use variable.assign_mul if you want assignment to the variable value or 'x = x * y' if you want a new python Tensor object.
+Epoch 1/100
+3062/3061 [==============================] - 3624s 1s/step - loss: 7.6902 - acc: 0.5228 - val_loss: 7.9933 - val_acc: 0.5041
+Epoch 2/100
+2564/3061 [========================>.....] - ETA: 8:07 - loss: 7.6888 - acc: 0.5230 
+3062/3061 [==============================] - 3729s 1s/step - loss: 7.6904 - acc: 0.5229 - val_loss: 7.9894 - val_acc: 0.5043
+Epoch 3/100
+3062/3061 [==============================] - 3741s 1s/step - loss: 7.6912 - acc: 0.5228 - val_loss: 7.9916 - val_acc: 0.5042
+Epoch 4/100
+3062/3061 [==============================] - 2899s 947ms/step - loss: 7.6904 - acc: 0.5229 - val_loss: 7.9929 - val_acc: 0.5041
+Epoch 5/100
+3062/3061 [==============================] - 2713s 886ms/step - loss: 7.6902 - acc: 0.5229 - val_loss: 7.9994 - val_acc: 0.5037
+
+Epoch 00005: val_loss improved from inf to 7.99942, saving model to callbacks/conv2net/weights.05-8.00.hdf5
+Epoch 6/100
+3062/3061 [==============================] - 2552s 833ms/step - loss: 7.6906 - acc: 0.5229 - val_loss: 7.9933 - val_acc: 0.5041
+Epoch 7/100
+3062/3061 [==============================] - 2581s 843ms/step - loss: 7.6910 - acc: 0.5228 - val_loss: 7.9955 - val_acc: 0.5039
+Epoch 8/100
+3062/3061 [==============================] - 2594s 847ms/step - loss: 7.6902 - acc: 0.5229 - val_loss: 7.9842 - val_acc: 0.5046
+Epoch 9/100
+3062/3061 [==============================] - 2566s 838ms/step - loss: 7.6898 - acc: 0.5229 - val_loss: 7.9907 - val_acc: 0.5042
+Epoch 10/100
+3062/3061 [==============================] - 2576s 841ms/step - loss: 7.6908 - acc: 0.5228 - val_loss: 7.9959 - val_acc: 0.5039
+
+Epoch 00010: val_loss improved from 7.99942 to 7.99595, saving model to callbacks/conv2net/weights.10-8.00.hdf5
+Epoch 11/100
+3062/3061 [==============================] - 2610s 852ms/step - loss: 7.6906 - acc: 0.5229 - val_loss: 7.9838 - val_acc: 0.5047
+Epoch 12/100
+3062/3061 [==============================] - 2592s 846ms/step - loss: 7.6902 - acc: 0.5229 - val_loss: 8.0103 - val_acc: 0.5030
+Epoch 13/100
+3062/3061 [==============================] - 2609s 852ms/step - loss: 7.6908 - acc: 0.5228 - val_loss: 7.9868 - val_acc: 0.5045
+Epoch 14/100
+3062/3061 [==============================] - 2599s 849ms/step - loss: 7.6906 - acc: 0.5229 - val_loss: 7.9925 - val_acc: 0.5041
+Epoch 15/100
+3062/3061 [==============================] - 2601s 849ms/step - loss: 7.6906 - acc: 0.5229 - val_loss: 8.0155 - val_acc: 0.5027
+
+Epoch 00015: val_loss did not improve
+Epoch 16/100
+3062/3061 [==============================] - 2587s 845ms/step - loss: 7.6906 - acc: 0.5229 - val_loss: 7.9834 - val_acc: 0.5047
+Epoch 17/100
+3062/3061 [==============================] - 2586s 844ms/step - loss: 7.6906 - acc: 0.5229 - val_loss: 7.9899 - val_acc: 0.5043
+Epoch 18/100
+3062/3061 [==============================] - 2592s 846ms/step - loss: 7.6910 - acc: 0.5228 - val_loss: 7.9977 - val_acc: 0.5038
+Epoch 19/100
+3062/3061 [==============================] - 2575s 841ms/step - loss: 7.6902 - acc: 0.5229 - val_loss: 7.9608 - val_acc: 0.5061
+Epoch 20/100
+3062/3061 [==============================] - 2585s 844ms/step - loss: 7.6910 - acc: 0.5228 - val_loss: 8.0207 - val_acc: 0.5024
+
+Epoch 00020: val_loss did not improve
+Epoch 21/100
+3062/3061 [==============================] - 2585s 844ms/step - loss: 7.6912 - acc: 0.5228 - val_loss: 7.9639 - val_acc: 0.5059
+Epoch 22/100
+3062/3061 [==============================] - 2647s 864ms/step - loss: 7.6906 - acc: 0.5229 - val_loss: 8.0172 - val_acc: 0.5026
+Epoch 23/100
+3062/3061 [==============================] - 2762s 902ms/step - loss: 7.6904 - acc: 0.5229 - val_loss: 7.9760 - val_acc: 0.5052
+Epoch 24/100
+3062/3061 [==============================] - 3970s 1s/step - loss: 7.6898 - acc: 0.5229 - val_loss: 8.0280 - val_acc: 0.5019
+Epoch 25/100
+3062/3061 [==============================] - 4533s 1s/step - loss: 7.6904 - acc: 0.5229 - val_loss: 7.9855 - val_acc: 0.5046
+
+Epoch 00025: val_loss improved from 7.99595 to 7.98554, saving model to callbacks/conv2net/weights.25-7.99.hdf5
+Epoch 26/100
+  53/3061 [..............................] - ETA: 42:34 - loss: 7.6551 - acc: 0.5251^C^C^CTraceback (most recent call last):
+
