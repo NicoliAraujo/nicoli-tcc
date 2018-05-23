@@ -1,0 +1,154 @@
+%!TEX root = ../sbc-template.tex
+
+%conceito, inspiração biológica
+As \emph{Redes Neurais Artificiais} (RNAs) são um modelo de computação caracterizado por sistemas que, em algum nível, lembram a estrutura do cérebro humano. São sistemas paralelos e distribuídos, compostos por unidades de processamento simples, os \emph{neurônios artificiais}, que calculam funções matemáticas, normalmente não-lineares. Estes neurônios são dispostos em uma ou mais camadas e interligados por um grande número de conexões normalmente unidirecionais e comumente associadas a pesos, que armazenam o conhecimento representado no modelo e ponderam a entrada recebida por cada neurônio da rede. Os principais atrativos das RNAs envolvem a capacidade de capturar tendências a partir de um conjunto de exemplos e dar respostas coerentes para dados não-conhecidos, ou seja, de generalizar a informação aprendida \cite{Teresa:Livro}.
+
+A motivação para a criação deste modelo vem do funcionamento do cérebro biológico, que é formado por neurônios interligados e que se comunicam entre si de modo contínuo e paralelo através de impulsos nervosos. Esta complexa rede neural biológica é capaz de reconhecer padrões e relacioná-los, produzir emoções, pensamentos, percepcção e cognição. Cada neurônio biológico é composto de um corpo, dendritos e um axônio, como ilustrado na Figura \ref{fig:neuronio_biologico}. Os dendritos são responspaveis pela recepção de impulsos nervosos vindos de outros neurônios; o corpo combina os sinais recebidos pelos dendritos e caso o resultado ultrapasse determinado limiar de excitação do neurônio, são gerados novos impulsos nervosos, que são transmitidos pelo axônio até os dendritos dos neurônios seguintes. Esta conexão unilateral entre neurônios biológicos, denominada sinapse, encontra-se ilustrada na Figura \ref{fig:redeneuralbiologica}.
+
+\begin{figure}
+	\caption{Redes neurais biológicas. Fonte: FALTANDO!}
+	\begin{subfigure}[h]{0.5\linewidth}
+		\caption{Neurônio biológico e seus componentes.}
+		\label{fig:neuronio_biologico}
+		\includegraphics[width=0.7\linewidth]{img/neuronio}
+	\end{subfigure}
+	\begin{subfigure}[h]{0.5\linewidth}
+		\caption{Sinapse entre neurônios.}
+		\label{fig:redeneuralbiologica}
+		\includegraphics[width=\linewidth]{./img/redeneuralbiologica.jpg}
+	\end{subfigure}%
+\end{figure}
+
+
+Com base no modelo biológico, McCulloch e Pitts propuseram em  um neurônio artificial \cite{mcculloch1943logical}. Como mostrado na Figura \ref{fig:neuronio}, o modelo de McCulloch e Pitts de neurônio artificial contém $n$ terminais de entrada, denotados por $x = x_1, \ldots, x_n$, e um terminal de saída $y$. Esta organização faz uma alusão aos dendritos, centro e axônio de um neurônio biológico. A saída é mapeada por uma função de ativação $y = g(u)$, expressa na Equação \ref{eq:funcao_neuronio}, em que a soma ponderada $u$ do vetor de entrada $x$ pelo conjunto de pesos $w = w_1, \ldots, w_n$ deve ser maior ou igual a um limiar de ativação $\theta$. \todo{Precisa organizar, tem duas equações diferentes, mas só referencia uma delas.}
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.7\textwidth]{img/perceptron.png}
+	\caption{Representação de um neurônio}
+	\label{fig:neuronio}
+\end{figure}
+
+\begin{gather}\label{eq:funcao_neuronio}
+	u = \sum_{i=1}^n x_i w_i\\
+	y = g(z) =
+		\begin{cases}
+			0, & \text{se } z < \theta\\
+			1, & \text{se } z \geq \theta
+		\end{cases}
+\end{gather}
+
+
+\todo{Trazer função de ativação pra cá}
+
+Em 1958, Frank Rosenblatt desenvolveu o neurônio \emph{Perceptron} \cite{rosenblatt1958perceptron}, que mais tarde seria empregado como a unidade de processamento das RNA e de outros modelos de ML, a exemplo das \emph{support vector machines}. O Perceptron de Rosenblatt agregou ao neurônio de McCulloch e Pitts conceitos cruciais para a caracterização das RNAs como são conhecidas hoje, como a não obrigatoriedade de igualdade dos pesos e limiares de ativação, a possibilidade de os pesos serem positivos ou negativos, a diversidade de funções de ativação, entre outros. Além desta caracterização, uma contribuição relevante deste trabalho contempla a proposição de um algoritmo de aprendizado que permite a adaptação dos pesos de uma RNA através da otimização do desempenho da rede. Isto atribuiu ao modelo Perceptron a capacidade de aprender tarefas que contenham dados linearmente separáveis \cite{braga2000redes}.
+
+Este modelo inicial apresentava algumas limitações, atribuídas principalmente à sua linearidade e simplicidade, características que possibilitam resolver apenas problemas linearmente separáveis \cite{braga2000redes}. A disposição de neurônios em camadas e a utilização de funções de ativação nas saídas dos neurônios caracterizou as RNAs, capazes de serem aproximadas universiais de qualquer função contínua graças à otimização por minimização da dissimilaridade entre o valor previsto pela rede $y_t$ e o valor real $y$. Atualmente, as RNAs podem apresentar diversos tipos de arquitetura, ao variar-se parâmetros como o número de camadas, quantidade de neurônios em cada camada, os tipos de conexões entre neurônios e topologia de rede. Alguns exemplos de arquiteturas podem ser encontrados na Figura \ref{fig:popular_archs}.
+
+\begin{figure}[!h]
+	\caption{Arquiteturas populares de RNAs. Fonte: ???}
+	\label{fig:popular_archs}
+	\includegraphics[width=\linewidth]{img/popular_archs}
+\end{figure}
+
+% Desnecessário
+%No que tange à conectividade, uma RNA pode ser classificada como parcialmente ou totalmente conectada. O primeiro caso ocorre quando apenas alguns dos neurônios da camada anterior estão conectados aos da camada posterior. A RNA é dita totalmente conectada se todos os neurônios da camada anterior estão conectados aos da camada posterior.
+
+Quanto aos tipos de conexão possíveis entre os neurônios, tem-se que as RNAs podem ser do tipo \emph{feedforward} ou recorrente. As RNAs \emph{feedforward}, exemplificada na Figura \ref{fig:feedforward}, são comumente associadas à um grafo acíclico em que as saídas de uma camada servem de entrada à camada seguinte, e assim sucessivamente, até que seja produzida uma saída. As RNAs recorrentes, como exemplificado na Figura \ref{fig:recorrente}, contém conexões entre neurônios de modo a formar um grafo direcionado cíclico, o que permite que o modelo capture sequências de comportamentos organizados em séries temporais.
+
+\begin{figure}
+	\caption{Exemplos de RNA com diferentes tipos de conexões entre neurônios.}
+	\label{fig:rna_conectividade}
+	\begin{subfigure}[h]{0.3\linewidth}
+		\caption{Exemplo de RNA \emph{feedforward}.}
+		\label{fig:feedforward}
+		\includegraphics[width=\linewidth]{img/feedforward}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[h]{0.4\linewidth}
+		\caption{Exemplo de RNA recorrente.}
+		\label{fig:recorrente}
+		\includegraphics[width=\linewidth]{img/recorrente}
+	\end{subfigure}%
+\end{figure}
+
+Um dos parâmetros relacionados à arquitetura de uma RNA é a quantidade de camadas ocultas. Pode-se ter redes de camada única, compostas por um neurônio que conecta todos os parâmetros de entrada às saídas do modelo, a exemplo das redes Perceptron. Há também as redes de múltiplas camadas, que consistem de mais de um neurônio entre entrada e saída da rede, como retratado na Figura \ref{fig:mlp}. Redes com múltiplas camadas, as chamadas Redes Neurais \emph{Feedforward Multilayer Perceptron} (MLP), são capazes de aproximar diversas funções \cite{hornik1991approximation,braga2000redes}.
+
+Segundo o Teorema da Aproximação Universal \cite{hornik1991approximation}, se a ativação de uma rede neural MLP for uma função limitada e não-constante, então dada uma entrada $x$, a rede é capaz de aproximar qualquer função contínua, provida uma quantidade adequada de camadas ocultas. Esta característica atribui às redes neurais artificias o potencial de se tornarem máquinas de aprendizado universal. \todo{Citação.}
+
+\begin{figure}[ht]
+	\centering
+	\caption{Rede Neural MLP com duas camadas ocultas.}
+	\label{fig:mlp}
+	\includegraphics[width=0.7\textwidth]{img/mlprna.jpg}
+\end{figure}
+
+O objetivo das RNAs é aproximar funções que mapeiam dadas entradas $X$ às suas respectivas saídas $Y$. Para atingir este objetivo, o modelo MLP precisa passar por uma etapa de treinamento, a qual consiste em duas fases: a fase \emph{forward}, na qual há a inferência da saída da rede perante determinada entrada; e a fase \emph{backwards}, em que há o processo de ajuste dos pesos dos neurônios para minimizar o erro, ou perda, da saída prevista pela rede e o valor alvo. A fase \emph{backwards} do treinamento de RNAs MLP é realizado pelo algoritmo de \emph{backpropagation}. \todo{Sugiro citar o Haykin}
+
+\todo{Aprofundar backpropagation}
+
+
+\iffalse
+
+A derivada $f^\prime$ de uma certa função $y = f(x)$ é dada conforme Equação \ref{eq:derivada}, a qual fornece a inclinação de $f(x)$ no ponto $x$. Neste contexto, $f$ é a função que a rede neural está aprendendo a mapear.
+
+Aplicada à uma função de custo, esta operação especifica como escalar uma pequena mudança nos pesos $w$ aplicados à entrada $x$ para obter uma mudança correspondente na saída $y$. A técnica de realizar pequenos incrementos na entrada $w$ no valor oposto ao da derivada é chamada de \emph{gradiente descendente}. \todo{Citação!!}
+
+\begin{equation}\label{eq:derivada}
+	f(x+\epsilon) \approx f(x) + \epsilon f^\prime(x)
+\end{equation}
+
+Ao considerar a Equação \ref{eq:derivada}, percebe-se que que se $f^\prime(x) =0$, a derivada não provê informações sobre a direção correta para onde a função deve se mover. Estes pontos, conhecidos como pontos críticos, podem ser máximos locais, mínimos locais ou pontos de sela, como mostra a Figura \ref{fig:pontos_criticos}.
+
+\begin{figure}
+	\caption{Exemplos de cada um dos três tipos de pontos críticos em funções no $\mathbbm{R}^2$.}
+	\label{fig:pontos_criticos}
+	\begin{subfigure}[h]{0.3\linewidth}
+		\caption{Ponto máximo.}
+		\label{fig:maximo}
+		\includegraphics[width=\linewidth]{img/maximum}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[h]{0.3\linewidth}
+		\caption{Ponto mínimo.}
+		\label{fig:minimo}
+		\includegraphics[width=\linewidth]{img/minimum}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[h]{0.3\linewidth}
+		\caption{Ponto de sela.}
+		\label{fig:sela}
+		\includegraphics[width=\linewidth]{img/saddle}
+	\end{subfigure}%
+\end{figure}
+
+No contexto da otimização do desempenho resultante do ajuste de pesos de determinada RNA, a disparidade entre as saídas previstas $y_t$ e as saídas reais $y$ presentes no conjunto de dados deve ser minimizada. A função $y=f(x)$, que exprime a variância entre estes valores para um modelo de ML, é comumente chamada de \emph{função de custo}, e definida a partir da estimativa por máxima verossimilhança. Esta estimativa consiste de um método estatístico aplicado com o objetivo de minimizar a dissimilaridade entre a distribuição empírica $\hat{p}_{data}$ definida pelo conjunto de treinamento e a distribuição do modelo.
+
+A função custo utilizada por uma RNA é decomposta como uma soma de funções de perda aplicadas aos exemplos de treinamento. Uma das funções custo que podem ser utilizadas, descrita na Equação \ref{eq:custo}, consiste na probabilidade logarítmica condicional negativa dos dados de treinamento, onde $L$ é a perda calculada para cada exemplo, dada na Equação \ref{eq:perda}.
+
+\begin{equation}\label{eq:perda}
+	L(x, y, \theta) = - \log p (y|x;\theta).
+\end{equation}
+
+Para funções custo desta forma, o gradiente descendente é computado de acordo com a Equação
+\ref{eq:gradiente}.
+
+\begin{equation}\label{eq:custo}
+J(\theta) = E_{x,y \sim \hat{p}_{data}} L(x, y, \theta) = \frac{1}{m} \sum_{i=1}^{m} L(x^{(i)}, y^{(i)}, \theta).
+\end{equation}
+
+O custo operacional de computar este gradiente é $O(m)$, sendo $m$ o número de exemplos no conjunto de treinamento. Assim, o custo computacional cresce de maneira proporcional e linear à quantidade de exemplos presente no conjunto de treinamento.
+
+\begin{equation}\label{eq:gradiente}
+	\nabla_{\theta} J(\theta) = \frac{1}{m} \sum_{i=1}^{m} \nabla_{\theta} L(x^{(i)}, y^{(i)}, \theta)
+\end{equation}
+
+\fi
+
+A escolha da função de ativação $g(\cdot)$ das camadas ocultas e da camada de saída deve considerar funções contínuas e deriváveis \cite{hornik1991approximation}, em que comumente são otpadas pelas funções apresentadas na Tabela  \ref{tab:ativacoes}.
+
+
+\input{./files/tab_ativacao}
+
+As RNAs \emph{feedforward} MLP são amplamente utilizadas em aplicações de diversos domínios. Inicialmente, destacaram-se as aplicações voltadas para o mercado financeiro visando, por exemplo, otimizar estratégias de marketing \cite{widrow1994neural}. Aplicações posteriores consideraram a alocação de assentos em aviões, aprovação de empréstimo, controle de qualidade em processos industriais, dentre outros. \todo{citação aqui} Quanto à detecção de padrões, destaca-se o uso de redes neurais convolucionais no reconhecimento de caracteres e dígitos escritos à mão, à exemplo de \cite{lenet}. Na medicina, algumas aplicações de RNA convolucionais, compreendidas na sub-área \emph{Deep Learning} (DL), podem compreender o aprimoramento e na segmentação de imagens cardíacas \cite{oktay2018anatomically}, aa classificação holistica de padrões de atenuação em tomografias computadorizadas para doenças do tecido intersticial do pulmão \cite{mingchen2018holistic}, e a leitura de mamografias computarizadas \cite{dubrovina2018mammography}. Atualmente, o modelo de RNA \emph{feedforward multilayer perceptron} tem grande destaque dentre as técnicas de ML. Estes modelos são parte da sub-área \emph{Deep Learning}, que será tratada na Seção \ref{sec:dl}.

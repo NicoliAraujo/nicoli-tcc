@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2018/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: sbc-template.aux
 The style file: abntex2-alf.bst
@@ -14,7 +14,8 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: sbc-template.bib
 Warning--entry type for "Guardian:CameraSmartv" isn't style-file defined
---line 1097 of file sbc-template.bib
+--line 1105 of file sbc-template.bib
+Warning--I didn't find a database entry for "braga2000redes"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -27,37 +28,37 @@ Warning--campo year vazio ou faltando em canaltech:streaming
 +---------------------------------------------------------+
 You've used 59 entries,
             6714 wiz_defined-function locations,
-            1521 strings with 19937 characters,
-and the built_in function-call counts, 53605 in all, are:
-= -- 4562
-> -- 1759
-< -- 357
+            1523 strings with 19956 characters,
+and the built_in function-call counts, 53639 in all, are:
+= -- 4566
+> -- 1760
+< -- 358
 + -- 964
 - -- 532
-* -- 3770
-:= -- 6987
-add.period$ -- 237
+* -- 3773
+:= -- 6989
+add.period$ -- 238
 call.type$ -- 59
-change.case$ -- 627
-chr.to.int$ -- 119
+change.case$ -- 628
+chr.to.int$ -- 122
 cite$ -- 59
-duplicate$ -- 3152
+duplicate$ -- 3155
 empty$ -- 3759
 format.name$ -- 2533
-if$ -- 12433
+if$ -- 12442
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1071
+missing$ -- 1072
 newline$ -- 279
 num.names$ -- 290
-pop$ -- 1406
+pop$ -- 1407
 preamble$ -- 1
 purify$ -- 232
 quote$ -- 0
-skip$ -- 3363
+skip$ -- 3362
 stack$ -- 1
-substring$ -- 2166
-swap$ -- 1438
+substring$ -- 2167
+swap$ -- 1441
 text.length$ -- 70
 text.prefix$ -- 0
 top$ -- 0
@@ -65,5 +66,5 @@ type$ -- 5
 warning$ -- 1
 while$ -- 431
 width$ -- 0
-write$ -- 942
-(There were 2 warnings)
+write$ -- 943
+(There were 3 warnings)
