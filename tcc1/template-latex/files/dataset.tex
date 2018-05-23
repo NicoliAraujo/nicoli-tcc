@@ -1,0 +1,5 @@
+O conjunto de dados considerado é o \todo[inline]{colocar infos do imdb wiki dataset}
+Utilizou-se somente a base de dados do IMDB, que conta com 452132 exemplares, tendo em vista a quantidade de imagens do conjunto WIKI que não poderiam ser abertas
+Extraiu-se a idade das celebridades a partir da data de nascimento e do ano em que a foto foi tirada. A data de nascimento estava no formato \emph{datenum}, que representa o intervalo em dias entre $0$ de Janeiro de $0000$ e o momento presente na coleta da data, ou seja, o nascimento da celebridade. Fez-se necessária a conversão desta medida para a data comum, de onde foi extraído o ano de nascimento. A seguir, calculou-se a idade a partir da diferença entre o ano de nascimento e o da foto.
+
+Para a predição de idade, as informações de gênero, localização do rosto e dia de nascimento no formato \emph{datenum} foram descartadas, assim como os exemplos que continham idade nula. A seguir, foram descartadas as imagens que continham mais de uma face detectada. O conjunto de dados resultante continha um total de 181634 exemplos de 14624 celebridades diferentes.
