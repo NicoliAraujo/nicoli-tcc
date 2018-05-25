@@ -28,43 +28,43 @@ Warning--campo year vazio ou faltando em canaltech:streaming
 +---------------------------------------------------------+
 You've used 59 entries,
             6714 wiz_defined-function locations,
-            1523 strings with 19956 characters,
-and the built_in function-call counts, 53639 in all, are:
-= -- 4566
-> -- 1760
-< -- 358
-+ -- 964
-- -- 532
-* -- 3773
-:= -- 6989
+            1524 strings with 19953 characters,
+and the built_in function-call counts, 53307 in all, are:
+= -- 4535
+> -- 1742
+< -- 354
++ -- 957
+- -- 527
+* -- 3736
+:= -- 6959
 add.period$ -- 238
 call.type$ -- 59
-change.case$ -- 628
-chr.to.int$ -- 122
+change.case$ -- 623
+chr.to.int$ -- 119
 cite$ -- 59
-duplicate$ -- 3155
-empty$ -- 3759
-format.name$ -- 2533
-if$ -- 12442
+duplicate$ -- 3143
+empty$ -- 3756
+format.name$ -- 2509
+if$ -- 12367
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1072
-newline$ -- 279
+missing$ -- 1073
+newline$ -- 278
 num.names$ -- 290
-pop$ -- 1407
+pop$ -- 1411
 preamble$ -- 1
-purify$ -- 232
+purify$ -- 231
 quote$ -- 0
-skip$ -- 3362
+skip$ -- 3348
 stack$ -- 1
-substring$ -- 2167
-swap$ -- 1441
-text.length$ -- 70
+substring$ -- 2126
+swap$ -- 1425
+text.length$ -- 67
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 5
 warning$ -- 1
-while$ -- 431
+while$ -- 428
 width$ -- 0
-write$ -- 943
+write$ -- 939
 (There were 3 warnings)

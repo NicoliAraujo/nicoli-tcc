@@ -41,6 +41,11 @@ Acessado em 23 de Abril de 2018.}
   \url{http://www.correiobraziliense.com.br/app/noticia/economia/2018/01/23/internas_economia,654966/copa-e-novas-tecnologias-prometem-aumentar-venda-de-tvs-no-brasil.shtml}.
 Acessado em 21 de Março de 2018.}
 
+\bibitem[Buduma 2017]{Buduma:Livro}
+\abntrefinfo{Buduma}{BUDUMA}{2017}
+{BUDUMA, N. \emph{Fundamentals of Deep Learning}. Estados Unidos: Editora
+  O'Relly, 2017.}
+
 \bibitem[Capelas 2017]{estadao:explosaovideosonline}
 \abntrefinfo{Capelas}{CAPELAS}{2017}
 {CAPELAS, B. \emph{Explosão no consumo de vídeos online coloca em xeque o
@@ -136,11 +141,6 @@ Acessado em 22 de Março de 2018.}
 {HINTON, G.~E.; OSINDERO, S.; TEH, Y.-W. A fast learning algorithm for deep
   belief nets.
 \emph{Neural computation}, MIT Press, v.~18, n.~7, p. 1527--1554, 2006.}
-
-\bibitem[Hochreiter e Schmidhuber 1997]{hochreiter1997long}
-\abntrefinfo{Hochreiter e Schmidhuber}{HOCHREITER; SCHMIDHUBER}{1997}
-{HOCHREITER, S.; SCHMIDHUBER, J. Long short-term memory.
-\emph{Neural computation}, MIT Press, v.~9, n.~8, p. 1735--1780, 1997.}
 
 \bibitem[Hornik 1991]{hornik1991approximation}
 \abntrefinfo{Hornik}{HORNIK}{1991}
