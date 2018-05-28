@@ -20,8 +20,8 @@ A motivação para a criação deste modelo vem do funcionamento do cérebro bio
 \end{figure}
 
 
-Com base no modelo biológico, McCulloch e Pitts propuseram em  um neurônio artificial \cite{mcculloch1943logical}. Como mostrado na Figura \ref{fig:neuronio}, o modelo de McCulloch e Pitts de neurônio artificial contém $n$ terminais de entrada, denotados por $x = x_1, \ldots, x_n$, e um terminal de saída $y$. Esta organização faz uma alusão aos dendritos, centro e axônio de um neurônio biológico. A saída é mapeada por uma função de ativação $y = g(u)$, expressa na Equação \ref{eq:funcao_neuronio}, em que a soma ponderada $u$ do vetor de entrada $x$ pelo conjunto de pesos $w = w_1, \ldots, w_n$ deve ser maior ou igual a um limiar de ativação $\theta$. \todo{Precisa organizar, tem duas equações diferentes, mas só referencia uma delas.}
-
+Com base no modelo biológico, McCulloch e Pitts propuseram em  um neurônio artificial \cite{mcculloch1943logical}. Como mostrado na Figura \ref{fig:neuronio}, o modelo de McCulloch e Pitts de neurônio artificial contém $n$ terminais de entrada, denotados por $x = x_1, \ldots, x_n$, e um terminal de saída $y$. Esta organização faz uma alusão aos dendritos, centro e axônio de um neurônio biológico. A saída é mapeada por uma função $y = \sigma(z)$, expressa na Equação \ref{eq:funcao_neuronio}, em que a soma ponderada $z$ do vetor de entrada $x$ pelo conjunto de pesos $w = w_1, \ldots, w_n$
+deve ser submetida a uma função de ativação $\sigma$, que determina se aquele neurônio é ativado ou não, no sentido de ter \todo{definir ativação de um neurônio e colcoar a citação aqui}. No caso de um neurônio mais simples como o de McCulloch e Pitts, a função de ativação consiste de verificar se a soma ponderada $z$ é maior ou igual a um limiar de ativação $\theta$, conforme a Equação \ref{eq:ativacao_limiar} \cite{mcculloch1943logical}. Atualmente, a escolha da função de ativação $g(\cdot)$ das camadas ocultas e da camada de saída deve considerar funções contínuas e deriváveis \cite{hornik1991approximation}, em que comumente são optadas pelas funções apresentadas na Tabela  \ref{tab:ativacoes}.
 
 \begin{figure}[ht]
 	\centering
@@ -31,26 +31,23 @@ Com base no modelo biológico, McCulloch e Pitts propuseram em  um neurônio art
 \end{figure}
 
 \begin{gather}\label{eq:funcao_neuronio}
-	z = \sum_{i=1}^n x_i w_i\\
-	y = g(z) =
+	z = \sum_{i=1}^n x_i w_i + b_i\\
+	y = \sigma(z)
+\end{gather}
+
+\begin{equation}\label{eq:ativacao_limiar}
+	y = \sigma(z) =
 		\begin{cases}
 			0, & \text{se } z < \theta\\
 			1, & \text{se } z \geq \theta
 		\end{cases}
-\end{gather}
+\end{equation}
 
-A escolha da função de ativação $g(\cdot)$ das camadas ocultas e da camada de saída deve considerar funções contínuas e deriváveis \cite{hornik1991approximation}, em que comumente são otpadas pelas funções apresentadas na Tabela  \ref{tab:ativacoes}.
-
-
-#\input{./files/tab_ativacao}
-
-
-
-As RNAs \emph{feedforward} MLP são amplamente utilizadas em aplicações de diversos domínios. Inicialmente, destacaram-se as aplicações voltadas para o mercado financeiro visando, por exemplo, otimizar estratégias de marketing. Aplicações posteriores consideraram a alocação de assentos em aviões, aprovação de empréstimo, controle de qualidade em processos industriais, dentre outros \cite{widrow1994neural}.
+\input{./files/tab_ativacao}
 
 Em 1958, Frank Rosenblatt desenvolveu o neurônio \emph{Perceptron} \cite{rosenblatt1958perceptron}, que mais tarde seria empregado como a unidade de processamento das RNA e de outros modelos de ML, a exemplo das \emph{support vector machines}. O Perceptron de Rosenblatt agregou ao neurônio de McCulloch e Pitts conceitos cruciais para a caracterização das RNAs como são conhecidas hoje, como a não obrigatoriedade de igualdade dos pesos e limiares de ativação, a possibilidade de os pesos serem positivos ou negativos, a diversidade de funções de ativação, entre outros. Além desta caracterização, uma contribuição relevante deste trabalho contempla a proposição de um algoritmo de aprendizado que permite a adaptação dos pesos de uma RNA através da otimização do desempenho da rede. Isto atribuiu ao modelo Perceptron a capacidade de aprender tarefas que contenham dados linearmente separáveis \cite{Teresa:Livro}.
 
-Este modelo inicial apresentava algumas limitações, atribuídas principalmente à sua linearidade e simplicidade, características que possibilitam resolver apenas problemas linearmente separáveis \cite{Teresa:Livro}. A disposição de neurônios em camadas e a utilização de funções de ativação nas saídas dos neurônios caracterizou as RNAs, capazes de serem aproximadas universiais de qualquer função contínua graças à otimização por minimização da dissimilaridade entre o valor previsto pela rede $y_t$ e o valor real $y$. Atualmente, as RNAs podem apresentar diversos tipos de arquitetura, ao variar-se parâmetros como o número de camadas, quantidade de neurônios em cada camada, os tipos de conexões entre neurônios e topologia de rede. Alguns exemplos de arquiteturas podem ser encontrados na Figura \ref{fig:popular_archs}.
+Este modelo inicial apresentava algumas limitações, atribuídas principalmente à sua linearidade e simplicidade, características que possibilitam resolver apenas problemas linearmente separáveis \cite{Teresa:Livro}. A disposição de neurônios em camadas e a utilização de funções de ativação nas saídas dos neurônios caracterizou as RNAs, capazes de serem aproximadas universiais de qualquer função contínua graças à otimização por minimização da dissimilaridade entre o valor previsto pela rede $\hat{y}$ e o valor real $y$. Atualmente, as RNAs podem apresentar diversos tipos de arquitetura, ao variar-se parâmetros como o número de camadas, quantidade de neurônios em cada camada, os tipos de conexões entre neurônios e topologia de rede. Alguns exemplos de arquiteturas podem ser encontrados na Figura \ref{fig:popular_archs}.
 
 \begin{figure}[!h]
 	\caption{Arquiteturas populares de RNAs. Fonte: ???}
@@ -90,56 +87,56 @@ Segundo o Teorema da Aproximação Universal definido por Hornik em 1991, se a a
 	\includegraphics[width=0.7\textwidth]{img/mlprna.jpg}
 \end{figure}
 
-O objetivo das RNAs é aproximar funções que mapeiam dadas entradas $X$ às suas respectivas saídas $Y$. Para atingir este objetivo, o modelo MLP precisa passar por uma etapa de treinamento, a qual consiste em duas fases: a fase \emph{forward}, na qual há a inferência da saída da rede perante determinada entrada; e a fase \emph{backwards}, em que há o processo de ajuste dos pesos dos neurônios para minimizar o erro, ou perda, da saída prevista pela rede e o valor alvo. A fase \emph{backwards} do treinamento de RNAs MLP é realizado pelo algoritmo de \emph{backpropagation}. \todo{Sugiro citar o Haykin}
-
-\todo{Aprofundar backpropagation}
-
-
-
-O algoritmo de backpropagation é utilizado para computar os gradientes de funções
-
-Quanto se utiliza uma rede neural feedforward para computar uma entrada X e produzir uma saída Y, a informação flui para frente através da rede, a entrada X provê as informações iniciais que são propagadas até as camadas ocultas, e de lá até a saída Y. Esta é a fase de forward propagation. Durante o treinamento, a fase forward produz um custo escalar $J(\theta)$, dado pela fórmula em FÓRMULA.
-
-Na fase forward, a equação EQUACAO é computada para cada neurônio k de cada camada l
-ALGORITMO PAGINA 227
-\begin{equation}
-	z^l^k = W^l a^{l-1} + b^l
-	y = g(z)
-\end{equation}
-
-O algoritmo de back propagation permite que a informação do custo então flua para trás, na direção contrária, para que seja computado o gradiente. backpropagation se refere apenas ao método de cálculo do gradiente, enquanto outro algoritmo, chamado gradiente descendente estocástico, é utilizado para realizar o aprendizado utilizando o gradiente.
-Backpropagation é um algoritmo que computa a regra da cadeia, com uma ordem específica de operações que é altamente eficiente. O algoritmo de backpropagation consiste de computar o produto gradiente jacobiano para cada operação na rede neural. O gradiente é é um vetor que indica o sentido e a direção na qual, por deslocamento a partir de um ponto especificado, obtem-se o maior incremento possível de uma grandeza a partir do qual se define um campo escalar para o espaço em consideração.
-e o jacobiano é a matriz de derivadas parciais de primeira ordem de uma função vetorial. Em uma rede neural, as entradas X, pesos W, bias b e saída Y são todos dados por vetores.
-
-ALGORITMO DE BACKPROPAGATION PÁGINA 228
-
-
-A derivada $f^\prime$ de uma certa função $y = f(x)$ é dada conforme Equação \ref{eq:derivada}, a qual fornece a inclinação de $f(x)$ no ponto $x$. Neste contexto, $f$ é a função que a rede neural está aprendendo a mapear.
-
-Aplicada à uma função de custo, esta operação especifica como escalar uma pequena mudança nos pesos $w$ aplicados à entrada $x$ para obter uma mudança correspondente na saída $y$. A técnica de realizar pequenos incrementos na entrada $w$ no valor oposto ao da derivada é chamada de \emph{gradiente descendente}. \todo{Citação!!}
-
-No contexto da otimização do desempenho resultante do ajuste de pesos de determinada RNA, a disparidade entre as saídas previstas $y_t$ e as saídas reais $y$ presentes no conjunto de dados deve ser minimizada. A função $y=f(x)$, que exprime a variância entre estes valores para um modelo de ML, é comumente chamada de \emph{função de custo}, e definida a partir da estimativa por máxima verossimilhança. Esta estimativa consiste de um método estatístico aplicado com o objetivo de minimizar a dissimilaridade entre a distribuição empírica $\hat{p}_{data}$ definida pelo conjunto de treinamento e a distribuição do modelo.
-
-A função custo utilizada por uma RNA é decomposta como uma soma de funções de perda aplicadas aos exemplos de treinamento. Uma das funções custo que podem ser utilizadas, descrita na Equação \ref{eq:custo}, consiste na probabilidade logarítmica condicional negativa dos dados de treinamento, onde $L$ é a perda calculada para cada exemplo, dada na Equação \ref{eq:perda}.
+O objetivo das RNAs é aproximar funções que mapeiam dadas entradas $X$ às suas respectivas saídas $Y$. Para atingir este objetivo, é necessário minimizar a disparidade entre as saídas previstas $\hat{Y}$ e as saídas desejadas $Y$. A função que calcula tal disparidade é chamada \emph{função custo}, dada por $J$ e tida como a soma funções de erros, $L(\hat{y}_i, y_i)$, entre cada saída esperada $y_i$ e obtida pela RNA $\hat{y}_i$, acumuladas conforme o modelo é apresentado a $m$ exemplos representativos do evento que se deseja aprender. A função custo está representada na Equação \ref{eq:custo}, e a função de erro, também conhecida como perda, é dada pela Equação \ref{eq:perda}. Neste contexto de otimização da previsão da RNA, deve-se minimizar a função custo para que haja a otimização do desempenho da RNA, tarefa realizada durante uma etapa de treinamento, que consiste em duas fases: a fase \emph{forward} e a fase \emph{backwards} \cite{haykin2009neural}.
 
 \begin{equation}\label{eq:perda}
-	L(x, y, \theta) = - \log p (y|x;\theta).
+	L(\hat{y_i}, y_i) = - \log p (y_i|\hat{y_i}).
 \end{equation}
 
-Para funções custo desta forma, o gradiente descendente é computado de acordo com a Equação
-\ref{eq:gradiente}.
-
 \begin{equation}\label{eq:custo}
-J(\theta) = E_{x,y \sim \hat{p}_{data}} L(x, y, \theta) = \frac{1}{m} \sum_{i=1}^{m} L(x^{(i)}, y^{(i)}, \theta).
+J = \frac{1}{m} \sum_{i=1}^{m} L(\hat{y}_{i}, y_{i})
+\end{equation}
+
+Na fase \emph{forward}, também chamada \emph{forward propagation}, há a inferência das saídas da rede perante um conjunto de N entradas. Neste processo, a informação flui para frente, em inglês \emph{forward}, através da rede conforme a entrada $x_i$ provê as informações iniciais que são propagadas até as camadas ocultas, e de lá até a saída $y_i$. Esta propagação ocorre conforme a Equação  Ao final da fase \emph{forward} ocorrida na etapa de treinamento, a função custo $J$ é calculada. A representação da sequência de passos realizados na fase \emph{forward} está no Algoritmo \ref{alg:forward} \cite{haykin2009neural, goodfellow2016deep}.
+
+Sendo l a camada atual e n layers o numero total de camadas
+
+\begin{algorithm}\label{alg:forward}
+\begin{algorithmic}
+	\State $h^0\gets X$
+	\For {$l\gets 1$ to nlayers:}
+		\State $z^l \gets W^l h^{l-1} + b^l$
+		\State $h^l \gets g^l(z^l)$
+	\EndFor\\
+	$y = h^l$\\
+	$J = L(y, y) + \lambda \Omega(\theta)$
+\end{algorithmic}
+\end{algorithm}
+
+A fase \emph{backwards} do treinamento de RNAs MLP é realizado pelo algoritmo de backpropagation se refere apenas ao método de cálculo do gradiente, enquanto outro algoritmo, chamado gradiente descendente estocástico, é utilizado para realizar o aprendizado utilizando o gradiente \emph{backpropagation}, que permite que a informação do custo então flua para trás, na direção contrária.Nesta fase há o processo de ajuste dos pesos dos neurônios para minimizar a função custo das saídas previstas pela rede e o valor alvo. O algoritmo de backpropagation é utilizado para computar os gradientes de funções. Para funções custo desta forma, o gradiente descendente é computado de acordo com a Equação \ref{eq:gradiente}. .
+Backpropagation é um algoritmo que computa a regra da cadeia, com uma ordem específica de operações que é altamente eficiente. O algoritmo de backpropagation consiste de computar o produto gradiente jacobiano para cada operação na rede neural. O gradiente é é um vetor que indica o sentido e a direção na qual, por deslocamento a partir de um ponto especificado, obtem-se o maior incremento possível de uma grandeza a partir do qual se define um campo escalar para o espaço em consideração. e o jacobiano é a matriz de derivadas parciais de primeira ordem de uma função vetorial \todo{citar origem dos conceitos de jacobiano e gradiente}. Em uma rede neural, as entradas X, pesos W, bias b e saída Y são todos dados por vetores.
+
+\begin{algorithm}
+	\begin{algorithmic}
+		\State $g \gets \nabla_y J = \nabla_y L(y,y)$
+		\For {l = nlayers to 1}
+			\State $g \gets \nabla_{z^l} J = g \times \sigma'(z^l) $
+			\State $\nabla_{b^l} J = g + \lambda \nabla \Omega(\theta)$
+			\State $\nabla_{W^l} J = g h^(l-1) + \lambda \nabla \Omega(\theta)$
+			\State $g \gets \nabla_{h^{l-1}} J = W^l g$
+		\EndFor
+	\end{algorithmic}
+\end{algorithm}
+
+\todo{Sugiro citar o Haykin}
+A derivada $f^\prime$ de uma certa função $y = f(x)$ é dada conforme Equação \ref{eq:derivada}, a qual fornece a inclinação de $f(x)$ no ponto $x$. Neste contexto, $f$ é a função que a rede neural está aprendendo a mapear. Aplicada à uma função de custo, esta operação especifica como escalar uma pequena mudança nos pesos $w$ aplicados à entrada $x$ para obter uma mudança correspondente na saída $y$. A técnica de realizar pequenos incrementos na entrada $w$ no valor oposto ao da derivada é chamada de \emph{gradiente descendente}. \todo{Citação!!}
+
+\begin{equation}\label{eq:gradiente}
+	\nabla_{\theta} J(\theta) = \frac{1}{m} \sum_{i=1}^{m} \nabla_{\theta} L(x^{(i)}, y^{(i)}, \theta)
 \end{equation}
 
 O custo operacional de computar este gradiente é $O(m)$, sendo $m$ o número de exemplos no conjunto de treinamento. Assim, o custo computacional cresce de maneira proporcional e linear à quantidade de exemplos presente no conjunto de treinamento.
 
 Em termos do número de nós na rede neural, o algoritmo de backpropagation tem custo O(n).
-\begin{equation}\label{eq:gradiente}
-	\nabla_{\theta} J(\theta) = \frac{1}{m} \sum_{i=1}^{m} \nabla_{\theta} L(x^{(i)}, y^{(i)}, \theta)
-\end{equation}
 
-\fi
-
-O escopo de aplicações das RNAs MLP continua a crescer nos dias atuais, especialmente diante do desenvolvimento de variantes, a exemplo das redes neurais convolucionais, com grande capacidade de detecção de padrões e pouco esforço de pré-processamento. Reconhecimento de caracteres e dígitos  \cite{lenet}, processamento de imagens médicas para reconhecimento de características associadas à doenças cardíacas \cite{oktay2018anatomically}, pulmonares \cite{mingchen2018holistic} e mamárias \cite{dubrovina2018mammography} são alguns exemplos de aplicações de vanguarda destes modelos, os quais são compreendidos dentro da sub-área de \emph{Deep Learning}, caracterizada na seção a seguir.
+As RNAs \emph{feedforward} MLP são amplamente utilizadas em aplicações de diversos domínios. Inicialmente, destacaram-se as aplicações voltadas para o mercado financeiro visando, por exemplo, otimizar estratégias de marketing. Aplicações posteriores consideraram a alocação de assentos em aviões, aprovação de empréstimo, controle de qualidade em processos industriais, dentre outros \cite{widrow1994neural}. O escopo de aplicações deste modelo continua a crescer nos dias atuais, especialmente diante do desenvolvimento de variantes, a exemplo das redes neurais convolucionais, com grande capacidade de detecção de padrões e pouco esforço de pré-processamento. Reconhecimento de caracteres e dígitos  \cite{lenet}, processamento de imagens médicas para reconhecimento de características associadas à doenças cardíacas \cite{oktay2018anatomically}, pulmonares \cite{mingchen2018holistic} e mamárias \cite{dubrovina2018mammography} são alguns exemplos de aplicações de vanguarda destes modelos, que são compreendidos dentro da sub-área de \emph{Deep Learning}, caracterizada na seção a seguir.

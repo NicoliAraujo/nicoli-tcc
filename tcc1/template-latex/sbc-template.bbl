@@ -130,6 +130,11 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1080/21681163.2015.1124249}.}
   \url{http://www.leiaja.com/tecnologia/2017/07/17/com-fim-do-sinal-analogico-busca-por-smart-tvs-cresce-11/}.
 Acessado em 22 de Março de 2018.}
 
+\bibitem[Haykin 2009]{haykin2009neural}
+\abntrefinfo{Haykin}{HAYKIN}{2009}
+{HAYKIN, S.~S. \emph{Neural networks and learning machines}. [S.l.]: Pearson
+  Upper Saddle River, NJ, USA:, 2009. v.~3.}
+
 \bibitem[He et al. 2016]{resnet}
 \abntrefinfo{He et al.}{HE et al.}{2016}
 {HE, K. et al. Deep residual learning for image recognition. In:
