@@ -1,4 +1,4 @@
-%!TEX root = ../sbc-template.tex
+%!TEX root = ../../sbc-template.tex
 
 \emph{Deep Learning} (DL), também conhecido como Aprendizagem Profunda, compreende um conjunto de técnicas de ML que podem ser aplicadas em problemas de aprendizado supervisionado e não-supervisionado. A principal característica dos modelos neste domínio é a capacidade de representar e reconhecer características sucessivamente complexas, por meio da adição de níveis ou camadas de operações não-lineares em sua arquiteturas, a exemplo das nas redes neurais profundas, máquinas de Boltzmann profundas e fórmulas proposicionais. Modelos deste tipo ganharam popularidade ao se mostraram capazes de resolver problemas complexos com um desempenho cada vez maior \cite{bengio2009learning}.
 
@@ -10,7 +10,7 @@ A melhoria do desempenho de modelos de DL é decorrente do aumento recente da qu
 Para exemplificar o efeito da adição de camadas aos modelos de DL, a Figura \ref{fig:compara_redes} mostra uma visão geral do aumento da profundidade das camadas nas redes neurais profundas e o desempenho destas em problemas de detecção de objetos em imagens. Nota-se que, à medida que a profundidade aumenta, há uma diminuição no erro. Mais recentemente, isto também têm implicado na redução do número de parâmetros treináveis.  Este panorama reforça a hipótese de que a profundidade das camadas impacta positivamente na captura de características e que estes avanços têm tornado as tarefas mais factíveis, com uma diminuição do esforço computacional associado  \todo{Citação aqui é essencial. Pode ser a mesma da origem da figura}.
 
 
-\begin{figure}[h!]
+\begin{figure}[ht]
 	\centering
 	\caption{Evolução de profunidade, taxa de erro e número de parâmetros das redes neurais profundas com o passar dos anos. Fonte: \cite{mediumcnn}.}
 	\label{fig:compara_redes}
@@ -33,7 +33,7 @@ Na conjectura atual, modelos de DL têm superado significativamente o estado da 
 
 O gráfico da Figura \ref{fig:compara_redes} sintetiza o histórico da competição ILSVRC, em que a partir do ano de 2012 houve a introdução de modelos baseados em DL. O histograma mostra a diminuição do erro na tarefa de aprendizado proposta e a linha laranja enfatiza o número de camadas ocultas utilizadas nos modelos vencedores.
 
-\begin{figure}[!h]
+\begin{figure}[ht]
 	\centering
 	\caption{Evolução do erro dos modelos vencedores da competição ILSVRC pela profundidade das redes neurais \cite{dl_ILSVRC}}
 	\label{fig:compara_redes_ilsvrc}

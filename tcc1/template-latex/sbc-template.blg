@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: sbc-template.aux
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -15,7 +15,6 @@ Database file #1: abntex2-options.bib
 Database file #2: sbc-template.bib
 Warning--entry type for "Guardian:CameraSmartv" isn't style-file defined
 --line 1105 of file sbc-template.bib
-Warning--I didn't find a database entry for "braga2000redes"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -26,45 +25,45 @@ Warning--campo year vazio ou faltando em canaltech:streaming
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 59 entries,
+You've used 60 entries,
             6714 wiz_defined-function locations,
-            1524 strings with 19953 characters,
-and the built_in function-call counts, 53307 in all, are:
-= -- 4535
-> -- 1742
+            1529 strings with 20124 characters,
+and the built_in function-call counts, 54184 in all, are:
+= -- 4599
+> -- 1783
 < -- 354
-+ -- 957
-- -- 527
-* -- 3736
-:= -- 6959
-add.period$ -- 238
-call.type$ -- 59
-change.case$ -- 623
-chr.to.int$ -- 119
-cite$ -- 59
-duplicate$ -- 3143
-empty$ -- 3756
-format.name$ -- 2509
-if$ -- 12367
++ -- 974
+- -- 539
+* -- 3802
+:= -- 7079
+add.period$ -- 241
+call.type$ -- 60
+change.case$ -- 636
+chr.to.int$ -- 120
+cite$ -- 60
+duplicate$ -- 3184
+empty$ -- 3819
+format.name$ -- 2570
+if$ -- 12578
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1073
-newline$ -- 278
-num.names$ -- 290
-pop$ -- 1411
+missing$ -- 1093
+newline$ -- 282
+num.names$ -- 295
+pop$ -- 1440
 preamble$ -- 1
-purify$ -- 231
+purify$ -- 236
 quote$ -- 0
-skip$ -- 3348
+skip$ -- 3393
 stack$ -- 1
-substring$ -- 2126
-swap$ -- 1425
+substring$ -- 2144
+swap$ -- 1441
 text.length$ -- 67
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 5
 warning$ -- 1
-while$ -- 428
+while$ -- 434
 width$ -- 0
-write$ -- 939
-(There were 3 warnings)
+write$ -- 953
+(There were 2 warnings)
