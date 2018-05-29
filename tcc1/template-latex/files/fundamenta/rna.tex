@@ -21,7 +21,7 @@ A motivação para a criação deste modelo vem do funcionamento do cérebro bio
 
 
 Com base no modelo biológico, McCulloch e Pitts propuseram em  um neurônio artificial \cite{mcculloch1943logical}. Como mostrado na Figura \ref{fig:neuronio}, o modelo de McCulloch e Pitts de neurônio artificial contém $n$ terminais de entrada, denotados por $x = x_1, \ldots, x_n$, e um terminal de saída $y$. Esta organização faz uma alusão aos dendritos, centro e axônio de um neurônio biológico. A saída é mapeada por uma função $y = \sigma(z)$, expressa na Equação \ref{eq:funcao_neuronio}, em que a soma ponderada $z$ do vetor de entrada $x$ pelo conjunto de pesos $w = w_1, \ldots, w_n$
-deve ser submetida a uma função de ativação $\sigma$, que determina se aquele neurônio é ativado ou não, no sentido de ter \todo{definir ativação de um neurônio e colcoar a citação aqui}. No caso de um neurônio mais simples como o de McCulloch e Pitts, a função de ativação consiste de verificar se a soma ponderada $z$ é maior ou igual a um limiar de ativação $\theta$, conforme a Equação \ref{eq:ativacao_limiar} \cite{mcculloch1943logical}. Atualmente, a escolha da função de ativação $g(\cdot)$ das camadas ocultas e da camada de saída deve considerar funções contínuas e deriváveis \cite{hornik1991approximation}, em que comumente são optadas pelas funções apresentadas na Tabela  \ref{tab:ativacoes}.
+deve ser submetida a uma função de ativação $\sigma$, que determina se aquele neurônio é ativado ou não, no sentido de ter \todo{definir ativação de um neurônio e colcoar a citação aqui}. No caso de um neurônio mais simples como o de McCulloch e Pitts, a função de ativação consiste de verificar se a soma ponderada $z$ é maior ou igual a um limiar de ativação $\theta$, conforme a Equação \ref{eq:ativacao_limiar} \cite{mcculloch1943logical}. Atualmente, a escolha da função de ativação $\sigma(\cdot)$ das camadas ocultas e da camada de saída deve considerar funções contínuas e deriváveis \cite{hornik1991approximation}, em que comumente são optadas pelas funções apresentadas na Tabela  \ref{tab:ativacoes}.
 
 \begin{figure}[ht]
 	\centering
@@ -76,7 +76,7 @@ Quanto aos tipos de conexão possíveis entre os neurônios, tem-se que as RNAs 
 	\end{subfigure}%
 \end{figure}
 
-Um dos parâmetros relacionados à arquitetura de uma RNA é a quantidade de camadas ocultas. Pode-se ter redes de camada única, compostas por um neurônio que conecta todos os parâmetros de entrada às saídas do modelo, a exemplo das redes Perceptron. Há também as redes de múltiplas camadas, que consistem de mais de um neurônio entre entrada e saída da rede, como retratado na Figura \ref{fig:mlp}. Redes com múltiplas camadas, as chamadas Redes Neurais \emph{Feedforward Multilayer Perceptron} (MLP), são capazes de aproximar diversas funções \cite{hornik1991approximation,Teresa:Livro}.
+Um dos parâmetros relacionados à arquitetura de uma RNA é a quantidade de camadas ocultas. Pode-se ter redes de camada única, compostas por um neurônio que conecta todos os parâmetros de entrada às saídas do modelo, a exemplo das redes Perceptron. Há também as redes de múltiplas camadas, que consistem de mais de um neurônio entre entrada e saída da rede, como retratado na Figura \ref{fig:mlp}. Redes com múltiplas camadas, as chamadas Redes Neurais \emph{Feedforward Multilayer Perceptron} (MLP), são capazes de aproximar diversas funções. Quando a Equação \ref{eq:funcao_neuronio} é aplicada a uma camada oculta $c$, \todo{transferir o conceito de mapa de características para cá}, o resultado $a^{c} = \sigma(z^c)$ é chamado de mapa de características ou \emph{feature map} \cite{hornik1991approximation,Teresa:Livro}.
 
 Segundo o Teorema da Aproximação Universal definido por Hornik em 1991, se a ativação de uma rede neural MLP for uma função limitada e não-constante, então dada uma entrada $x$, a rede é capaz de aproximar qualquer função contínua, provida uma quantidade adequada de camadas ocultas. Esta característica atribui às redes neurais artificias o potencial de se tornarem máquinas de aprendizado universal \cite{hornik1991approximation}.
 
@@ -87,55 +87,76 @@ Segundo o Teorema da Aproximação Universal definido por Hornik em 1991, se a a
 	\includegraphics[width=0.7\textwidth]{img/mlprna.jpg}
 \end{figure}
 
-O objetivo das RNAs é aproximar funções que mapeiam dadas entradas $X$ às suas respectivas saídas $Y$. Para atingir este objetivo, é necessário minimizar a disparidade entre as saídas previstas $\hat{Y}$ e as saídas desejadas $Y$. A função que calcula tal disparidade é chamada \emph{função custo}, dada por $J$ e tida como a soma funções de erros, $L(\hat{y}_i, y_i)$, entre cada saída esperada $y_i$ e obtida pela RNA $\hat{y}_i$, acumuladas conforme o modelo é apresentado a $m$ exemplos representativos do evento que se deseja aprender. A função custo está representada na Equação \ref{eq:custo}, e a função de erro, também conhecida como perda, é dada pela Equação \ref{eq:perda}. Neste contexto de otimização da previsão da RNA, deve-se minimizar a função custo para que haja a otimização do desempenho da RNA, tarefa realizada durante uma etapa de treinamento, que consiste em duas fases: a fase \emph{forward} e a fase \emph{backwards} \cite{haykin2009neural}.
-
-\begin{equation}\label{eq:perda}
-	L(\hat{y_i}, y_i) = - \log p (y_i|\hat{y_i}).
-\end{equation}
+O objetivo das RNAs é aproximar funções que mapeiam dadas entradas $X$ às suas respectivas saídas $Y$. Para atingir este objetivo, é necessário minimizar a disparidade entre as saídas previstas $\hat{Y}$ e as saídas desejadas $Y$  através da atualização dos pesos $W$ e do bias $b$ dos neurônios das camadas. A função que calcula tal disparidade é chamada \emph{função custo}, dada por $J$ e tida como a soma das funções de perda, $L(\hat{y}_i, y_i)$, entre cada saída esperada $y_i$ e obtida pela RNA $\hat{y}_i$, acumuladas conforme o modelo é apresentado a $m$ exemplos representativos do evento que se deseja aprender. A função custo está representada na Equação \ref{eq:custo}, e a perda ou erro pode ser calculada de diversas maneiras, a depender do tipo de função de ativação adotado e do algoritmo de otimização escolhido. Neste contexto de otimização da previsão da RNA, deve-se atualizar gradualmente os pesos e bias do modelo de maneira a encontrar uma função que melhor represente o comportamento do fenômeno apresentado através dos dados, de maneira a minimizar a função custo para que haja a otimização do desempenho da RNA. Este procedimento é realizado durante uma etapa de treinamento, que consiste em duas fases: a fase \emph{forward} e a fase \emph{backwards} \cite{haykin2009neural}.
 
 \begin{equation}\label{eq:custo}
 J = \frac{1}{m} \sum_{i=1}^{m} L(\hat{y}_{i}, y_{i})
 \end{equation}
 
-Na fase \emph{forward}, também chamada \emph{forward propagation}, há a inferência das saídas da rede perante um conjunto de N entradas. Neste processo, a informação flui para frente, em inglês \emph{forward}, através da rede conforme a entrada $x_i$ provê as informações iniciais que são propagadas até as camadas ocultas, e de lá até a saída $y_i$. Esta propagação ocorre conforme a Equação  Ao final da fase \emph{forward} ocorrida na etapa de treinamento, a função custo $J$ é calculada. A representação da sequência de passos realizados na fase \emph{forward} está no Algoritmo \ref{alg:forward} \cite{haykin2009neural, goodfellow2016deep}.
-
-Sendo l a camada atual e n layers o numero total de camadas
+Na fase \emph{forward}, também chamada \emph{forward propagation}, há a inferência das saídas da rede perante um conjunto de $m$ entradas. Neste processo, a informação flui para frente, em inglês \emph{forward}, através da rede conforme a entrada $x_i$ provê as informações iniciais que são propagadas até as camadas ocultas, e de lá até a saída $\hat{y}_i$. Ao final da fase \emph{forward} ocorrida na etapa de treinamento, a função custo $J$ é calculada. A representação da sequência de passos realizados na fase \emph{forward} está detalhada a seguir \ref{alg:forward} \cite{haykin2009neural, goodfellow2016deep}.
 
 \begin{algorithm}\label{alg:forward}
-\begin{algorithmic}
-	\State $h^0\gets X$
-	\For {$l\gets 1$ to nlayers:}
-		\State $z^l \gets W^l h^{l-1} + b^l$
-		\State $h^l \gets g^l(z^l)$
-	\EndFor\\
-	$y = h^l$\\
-	$J = L(y, y) + \lambda \Omega(\theta)$
-\end{algorithmic}
+	\caption{Fase \emph{forward}}
+	\Entrada{$i$-ésimo par de exemplos de entrada $x_i$ e saída $y_i$ do conjunto de treinamento}
+	\Saida{Perda $L(\hat{y}, y)$}
+	\Inicio{
+	A entrada $x_i$ é apresentada à primeira camada da rede, como o primeiro vetor de características $a^0$ \\
+	\Para {cada camada c=1,\ldots, C}{
+		Calcular a saída da camada $a^c = \sigma^c(z^c)$, $z^c = w^c \times a^{c-1}$\\
+	}
+	Tomar como valor de saída do modelo a saída da última camada $\hat{y} = h^C$\\
+	Calcular a perda $L(\hat{y}, y)$.
+	}
 \end{algorithm}
 
-A fase \emph{backwards}, ou \emph{back-propagation}, é responsável por permitir que a informação do custo calculado na fase \emph{forward} então flua para trás, camada a camada, a partir da saída, até atingir a camada de entrada, a fim de minimizar a função custo das saídas previstas pela rede e o valor alvo. Ao percorrer este caminho contrário, é calculado para cada neurônio de cada camada o gradiente descendente $\delta$, dado pela fórmula mostrada na Equação \ref{eq:gradiente}, seguido pelo ajuste dos pesos dos neurônios em função do gradiente.
-Backpropagation é um algoritmo que computa a regra da cadeia, com uma ordem específica de operações que é altamente eficiente. O algoritmo de backpropagation consiste de computar o produto gradiente jacobiano para cada operação na rede neural. O gradiente é é um vetor que indica o sentido e a direção na qual, por deslocamento a partir de um ponto especificado, obtem-se o maior incremento possível de uma grandeza a partir do qual se define um campo escalar para o espaço em consideração. e o jacobiano é a matriz de derivadas parciais de primeira ordem de uma função vetorial \todo{citar origem dos conceitos de jacobiano e gradiente}.
+A fase \emph{backwards}, ou \emph{back-propagation}, é responsável por permitir que a informação referente à diferença entre os valores de saída obtidos $\hat{y}$ e os esperados $y$ calculada através da função custo na fase \emph{forward} flua para trás. Isto ocorre por meio da atualização dos pesos dos neurônios, a começar por aqueles localizados na camada de saída, passando pelas camadas ocultas, até atingir a camada de entrada. Ao percorrer este caminho contrário, para cada camada é calculado o gradiente $\delta$ da perda $L$ em função dos pesos e bias, dado pela fórmula mostrada na Equação \ref{eq:gradiente}.
 
-A derivada $f^\prime$ de uma certa função $y = f(x)$ é dada conforme Equação \ref{eq:derivada}, a qual fornece a inclinação de $f(x)$ no ponto $x$. Neste contexto, $f$ é a função que a rede neural está aprendendo a mapear. Aplicada à uma função de custo, esta operação especifica como escalar uma pequena mudança nos pesos $w$ aplicados à entrada $x$ para obter uma mudança correspondente na saída $y$. A técnica de realizar pequenos incrementos na entrada $w$ no valor oposto ao da derivada é chamada de \emph{gradiente descendente}. 
+\begin{gather}\label{eq:gradiente}
+	\delta_w = \nabla_{w} J = \left[
+							\frac{\partial J}{\partial w_1}, \frac{\partial J}{\partial w_2}, \ldots, \frac{\partial J}{\partial w_n}
+						\right]^T\\
+	\delta_b = \nabla_{b} J = \left[
+							\frac{\partial J}{\partial b_1}, \frac{\partial J}{\partial b_2}, \ldots, \frac{\partial J}{\partial w_n}
+						\right]^T
+\end{gather}
 
-\begin{algorithm}
-	\begin{algorithmic}
-		\State $g \gets \nabla_y J = \nabla_y L(y,y)$
-		\For {l = nlayers to 1}
-			\State $g \gets \nabla_{z^l} J = g \times \sigma'(z^l) $
-			\State $\nabla_{b^l} J = g + \lambda \nabla \Omega(\theta)$
-			\State $\nabla_{W^l} J = g h^(l-1) + \lambda \nabla \Omega(\theta)$
-			\State $g \gets \nabla_{h^{l-1}} J = W^l g$
-		\EndFor
-	\end{algorithmic}
+No contexto do cálculo, o gradiente indica o sentido e a direção para as quais se devem mover os valores dos pesos e bias das camadas de maneira a se obter o maior incremento possível de perda. Considerando que o objetivo consiste na minimização \emph{gradual} dos parâmetros da rede na iteração $t+1$, o ajuste dos pesos e bias dos neurônios na iteração $t$ é comumente realizado por meio do método gradiente descendente indicado na Equação \ref{eq:gradiente_descendente}, no qual o valor do gradiente $\delta$ é multiplicado por um fator atenuante $\eta$ e então subtraído dos valores de $w$ e $b$ \cite{haykin2009neural, goodfellow2016deep}.
+
+\begin{gather}\label{eq:gradiente_descendente}
+	w^c(t+1) = w(t) - \eta \nabla_{w^c} \\
+	b^c(t+1) = b(t) - \eta \nabla_{b^c}
+\end{gather}
+
+\begin{algorithm}\label{alg:backpropagation}
+	\caption{Algoritmo de \emph{Backpropagation}}
+	\Entrada{Custo $J$}
+	\Saida{Gradientes dos parâmetros da RNA MLP atualizados}
+	\Inicio{
+		Calcular gradiente do custo, ou seja, da perda da camada de saída $\delta = \nabla_y J = \nabla_y L(y,y)$\\
+		\Para {cada camada c=C,\ldots, 1}{
+			Calcular o gradiente da camada $c$, dado por $\delta^c = \delta_{c-1} \cdot \sigma^c(z^c)$\\
+			Atualizar variação em $w$, dada por $\nabla_{w^c} = \delta^c  a^(c-1)$\\
+			Atualizar variação em $b$, dada por $\nabla_{b^c} = \delta^c$
+		}
+	}
 \end{algorithm}
 
-\begin{equation}\label{eq:gradiente}
-	\nabla_{\theta} J(\theta) = \frac{1}{m} \sum_{i=1}^{m} \nabla_{\theta} L(x^{(i)}, y^{(i)}, \theta)
-\end{equation}
+Desta maneira, o algoritmo para treinamento de uma RNA MLP se dá como mostrado a seguir \cite{Teresa:Livro}:
 
+\begin{enumerate}
+	\item Inicialização dos vetores de pesos $W$ e bias $b$
+	\item Para cada época do treinamento:
+	\begin{enumerate}
+		\item Para cada iteração do conjunto de dados
+		\begin{enumerate}
+			\item Fase \emph{forward}: Calcular previsão $\hat{y}$ e custo $J$
+			\item Fase \emph{backward}:
+				Calcular gradientes dos pesos $\nabla_{w^c}$ e bias $\nabla_{b^c}$
+		\end{enumerate}
+		\item Atualizar valores dos pesos e bias a partir do gradiente descendente.
+	\end{enumerate}
+\end{enumerate}
 
-
-O custo operacional de computar este gradiente é $O(m)$, sendo $m$ o número de exemplos no conjunto de treinamento. Assim, o custo computacional cresce de maneira proporcional e linear à quantidade de exemplos presente no conjunto de treinamento. Em termos do número de nós na rede neural, o algoritmo de backpropagation tem custo O(n).
+O algoritmo de \emph{backpropagation}, demonstrado em \ref{alg:backpropagation}, lança mão de sequências de operações de regras da cadeia para calcular os gradientes. No passo 2, o gradiente $\delta$ da função de ativação $\sigma$ da camada $l$ é obtido ao realizar o produto interno do gradiente calculado sob a função de custo da RNA pela derivada da função de saída $\sigma^c$. Esta combinação de derivações encadeadas é altamente eficiente, o que faz com que o o custo operacional da computação do gradiente seja $O(m)$, sendo $m$ o número de exemplos no conjunto de treinamento. Assim, o custo computacional cresce de maneira proporcional e linear à quantidade de exemplos presente no conjunto de treinamento \cite{haykin2009neural, goodfellow2016deep}.
 
 As RNAs \emph{feedforward} MLP são amplamente utilizadas em aplicações de diversos domínios. Inicialmente, destacaram-se as aplicações voltadas para o mercado financeiro visando, por exemplo, otimizar estratégias de marketing. Aplicações posteriores consideraram a alocação de assentos em aviões, aprovação de empréstimo, controle de qualidade em processos industriais, dentre outros \cite{widrow1994neural}. O escopo de aplicações deste modelo continua a crescer nos dias atuais, especialmente diante do desenvolvimento de variantes, a exemplo das redes neurais convolucionais, com grande capacidade de detecção de padrões e pouco esforço de pré-processamento. Reconhecimento de caracteres e dígitos  \cite{lenet}, processamento de imagens médicas para reconhecimento de características associadas à doenças cardíacas \cite{oktay2018anatomically}, pulmonares \cite{mingchen2018holistic} e mamárias \cite{dubrovina2018mammography} são alguns exemplos de aplicações de vanguarda destes modelos, que são compreendidos dentro da sub-área de \emph{Deep Learning}, caracterizada na seção a seguir.
