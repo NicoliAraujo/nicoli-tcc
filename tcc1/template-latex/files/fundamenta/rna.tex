@@ -113,8 +113,10 @@ Sendo l a camada atual e n layers o numero total de camadas
 \end{algorithmic}
 \end{algorithm}
 
-A fase \emph{backwards} do treinamento de RNAs MLP é realizado pelo algoritmo de backpropagation se refere apenas ao método de cálculo do gradiente, enquanto outro algoritmo, chamado gradiente descendente estocástico, é utilizado para realizar o aprendizado utilizando o gradiente \emph{backpropagation}, que permite que a informação do custo então flua para trás, na direção contrária.Nesta fase há o processo de ajuste dos pesos dos neurônios para minimizar a função custo das saídas previstas pela rede e o valor alvo. O algoritmo de backpropagation é utilizado para computar os gradientes de funções. Para funções custo desta forma, o gradiente descendente é computado de acordo com a Equação \ref{eq:gradiente}. .
-Backpropagation é um algoritmo que computa a regra da cadeia, com uma ordem específica de operações que é altamente eficiente. O algoritmo de backpropagation consiste de computar o produto gradiente jacobiano para cada operação na rede neural. O gradiente é é um vetor que indica o sentido e a direção na qual, por deslocamento a partir de um ponto especificado, obtem-se o maior incremento possível de uma grandeza a partir do qual se define um campo escalar para o espaço em consideração. e o jacobiano é a matriz de derivadas parciais de primeira ordem de uma função vetorial \todo{citar origem dos conceitos de jacobiano e gradiente}. Em uma rede neural, as entradas X, pesos W, bias b e saída Y são todos dados por vetores.
+A fase \emph{backwards}, ou \emph{back-propagation}, é responsável por permitir que a informação do custo calculado na fase \emph{forward} então flua para trás, camada a camada, a partir da saída, até atingir a camada de entrada, a fim de minimizar a função custo das saídas previstas pela rede e o valor alvo. Ao percorrer este caminho contrário, é calculado para cada neurônio de cada camada o gradiente descendente $\delta$, dado pela fórmula mostrada na Equação \ref{eq:gradiente}, seguido pelo ajuste dos pesos dos neurônios em função do gradiente.
+Backpropagation é um algoritmo que computa a regra da cadeia, com uma ordem específica de operações que é altamente eficiente. O algoritmo de backpropagation consiste de computar o produto gradiente jacobiano para cada operação na rede neural. O gradiente é é um vetor que indica o sentido e a direção na qual, por deslocamento a partir de um ponto especificado, obtem-se o maior incremento possível de uma grandeza a partir do qual se define um campo escalar para o espaço em consideração. e o jacobiano é a matriz de derivadas parciais de primeira ordem de uma função vetorial \todo{citar origem dos conceitos de jacobiano e gradiente}.
+
+A derivada $f^\prime$ de uma certa função $y = f(x)$ é dada conforme Equação \ref{eq:derivada}, a qual fornece a inclinação de $f(x)$ no ponto $x$. Neste contexto, $f$ é a função que a rede neural está aprendendo a mapear. Aplicada à uma função de custo, esta operação especifica como escalar uma pequena mudança nos pesos $w$ aplicados à entrada $x$ para obter uma mudança correspondente na saída $y$. A técnica de realizar pequenos incrementos na entrada $w$ no valor oposto ao da derivada é chamada de \emph{gradiente descendente}. 
 
 \begin{algorithm}
 	\begin{algorithmic}
@@ -128,15 +130,12 @@ Backpropagation é um algoritmo que computa a regra da cadeia, com uma ordem esp
 	\end{algorithmic}
 \end{algorithm}
 
-\todo{Sugiro citar o Haykin}
-A derivada $f^\prime$ de uma certa função $y = f(x)$ é dada conforme Equação \ref{eq:derivada}, a qual fornece a inclinação de $f(x)$ no ponto $x$. Neste contexto, $f$ é a função que a rede neural está aprendendo a mapear. Aplicada à uma função de custo, esta operação especifica como escalar uma pequena mudança nos pesos $w$ aplicados à entrada $x$ para obter uma mudança correspondente na saída $y$. A técnica de realizar pequenos incrementos na entrada $w$ no valor oposto ao da derivada é chamada de \emph{gradiente descendente}. \todo{Citação!!}
-
 \begin{equation}\label{eq:gradiente}
 	\nabla_{\theta} J(\theta) = \frac{1}{m} \sum_{i=1}^{m} \nabla_{\theta} L(x^{(i)}, y^{(i)}, \theta)
 \end{equation}
 
-O custo operacional de computar este gradiente é $O(m)$, sendo $m$ o número de exemplos no conjunto de treinamento. Assim, o custo computacional cresce de maneira proporcional e linear à quantidade de exemplos presente no conjunto de treinamento.
 
-Em termos do número de nós na rede neural, o algoritmo de backpropagation tem custo O(n).
+
+O custo operacional de computar este gradiente é $O(m)$, sendo $m$ o número de exemplos no conjunto de treinamento. Assim, o custo computacional cresce de maneira proporcional e linear à quantidade de exemplos presente no conjunto de treinamento. Em termos do número de nós na rede neural, o algoritmo de backpropagation tem custo O(n).
 
 As RNAs \emph{feedforward} MLP são amplamente utilizadas em aplicações de diversos domínios. Inicialmente, destacaram-se as aplicações voltadas para o mercado financeiro visando, por exemplo, otimizar estratégias de marketing. Aplicações posteriores consideraram a alocação de assentos em aviões, aprovação de empréstimo, controle de qualidade em processos industriais, dentre outros \cite{widrow1994neural}. O escopo de aplicações deste modelo continua a crescer nos dias atuais, especialmente diante do desenvolvimento de variantes, a exemplo das redes neurais convolucionais, com grande capacidade de detecção de padrões e pouco esforço de pré-processamento. Reconhecimento de caracteres e dígitos  \cite{lenet}, processamento de imagens médicas para reconhecimento de características associadas à doenças cardíacas \cite{oktay2018anatomically}, pulmonares \cite{mingchen2018holistic} e mamárias \cite{dubrovina2018mammography} são alguns exemplos de aplicações de vanguarda destes modelos, que são compreendidos dentro da sub-área de \emph{Deep Learning}, caracterizada na seção a seguir.
