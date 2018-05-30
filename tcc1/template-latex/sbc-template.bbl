@@ -5,6 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Bengio 2012]{bengio2012practical}
+\abntrefinfo{Bengio}{BENGIO}{2012}
+{BENGIO, Y. Practical recommendations for gradient-based training of deep
+  architectures. In:  \emph{Neural networks: Tricks of the trade}. [S.l.]:
+  Springer, 2012. p. 437--478.}
+
 \bibitem[Bengio et al. 2009]{bengio2009learning}
 \abntrefinfo{Bengio et al.}{BENGIO et al.}{2009}
 {BENGIO, Y. et al. Learning deep architectures for ai.
@@ -117,6 +123,13 @@ Acessado em 23 de Abril de 2018.}
   Visualization}, Taylor \& Francis, v.~6, n.~1, p.~1--6, 2018.
 Dispon{\'\i}vel em: \url{https://doi.org/10.1080/21681163.2015.1124249}.}
 
+\bibitem[Giovanelli e Pasqualin]{sinapse}
+\abntrefinfo{Giovanelli e Pasqualin}{GIOVANELLI; PASQUALIN}{}
+{GIOVANELLI, D.~E. de O.; PASQUALIN, D. L.~M. de A. \emph{Por que acontecem as
+  crises epilépticas?} [S.l.]: Neuro Vitta.
+  \url{http://neurovitta.com.br/ctd_noticias_detalhes.php?id=OQ==}.
+Acessado em 30 de Maio de 2018.}
+
 \bibitem[Goodfellow, Bengio e Courville 2016]{goodfellow2016deep}
 \abntrefinfo{Goodfellow, Bengio e Courville}{GOODFELLOW; BENGIO;
   COURVILLE}{2016}
@@ -140,6 +153,12 @@ Acessado em 22 de Março de 2018.}
 {HE, K. et al. Deep residual learning for image recognition. In:
   \emph{Proceedings of the IEEE conference on computer vision and pattern
   recognition}. [S.l.: s.n.], 2016. p. 770--778.}
+
+\bibitem[Hinton 2007]{hinton2007learning}
+\abntrefinfo{Hinton}{HINTON}{2007}
+{HINTON, G.~E. Learning multiple layers of representation.
+\emph{Trends in cognitive sciences}, Elsevier, v.~11, n.~10, p. 428--434,
+  2007.}
 
 \bibitem[Hinton, Osindero e Teh 2006]{hinton2006fast}
 \abntrefinfo{Hinton, Osindero e Teh}{HINTON; OSINDERO; TEH}{2006}
@@ -317,6 +336,12 @@ Acessado em 23 de Março de 2018.}
 \abntrefinfo{Russell e Norvig}{RUSSELL; NORVIG}{2016}
 {RUSSELL, S.~J.; NORVIG, P. \emph{Artificial intelligence: a modern approach}.
   [S.l.]: Malaysia; Pearson Education Limited,, 2016.}
+
+\bibitem[Santos]{neuronio_biologico}
+\abntrefinfo{Santos}{SANTOS}{}
+{SANTOS, V. S.~D. \emph{O que é neurônio?} [S.l.]: Brasil Escola.
+  \url{https://brasilescola.uol.com.br/o-que-e/biologia/o-que-e-neuronio.htm}.
+Acessado em 30 de Maio de 2018.}
 
 \bibitem[SBT 2015]{sbt:tvconectada}
 \abntrefinfo{SBT}{SBT}{2015}

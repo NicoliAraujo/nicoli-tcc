@@ -14,56 +14,58 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: sbc-template.bib
 Warning--entry type for "Guardian:CameraSmartv" isn't style-file defined
---line 1121 of file sbc-template.bib
+--line 1151 of file sbc-template.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--campo year vazio ou faltando em canaltech:streaming
+Warning--campo year vazio ou faltando em sinapse
+Warning--campo year vazio ou faltando em neuronio_biologico
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 61 entries,
+You've used 65 entries,
             6714 wiz_defined-function locations,
-            1533 strings with 20228 characters,
-and the built_in function-call counts, 54839 in all, are:
-= -- 4647
-> -- 1799
-< -- 356
-+ -- 979
-- -- 544
-* -- 3841
-:= -- 7169
-add.period$ -- 245
-call.type$ -- 61
-change.case$ -- 642
-chr.to.int$ -- 124
-cite$ -- 61
-duplicate$ -- 3224
-empty$ -- 3882
-format.name$ -- 2593
-if$ -- 12738
+            1555 strings with 20882 characters,
+and the built_in function-call counts, 57753 in all, are:
+= -- 4866
+> -- 1877
+< -- 361
++ -- 1006
+- -- 569
+* -- 4029
+:= -- 7549
+add.period$ -- 263
+call.type$ -- 65
+change.case$ -- 676
+chr.to.int$ -- 131
+cite$ -- 67
+duplicate$ -- 3379
+empty$ -- 4148
+format.name$ -- 2709
+if$ -- 13450
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1112
-newline$ -- 286
-num.names$ -- 300
-pop$ -- 1465
+missing$ -- 1182
+newline$ -- 305
+num.names$ -- 320
+pop$ -- 1551
 preamble$ -- 1
-purify$ -- 239
+purify$ -- 252
 quote$ -- 0
-skip$ -- 3428
+skip$ -- 3599
 stack$ -- 1
-substring$ -- 2162
-swap$ -- 1458
-text.length$ -- 68
+substring$ -- 2279
+swap$ -- 1537
+text.length$ -- 72
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 5
-warning$ -- 1
-while$ -- 440
+type$ -- 6
+warning$ -- 3
+while$ -- 468
 width$ -- 0
-write$ -- 968
-(There were 2 warnings)
+write$ -- 1032
+(There were 4 warnings)
