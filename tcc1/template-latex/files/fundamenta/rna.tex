@@ -139,7 +139,7 @@ O algoritmo de \emph{backpropagation}, demonstrado em \ref{alg:backpropagation},
 	\Entrada{Custo $J$}
 	\Saida{Gradientes dos parâmetros da RNA MLP atualizados}
 	\Inicio{
-		Calcular gradiente do custo, ou seja, da perda da camada de saída $\delta = \nabla_y J = \nabla_y L(y,y)$\\
+		Calcular gradiente do custo, ou seja, da perda da camada de saída $\delta = \nabla_y J = \nabla_y L(\hat{y},y)$\\
 		\Para {cada camada c=C,\ldots, 1}{
 			Calcular o gradiente da camada $c$, dado por $\delta^c = \delta_{c-1} \cdot \sigma^c(z^c)$\\
 			Atualizar variação em $w$, dada por $\nabla_{w^c} = \delta^c  a^(c-1)$\\

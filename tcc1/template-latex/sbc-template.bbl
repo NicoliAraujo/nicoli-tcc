@@ -60,6 +60,11 @@ Acessado em 20 de Março de 2018.
 Dispon{\'\i}vel em:
   \url{http://link.estadao.com.br/noticias/geral,explosao-no-consumo-de-videos-online-coloca-em-xeque-o-futuro-da-televisao,70001695828}.}
 
+\bibitem[Chollet 2017]{chollet2017deep}
+\abntrefinfo{Chollet}{CHOLLET}{2017}
+{CHOLLET, F. \emph{Deep learning with python}. [S.l.]: Manning Publications
+  Co., 2017.}
+
 \bibitem[Ciriaco]{canaltech:streaming}
 \abntrefinfo{Ciriaco}{CIRIACO}{}
 {CIRIACO, D. \emph{Os melhores serviços de streaming de vídeo disponíveis no
@@ -83,6 +88,18 @@ Acessado em 20 de Março de 2018.}
 \abntrefinfo{Deputados}{DEPUTADOS}{1995}
 {DEPUTADOS, C. dos. \emph{Estatuto da Criança e do Adolescente}. BRASIL:
   [s.n.], 1995.}
+
+\bibitem[Deshpande]{9dlpapers}
+\abntrefinfo{Deshpande}{DESHPANDE}{}
+{DESHPANDE, A. \emph{The 9 Deep Learning Papers You Need To Know About
+  (Understanding CNNs Part 3)}. [S.l.]: Adeshpande.
+  \url{https://adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html}.
+Acessado em 30 de Maio de 2018.}
+
+\bibitem[Documentation]{keras:applications}
+\abntrefinfo{Documentation}{DOCUMENTATION}{}
+{DOCUMENTATION, K. \emph{Applications}. \url{https://keras.io/applications/}.
+Acessado em 01 de Junho de 2018.}
 
 \bibitem[Dubrovina et al. 2018]{dubrovina2018mammography}
 \abntrefinfo{Dubrovina et al.}{DUBROVINA et al.}{2018}
@@ -185,6 +202,18 @@ Acessado em 16 de Março de 2018.}
   \url{https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN}.
 Acessado em 23 de Março de 2018.}
 
+\bibitem[ImageNet 2012]{ImagenetChall:2012}
+\abntrefinfo{ImageNet}{IMAGENET}{2012}
+{IMAGENET. \emph{Large Scale Visual Recognition Challenge 2012 (ILSVRC2012)}.
+  2012. \url{http://image-net.org/challenges/LSVRC/2012/index}.
+Acessado em 31 de Maio de 2018.}
+
+\bibitem[ImageNet 2015]{ImagenetChall}
+\abntrefinfo{ImageNet}{IMAGENET}{2015}
+{IMAGENET. \emph{Large Scale Visual Recognition Challenge (ILSVRC)}. 2015.
+  \url{http://image-net.org/challenges/LSVRC/}.
+Acessado em 31 de Maio de 2018.}
+
 \bibitem[Justiça 2014]{portaria:ci}
 \abntrefinfo{Justiça}{JUSTIçA}{2014}
 {JUSTIçA, M. da. \emph{Política Pública de Classificação Indicativa}.
@@ -205,6 +234,13 @@ Acessado em 23 de Março de 2018.}
 {KOVACH, S. \emph{What Is A Smart TV?} 2010.
   \url{http://www.businessinsider.com/what-is-a-smart-tv-2010-12}.
 Acessado em 15 de Março de 2018.}
+
+\bibitem[Krizhevsky, Sutskever e Hinton 2012]{alexnet}
+\abntrefinfo{Krizhevsky, Sutskever e Hinton}{KRIZHEVSKY; SUTSKEVER;
+  HINTON}{2012}
+{KRIZHEVSKY, A.; SUTSKEVER, I.; HINTON, G.~E. Imagenet classification with deep
+  convolutional neural networks. In:  \emph{Advances in neural information
+  processing systems}. [S.l.: s.n.], 2012. p. 1097--1105.}
 
 \bibitem[Kwon e Lobo 1999]{kwon1999age}
 \abntrefinfo{Kwon e Lobo}{KWON; LOBO}{1999}
@@ -288,6 +324,13 @@ Acessado em 15 de Março de 2018.}
   to cardiac image enhancement and segmentation.
 \emph{IEEE transactions on medical imaging}, IEEE, v.~37, n.~2, p. 384--395,
   2018.}
+
+\bibitem[Oquab et al. 2014]{oquab2014learning}
+\abntrefinfo{Oquab et al.}{OQUAB et al.}{2014}
+{OQUAB, M. et al. Learning and transferring mid-level image representations
+  using convolutional neural networks. In:  IEEE. \emph{Computer Vision and
+  Pattern Recognition (CVPR), 2014 IEEE Conference on}. [S.l.], 2014. p.
+  1717--1724.}
 
 \bibitem[Perakakis e Ghinea 2015]{perakakis2015proposed}
 \abntrefinfo{Perakakis e Ghinea}{PERAKAKIS; GHINEA}{2015}
@@ -378,6 +421,12 @@ Acessado em \today.}
 \abntrefinfo{Szegedy et al.}{SZEGEDY et al.}{2015}
 {SZEGEDY, C. et al. Going deeper with convolutions. In:  CVPR. [S.l.], 2015.}
 
+\bibitem[Tensorflow]{tensorflow:models}
+\abntrefinfo{Tensorflow}{TENSORFLOW}{}
+{TENSORFLOW. \emph{Models and examples built with TensorFlow}.
+  \url{https://github.com/tensorflow/models}.
+Acessado em 01 de Junho de 2018.}
+
 \bibitem[Widrow, Rumelhart e Lehr 1994]{widrow1994neural}
 \abntrefinfo{Widrow, Rumelhart e Lehr}{WIDROW; RUMELHART; LEHR}{1994}
 {WIDROW, B.; RUMELHART, D.~E.; LEHR, M.~A. Neural networks: applications in
@@ -389,5 +438,11 @@ Acessado em \today.}
 {WIKIPEDIA. \emph{Television content rating system}. 2018.
   \url{https://en.wikipedia.org/wiki/Television_content_rating_system#Countries_without_TV_rating_systems}.
 Acessado em 21 de Março de 2018.}
+
+\bibitem[Zeiler e Fergus 2014]{zeiler2014visualizing}
+\abntrefinfo{Zeiler e Fergus}{ZEILER; FERGUS}{2014}
+{ZEILER, M.~D.; FERGUS, R. Visualizing and understanding convolutional
+  networks. In:  SPRINGER. \emph{European conference on computer vision}.
+  [S.l.], 2014. p. 818--833.}
 
 \end{thebibliography}

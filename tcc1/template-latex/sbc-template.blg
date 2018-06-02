@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2018/dev/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: sbc-template.aux
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -11,61 +11,67 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated field_info (elt_size=4) to 10244 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: sbc-template.bib
 Warning--entry type for "Guardian:CameraSmartv" isn't style-file defined
---line 1151 of file sbc-template.bib
+--line 1209 of file sbc-template.bib
+Warning--I didn't find a database entry for "Imagenet"
+Warning--I didn't find a database entry for "dl9papers"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--campo year vazio ou faltando em canaltech:streaming
+Warning--campo year vazio ou faltando em 9dlpapers
+Warning--campo year vazio ou faltando em keras:applications
 Warning--campo year vazio ou faltando em sinapse
 Warning--campo year vazio ou faltando em neuronio_biologico
+Warning--campo year vazio ou faltando em tensorflow:models
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 65 entries,
+You've used 74 entries,
             6714 wiz_defined-function locations,
-            1555 strings with 20882 characters,
-and the built_in function-call counts, 57753 in all, are:
-= -- 4866
-> -- 1877
-< -- 361
-+ -- 1006
-- -- 569
-* -- 4029
-:= -- 7549
-add.period$ -- 263
-call.type$ -- 65
-change.case$ -- 676
-chr.to.int$ -- 131
-cite$ -- 67
-duplicate$ -- 3379
-empty$ -- 4148
-format.name$ -- 2709
-if$ -- 13450
+            1600 strings with 22277 characters,
+and the built_in function-call counts, 64581 in all, are:
+= -- 5397
+> -- 2091
+< -- 364
++ -- 1084
+- -- 636
+* -- 4471
+:= -- 8447
+add.period$ -- 306
+call.type$ -- 74
+change.case$ -- 764
+chr.to.int$ -- 140
+cite$ -- 79
+duplicate$ -- 3719
+empty$ -- 4750
+format.name$ -- 3025
+if$ -- 15125
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1182
-newline$ -- 305
-num.names$ -- 320
-pop$ -- 1551
+missing$ -- 1344
+newline$ -- 346
+num.names$ -- 365
+pop$ -- 1771
 preamble$ -- 1
-purify$ -- 252
+purify$ -- 284
 quote$ -- 0
-skip$ -- 3599
+skip$ -- 3985
 stack$ -- 1
-substring$ -- 2279
-swap$ -- 1537
-text.length$ -- 72
+substring$ -- 2529
+swap$ -- 1698
+text.length$ -- 75
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
-warning$ -- 3
-while$ -- 468
+type$ -- 7
+warning$ -- 6
+while$ -- 528
 width$ -- 0
-write$ -- 1032
-(There were 4 warnings)
+write$ -- 1169
+(There were 9 warnings)
