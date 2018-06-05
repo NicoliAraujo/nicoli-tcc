@@ -153,6 +153,12 @@ Acessado em 30 de Maio de 2018.}
 {GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep learning}. [S.l.]: MIT
   press Cambridge, 2016. v.~1.}
 
+\bibitem[Gross e Wilber 2016]{torch:resnet}
+\abntrefinfo{Gross e Wilber}{GROSS; WILBER}{2016}
+{GROSS, S.; WILBER, M. \emph{Training and investigating Residual Nets}. [S.l.]:
+  Torch, 2016. \url{http://torch.ch/blog/2016/02/04/resnets.html}.
+Acessado em 01 de Junho de 2018.}
+
 \bibitem[Guimarães 2017]{leiajabuscasmart}
 \abntrefinfo{Guimarães}{GUIMARãES}{2017}
 {GUIMARãES, N. \emph{Com fim do sinal analógico, busca por smart TVs cresce
