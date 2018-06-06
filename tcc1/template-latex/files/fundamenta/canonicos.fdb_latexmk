@@ -1,0 +1,15 @@
+# Fdb version 3
+["pdflatex"] 1528308223 "canonicos.tex" "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/fundamenta/canonicos.pdf" "canonicos" 1528308224
+  "/etc/texmf/web2c/texmf.cnf" 1522194098 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/fundamenta/canonicos.aux" 1528308223 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1480098701 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1520341874 32485 c64754543d8ac501bea6e75e209ea521 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1520341874 32485 c64754543d8ac501bea6e75e209ea521 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1526322261 4138228 b4cc93f1d5199765a4372dcbd2561e7c ""
+  "canonicos.tex" 1528308221 7788 181a64b915a9fec1192a0ae021532ec8 ""
+  (generated)
+  "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/fundamenta/canonicos.log"
+  "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/fundamenta/canonicos.pdf"
+  "canonicos.log"
