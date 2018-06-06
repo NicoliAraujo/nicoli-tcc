@@ -1,21 +1,18 @@
 %!TEX root = ../sbc-template.tex
 
 \subsection{Tarefa de Previsão Considerada}
-
-% Classificação multi-classe
-
+A tarefa de previsão considerada é a regressão. O modelo tem como entrada um rosto, e fornece como saída uma idade prevista para aquele rosto.
 
 \subsection{Elaboração e Descrição da Base de Dados}
 \input{files/dataset.tex}
 
-
 \subsection{Modelos de CNN Considerados}
-
+Considerou-se as arquiteturas LeNet e AlexNet. Todas as funções de ativação tangente hiperbólica foram substituídas pela ReLU. A implemetação da AlexNet seguiu a prática atual de utilizar apenas uma GPU no treinamento, portanto as camadas dividas foram unificadas. A normalização original que utilizava LBN foi substituída pela normalização em batch, que tem se mostrado mais efetiva \todo{citar chollet}.
 
 \subsection{Parâmetros e Hiperparâmetros}
 
 \subsection{Métricas de Desempenho}
-
+A perda utilizada no treinamento foi o Erro Médio Quadrático (Mean Squared Error), e as métricas utilizadas foram o MSE e o MAE
 % Escrever sobre micro-averaging
 % \subsubsection{Micro-Média}
 % \todo{como traduzir?}
