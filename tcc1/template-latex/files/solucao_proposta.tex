@@ -1,10 +1,37 @@
 %!TEX root = ../sbc-template.tex
 
-\subsection{Tarefa de Previsão Considerada}
-A tarefa de previsão considerada é a regressão. O modelo tem como entrada um rosto, e fornece como saída uma idade prevista para aquele rosto.
+\subsection{Tarefa de Aprendizado}
+A tarefa de aprendizado considerada para a estimação de idade de telespectadores é a regresssão. Neste contexto, uma imagem em cores RGB de dimensões $224 \times 224$ pixels contendo uma face humana centralizada será fornecida como entrada. A saída desejada é a estimativa de idade, em anos, da pessoa correspondente. Esta tarefa será abordada segundo o paradigma de aprendizado supervisionado.
+\todo{colocar esquema com imagem de celebridade aqui}
 
-\subsection{Elaboração e Descrição da Base de Dados}
+Os dados disponíveis para este contexto seráo particionados em três conjuntos disjuntos, sendo:
+\begin{itemize}
+     \item $70\%$ dos dados, ou 33565 imagens, para treinamento
+     \item $10\%$, ou 4795 imagens, para validação
+     \item $20\%$, ou 9590 imagens, para teste.
+\end{itemize}
+Esta partição obedece à tecnica \emph{Holdout} de validação cruzada.
+
+Os modelos propostos para esta tarefa terão seu desempenho aferido perante os dados do conjunto de testes de acordo com a métrica de desempenho RMSE. ESta métrica \todo{falar do rmse + equação, Brinks}
+
+\subsection{Conjunto de Dados}
 \input{files/dataset.tex}
+
+\subsection{Limpeza e Pré-processamento dos dados}
+Cálculo do atributo alvo a partir dos atributos originais
+A idade foi aferida a partir da data de nascimento da celebridade subtraída da data de captura da fotografia
+
+A seguir, realizou-se o descarte dos exemplos com atributo alvo inválido, como idades negativas, NaN, entre outros.
+
+Descarte de exemplos atípicos, possivelmente resultado de rotulação incorreta, como idade maior que 105 e idade não compatível. \todo{mostrar exemplo}
+
+Descarte também de exemplos com mais de um rosto por imagem original
+
+Descarte de múltiplos exemplos da mesma celebridade em uma certa idade, a fim de evitar overfitting nos modelos.
+
+Descarte de metadados como a data em que a foto foi tirada, o nome, id, gênero, data de nascimento e localização do rosto da celebridade,
+
+A última etapa consistiu na padronização das dimensões da imagem. Considerando a literatura, definiu-se o tamanho para $224 \times 224$
 
 \subsection{Modelos de CNN Considerados}
 Considerou-se as arquiteturas LeNet e AlexNet. Todas as funções de ativação tangente hiperbólica foram substituídas pela ReLU. A implemetação da AlexNet seguiu a prática atual de utilizar apenas uma GPU no treinamento, portanto as camadas dividas foram unificadas. A normalização original que utilizava LBN foi substituída pela normalização em batch, que tem se mostrado mais efetiva \todo{citar chollet}.
@@ -12,7 +39,7 @@ Considerou-se as arquiteturas LeNet e AlexNet. Todas as funções de ativação 
 \subsection{Parâmetros e Hiperparâmetros}
 
 \subsection{Métricas de Desempenho}
-A perda utilizada no treinamento foi o Erro Médio Quadrático (Mean Squared Error), e as métricas utilizadas foram o MSE e o MAE
+
 % Escrever sobre micro-averaging
 % \subsubsection{Micro-Média}
 % \todo{como traduzir?}

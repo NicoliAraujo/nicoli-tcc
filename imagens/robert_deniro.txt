@@ -1,0 +1,45 @@
+deniro_plt.png
+celeb_id                                                   16349
+name                                              Robert De Niro
+full_path      imdb/34/nm0000134_rm3340090368_1943-8-17_2011.jpg
+face_score                                               5.21396
+xmin                                                      663.65
+xmax                                                     992.475
+ymin                                                     590.134
+ymax                                                     918.959
+dob_date                                              1943-08-17
+photo_taken                                                 2011
+age                                                           68
+gender                                                         1
+
+deniro_many_plt_correto.png
+celeb_id                                                         16349
+name                                                    Robert De Niro
+full_path            imdb/34/nm0000134_rm1766360064_1943-8-17_2010.jpg
+face_score                                                     5.12527
+second_face_score                                              5.08887
+xmin                                                           914.886
+xmax                                                           1426.31
+ymin                                                            287.31
+ymax                                                           798.734
+dob_date                                                    1943-08-17
+photo_taken                                                       2010
+age                                                                 67
+gender                                                               1
+Name: 1, dtype: object
+
+deniro_many_plt_errado.png
+celeb_id                                                         16349
+name                                                    Robert De Niro
+full_path            imdb/34/nm0000134_rm1480044288_1943-8-17_2012.jpg
+face_score                                                     5.51656
+second_face_score                                              4.55379
+xmin                                                           1392.72
+xmax                                                           1614.18
+ymin                                                            225.55
+ymax                                                           447.003
+dob_date                                                    1943-08-17
+photo_taken                                                       2012
+age                                                                 69
+gender                                                               1
+Name: 8, dtype: object
