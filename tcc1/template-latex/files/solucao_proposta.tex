@@ -1,20 +1,21 @@
 %!TEX root = ../sbc-template.tex
 
 \subsection{Tarefa de Aprendizado}
-A tarefa de aprendizado considerada para a estimação de idade de telespectadores é a regresssão. Neste contexto, uma imagem em cores RGB de dimensões $224 \times 224$ pixels contendo uma face humana centralizada será fornecida como entrada. A saída desejada é a estimativa de idade, em anos, da pessoa correspondente. Esta tarefa será abordada segundo o paradigma de aprendizado supervisionado. O esquema na Figura \ref{fig:deniro_cnn} demonstra como ocorrerá a tarefa de aprendizado.
+A tarefa de aprendizado considerada para a estimação de idade de telespectadores é a regresssão. Neste contexto, uma imagem em cores RGB de dimensões $224 \times 224$ pixels contendo uma face humana centralizada será fornecida como entrada. A saída desejada é a estimativa de idade, em anos, da pessoa correspondente, conforme exemplificado na Figura \ref{fig:deniro_cnn}. Esta tarefa será abordada segundo o paradigma de aprendizado supervisionado.
 
 \begin{figure}
+  \centering
      \caption{Tarefa de aprendizado}
      \includegraphics[width=\textwidth]{img/deniro_cnn}
      \label{fig:deniro_cnn}
 \end{figure}
 
-Os dados disponíveis para este contexto seráo particionados em três conjuntos disjuntos, sendo $70\%$ reservados para o treino, $10\%$ para validação e $20\%$ para teste. Esta partição obedece à tecnica \emph{Holdout} de validação cruzada.
+Os dados disponíveis para este contexto seráo particionados em três conjuntos disjuntos, sendo $70\%$ reservados para o treino, $10\%$ para validação e $20\%$ para teste. Esta partição obedece à tecnica \emph{Holdout} de validação cruzada \cite{brink2016real}.
 
-Os modelos propostos para esta tarefa terão seu desempenho aferido perante os dados do conjunto de testes de acordo com a métrica de desempenho \emph{Root Mean Squared Error} (RMSE). Esta métrica observa a diferença entre cada um dos valores previstos $\hat{y}$ e os reais $y$, enquanto calcula uma média de uma maneira imune ao fato de os valores previstos poderem ser tanto maiores quanto menores que os valores reais. A Equação \ref{eq:rmse} representa o cálculo do RMSE \cite{brink2016real}.
+Os modelos propostos para esta tarefa terão seu desempenho aferido perante os dados do conjunto de testes de acordo com a métrica de desempenho \emph{Root Mean Squared Error} (RMSE). Esta métrica considera a diferença entre cada um dos valores previstos $\hat{y}$ e os reais $y$, e posteriormente quantifica uma média imune à variação positiva ou negativa desta diferença. A Equação \ref{eq:rmse} denota o cálculo do RMSE \cite{brink2016real}.
 
 \begin{equation}\label{eq:rmse}
-     RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y})^2}
+     \textrm{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y})^2}.
 \end{equation}
 
 \subsection{Conjunto de Dados}
@@ -22,41 +23,23 @@ Os modelos propostos para esta tarefa terão seu desempenho aferido perante os d
 
 \subsection{Limpeza e Pré-processamento dos dados}
 
-A fim de adequar melhor o conjunto de dados para os modelos de CNNs utilizados, realizou-se uma limpeza e pré-processamento dos meta-dados e das imagens da base IMDb, que se iniciou com o cálculo do atributo alvo, a idade, a partir dos atributos originais fornecidos. A idade foi aferida através da data de nascimento da celebridade e do ano em que a fotografia em questão foi capturada. A data de nascimento estava no formato \emph{datenum}, sendo necessária a conversão desta medida para a data comum, de onde foi extraído o ano de nascimento. A seguir, calculou-se a idade a partir da diferença entre o ano de nascimento da celebridade e o ano em que a foto foi tirada.
+A fim de adequar melhor o conjunto de dados para os modelos de CNNs utilizados, realizou-se uma limpeza e pré-processamento dos meta-dados e das imagens da base IMDb, que se iniciou com o cálculo do atributo alvo, a idade, a partir dos atributos originais fornecidos. A idade foi aferida através da data de nascimento da celebridade e do ano em que a fotografia em questão foi capturada.
 
-Uma análise do conjunto de dados revelou a presença de itens com idade e gênero apresentando valores nulos, inválidos ou negativos, que foram descartados. Observou-se também a presença de múltiplos exemplos referentes à mesma pessoa com a mesma idade. Houve a remoção de tais exemplos, a fim de evitar que a apresentação de um mesmo rosto com a mesma idade \emph{overfitting} nos modelos. Exemplos atípicos, possivelmente resultado de rotulação incorreta, como idade maior que $100$ anos ou não compatível com os dados da celebridade referida nos meta-dados também foram descartados \todo{mostrar exemplo}. Os atributos de pontuação de rostos foram úteis para identificar e remover exemplos em que não havia nenhum rosto identificado, ou em que havia mais de uma face na imagem. Este descarte foi realizado com o objetivo de eliminar rotulações errôneas, como a mostrada na Tabela \ref{tab:deniro_many_plt_errado}.
+Uma análise do conjunto de dados revelou a presença de itens com idade e gênero apresentando valores nulos, inválidos ou negativos, que foram descartados. Observou-se também a presença de múltiplos exemplos referentes à mesma pessoa com a mesma idade. Houve a remoção de tais exemplos, a fim de evitar que a apresentação de um mesmo rosto com a mesma idade provocasse \emph{overfitting} nos modelos. Exemplos atípicos, possivelmente resultado de rotulação incorreta, como idade maior que $100$ anos ou não compatível com os dados da celebridade referida nos meta-dados também foram descartados \todo{mostrar exemplo}. Os atributos de pontuação de rostos foram úteis para identificar e remover exemplos em que não havia nenhum rosto identificado, ou em que havia mais de uma face na imagem. Este descarte foi realizado com o objetivo de eliminar rotulações errôneas, como a mostrada na Tabela \ref{tab:deniro_many_plt_errado}.
 
-A última etapa consistiu na padronização das dimensões da imagem. Considerando a literatura, definiu-se o tamanho para $224 \times 224$ e o modo RGB como padrões. Por fim, após a padronização das imagens de entrada, o cálculo do atributo alvo idade, a adequação do caminho para as imagens em disco e a remoção de exemplos impróprios, seguiu-se o descarte dos outros meta-dados irrelevantes para a tarefa de estimação de idade de um indivíduo a partir de imagem. A data em que a foto foi tirada, o nome, número de identificação, gênero, data de nascimento, localização do rosto da celebridade e pontuações de rostos nas imagens foram removidos.
+A última etapa consistiu na padronização das dimensões das imagens. Considerando a literatura, definiu-se o tamanho para $224 \times 224$ \emph{pixels} e o modo RGB como padrões. Por fim, após a padronização das imagens de entrada, o cálculo do atributo alvo idade, a adequação do caminho para as imagens em disco e a remoção de exemplos impróprios, seguiu-se o descarte dos outros meta-dados irrelevantes para a tarefa de estimação de idade de um indivíduo a partir de imagem. A data em que a foto foi tirada, nome, número de identificação, gênero, data de nascimento, localização do rosto da celebridade e pontuações de rostos nas imagens foram removidos.
 
-Por fim, o conjunto de dados utilizado consiste de $47950$ exemplos contendo imagens e idades disjuntas de $14607$ celebridades. O histograma de frequência de idades de 0 a 100 anos pode ser visualizado na Figura \ref{fig:hist}. Este total foi dividido em conjunto de treinamento, contendo $70\%$ da base, ou $33565$ exemplos; conjunto de validação, referente a $10\%$ dos dados, ou $4795$ itens; e conjunto de testes, contendo os restantes $20\%$, ou $9590$ exemplos.
+Por fim, o conjunto de dados consolidado consiste de $47.950$ exemplos contendo imagens e idades de $14.607$ celebridades distintas. O histograma de frequência da distribuição de idades de 0 a 100 anos presente nos exemplos da base de dados pode ser visualizado na Figura \ref{fig:hist}. Este total foi então dividido como proposto: conjunto de treinamento, contendo $70\%$ dos exemplos, ou seja, $33.565$ amostras; conjunto de validação, referente a $10\%$ dos dados, ou seja, $4.795$ itens; e, por fim, conjunto de testes, contendo os $20\%$ restantes, ou seja, $9.590$ exemplos.
 
 \begin{figure}
+    \centering
      \includegraphics[width=0.7\textwidth]{img/idade_hist_clean}
      \caption{Histograma de frequência da idade do conjunto de dados utilizado.}
      \label{fig:hist}
 \end{figure}
 
 \subsection{Modelos de CNN Considerados}
-Considerou-se as arquiteturas LeNet e AlexNet. Todas as funções de ativação tangente hiperbólica foram substituídas pela ReLU. A implemetação da AlexNet seguiu a prática atual de utilizar apenas uma GPU no treinamento, portanto as camadas dividas foram unificadas. A normalização original que utilizava LBN foi substituída pela normalização em batch, que tem se mostrado mais efetiva \todo{citar chollet}.
 
-\subsection{Parâmetros e Hiperparâmetros}
+Levando em conta a adoção de CNNs como o modelo de Aprendizado de Máquina a ser usado neste trabalho, considerou-se a utilização das arquiteturas LeNet e AlexNet. Todas as funções de ativação tangente hiperbólica disponíveis na versão original destas redes foram substituídas pela função ReLU, por ser mais eficiente computacionalmente e por promover uma convergência mais rápida. A implementação da AlexNet seguiu a prática atual de utilizar apenas uma GPU no treinamento, portanto as camadas dividas foram unificadas \todo[inline]{citar}.
 
-\subsection{Métricas de Desempenho}
-
-% Escrever sobre micro-averaging
-% \subsubsection{Micro-Média}
-% \todo{como traduzir?}
-% A micro-média é uma medida de performance utilizada em problemas de classificação multi-classe em que não há balanceamento entre os elementos de cada tipo. Assim, cada classe recebe um peso de acordo com sua frequência entre os exemplos, o que faz com que o $F1$-score das classes com mais exemplos infuencie na métrica mais que o de classes com menos exemplos \cite{ghamrawi2005collective}. A performance é dada pela média de todos os exemplos como se pertencessem a uma mesma classe, como mostra a Equação \ref{eq:micro_averaging}, sendo $PR$, $Re$ e $F1$ a precisão, revocação e $F1$-score, respectivamente, e TP, FP, FN, positivo verdadeiro, positivo falso e negativo verdadeiro\cite{kubat2016introduction}.
-% \begin{align}\label{eq:micro_averaging}
-% 	\begin{split}
-% 		Pr^{\mu} = \frac{\sum_{i=1}^L TP_i}{\sum_{i=1}^L TP_i + FP_i}
-% 		\\ \\
-% 		Re^{\mu} = \frac{\sum_{i=1}^L TP_i}{\sum_{i=1}^L TP_i + FN_i}
-% 		\\ \\
-% 		F1^{\mu} = \frac{2 \times Pr^{\mu} \times Re^{\mu}}{Pr^{\mu} + Re^{\mu}}
-% 	\end{split}
-% \end{align}
-
-\subsection{Etapa de Treinamento}
-
-\subsection{Etapa de Testes}
+O número de épocas para treinamento foi igual a $100$, o \emph{batch size} igual a $64$, o método de otimização do gradiente descendente foi o \emph{Adam} e as taxas de treinamento adotadas foram obtidas de maneira experimental, observando a perda obtida a cada época.
