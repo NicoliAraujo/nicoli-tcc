@@ -24,7 +24,7 @@ A Microsoft ResNet foi a CNN vencedora do ILSVRC 2015, com uma taxa de erro top-
 \begin{figure}[h!]
 \centering
 \caption{Bloco Residual da CNN ResNet. Fonte: \cite{torch:resnet}.}\label{fig:bloco_residual}
-\includegraphics[height=0.3\lineheight]{img/resnets_modelvariants}
+\includegraphics[height=0.3\textwidth]{img/resnets_modelvariants}
 \end{figure}
 
 Em CNNs tradicionais, a partir de uma imagem de entrada, obtém-se o  \emph{feature map}  resultante de uma operação de convolução e então aplica-se o \emph{max-pooling}. Este resultado produz uma nova representação, a qual possui pouca relação com a entrada original. No caso da ResNet, o bloco residual faz com que a entrada original persista em camadas mais profundas da rede, o que garante que as características determinantes para a tarefa de aprendizado sejam disseminadas para camadas mais profundas, ao mesmo tempo em que mantém a dimensionalidade reduzida. Outra razão para o bloco residual ser efetivo é que durante a fase \emph{backwards} o gradiente vai fluir mais facilmente pela rede, pois os blocos residuais estão diretamente conectados às camadas mais rasas na arquitetura, o que facilita a distribuição do gradiente. Na ocasião da sua proposição, a ResNet foi treinada em 8 GPUs por duas a três semanas \cite{resnet}.

@@ -16,11 +16,12 @@
 \BOOKMARK [3][-]{subsubsection.2.5.4}{Transfer Learning}{subsection.2.5}% 16
 \BOOKMARK [1][-]{section.3}{Trabalhos Relacionados}{}% 17
 \BOOKMARK [1][-]{section.4}{Solu\347\343o Proposta}{}% 18
-\BOOKMARK [2][-]{subsection.4.1}{Tarefa de Previs\343o Considerada}{section.4}% 19
-\BOOKMARK [2][-]{subsection.4.2}{Elabora\347\343o e Descri\347\343o da Base de Dados}{section.4}% 20
-\BOOKMARK [2][-]{subsection.4.3}{Modelos de CNN Considerados}{section.4}% 21
-\BOOKMARK [2][-]{subsection.4.4}{Par\342metros e Hiperpar\342metros}{section.4}% 22
-\BOOKMARK [2][-]{subsection.4.5}{M\351tricas de Desempenho}{section.4}% 23
-\BOOKMARK [2][-]{subsection.4.6}{Etapa de Treinamento}{section.4}% 24
-\BOOKMARK [2][-]{subsection.4.7}{Etapa de Testes}{section.4}% 25
-\BOOKMARK [1][-]{section.5}{Considera\347\365es Finais}{}% 26
+\BOOKMARK [2][-]{subsection.4.1}{Tarefa de Aprendizado}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.2}{Conjunto de Dados}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.3}{Limpeza e Pr\351-processamento dos dados}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.4}{Modelos de CNN Considerados}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.5}{Par\342metros e Hiperpar\342metros}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.6}{M\351tricas de Desempenho}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.7}{Etapa de Treinamento}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.8}{Etapa de Testes}{section.4}% 26
+\BOOKMARK [1][-]{section.5}{Considera\347\365es Finais}{}% 27

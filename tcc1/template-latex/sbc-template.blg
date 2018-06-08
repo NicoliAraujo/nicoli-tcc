@@ -11,11 +11,11 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated field_info (elt_size=4) to 10313 items from 5000.
+Reallocated field_info (elt_size=4) to 10382 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: sbc-template.bib
 Warning--entry type for "Guardian:CameraSmartv" isn't style-file defined
---line 1209 of file sbc-template.bib
+--line 1225 of file sbc-template.bib
 Warning--I didn't find a database entry for "Imagenet"
 Warning--I didn't find a database entry for "dl9papers"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -33,45 +33,45 @@ Warning--campo year vazio ou faltando em tensorflow:models
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 75 entries,
+You've used 76 entries,
             6714 wiz_defined-function locations,
-            1605 strings with 22411 characters,
-and the built_in function-call counts, 65394 in all, are:
-= -- 5461
-> -- 2123
+            1608 strings with 22505 characters,
+and the built_in function-call counts, 66339 in all, are:
+= -- 5531
+> -- 2174
 < -- 364
-+ -- 1096
-- -- 646
-* -- 4529
-:= -- 8551
-add.period$ -- 311
-call.type$ -- 75
-change.case$ -- 776
-chr.to.int$ -- 141
-cite$ -- 80
-duplicate$ -- 3756
-empty$ -- 4817
-format.name$ -- 3072
-if$ -- 15322
++ -- 1115
+- -- 661
+* -- 4604
+:= -- 8673
+add.period$ -- 314
+call.type$ -- 76
+change.case$ -- 790
+chr.to.int$ -- 142
+cite$ -- 81
+duplicate$ -- 3799
+empty$ -- 4882
+format.name$ -- 3142
+if$ -- 15548
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1364
-newline$ -- 351
-num.names$ -- 370
-pop$ -- 1799
+missing$ -- 1385
+newline$ -- 355
+num.names$ -- 375
+pop$ -- 1833
 preamble$ -- 1
-purify$ -- 288
+purify$ -- 293
 quote$ -- 0
-skip$ -- 4027
+skip$ -- 4072
 stack$ -- 1
-substring$ -- 2550
-swap$ -- 1716
+substring$ -- 2567
+swap$ -- 1734
 text.length$ -- 75
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 7
 warning$ -- 6
-while$ -- 534
+while$ -- 540
 width$ -- 0
-write$ -- 1185
+write$ -- 1199
 (There were 9 warnings)
