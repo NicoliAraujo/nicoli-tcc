@@ -8,7 +8,6 @@ s(t) = x_1(t) * x_2(t) = \int_{-\infty}^{\infty} x_1(a) x_2(t-a)da.
 \end{equation}
 
 No contexto de ML, a função $x_1(t)$ é chamada de \emph{input}, a função $x_2(t)$ é o \emph{kernel}, e a saída $s(t)$ consiste no \emph{feature map}, ou mapa de características. No contexto prático, o \emph{input} normalmente é um vetor multidimensional de dados e o \emph{kernel} é um vetor multidimensional de pesos que devem ser ajustados para aprendizado das CNN. Considerando, por exemplo, uma imagem $I$ de dimensões $(m,n)$ como \emph{input} e a aplicação de um \emph{kernel} $K$, a versão discreta da convolução, passível de implementação computacional e equivalente à Equação \ref{eq:int_convolucao}, é mostrada na Equação \ref{eq:conv_img}:
-
 \begin{equation}
  S(i,j) = I(i,j)*K(i,j) = \sum_{m}\sum_{n}I(m,n)K(i-m,j-n),\label{eq:conv_img}
 \end{equation}
@@ -23,13 +22,13 @@ Os \emph{feature maps}, resultantes das operações de convolução, compreendem
 	\includegraphics[width=0.8\textwidth]{./img/fundamenta/convolutions}
 \end{figure}
 
-As camadas convolucionais, que capturam os \emph{feature maps} e contém os pesos da rede, normalmente são seguidas por funções de ativação como as exemplificadas na Seção \ref{sec:rnas}, mais especificamente na Tabela \ref{tab:ativacoes}. Via de regra, a toda camada convolucional em uma CNN, segue-se uma função de ativação, finalizando em uma operação de \emph{pooling}, como mostra a Figura \ref{fig:cnn_camada}. \todo{Colocar a figura 12 em português e torná-la horizontal.}
+As camadas convolucionais, que capturam os \emph{feature maps} e contém os pesos da rede, normalmente são seguidas por funções de ativação como as exemplificadas na Seção \ref{sec:rnas}, mais especificamente na Tabela \ref{tab:ativacoes}. Via de regra, a toda camada convolucional em uma CNN, segue-se uma função de ativação, finalizando em uma operação de \emph{pooling}, como mostra a Figura \ref{fig:cnn_camada}.
 
 \begin{figure}
 	\centering
 	\caption{Componentes de uma camada de uma rede neural convolucional \cite{goodfellow2016deep}.}
 	\label{fig:cnn_camada}
-	\includegraphics[height=0.3\textheight]{img/cnn_camada.png}
+	\includegraphics[width=\textwidth]{img/cnn_camada_ipe.png}
 \end{figure}
 
  Uma função de \emph{pooling} substitui a saída da rede em determinada localização por uma síntese estatística das saídas vizinhas. Por exemplo, a operação \emph{max pooling} retorna o valor máximo em uma área retangular, enquanto a \emph{average pooling} retorna a média das saídas de um retângulo. O objetivo desta operação é fazer com que o \emph{feature map} seja invariante a pequenas mudanças na entrada. Esta invariância à pequenas mudanças locais é uma propriedade útil quando o mais importante for a existência da característica e não exatamente a sua posição, o que aumenta a eficiência geral da CNN ao reduzir drasticamente o número de valores a serem passados entre duas camadas quaisquer \cite{goodfellow2016deep}.

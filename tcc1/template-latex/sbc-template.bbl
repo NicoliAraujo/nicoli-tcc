@@ -5,6 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Artificial Intelligence - Neural Networks 2018]{rna:feedback}
+\abntrefinfo{Artificial\ldots}{ARTIFICIAL\ldots}{2018}
+{ARTIFICIAL Intelligence - Neural Networks. [S.l.]: Tutorials Point, 2018.
+  \url{https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_neural_networks.htm}.
+Acessado em 11 de Junho de 2018.}
+
 \bibitem[Bengio 2012]{bengio2012practical}
 \abntrefinfo{Bengio}{BENGIO}{2012}
 {BENGIO, Y. Practical recommendations for gradient-based training of deep
@@ -94,16 +100,24 @@ Acessado em 20 de Março de 2018.}
 {DEPUTADOS, C. dos. \emph{Estatuto da Criança e do Adolescente}. BRASIL:
   [s.n.], 1995.}
 
-\bibitem[Deshpande]{9dlpapers}
-\abntrefinfo{Deshpande}{DESHPANDE}{}
+\bibitem[Deshpande 2016]{9dlpapers}
+\abntrefinfo{Deshpande}{DESHPANDE}{2016}
 {DESHPANDE, A. \emph{The 9 Deep Learning Papers You Need To Know About
-  (Understanding CNNs Part 3)}. [S.l.]: Adeshpande.
+  (Understanding CNNs Part 3)}. [S.l.]: Adeshpande, 2016.
   \url{https://adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html}.
 Acessado em 30 de Maio de 2018.}
 
-\bibitem[Documentation]{keras:applications}
-\abntrefinfo{Documentation}{DOCUMENTATION}{}
-{DOCUMENTATION, K. \emph{Applications}. \url{https://keras.io/applications/}.
+\bibitem[Deshpande 2017]{neuronio:perceptron}
+\abntrefinfo{Deshpande}{DESHPANDE}{2017}
+{DESHPANDE, M. \emph{Perceptrons: The First Neural Networks}. [S.l.]: Zenva
+  Academy, 2017.
+  \url{https://pythonmachinelearning.pro/perceptrons-the-first-neural-networks/}.
+Acessado em 11 de Junho de 2018.}
+
+\bibitem[Documentation 2018]{keras:applications}
+\abntrefinfo{Documentation}{DOCUMENTATION}{2018}
+{DOCUMENTATION, K. \emph{Applications}. 2018.
+  \url{https://keras.io/applications/}.
 Acessado em 01 de Junho de 2018.}
 
 \bibitem[Dubrovina et al. 2018]{dubrovina2018mammography}
@@ -144,6 +158,13 @@ Acessado em 23 de Abril de 2018.}
 \emph{Computer Methods in Biomechanics and Biomedical Engineering: Imaging \&
   Visualization}, Taylor \& Francis, v.~6, n.~1, p.~1--6, 2018.
 Dispon{\'\i}vel em: \url{https://doi.org/10.1080/21681163.2015.1124249}.}
+
+\bibitem[Gill 2017]{rnas_tipos}
+\abntrefinfo{Gill}{GILL}{2017}
+{GILL, N.~S. \emph{Artificial Neural Networks, Neural Networks Applications and
+  Algorithms}. [S.l.]: XenonStack, 2017.
+  \url{https://www.xenonstack.com/blog/data-science/artificial-neural-networks-applications-algorithms/}.
+Acessado em 11 de Junho de 2018.}
 
 \bibitem[Giovanelli e Pasqualin]{sinapse}
 \abntrefinfo{Giovanelli e Pasqualin}{GIOVANELLI; PASQUALIN}{}
@@ -223,6 +244,11 @@ Acessado em 31 de Maio de 2018.}
 \abntrefinfo{ImageNet}{IMAGENET}{2015}
 {IMAGENET. \emph{Large Scale Visual Recognition Challenge (ILSVRC)}. 2015.
   \url{http://image-net.org/challenges/LSVRC/}.
+Acessado em 31 de Maio de 2018.}
+
+\bibitem[ImageNet 2016]{Imagenet:main}
+\abntrefinfo{ImageNet}{IMAGENET}{2016}
+{IMAGENET. \emph{ImageNet}. 2016. \url{http://www.image-net.org/}.
 Acessado em 31 de Maio de 2018.}
 
 \bibitem[Justiça 2014]{portaria:ci}
@@ -369,10 +395,17 @@ Acessado em 23 de Março de 2018.}
   p.~386, 1958.}
 
 \bibitem[Rothe, Timofte e Gool 2015]{rothe2015dex}
-\abntrefinfo{Rothe, Timofte e Gool}{ROTHE; TIMOFTE; GOOL}{2015}
+\abntrefinfo{Rothe, Timofte e Gool}{ROTHE; TIMOFTE; GOOL}{2015a}
 {ROTHE, R.; TIMOFTE, R.; GOOL, L.~V. Dex: Deep expectation of apparent age from
   a single image. In:  \emph{Proceedings of the {IEEE} International Conference
   on Computer Vision Workshops}. [S.l.: s.n.], 2015. p. 10--15.}
+
+\bibitem[Rothe, Timofte e Gool 2015]{IMDb_derivada}
+\abntrefinfo{Rothe, Timofte e Gool}{ROTHE; TIMOFTE; GOOL}{2015b}
+{ROTHE, R.; TIMOFTE, R.; GOOL, L.~V. \emph{IMDB-WIKI – 500k+ face images with
+  age and gender labels}. 2015.
+  \url{https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/}.
+Acessado em \today.}
 
 \bibitem[Rumelhart, Hinton e Williams 1986]{rumelhart1986backpropagation}
 \abntrefinfo{Rumelhart, Hinton e Williams}{RUMELHART; HINTON; WILLIAMS}{1986}
@@ -432,9 +465,15 @@ Acessado em \today.}
 \abntrefinfo{Szegedy et al.}{SZEGEDY et al.}{2015}
 {SZEGEDY, C. et al. Going deeper with convolutions. In:  CVPR. [S.l.], 2015.}
 
-\bibitem[Tensorflow]{tensorflow:models}
-\abntrefinfo{Tensorflow}{TENSORFLOW}{}
-{TENSORFLOW. \emph{Models and examples built with TensorFlow}.
+\bibitem[Tensorflow 2018]{tensorflow:alexnet}
+\abntrefinfo{Tensorflow}{TENSORFLOW}{2018a}
+{TENSORFLOW. \emph{AlexNet}. 2018.
+  \url{https://github.com/tensorflow/models/blob/master/research/slim/nets/alexnet.py}.
+Acessado em 11 de Junho de 2018.}
+
+\bibitem[Tensorflow 2018]{tensorflow:models}
+\abntrefinfo{Tensorflow}{TENSORFLOW}{2018b}
+{TENSORFLOW. \emph{Models and examples built with TensorFlow}. 2018.
   \url{https://github.com/tensorflow/models}.
 Acessado em 01 de Junho de 2018.}
 

@@ -23,34 +23,30 @@ Com base no modelo biológico, McCulloch e Pitts propuseram em \cite{mcculloch19
 
 \begin{figure}[ht]
 	\centering
-	\caption{Representação de um neurônio artificial.}
+	\caption{Representação de um neurônio artificial. Fonte: \cite{neuronio:perceptron}}
 	\label{fig:neuronio}
 	\includegraphics[width=0.7\textwidth]{img/perceptron.png}
 \end{figure}
 
-A saída $y$ é o resultado do mapeamento da função $\sigma$, conforme expresso na Equação \ref{eq:funcao_neuronio}, aplicada à soma ponderada do vetor de entrada $x$ pelo conjunto de pesos $w = w_1, \ldots, w_n$. No caso de um neurônio mais simples, como o de McCulloch e Pitts, a ativação do neurônio é obtida através da aplicação de uma função degrau deslocada, a depender da comparação da entrada com um limiar de ativação $\theta$, conforme Equação \ref{eq:ativacao_limiar} \cite{mcculloch1943logical}.
-
-\begin{eqnarray}\label{eq:funcao_neuronio}
-	y &=& \sigma\left( \sum_{i=1}^n x_i w_i\right),\\
-	\sigma(u) &=& \begin{cases}
-		1, & \text{se } u \geq \theta\label{eq:ativacao_limiar}\\
+A saída $y$ é o resultado do mapeamento da função de ativação $\sigma$, conforme expresso na Equação \ref{eq:funcao_neuronio}, aplicada à soma ponderada do vetor de entrada $x$ pelo conjunto de pesos $w = w_1, \ldots, w_n$. No caso de um neurônio mais simples, como o de McCulloch e Pitts, a ativação do neurônio é obtida através da aplicação de uma função degrau deslocada, a depender da comparação da entrada com um limiar de ativação $\theta$, conforme Equação \ref{eq:ativacao_limiar} \cite{mcculloch1943logical}.
+\begin{eqnarray}
+	y &=& \sigma\left( z\right),\label{eq:funcao_neuronio}\\
+	z $=$ \sum_{i=1}^n x_i w_i\\
+	\sigma(z) &=& \begin{cases}
+		1, & \text{se } z \geq \theta\label{eq:ativacao_limiar}\\
 		0, & \text{caso contrário.}
 	\end{cases}
 \end{eqnarray}
-
-
 Considerando desenvolvimentos posteriores, sabe-se atualmente que a escolha da função de ativação $\sigma$ das camadas ocultas e da camada de saída deve considerar funções contínuas e deriváveis \cite{hornik1991approximation}, em que comumente são optadas pelas funções apresentadas na Tabela  \ref{tab:ativacoes}.
-
 
  \input{./files/tab_ativacao}
 
-
 Em 1958, Frank Rosenblatt desenvolveu o neurônio \emph{Perceptron} \cite{rosenblatt1958perceptron}, que mais tarde seria empregado como a unidade de processamento das RNA e de outros modelos de ML, a exemplo das \emph{support vector machines}. O Perceptron de Rosenblatt agregou ao neurônio de McCulloch e Pitts conceitos cruciais para a caracterização das RNAs como são conhecidas hoje, como a não obrigatoriedade de igualdade dos pesos e limiares de ativação, a possibilidade de os pesos serem positivos ou negativos, a diversidade de funções de ativação, entre outros. Além desta caracterização, uma contribuição relevante deste trabalho contempla a proposição de um algoritmo de aprendizado que permite a adaptação dos pesos de uma RNA através da otimização do desempenho da rede. Isto atribuiu ao modelo Perceptron a capacidade de aprender tarefas que contenham dados linearmente separáveis \cite{Teresa:Livro}.
 
-Este modelo inicial apresentava algumas limitações, atribuídas principalmente à sua linearidade e simplicidade, características que possibilitam resolver apenas problemas linearmente separáveis \cite{Teresa:Livro}. A disposição de neurônios em camadas e a utilização de funções de ativação nas saídas dos neurônios caracterizou as RNAs, capazes de serem aproximadas universiais de qualquer função contínua graças à otimização por minimização da dissimilaridade entre o valor previsto pela rede $\hat{y}$ e o valor real $y$. Atualmente, as RNAs podem apresentar diversos tipos de arquitetura, ao variar-se parâmetros como o número de camadas, quantidade de neurônios em cada camada, os tipos de conexões entre neurônios e topologia de rede. Alguns exemplos de arquiteturas podem ser encontrados na Figura \ref{fig:popular_archs}.
+O modelo Perceptron apresentava algumas limitações, atribuídas principalmente à sua linearidade e simplicidade, características que possibilitam resolver apenas problemas linearmente separáveis \cite{Teresa:Livro}. A disposição de neurônios em camadas e a utilização de funções de ativação nas saídas dos neurônios caracterizou as RNAs, capazes de serem aproximadas universiais de qualquer função contínua graças à otimização por minimização da dissimilaridade entre o valor previsto pela rede $\hat{y}$ e o valor real $y$. Atualmente, as RNAs podem apresentar diversos tipos de arquitetura, ao variar-se parâmetros como o número de camadas, quantidade de neurônios em cada camada, os tipos de conexões entre neurônios e topologia de rede. Alguns exemplos de arquiteturas podem ser encontrados na Figura \ref{fig:popular_archs}.
 
 \begin{figure}[!h]
-	\caption{Arquiteturas populares de RNAs. Fonte: ???}
+	\caption{Arquiteturas populares de RNAs. Fonte: \cite{rnas_tipos}}
 	\label{fig:popular_archs}
 	\includegraphics[width=\linewidth]{img/popular_archs}
 \end{figure}
@@ -61,12 +57,12 @@ Este modelo inicial apresentava algumas limitações, atribuídas principalmente
 Quanto aos tipos de conexão possíveis entre os neurônios, tem-se que as RNAs podem ser do tipo \emph{feedforward} ou recorrente. As RNAs \emph{feedforward}, tais como a exemplificada na Figura \ref{fig:feedforward}, são comumente associadas à um grafo acíclico em que as saídas de uma camada servem de entrada à camada seguinte, e assim sucessivamente, até que seja produzida uma saída. As RNAs recorrentes, tais como a rede exemplificada na Figura \ref{fig:recorrente}, contém conexões entre neurônios de modo a formar um grafo direcionado cíclico, o que permite que o modelo capture sequências de comportamentos organizados em séries temporais.
 
 \begin{figure}[h!]
-	\caption{Exemplos de RNA com diferentes tipos de conexões entre neurônios.}
+	\caption{Exemplos de RNA com diferentes tipos de conexões entre neurônios \cite{rna:feedback}.}
 	\label{fig:rna_conectividade}
-	\begin{subfigure}[h]{0.45\linewidth}
+	\begin{subfigure}[h]{0.35\linewidth}
 		\caption{Exemplo de RNA \emph{feedforward}.}
 		\label{fig:feedforward}
-		\includegraphics[width=\linewidth]{img/feedforward}
+		\includegraphics[width=\linewidth]{img/feedforward.jpg}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[h]{0.35\linewidth}
@@ -93,8 +89,7 @@ Segundo o Teorema da Aproximação Universal definido por Hornik em 1991, se a a
 	\includegraphics[width=0.7\textwidth]{img/mlprna.jpg}
 \end{figure}
 
-O objetivo das RNAs é aproximar funções que mapeiam dadas entradas $X$ às suas respectivas saídas $Y$. Para atingir este objetivo, é necessário minimizar a disparidade entre as saídas previstas $\hat{Y}$ e as saídas desejadas $Y$ através da atualização dos pesos $W$ e do bias $b$ dos neurônios das camadas. A função que calcula tal disparidade é chamada \emph{função custo}, dada por $J$ e tida como a soma das funções de perda, $L(\hat{y}_i, y_i)$, entre cada saída esperada $y_i$ e obtida pela RNA $\hat{y}_i$, que vai sendo acumulada à medida que o modelo é apresentado a $m$ exemplos do evento que se deseja aprender. A função custo está representada na Equação \ref{eq:custo}, e a perda ou erro pode ser calculada de diversas maneiras, a depender do tipo de função de ativação adotado e do algoritmo de otimização escolhido.
-
+O objetivo das RNAs é aproximar funções que mapeiem entradas $X$ às suas respectivas saídas $Y$. Para atingir este objetivo, é necessário minimizar a disparidade entre as saídas previstas $\hat{Y}$ e as saídas desejadas $Y$ através da atualização dos pesos $W$ e do bias $b$ dos neurônios das camadas. A função que calcula tal disparidade é chamada \emph{função custo}, dada por $J$ e tida como a soma das funções de perda, $L(\hat{y}_i, y_i)$, entre cada saída esperada $y_i$ e obtida pela RNA $\hat{y}_i$, que vai sendo acumulada à medida que o modelo é apresentado a $m$ exemplos do evento que se deseja aprender. A função custo está representada na Equação \ref{eq:custo}, e a perda ou erro pode ser calculada de diversas maneiras, a depender do tipo de tarefa de aprendizado, função de ativação e algoritmo de otimização escolhidos.
 
 \begin{equation}\label{eq:custo}
 J = \frac{1}{m} \sum_{i=1}^{m} L(\hat{y}_{i}, y_{i}).
@@ -102,8 +97,8 @@ J = \frac{1}{m} \sum_{i=1}^{m} L(\hat{y}_{i}, y_{i}).
 
 A fase \emph{forward}, também chamada \emph{forward propagation}, consiste na inferência das saídas da rede perante um conjunto de $m$ entradas, em que uma é fornecida por vez. Neste processo, dada uma entrada $x_i$, a informação flui para frente  pela rede, isto é, as informações iniciais que são propagadas até as camadas ocultas, e de lá até que a saída $\hat{y}_i$ seja produzida. Ao final de uma fase \emph{forward}, a função custo $J$ é calculada. Modificações presentes na literatura também consideram algumas execuções da fase \emph{forward} para obtenção do custo médio nestas iterações. A representação da sequência de passos realizados nesta fase \emph{forward} está detalhada no Algoritmo \ref{alg:forward} \cite{haykin2009neural, goodfellow2016deep}.
 
-\begin{algorithm}\label{alg:forward}
-	\caption{Fase \emph{forward}}
+\begin{algorithm}
+	\caption{Fase \emph{forward}}\label{alg:forward}
 	\Entrada{$i$-ésimo par de exemplos de entrada $x_i$ e saída $y_i$ do conjunto de treinamento}
 	\Saida{Perda $L(\hat{y}, y)$}
 	\Inicio{
@@ -150,13 +145,13 @@ A fase \emph{backwards}, denotada no Algoritmo \ref{alg:backpropagation}, lança
 	}
 \end{algorithm}
 
-Além dos parâmetros $w$ e $b$, as RNAs MLP têm hiperparâmetros, responsáveis por controlar as mudança ocorridas nos parâmetros. Bengio define hiperparâmetros como variáveis cujos valores devem ser definidos antes que o algoritmo de treinamento se inicie. Alguns hiperparâmetros já discutidos neste texto são a taxa de aprendizado $\eta$, número de camadas ocultas, quantidade de neurônios e tipos de funções de ativação escolhidos para cada camada. O número de vezes que o conjunto de dados é apresentado ao modelo no treinamento, conhecido como número de épocas, também é um hiperparâmetro, assim como a quantidade de exemplos de treinamento apresentados à rede de uma só vez na fase \emph{forward}, chamado de \emph{batch} \cite{bengio2012practical}.
+Além dos parâmetros $w$ e $b$, as RNAs MLP têm hiperparâmetros, responsáveis por controlar as mudança ocorridas nos parâmetros. Bengio define hiperparâmetros como variáveis cujos valores devem ser definidos antes que o algoritmo de treinamento se inicie. Alguns hiperparâmetros já discutidos neste texto são a taxa de aprendizado $\eta$, número de camadas ocultas, quantidade de neurônios e tipos de funções de ativação escolhidos para cada camada. O número de vezes que o conjunto de dados é apresentado ao modelo no treinamento, conhecido como número de épocas, também é um hiperparâmetro, assim como a quantidade de exemplos de treinamento apresentados à rede de uma só vez na fase \emph{forward}, chamado de \emph{batch size} \cite{bengio2012practical}.
 
 Sumarizando os conceitos apresentados, o algoritmo para treinamento supervisionado de uma RNA MLP se dá como mostrado no Algoritmo \ref{alg:treinamento}.
 
 \begin{algorithm}[h!]
 	\caption{Algoritmo de treinamento de uma RNA  \cite{Teresa:Livro}.}\label{alg:treinamento}
-	\Entrada{Conjuntos de exemplos e respectivos rótulos $(X,Y)$, rede neural a ser treinada, número de épocas $e$, taxa de aprendizado $\eta$ e tamanho do \emph{batch} $b$.}
+	\Entrada{Conjuntos de exemplos e respectivos rótulos $(X,Y)$, rede neural a ser treinada, número de épocas $e$, taxa de aprendizado $\eta$ e \emph{batch size} $b$.}
 	\Saida{Rede neural treinada.}
 	\Inicio{
 		Inicialização aleatoriamente os vetores de pesos $W$ e bias $b$\\
@@ -168,6 +163,6 @@ Sumarizando os conceitos apresentados, o algoritmo para treinamento supervisiona
 	}
 \end{algorithm}
 
-Ao lidar com técnicas que visam acelerar ou potencializar o processo de aprendizado RNAs, o número de hiperparâmetros aumenta. Alguns exemplos destas técnicas incluem os algoritmos que realizam a otimização do gradiente descendente através da regularização dos pesos, como a Estimação Adaptativa do Momento, ou \emph{Adam} e o algoritmo de otimização da família dos métodos quase Newtonianos \emph{L-BFGS}. Outros hábitos comuns incluem a adoção de métodos de inicialização dos pesos que evitem o gradiente de convergir para pontos de sela, e de uma  taxa de aprendizado que diminui com conforme o número de épocas executadas aumenta para que o gradiente convirja para um ponto mínimo mais rapidamente \cite{goodfellow2016deep}.
+Ao lidar com técnicas que visam acelerar ou potencializar o processo de aprendizado RNAs, o número de hiperparâmetros aumenta. Alguns exemplos destas técnicas incluem os algoritmos que realizam a otimização do gradiente descendente através da regularização dos pesos, como a Estimação Adaptativa do Momento, ou \emph{Adam} e o algoritmo de otimização da família dos métodos quase Newtonianos \emph{L-BFGS}. Outros hábitos comuns incluem a adoção de métodos de inicialização dos pesos que evitem o gradiente de convergir para pontos de sela, e de uma taxa de aprendizado que diminui conforme o número de épocas executadas aumenta para que o gradiente convirja para um ponto mínimo mais rapidamente \cite{goodfellow2016deep}.
 
 As RNAs \emph{feedforward} MLP são amplamente utilizadas em aplicações de diversos domínios. Inicialmente, destacaram-se as aplicações voltadas para o mercado financeiro visando, por exemplo, otimizar estratégias de marketing. Aplicações posteriores consideraram a alocação de assentos em aviões, aprovação de empréstimo, controle de qualidade em processos industriais, dentre outros \cite{widrow1994neural}. O escopo de aplicações deste modelo continua a crescer nos dias atuais, especialmente diante do desenvolvimento de variantes, a exemplo das redes neurais convolucionais, com grande capacidade de detecção de padrões e pouco esforço de pré-processamento. Reconhecimento de caracteres e dígitos  \cite{lenet}, processamento de imagens médicas para reconhecimento de características associadas à doenças cardíacas \cite{oktay2018anatomically}, pulmonares \cite{mingchen2018holistic} e mamárias \cite{dubrovina2018mammography} são alguns exemplos de aplicações de vanguarda destes modelos compreendidos dentro da sub-área de \emph{Deep Learning}, que será caracterizada na seção a seguir.
