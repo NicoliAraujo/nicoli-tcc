@@ -27,11 +27,10 @@ Com base no modelo biológico, McCulloch e Pitts propuseram em \cite{mcculloch19
 	\label{fig:neuronio}
 	\includegraphics[width=0.7\textwidth]{img/perceptron.png}
 \end{figure}
-
 A saída $y$ é o resultado do mapeamento da função de ativação $\sigma$, conforme expresso na Equação \ref{eq:funcao_neuronio}, aplicada à soma ponderada do vetor de entrada $x$ pelo conjunto de pesos $w = w_1, \ldots, w_n$. No caso de um neurônio mais simples, como o de McCulloch e Pitts, a ativação do neurônio é obtida através da aplicação de uma função degrau deslocada, a depender da comparação da entrada com um limiar de ativação $\theta$, conforme Equação \ref{eq:ativacao_limiar} \cite{mcculloch1943logical}.
 \begin{eqnarray}
 	y &=& \sigma\left( z\right),\label{eq:funcao_neuronio}\\
-	z $=$ \sum_{i=1}^n x_i w_i\\
+	z &=& \sum_{i=1}^n x_i w_i\\
 	\sigma(z) &=& \begin{cases}
 		1, & \text{se } z \geq \theta\label{eq:ativacao_limiar}\\
 		0, & \text{caso contrário.}
@@ -41,7 +40,7 @@ Considerando desenvolvimentos posteriores, sabe-se atualmente que a escolha da f
 
  \input{./files/tab_ativacao}
 
-Em 1958, Frank Rosenblatt desenvolveu o neurônio \emph{Perceptron} \cite{rosenblatt1958perceptron}, que mais tarde seria empregado como a unidade de processamento das RNA e de outros modelos de ML, a exemplo das \emph{support vector machines}. O Perceptron de Rosenblatt agregou ao neurônio de McCulloch e Pitts conceitos cruciais para a caracterização das RNAs como são conhecidas hoje, como a não obrigatoriedade de igualdade dos pesos e limiares de ativação, a possibilidade de os pesos serem positivos ou negativos, a diversidade de funções de ativação, entre outros. Além desta caracterização, uma contribuição relevante deste trabalho contempla a proposição de um algoritmo de aprendizado que permite a adaptação dos pesos de uma RNA através da otimização do desempenho da rede. Isto atribuiu ao modelo Perceptron a capacidade de aprender tarefas que contenham dados linearmente separáveis \cite{Teresa:Livro}.
+Em 1958, Frank Rosenblatt desenvolveu o neurônio \emph{Perceptron} \cite{rosenblatt1958perceptron}, que mais tarde seria empregado como a unidade de processamento das RNA e de outros modelos de ML, a exemplo das máquinas de vetores de suporte. O Perceptron de Rosenblatt agregou ao neurônio de McCulloch e Pitts conceitos cruciais para a caracterização das RNAs como são conhecidas hoje, como a não obrigatoriedade de igualdade dos pesos e limiares de ativação, a possibilidade de os pesos serem positivos ou negativos, a diversidade de funções de ativação, entre outros. Além desta caracterização, uma contribuição relevante deste trabalho contempla a proposição de um algoritmo de aprendizado que permite a adaptação dos pesos de uma RNA através da otimização do desempenho da rede. Isto atribuiu ao modelo Perceptron a capacidade de aprender tarefas que contenham dados linearmente separáveis \cite{Teresa:Livro}.
 
 O modelo Perceptron apresentava algumas limitações, atribuídas principalmente à sua linearidade e simplicidade, características que possibilitam resolver apenas problemas linearmente separáveis \cite{Teresa:Livro}. A disposição de neurônios em camadas e a utilização de funções de ativação nas saídas dos neurônios caracterizou as RNAs, capazes de serem aproximadas universiais de qualquer função contínua graças à otimização por minimização da dissimilaridade entre o valor previsto pela rede $\hat{y}$ e o valor real $y$. Atualmente, as RNAs podem apresentar diversos tipos de arquitetura, ao variar-se parâmetros como o número de camadas, quantidade de neurônios em cada camada, os tipos de conexões entre neurônios e topologia de rede. Alguns exemplos de arquiteturas podem ser encontrados na Figura \ref{fig:popular_archs}.
 
@@ -86,7 +85,7 @@ Segundo o Teorema da Aproximação Universal definido por Hornik em 1991, se a a
 	\centering
 	\caption{Rede Neural MLP com duas camadas ocultas.}
 	\label{fig:mlp}
-	\includegraphics[width=0.7\textwidth]{img/mlprna.jpg}
+	\includegraphics[width=0.6\textwidth]{img/mlprna.jpg}
 \end{figure}
 
 O objetivo das RNAs é aproximar funções que mapeiem entradas $X$ às suas respectivas saídas $Y$. Para atingir este objetivo, é necessário minimizar a disparidade entre as saídas previstas $\hat{Y}$ e as saídas desejadas $Y$ através da atualização dos pesos $W$ e do bias $b$ dos neurônios das camadas. A função que calcula tal disparidade é chamada \emph{função custo}, dada por $J$ e tida como a soma das funções de perda, $L(\hat{y}_i, y_i)$, entre cada saída esperada $y_i$ e obtida pela RNA $\hat{y}_i$, que vai sendo acumulada à medida que o modelo é apresentado a $m$ exemplos do evento que se deseja aprender. A função custo está representada na Equação \ref{eq:custo}, e a perda ou erro pode ser calculada de diversas maneiras, a depender do tipo de tarefa de aprendizado, função de ativação e algoritmo de otimização escolhidos.

@@ -3,14 +3,14 @@
 \subsection{Tarefa de Aprendizado}
 A tarefa de aprendizado considerada para a estimação de idade de telespectadores é a regresssão. Neste contexto, uma imagem em cores RGB de dimensões $224 \times 224$ pixels contendo uma face humana centralizada será fornecida como entrada. A saída desejada é a estimativa de idade, em anos, da pessoa correspondente, conforme exemplificado na Figura \ref{fig:deniro_cnn}. Esta tarefa será abordada segundo o paradigma de aprendizado supervisionado.
 
-\begin{figure}
+\begin{figure}[h!]
   \centering
      \caption{Tarefa de aprendizado}
-     \includegraphics[width=\textwidth]{img/deniro_cnn}
+     \includegraphics[width=0.8\textwidth]{img/deniro_cnn}
      \label{fig:deniro_cnn}
 \end{figure}
 
-Os dados disponíveis para este contexto seráo particionados em três conjuntos disjuntos, sendo $70\%$ reservados para o treino, $10\%$ para validação e $20\%$ para teste. Esta partição obedece à tecnica \emph{Holdout} de validação cruzada \cite{brink2016real}.
+Os dados disponíveis para este contexto serão particionados em três conjuntos disjuntos, sendo $70\%$ reservados para o treino, $10\%$ para validação e $20\%$ para teste. Esta partição obedece à tecnica \emph{Holdout} de validação cruzada \cite{brink2016real}.
 
 Os modelos propostos para esta tarefa terão seu desempenho aferido perante os dados do conjunto de testes de acordo com a métrica de desempenho \emph{Root Mean Squared Error} (RMSE). Esta métrica considera a diferença entre cada um dos valores previstos $\hat{y}$ e os reais $y$, e posteriormente quantifica uma média imune à variação positiva ou negativa desta diferença. A Equação \ref{eq:rmse} denota o cálculo do RMSE \cite{brink2016real}.
 
@@ -25,11 +25,11 @@ Os modelos propostos para esta tarefa terão seu desempenho aferido perante os d
 
 A fim de adequar melhor o conjunto de dados para os modelos de CNNs utilizados, realizou-se uma limpeza e pré-processamento dos meta-dados e das imagens da base IMDb, que se iniciou com o cálculo do atributo alvo, a idade, a partir dos atributos originais fornecidos. A idade foi aferida através da data de nascimento da celebridade e do ano em que a fotografia em questão foi capturada.
 
-Uma análise do conjunto de dados revelou a presença de itens com idade e gênero apresentando valores nulos, inválidos ou negativos, que foram descartados. Observou-se também a presença de múltiplos exemplos referentes à mesma pessoa com a mesma idade. Houve a remoção de tais exemplos, a fim de evitar que a apresentação de um mesmo rosto com a mesma idade provocasse \emph{overfitting} nos modelos. Exemplos atípicos, possivelmente resultado de rotulação incorreta, como idade maior que $100$ anos ou não compatível com os dados da celebridade referida nos meta-dados também foram descartados. Os atributos de pontuação de rostos foram úteis para identificar e remover exemplos em que não havia nenhum rosto identificado, ou em que havia mais de uma face na imagem. Este descarte foi realizado com o objetivo de eliminar rotulações errôneas, como a mostrada na Tabela \ref{tab:deniro_many_plt_errado}.
+Uma análise do conjunto de dados revelou a presença de itens com idade e gênero apresentando valores nulos, inválidos ou negativos, que foram descartados. Observou-se também a presença de múltiplos exemplos referentes à mesma pessoa com a mesma idade. Houve a remoção de tais exemplos, a fim de evitar que a apresentação de um mesmo rosto com a mesma idade provocasse \emph{overfitting} nos modelos. Exemplos atípicos, possivelmente resultados de rotulação incorreta, como idade maior que $100$ anos ou não compatível com os dados da celebridade referida nos meta-dados também foram descartados. Os atributos de pontuação de rostos foram úteis para identificar e remover exemplos em que não havia nenhum rosto identificado, ou em que havia mais de uma face na imagem. Este descarte foi realizado com o objetivo de eliminar rotulações errôneas, como a mostrada na Tabela \ref{tab:deniro_many_plt_errado}.
 
 A última etapa consistiu na padronização das dimensões das imagens. Considerando a literatura, definiu-se o tamanho para $224 \times 224$ \emph{pixels} e o modo RGB como padrões. Por fim, após a padronização das imagens de entrada, o cálculo do atributo alvo idade, a adequação do caminho para as imagens em disco e a remoção de exemplos impróprios, seguiu-se o descarte dos outros meta-dados irrelevantes para a tarefa de estimação de idade de um indivíduo a partir de imagem. A data em que a foto foi tirada, nome, número de identificação, gênero, data de nascimento, localização do rosto da celebridade e pontuações de rostos nas imagens foram removidos.
 
-Por fim, o conjunto de dados consolidado consiste de $47.950$ exemplos contendo imagens e idades de $14.607$ celebridades distintas. O histograma de frequência da distribuição de idades de 0 a 100 anos presente nos exemplos da base de dados pode ser visualizado na Figura \ref{fig:hist}. Este total foi então dividido como proposto: conjunto de treinamento, contendo $70\%$ dos exemplos, ou seja, $33.565$ amostras; conjunto de validação, referente a $10\%$ dos dados, ou seja, $4.795$ itens; e, por fim, conjunto de testes, contendo os $20\%$ restantes, ou seja, $9.590$ exemplos.
+Por fim, o conjunto de dados consolidado consiste de $47.950$ exemplos contendo imagens e idades de $14.607$ celebridades distintas, ocupando $1,2 GB$. O histograma de frequência da distribuição de idades de 0 a 100 anos presente nos exemplos da base de dados pode ser visualizado na Figura \ref{fig:hist}. Este total foi então dividido como proposto: conjunto de treinamento, contendo $70\%$ dos exemplos, ou seja, $33.565$ amostras; conjunto de validação, referente a $10\%$ dos dados, ou seja, $4.795$ itens; e, por fim, conjunto de testes, contendo os $20\%$ restantes, ou seja, $9.590$ exemplos.
 
 \begin{figure}
     \centering
@@ -39,7 +39,8 @@ Por fim, o conjunto de dados consolidado consiste de $47.950$ exemplos contendo 
 \end{figure}
 
 \subsection{Modelos de CNN Considerados}
+Levando em conta a adoção de CNNs como o modelo de Aprendizado de Máquina a ser usado neste trabalho, considerou-se a utilização das arquiteturas LeNet e AlexNet. Todas as funções de ativação tangente hiperbólica disponíveis nas camadas ocultas das versões originais destas redes foram substituídas pela função \emph{ReLU}, por ser mais eficiente computacionalmente, evitar que o gradiente descendente tenda a zero e por promover uma convergência mais rápida \cite{maas2013rectifier}. Pelo mesmo motivo, empregou-se como função de ativação da camada de saída de ambas redes a função \emph{Leaky ReLU} \cite{leaky_relu}. A implementação da AlexNet seguiu a prática atual de utilizar apenas uma GPU em seu treinamento, portanto as camadas dividas no trabalho original foram unificadas \cite{tensorflow:alexnet}. Ambos modelos foram implementados utilizando a biblioteca em Python para \emph{Deep Learning} Keras.
 
-Levando em conta a adoção de CNNs como o modelo de Aprendizado de Máquina a ser usado neste trabalho, considerou-se a utilização das arquiteturas LeNet e AlexNet. Todas as funções de ativação tangente hiperbólica disponíveis na versão original destas redes foram substituídas pela função ReLU, por ser mais eficiente computacionalmente e por promover uma convergência mais rápida. A implementação da AlexNet seguiu a prática atual de utilizar apenas uma GPU no treinamento, portanto as camadas dividas foram unificadas \cite{tensorflow:alexnet}.
+Adotou-se um \emph{batch size} igual a $64$ para o treinamento, uma taxa de aprendizado inicial de $10^{-3}$ com decaimento de $10^{-10}$, o método de otimização do gradiente descendente foi o \emph{Adam}. O número de épocas para treinamento obtidas de maneira experimental, observando a perda obtida ao final de cada época.
 
-O número de épocas para treinamento foi igual a $100$, o \emph{batch size} igual a $64$, o método de otimização do gradiente descendente foi o \emph{Adam} e as taxas de treinamento adotadas foram obtidas de maneira experimental, observando a perda obtida a cada época.
+Na seção a seguir estão os resultados preliminares obtidos do treino dos modelos, hiperparâmetros e estratégias supracitados.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2018/dev/Debian) (preloaded format=pdflatex 2018.5.14)  12 JUN 2018 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2018/dev/Debian) (preloaded format=pdflatex 2018.5.14)  13 JUN 2018 09:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1169,19 +1169,6 @@ Overfull \hbox (2.87221pt too wide) in paragraph at lines 13--36
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 32.
-
-
-LaTeX Warning: Reference `sec:results' on page 4 undefined on input line 33.
-
-/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/intro.tex:33: Undefined control sequence.
-l.33 ...esults} estÃ£o os resultados obtidos \tofo
-                                                  {coloco que sÃ£o resultado...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 67.
@@ -1194,7 +1181,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4.
  [4]
-<img/smart_samsung.jpg, id=199, 652.4375pt x 421.575pt>
+<img/smart_samsung.jpg, id=202, 652.4375pt x 421.575pt>
 File: img/smart_samsung.jpg Graphic file (type jpg)
 <use img/smart_samsung.jpg>
 Package pdftex.def Info: img/smart_samsung.jpg  used on input line 12.
@@ -1226,7 +1213,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
 [5 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/smart_samsung.jpg>]
-<img/sbt_app.jpg, id=222, 602.25pt x 335.2525pt>
+<img/sbt_app.jpg, id=225, 602.25pt x 335.2525pt>
 File: img/sbt_app.jpg Graphic file (type jpg)
 <use img/sbt_app.jpg>
 Package pdftex.def Info: img/sbt_app.jpg  used on input line 47.
@@ -1242,32 +1229,32 @@ Package babel Info: Redefining portuges shorthand "|
 LaTeX Font Info:    Calculating math sizes for size <9.60004> on input line 7.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9.60004> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
-<img/livre.png, id=248, 444.66125pt x 444.66125pt>
+<img/livre.png, id=251, 444.66125pt x 444.66125pt>
 File: img/livre.png Graphic file (type png)
 <use img/livre.png>
 Package pdftex.def Info: img/livre.png  used on input line 11.
 (pdftex.def)             Requested size: 21.34087pt x 21.33875pt.
-<img/10anos.png, id=250, 401.5pt x 401.5pt>
+<img/10anos.png, id=253, 401.5pt x 401.5pt>
 File: img/10anos.png Graphic file (type png)
 <use img/10anos.png>
 Package pdftex.def Info: img/10anos.png  used on input line 14.
 (pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
-<img/12anos.png, id=251, 401.5pt x 401.5pt>
+<img/12anos.png, id=254, 401.5pt x 401.5pt>
 File: img/12anos.png Graphic file (type png)
 <use img/12anos.png>
 Package pdftex.def Info: img/12anos.png  used on input line 17.
 (pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
-<img/14anos.png, id=252, 401.5pt x 401.5pt>
+<img/14anos.png, id=255, 401.5pt x 401.5pt>
 File: img/14anos.png Graphic file (type png)
 <use img/14anos.png>
 Package pdftex.def Info: img/14anos.png  used on input line 20.
 (pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
-<img/16anos.png, id=253, 401.5pt x 401.5pt>
+<img/16anos.png, id=256, 401.5pt x 401.5pt>
 File: img/16anos.png Graphic file (type png)
 <use img/16anos.png>
 Package pdftex.def Info: img/16anos.png  used on input line 23.
 (pdftex.def)             Requested size: 21.34087pt x 21.33821pt.
-<img/18anos.png, id=254, 401.5pt x 401.5pt>
+<img/18anos.png, id=257, 401.5pt x 401.5pt>
 File: img/18anos.png Graphic file (type png)
 <use img/18anos.png>
 Package pdftex.def Info: img/18anos.png  used on input line 26.
@@ -1290,7 +1277,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 8.
  [8 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/livre.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/10anos.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/12anos.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/14anos.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/16anos.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/18anos.png>]
-<img/machinelearningalgorithms.png, id=296, 1170.3725pt x 747.79375pt>
+<img/machinelearningalgorithms.png, id=299, 1170.3725pt x 747.79375pt>
 File: img/machinelearningalgorithms.png Graphic file (type png)
 <use img/machinelearningalgorithms.png>
 Package pdftex.def Info: img/machinelearningalgorithms.png  used on input line 10.
@@ -1325,7 +1312,7 @@ Underfull \hbox (badness 1571) in paragraph at lines 9--9
 []\T1/ptm/m/n/10.95 (a) |Neurô-nio bi-o-ló-gico e seus com-po-nen-tes.
  []
 
-<img/neuronio.jpg, id=328, 401.5pt x 400.49625pt>
+<img/neuronio.jpg, id=331, 401.5pt x 400.49625pt>
 File: img/neuronio.jpg Graphic file (type jpg)
 <use img/neuronio.jpg>
 Package pdftex.def Info: img/neuronio.jpg  used on input line 11.
@@ -1336,7 +1323,7 @@ Package hyperref Warning: Suppressing empty link on input line 14.
 
 Package hyperref Warning: Suppressing empty link on input line 14.
 
-<./img/redeneuralbiologica.jpg, id=331, 497.86pt x 269.005pt>
+<./img/redeneuralbiologica.jpg, id=334, 497.86pt x 269.005pt>
 File: ./img/redeneuralbiologica.jpg Graphic file (type jpg)
 <use ./img/redeneuralbiologica.jpg>
 Package pdftex.def Info: ./img/redeneuralbiologica.jpg  used on input line 16.
@@ -1346,20 +1333,20 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 8--18
 []$[]$ $[]$ 
  []
 
-<img/perceptron.png, id=341, 1173.38374pt x 652.4375pt>
+<img/perceptron.png, id=344, 1173.38374pt x 652.4375pt>
 File: img/perceptron.png Graphic file (type png)
 <use img/perceptron.png>
 Package pdftex.def Info: img/perceptron.png  used on input line 28.
 (pdftex.def)             Requested size: 298.75264pt x 166.1155pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 31.
 [11 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/neuronio.jpg> <./img/redeneuralbiologica.jpg>]
-./files/fundamenta/rna.tex:34: Missing } inserted.
+./files/fundamenta/rna.tex:33: Missing } inserted.
 <inserted text> 
                 }
-l.34 	z $
+l.33 	z $
          =$ \sum_{i=1}^n x_i w_i\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1367,88 +1354,88 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./files/fundamenta/rna.tex:35: Incomplete \ifcase; all text was ignored after line 35.
+./files/fundamenta/rna.tex:34: Incomplete \ifcase; all text was ignored after line 34.
 <inserted text> 
                 \fi 
-l.35 	\sigma
+l.34 	\sigma
             (z) &=& \begin{cases}
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
-./files/fundamenta/rna.tex:35: Extra alignment tab has been changed to \cr.
+./files/fundamenta/rna.tex:34: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.35 	\sigma
+l.34 	\sigma
             (z) &=& \begin{cases}
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-./files/fundamenta/rna.tex:35: Extra \or.
+./files/fundamenta/rna.tex:34: Extra \or.
 \@@eqncr ... {& & &}\or \def \reserved@a {& &}\or 
                                                   \def \reserved@a {&}\else ...
-l.35 	\sigma
+l.34 	\sigma
             (z) &=& \begin{cases}
 I'm ignoring this; it doesn't match any \if.
 
-./files/fundamenta/rna.tex:35: Extra \else.
+./files/fundamenta/rna.tex:34: Extra \else.
 \@@eqncr ...@a {& &}\or \def \reserved@a {&}\else 
                                                   \let \reserved@a \@empty \...
-l.35 	\sigma
+l.34 	\sigma
             (z) &=& \begin{cases}
 I'm ignoring this; it doesn't match any \if.
 
 
-./files/fundamenta/rna.tex:35: LaTeX Error: Too many columns in eqnarray environment.
+./files/fundamenta/rna.tex:34: LaTeX Error: Too many columns in eqnarray environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 	\sigma
+l.34 	\sigma
             (z) &=& \begin{cases}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./files/fundamenta/rna.tex:35: Extra \fi.
+./files/fundamenta/rna.tex:34: Extra \fi.
 \@@eqncr ...mns in eqnarray environment}\@ehc \fi 
                                                   \reserved@a \if@eqnsw \@eq...
-l.35 	\sigma
+l.34 	\sigma
             (z) &=& \begin{cases}
 I'm ignoring this; it doesn't match any \if.
 
-./files/fundamenta/rna.tex:35: Missing { inserted.
+./files/fundamenta/rna.tex:34: Missing { inserted.
 <inserted text> 
                 {
-l.35 	\sigma
+l.34 	\sigma
             (z) &=& \begin{cases}
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 (./files/tab_ativacao.tex
-<img/identidade.pdf, id=365, 433.62pt x 289.08pt>
+<img/identidade.pdf, id=368, 433.62pt x 289.08pt>
 File: img/identidade.pdf Graphic file (type pdf)
 <use img/identidade.pdf>
 Package pdftex.def Info: img/identidade.pdf  used on input line 14.
 (pdftex.def)             Requested size: 64.01608pt x 42.67642pt.
-<img/tanh.pdf, id=366, 433.62pt x 289.08pt>
+<img/tanh.pdf, id=369, 433.62pt x 289.08pt>
 File: img/tanh.pdf Graphic file (type pdf)
 <use img/tanh.pdf>
 Package pdftex.def Info: img/tanh.pdf  used on input line 24.
 (pdftex.def)             Requested size: 64.01608pt x 42.67642pt.
-<img/sigmoid.pdf, id=367, 433.62pt x 289.08pt>
+<img/sigmoid.pdf, id=370, 433.62pt x 289.08pt>
 File: img/sigmoid.pdf Graphic file (type pdf)
 <use img/sigmoid.pdf>
 Package pdftex.def Info: img/sigmoid.pdf  used on input line 34.
 (pdftex.def)             Requested size: 64.01608pt x 42.67642pt.
-<img/relu.pdf, id=368, 433.62pt x 289.08pt>
+<img/relu.pdf, id=371, 433.62pt x 289.08pt>
 File: img/relu.pdf Graphic file (type pdf)
 <use img/relu.pdf>
 Package pdftex.def Info: img/relu.pdf  used on input line 44.
 (pdftex.def)             Requested size: 64.01608pt x 42.67642pt.
-<img/softmax.pdf, id=369, 433.62pt x 289.08pt>
+<img/softmax.pdf, id=372, 433.62pt x 289.08pt>
 File: img/softmax.pdf Graphic file (type pdf)
 <use img/softmax.pdf>
 Package pdftex.def Info: img/softmax.pdf  used on input line 54.
@@ -1457,23 +1444,23 @@ Package pdftex.def Info: img/softmax.pdf  used on input line 54.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 42.
  [12 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/perceptron.png>]
-<img/popular_archs.jpg, id=390, 688.5725pt x 479.7925pt>
+<img/popular_archs.jpg, id=393, 688.5725pt x 479.7925pt>
 File: img/popular_archs.jpg Graphic file (type jpg)
 <use img/popular_archs.jpg>
-Package pdftex.def Info: img/popular_archs.jpg  used on input line 51.
+Package pdftex.def Info: img/popular_archs.jpg  used on input line 50.
 (pdftex.def)             Requested size: 426.79135pt x 297.38773pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 57.
 [13 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/identidade.pdf> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/tanh.pdf
 
 pdfTeX warning: pdflatex (file /home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/tanh.pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -1487,43 +1474,43 @@ pdfTeX warning: pdflatex (file /home/nicoli/github/nicoli-tcc/tcc1/template-late
 
 pdfTeX warning: pdflatex (file /home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/softmax.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<img/feedforward.jpg, id=417, 461.725pt x 252.945pt>
+<img/feedforward.jpg, id=420, 461.725pt x 252.945pt>
 File: img/feedforward.jpg Graphic file (type jpg)
 <use img/feedforward.jpg>
-Package pdftex.def Info: img/feedforward.jpg  used on input line 65.
+Package pdftex.def Info: img/feedforward.jpg  used on input line 64.
 (pdftex.def)             Requested size: 149.37958pt x 81.83176pt.
-<img/recorrente2.jpg, id=418, 485.815pt x 317.185pt>
+<img/recorrente2.jpg, id=421, 485.815pt x 317.185pt>
 File: img/recorrente2.jpg Graphic file (type jpg)
 <use img/recorrente2.jpg>
-Package pdftex.def Info: img/recorrente2.jpg  used on input line 71.
+Package pdftex.def Info: img/recorrente2.jpg  used on input line 70.
 (pdftex.def)             Requested size: 149.37958pt x 97.52774pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 76.
  [14 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/popular_archs.jpg> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/feedforward.jpg> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/recorrente2.jpg>]
-<img/mlprna.jpg, id=436, 295.1025pt x 182.8431pt>
+<img/mlprna.jpg, id=439, 295.1025pt x 182.8431pt>
 File: img/mlprna.jpg Graphic file (type jpg)
 <use img/mlprna.jpg>
-Package pdftex.def Info: img/mlprna.jpg  used on input line 89.
+Package pdftex.def Info: img/mlprna.jpg  used on input line 88.
 (pdftex.def)             Requested size: 298.75264pt x 185.10808pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 97.
  [15 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/mlprna.jpg>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 126.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 126.
  [16]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 168.
+(babel)             in language  on input line 166.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 168.
+(babel)             in language  on input line 166.
 [17])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 17.
@@ -1533,7 +1520,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 6.
  [18]
-<img/compara_redes.png, id=542, 735.74875pt x 587.19376pt>
+<img/compara_redes.png, id=545, 735.74875pt x 587.19376pt>
 File: img/compara_redes.png Graphic file (type png)
 <use img/compara_redes.png>
 Package pdftex.def Info: img/compara_redes.png  used on input line 13.
@@ -1541,55 +1528,58 @@ Package pdftex.def Info: img/compara_redes.png  used on input line 13.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 20.
  [19 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/compara_redes.png (PNG copy)>]
-<img/compara_redes_ilsvrc.png, id=590, 547.04375pt x 327.2225pt>
+<img/compara_redes_ilsvrc.png, id=593, 547.04375pt x 327.2225pt>
 File: img/compara_redes_ilsvrc.png Graphic file (type png)
 <use img/compara_redes_ilsvrc.png>
-Package pdftex.def Info: img/compara_redes_ilsvrc.png  used on input line 34.
+Package pdftex.def Info: img/compara_redes_ilsvrc.png  used on input line 32.
 (pdftex.def)             Requested size: 341.43437pt x 204.23395pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 36.
  [20]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 40.
  (./files/fundamenta/cnns.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 8.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 8.
  [21 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/compara_redes_ilsvrc.png>]
-<./img/fundamenta/convolutions.png, id=647, 970.62625pt x 286.06876pt>
+<./img/fundamenta/convolutions.png, id=650, 970.62625pt x 286.06876pt>
 File: ./img/fundamenta/convolutions.png Graphic file (type png)
 <use ./img/fundamenta/convolutions.png>
-Package pdftex.def Info: ./img/fundamenta/convolutions.png  used on input line 23.
+Package pdftex.def Info: ./img/fundamenta/convolutions.png  used on input line 22.
 (pdftex.def)             Requested size: 341.43437pt x 100.6319pt.
-<img/cnn_camada_ipe.png, id=655, 946.53625pt x 80.3pt>
+<img/cnn_camada_ipe.png, id=658, 946.53625pt x 80.3pt>
 File: img/cnn_camada_ipe.png Graphic file (type png)
 <use img/cnn_camada_ipe.png>
-Package pdftex.def Info: img/cnn_camada_ipe.png  used on input line 32.
+Package pdftex.def Info: img/cnn_camada_ipe.png  used on input line 31.
 (pdftex.def)             Requested size: 426.79135pt x 36.20694pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 35.
  [22 <./img/fundamenta/convolutions.png>])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 43.
  (./files/fundamenta/canonicos.tex
+
+Package hyperref Warning: Suppressing empty link on input line 5.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 8.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 8.
- [23 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/cnn_camada_ipe.png>]
-<img/GoogLeNet.png, id=698, 617.30624pt x 311.66437pt>
+[23 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/cnn_camada_ipe.png>]
+<img/GoogLeNet.png, id=702, 617.30624pt x 311.66437pt>
 File: img/GoogLeNet.png Graphic file (type png)
 <use img/GoogLeNet.png>
 Package pdftex.def Info: img/GoogLeNet.png  used on input line 16.
@@ -1598,27 +1588,32 @@ Package pdftex.def Info: img/GoogLeNet.png  used on input line 16.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/resnets_modelvariants.png, id=704, 336.25626pt x 620.3175pt>
+<img/resnets_modelvariants.png, id=708, 336.25626pt x 620.3175pt>
 File: img/resnets_modelvariants.png Graphic file (type png)
 <use img/resnets_modelvariants.png>
-Package pdftex.def Info: img/resnets_modelvariants.png  used on input line 27.
+Package pdftex.def Info: img/resnets_modelvariants.png  used on input line 25.
 (pdftex.def)             Requested size: 111.97568pt x 206.5691pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 29.
  [24])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 46.
+ (./files/fundamenta/transferLearning.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
- [25 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/GoogLeNet.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/resnets_modelvariants.png>]
+(babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 48.
- (./files/fundamenta/transferLearning.tex)))
+(babel)             in language  on input line 3.
+ [25 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/GoogLeNet.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/resnets_modelvariants.png>])))
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 70.
  (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/trab_relac.tex
@@ -1630,16 +1625,16 @@ Package babel Info: Redefining portuges shorthand "|
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 73.
  [27]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 73.
  (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/solucao_proposta.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
-<img/deniro_cnn.png, id=795, 1112.155pt x 391.4625pt>
+<img/deniro_cnn.png, id=799, 1112.155pt x 391.4625pt>
 File: img/deniro_cnn.png Graphic file (type png)
 <use img/deniro_cnn.png>
 Package pdftex.def Info: img/deniro_cnn.png  used on input line 9.
@@ -1648,9 +1643,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 21.
  (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/dataset.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 5.
  [28 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/deniro_cnn.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 []\T1/ptm/m/n/10 imdb$\OML/cmm/m/it/10 =$\T1/ptm/m/n/10 34$\OML/cmm/m/it/10 =$\T1/ptm/m/n/10 nm0000134$[]$rm334009
@@ -1666,7 +1661,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 []$\OT1/cmr/m/n/10.95 (663\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 65\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 992\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 475\OML/cmm/m/it/10.95 ;$
  []
 
-<img/deniro_plt.png, id=818, 1013.7875pt x 1445.4pt>
+<img/deniro_plt.png, id=823, 1013.7875pt x 1445.4pt>
 File: img/deniro_plt.png Graphic file (type png)
 <use img/deniro_plt.png>
 Package pdftex.def Info: img/deniro_plt.png  used on input line 32.
@@ -1686,7 +1681,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 []$\OT1/cmr/m/n/10.95 (914\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 886\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1426\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 31\OML/cmm/m/it/10.95 ;$
  []
 
-<img/deniro_many_plt_correto.png, id=819, 1479.5275pt x 1132.23pt>
+<img/deniro_many_plt_correto.png, id=824, 1479.5275pt x 1132.23pt>
 File: img/deniro_many_plt_correto.png Graphic file (type png)
 <use img/deniro_many_plt_correto.png>
 Package pdftex.def Info: img/deniro_many_plt_correto.png  used on input line 59.
@@ -1706,7 +1701,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 []$\OT1/cmr/m/n/10.95 (1392\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 72\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1614\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 18\OML/cmm/m/it/10.95 ;$
  []
 
-<img/deniro_many_plt_errado.png, id=820, 1479.5275pt x 1082.0425pt>
+<img/deniro_many_plt_errado.png, id=825, 1479.5275pt x 1082.0425pt>
 File: img/deniro_many_plt_errado.png Graphic file (type png)
 <use img/deniro_many_plt_errado.png>
 Package pdftex.def Info: img/deniro_many_plt_errado.png  used on input line 86.
@@ -1714,20 +1709,23 @@ Package pdftex.def Info: img/deniro_many_plt_errado.png  used on input line 86.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 24.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 28.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 28.
- [29 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/deniro_plt.png>]
 
-LaTeX Warning: Reference `tab:deniro_many_plt_errado' on page 30 undefined on input line 28.
+
+LaTeX Warning: Reference `tab:deniro_many_plt_errado' on page 29 undefined on input line 28.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 31.
-[30 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/deniro_many_plt_correto.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/deniro_many_plt_errado.png>]
-<img/idade_hist_clean.png, id=838, 433.62pt x 289.08pt>
+(babel)             in language  on input line 29.
+[29 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/deniro_plt.png>]
+Underfull \vbox (badness 1360) has occurred while \output is active []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 33.
+ [30 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/deniro_many_plt_correto.png> </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/deniro_many_plt_errado.png>]
+<img/idade_hist_clean.png, id=843, 433.62pt x 289.08pt>
 File: img/idade_hist_clean.png Graphic file (type png)
 <use img/idade_hist_clean.png>
 Package pdftex.def Info: img/idade_hist_clean.png  used on input line 36.
@@ -1742,9 +1740,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 79.
  (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/consid_finais.tex) (/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.bbl
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 20.
  [31 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/idade_hist_clean.png>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 23.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -1760,24 +1758,24 @@ Underfull \hbox (badness 1132) in paragraph at lines 81--85
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 116.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 116.
 [32]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 194.
+(babel)             in language  on input line 211.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 194.
+(babel)             in language  on input line 211.
  [33]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 316.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 316.
  [34]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 402.
+(babel)             in language  on input line 415.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 402.
+(babel)             in language  on input line 415.
  [35])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 85.
@@ -1804,19 +1802,19 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 23162 strings out of 492978
- 416032 string characters out of 6134922
- 521283 words of memory out of 5000000
- 25951 multiletter control sequences out of 15000+600000
+ 23179 strings out of 492978
+ 416318 string characters out of 6134922
+ 523720 words of memory out of 5000000
+ 25966 multiletter control sequences out of 15000+600000
  75164 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,19n,92p,2188b,706s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,19n,92p,2172b,706s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/doublestroke/dsrom12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.pdf (36 pages, 9630918 bytes).
+Output written on /home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.pdf (36 pages, 9631861 bytes).
 PDF statistics:
- 1034 PDF objects out of 1200 (max. 8388607)
- 891 compressed objects within 9 object streams
- 192 named destinations out of 1000 (max. 500000)
+ 1040 PDF objects out of 1200 (max. 8388607)
+ 897 compressed objects within 9 object streams
+ 194 named destinations out of 1000 (max. 500000)
  365 words of extra memory for PDF output out of 10000 (max. 10000000)
 

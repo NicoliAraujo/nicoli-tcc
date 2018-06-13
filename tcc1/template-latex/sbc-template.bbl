@@ -301,6 +301,12 @@ Acessado em 15 de Março de 2018.}
 {LECUN, Y. et al. Gradient-based learning applied to document recognition.
 \emph{Proceedings of the IEEE}, IEEE, v.~86, n.~11, p. 2278--2324, 1998.}
 
+\bibitem[LeCun, Cortes e Burges]{mnist}
+\abntrefinfo{LeCun, Cortes e Burges}{LECUN; CORTES; BURGES}{}
+{LECUN, Y.; CORTES, C.; BURGES, C.~J. \emph{THE MNIST DATABASE of handwritten
+  digits}. \url{http://yann.lecun.com/exdb/mnist/}.
+Acessado em 01 de Junho de 2018.}
+
 \bibitem[Levi e Hassner 2015]{levi2015age}
 \abntrefinfo{Levi e Hassner}{LEVI; HASSNER}{2015}
 {LEVI, G.; HASSNER, T. Age and gender classification using convolutional neural
