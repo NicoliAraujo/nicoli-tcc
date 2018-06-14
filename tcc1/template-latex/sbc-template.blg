@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2018/dev/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: sbc-template.aux
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -11,11 +11,11 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated field_info (elt_size=4) to 10727 items from 5000.
+Reallocated field_info (elt_size=4) to 11003 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: sbc-template.bib
 Warning--entry type for "Guardian:CameraSmartv" isn't style-file defined
---line 1321 of file sbc-template.bib
+--line 1409 of file sbc-template.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -29,45 +29,45 @@ Warning--campo year vazio ou faltando em neuronio_biologico
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 83 entries,
+You've used 87 entries,
             6714 wiz_defined-function locations,
-            1638 strings with 23607 characters,
-and the built_in function-call counts, 71837 in all, are:
-= -- 6025
-> -- 2336
-< -- 364
-+ -- 1197
-- -- 711
-* -- 4965
-:= -- 9386
-add.period$ -- 349
-call.type$ -- 83
-change.case$ -- 861
-chr.to.int$ -- 147
-cite$ -- 86
-duplicate$ -- 4039
-empty$ -- 5337
-format.name$ -- 3374
-if$ -- 16909
+            1661 strings with 24349 characters,
+and the built_in function-call counts, 75206 in all, are:
+= -- 6220
+> -- 2484
+< -- 400
++ -- 1261
+- -- 755
+* -- 5225
+:= -- 9849
+add.period$ -- 369
+call.type$ -- 87
+change.case$ -- 910
+chr.to.int$ -- 157
+cite$ -- 90
+duplicate$ -- 4283
+empty$ -- 5574
+format.name$ -- 3588
+if$ -- 17625
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 1519
-newline$ -- 390
-num.names$ -- 405
-pop$ -- 2006
+missing$ -- 1594
+newline$ -- 410
+num.names$ -- 430
+pop$ -- 2106
 preamble$ -- 1
-purify$ -- 318
+purify$ -- 335
 quote$ -- 0
-skip$ -- 4432
+skip$ -- 4577
 stack$ -- 1
-substring$ -- 2761
-swap$ -- 1847
-text.length$ -- 75
+substring$ -- 2850
+swap$ -- 1948
+text.length$ -- 79
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
+type$ -- 8
 warning$ -- 4
-while$ -- 581
+while$ -- 610
 width$ -- 0
-write$ -- 1308
+write$ -- 1374
 (There were 5 warnings)

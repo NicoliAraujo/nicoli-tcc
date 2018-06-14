@@ -5,12 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[Artificial Intelligence - Neural Networks 2018]{rna:feedback}
-\abntrefinfo{Artificial\ldots}{ARTIFICIAL\ldots}{2018}
-{ARTIFICIAL Intelligence - Neural Networks. [S.l.]: Tutorials Point, 2018.
-  \url{https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_neural_networks.htm}.
-Acessado em 11 de Junho de 2018.}
-
 \bibitem[Bengio 2012]{bengio2012practical}
 \abntrefinfo{Bengio}{BENGIO}{2012}
 {BENGIO, Y. Practical recommendations for gradient-based training of deep
@@ -35,10 +29,10 @@ Acessado em 21 de Março de 2018.}
   \url{https://www.slideshare.net/GroupeT2i/deep-learning-the-future-of-ai}.
 Acessado em 23 de Abril de 2018.}
 
-\bibitem[Bracewell e Bracewell 1986]{bracewell1986fourier}
-\abntrefinfo{Bracewell e Bracewell}{BRACEWELL; BRACEWELL}{1986}
-{BRACEWELL, R.~N.; BRACEWELL, R.~N. \emph{The Fourier transform and its
-  applications}. [S.l.]: McGraw-Hill New York, 1986. v. 31999.}
+\bibitem[Bracewell 1986]{bracewell1986fourier}
+\abntrefinfo{Bracewell}{BRACEWELL}{1986}
+{BRACEWELL, R.~N. \emph{The Fourier transform and its applications}. [S.l.]:
+  McGraw-Hill New York, 1986. v. 31999.}
 
 \bibitem[Braga, Carvalho e Ludermir 2007]{Teresa:Livro}
 \abntrefinfo{Braga, Carvalho e Ludermir}{BRAGA; CARVALHO; LUDERMIR}{2007}
@@ -57,6 +51,13 @@ Acessado em 21 de Março de 2018.}
 \abntrefinfo{Brink, Richards e Fetherolf}{BRINK; RICHARDS; FETHEROLF}{2016}
 {BRINK, H.; RICHARDS, J.; FETHEROLF, M. \emph{Real-world machine learning}.
   [S.l.]: Manning Publications Co., 2016.}
+
+\bibitem[Brownlee 2016]{ml:algos}
+\abntrefinfo{Brownlee}{BROWNLEE}{2016}
+{BROWNLEE, J. \emph{Parametric and Nonparametric Machine Learning Algorithms}.
+  [S.l.]: Machine Learning Mastery, 2016.
+  \url{https://machinelearningmastery.com/parametric-and-nonparametric-machine-learning-algorithms/}.
+Acessado em 13 de Junho de 2018.}
 
 \bibitem[Buduma 2017]{Buduma:Livro}
 \abntrefinfo{Buduma}{BUDUMA}{2017}
@@ -132,6 +133,13 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1080/21681163.2015.1131197}.}
 {ECARLAT, P. \emph{CNN -- Do we need to go deeper?} [S.l.]: Medium, 2017.
   \url{https://medium.com/finc-engineering/cnn-do-we-need-to-go-deeper-afe1041e263e}.
 Acessado em 23 de Abril de 2018.}
+
+\bibitem[Everingham et al. 2014]{pascalvoc}
+\abntrefinfo{Everingham et al.}{EVERINGHAM et al.}{2014}
+{EVERINGHAM, M. et al. \emph{The PASCAL Visual Object Classes Homepage}.
+  [S.l.]: The PASCAL VOC project, 2014.
+  \url{http://host.robots.ox.ac.uk/pascal/VOC/}.
+Acessado em 13 de Junho de 2018.}
 
 \bibitem[Flach 2012]{flach2012machine}
 \abntrefinfo{Flach}{FLACH}{2012}
@@ -313,6 +321,12 @@ Acessado em 01 de Junho de 2018.}
   networks. In:  \emph{Proceedings of the IEEE Conference on Computer Vision
   and Pattern Recognition Workshops}. [S.l.: s.n.], 2015. p. 34--42.}
 
+\bibitem[Lin et al. 2014]{coco}
+\abntrefinfo{Lin et al.}{LIN et al.}{2014}
+{LIN, T. et al. Microsoft {COCO:} common objects in context.
+\emph{CoRR}, abs/1405.0312, 2014.
+Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1405.0312}.}
+
 \bibitem[Liu et al. 2016]{ssd}
 \abntrefinfo{Liu et al.}{LIU et al.}{2016}
 {LIU, W. et al. Ssd: Single shot multibox detector. In:  SPRINGER.
@@ -329,6 +343,12 @@ Acessado em 01 de Junho de 2018.}
 {LOU, Z. et al. Expression-invariant age estimation using structured learning.
 \emph{IEEE transactions on pattern analysis and machine intelligence}, IEEE,
   v.~40, n.~2, p. 365--375, 2018.}
+
+\bibitem[Maas, Hannun e Ng 2013]{maas2013rectifier}
+\abntrefinfo{Maas, Hannun e Ng}{MAAS; HANNUN; NG}{2013}
+{MAAS, A.~L.; HANNUN, A.~Y.; NG, A.~Y. Rectifier nonlinearities improve neural
+  network acoustic models. In:  \emph{Proc. icml}. [S.l.: s.n.], 2013. v.~30,
+  n.~1, p.~3.}
 
 \bibitem[Marsland 2015]{marsland2015machine}
 \abntrefinfo{Marsland}{MARSLAND}{2015}
@@ -380,6 +400,12 @@ Acessado em 15 de Março de 2018.}
 {PERAKAKIS, E.; GHINEA, G. A proposed model for cross-platform web 3d
   applications on smart tv systems. In:  ACM. \emph{Proceedings of the 20th
   International Conference on 3D Web Technology}. [S.l.], 2015. p. 165--166.}
+
+\bibitem[Point 2018]{rna:feedback}
+\abntrefinfo{Point}{POINT}{2018}
+{POINT, T. \emph{Artificial Intelligence - Neural Networks}. 2018.
+  \url{https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_neural_networks.htm}.
+Acessado em 11 de Junho de 2018.}
 
 \bibitem[Quain 2018]{tomsguid:everythingsmart}
 \abntrefinfo{Quain}{QUAIN}{2018}
@@ -483,10 +509,10 @@ Acessado em 11 de Junho de 2018.}
   \url{https://github.com/tensorflow/models}.
 Acessado em 01 de Junho de 2018.}
 
-\bibitem[Widrow, Rumelhart e Lehr 1994]{widrow1994neural}
-\abntrefinfo{Widrow, Rumelhart e Lehr}{WIDROW; RUMELHART; LEHR}{1994}
-{WIDROW, B.; RUMELHART, D.~E.; LEHR, M.~A. Neural networks: applications in
-  industry, business and science.
+\bibitem[Widrow, E e Lehr 1994]{widrow1994neural}
+\abntrefinfo{Widrow, E e Lehr}{WIDROW; E; LEHR}{1994}
+{WIDROW, B.; E, D.~R.; LEHR, M.~A. Neural networks: applications in industry,
+  business and science.
 \emph{Communications of the ACM}, ACM, v.~37, n.~3, p. 93--105, 1994.}
 
 \bibitem[Wikipedia 2018]{televisioncontentwiki}
