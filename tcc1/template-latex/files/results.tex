@@ -1,8 +1,12 @@
 %!TEX root = ../sbc-template.tex
 %\todo[inline]{Resultado das métricas após o teste dos modelos.}
 
-Inicialmente, fez-se uso da função de ativação \emph{ReLU} para as camadas de saída dos modelos propostos. Os resultados obtidos estão expostos na Tabela \ref{tab:results_relu} a seguir:
-\begin{table}
+Considerando a abordagem descrita na solução proposta, os resultados preliminares da execução das CNNs aplicadas ao problema de estimação de idade a partir de uma imagem de face são apresentados a seguir.
+
+Conforme mencionado na Seção \ref{subsec:modelos}, os primeiros treinamentos e testes compreenderam as arquiteturas canônicas LeNet e AlexNet com função de ativação \emph{ReLU} na camada de saída. Obedecendo ao método de validação cruzada \emph{holdout} previamente mencionado, os resultados da etapa de teste foram obtidos, detalhados na Tabela \ref{tab:results_relu}.
+
+
+\begin{table}[h!]
      \caption{Resultados preliminares do treino e teste dos modelos propostos utilizando \emph{ReLU} na camada de saída.}
      \label{tab:results_relu}
      \centering
@@ -16,7 +20,10 @@ Inicialmente, fez-se uso da função de ativação \emph{ReLU} para as camadas d
      \end{tabular}
 \end{table}
 
-Os RMSEs obtidos na fase de testes para as redes que utilizam \emph{Leaky ReLU} como função de ativação na saída e taxa de aprendizado inicial de $10^{-3}$ podem ser observados na Tabela \ref{tab:results_leaky}.
+Ao observar as previsões realizadas para exemplos individuais, percebeu-se uma tendência destas redes após treinamento em preverem valores baixos, indicando possivelmente \emph{underfitting} em virtude do \emph{ReLU dying problem} \cite{djork2015elus, dabal2018elus}. Como alternativa, estes autores sugerem  utilizar variantes da \emph{ReLU} que não exibam saídas nulas, diferentes estratégias de inicialização e regularização de pesos e \emph{batches}, entre outras.
+
+Levando em conta estas sugestões, averiguou-se também a utilização das redes LeNet e AlexNet com a função de ativação \emph{Leaky ReLU}. na camada de saída, cujos resultados encontram-se descritos na \ref{tab:results_leaky}.
+
 
 \begin{table}[h!]
      \caption{Resultados preliminares do treino e teste dos modelos propostos utilizando \emph{Leaky ReLU} na camada de saída.}
@@ -31,3 +38,5 @@ Os RMSEs obtidos na fase de testes para as redes que utilizam \emph{Leaky ReLU} 
           \bottomrule
      \end{tabular}
 \end{table}
+
+Observa-se que houve uma resposta positiva da AlexNet que melhorou a qualidade das previsões para o problema considerado. Porém, observa-se uma tendência desta rede em prever valores médios, o que ainda enseja melhorias. Assim, ainda é necessário investigar outros parâmetros e modelos para o problema em questão.
