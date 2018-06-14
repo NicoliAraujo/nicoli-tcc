@@ -1,18 +1,18 @@
 # Fdb version 3
-["bibtex sbc-template"] 1528944969 "sbc-template.aux" "sbc-template.bbl" "sbc-template" 1528945204
+["bibtex sbc-template"] 1528944969 "sbc-template.aux" "sbc-template.bbl" "sbc-template" 1528945865
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1356995954 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1456875486 60064 6469892b646cc99dbd8ecd5e965537d8 ""
-  "sbc-template.aux" 1528945175 36279 1a40e21b8da2893ea83bce9e4e329f63 ""
+  "sbc-template.aux" 1528945857 36279 1a40e21b8da2893ea83bce9e4e329f63 ""
   "sbc-template.bcf" 0 -1 0 ""
   "sbc-template.bib" 1528944830 31000 5f8b504d723abbbc4c188cfe2aef2e5b ""
   (generated)
   "sbc-template.blg"
   "sbc-template.bbl"
-["pdflatex"] 1528944976 "sbc-template.tex" "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.pdf" "sbc-template" 1528945205
+["pdflatex"] 1528945840 "sbc-template.tex" "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.pdf" "sbc-template" 1528945865
   "./img/fundamenta/convolutions.png" 1527363966 193275 67ad92d4068b4389633cc694e4b6ff63 ""
   "./img/redeneuralbiologica.jpg" 1527363966 25836 71ea663ceaabfd7b0063dfd42060a9e7 ""
   "/etc/texmf/web2c/texmf.cnf" 1527442808 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.aux" 1528945175 36279 1a40e21b8da2893ea83bce9e4e329f63 ""
+  "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.aux" 1528945857 36279 1a40e21b8da2893ea83bce9e4e329f63 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -249,7 +249,7 @@
   "files/introducao/justificativa.tex" 1528931533 1561 b5b638687703f3d5ce8d2d01a7ba3942 ""
   "files/introducao/metodo.tex" 1527363966 2599 6d588e6f5f5efb31e5e9c7c5af05d0b8 ""
   "files/introducao/objetivo.tex" 1527363966 1012 1ea71fbbd921b5b4c8d8cfd65acb1045 ""
-  "files/results.tex" 1528943330 1314 4421386ed783c052f5152adca32fb43c ""
+  "files/results.tex" 1528945837 1333 0569595a91e2be7e993c156c995a1309 ""
   "files/resumo.tex" 1528931533 1037 3fb9bd2f15454a6e015a7262081d562d ""
   "files/solucao_proposta.tex" 1528942371 6357 70a991eccca37d9ec854e30a6a1b332a ""
   "files/tab-indicativa.tex" 1527363966 3319 45167a73c8bf7f66edc6b826da97cc6e ""
@@ -288,15 +288,15 @@
   "img/smart_samsung.jpg" 1527363966 83876 48d2e0ce3b349dd8ba89acb89869ae13 ""
   "img/softmax.pdf" 1527363966 3876 c36b0f2c09c2a0128e3f93db2c7f554f ""
   "img/tanh.pdf" 1527363966 2325 1d06b2b5bbbddb8837e5e1dc5a300c57 ""
-  "sbc-template.aux" 1528945175 36279 1a40e21b8da2893ea83bce9e4e329f63 ""
+  "sbc-template.aux" 1528945857 36279 1a40e21b8da2893ea83bce9e4e329f63 ""
   "sbc-template.bbl" 1528944971 24418 60653fc127f3822a1b3c51575f138d56 "bibtex sbc-template"
-  "sbc-template.out" 1528945182 1696 3b5ff2f2e3ed86e4fd3eeec2b2741f1c ""
+  "sbc-template.out" 1528945857 1696 3b5ff2f2e3ed86e4fd3eeec2b2741f1c ""
   "sbc-template.sty" 1527363966 5460 a5cd7094cef0ac1eb472d34784fa145c ""
   "sbc-template.tex" 1528931533 1908 17cd78050c9c14af263a84994bd4e4e7 ""
   (generated)
-  "sbc-template.pdf"
-  "sbc-template.out"
   "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.pdf"
+  "sbc-template.pdf"
   "sbc-template.aux"
-  "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.log"
   "sbc-template.log"
+  "sbc-template.out"
+  "/home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.log"

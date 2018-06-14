@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.27)  13 JUN 2018 22:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.27)  13 JUN 2018 23:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1751,6 +1751,33 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 18.
  [31 </home/nicoli/github/nicoli-tcc/tcc1/template-latex/img/idade_hist_clean.png>]
+/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/results.tex:27: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.27           Modelo & Ã‰pocas &
+                                  RMSE \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/results.tex:29: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.29           LeNet & 12 &
+                            $41.55$ \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+/home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/results.tex:30: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.30           AlexNet & 6 &
+                             $14.38$
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
 /home/nicoli/github/nicoli-tcc/tcc1/template-latex/files/results.tex:31: Misplaced \noalign.
 \bottomrule ->\noalign 
                        {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
@@ -1859,33 +1886,33 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <12> not available
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 49.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 49.
  [33]
 Underfull \hbox (badness 1132) in paragraph at lines 82--86
 []\T1/ptm/m/n/12 CIRIACO, D. \T1/ptm/m/it/12 Os me-lho-res ser-vi-ços de stre-a-ming de ví- 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 144.
 [34]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 245.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 245.
  [35]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 354.
+(babel)             in language  on input line 348.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 354.
+(babel)             in language  on input line 348.
  [36]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 456.
+(babel)             in language  on input line 449.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 456.
+(babel)             in language  on input line 449.
  [37])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 85.
@@ -1918,7 +1945,7 @@ Here is how much of TeX's memory you used:
  62i,19n,92p,2172b,706s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/doublestroke/dsrom12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.pdf (38 pages, 9702630 bytes).
+Output written on /home/nicoli/github/nicoli-tcc/tcc1/template-latex/sbc-template.pdf (38 pages, 9702515 bytes).
 PDF statistics:
  1084 PDF objects out of 1200 (max. 8388607)
  935 compressed objects within 10 object streams
