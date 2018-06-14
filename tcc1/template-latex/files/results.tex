@@ -6,28 +6,28 @@ Inicialmente, fez-se uso da função de ativação \emph{ReLU} para as camadas d
      \caption{Resultados preliminares do treino e teste dos modelos propostos utilizando \emph{ReLU} na camada de saída.}
      \label{tab:results_relu}
      \centering
-     \begin{tabular}{l l l l}
+     \begin{tabular}{l l l}
           \toprule
           Modelo & Épocas &RMSE \\
           \midrule
-          LeNet & 95 & $41.08$ \\
-          AlexNet & 55 & $41.96$
+          LeNet & $95$ & $41.08$ \\
+          AlexNet & $55$ & $41.96$\\
           \bottomrule
      \end{tabular}
 \end{table}
 
-Os RMSEs obtidos na fase de testes para as redes que utilizam \emph{Leaky ReLU} como função de ativação na saída e taxa de aprendizado inicial de $10^{-3}$ podem ser observados na Tabela \ref{tab:results_leaky}
+Os RMSEs obtidos na fase de testes para as redes que utilizam \emph{Leaky ReLU} como função de ativação na saída e taxa de aprendizado inicial de $10^{-3}$ podem ser observados na Tabela \ref{tab:results_leaky}.
 
 \begin{table}[h!]
      \caption{Resultados preliminares do treino e teste dos modelos propostos utilizando \emph{Leaky ReLU} na camada de saída.}
      \label{tab:results_leaky}
      \centering
-     \begin{tabular}{l l}
+     \begin{tabular}{l l l}
           \toprule
           Modelo & Épocas & RMSE \\
           \midrule
-          LeNet & 12 & $41.55$ \\
-          AlexNet & 6 & $14.38$
+          LeNet & $12$ & $41.55$ \\
+          AlexNet & $6$ & $14.38$\\
           \bottomrule
      \end{tabular}
 \end{table}

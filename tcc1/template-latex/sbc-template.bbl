@@ -123,12 +123,6 @@ Acessado em 30 de Maio de 2018.}
   \url{https://pythonmachinelearning.pro/perceptrons-the-first-neural-networks/}.
 Acessado em 11 de Junho de 2018.}
 
-\bibitem[Documentation 2018]{keras:applications}
-\abntrefinfo{Documentation}{DOCUMENTATION}{2018}
-{DOCUMENTATION, K. \emph{Applications}. 2018.
-  \url{https://keras.io/applications/}.
-Acessado em 01 de Junho de 2018.}
-
 \bibitem[Dubrovina et al. 2018]{dubrovina2018mammography}
 \abntrefinfo{Dubrovina et al.}{DUBROVINA et al.}{2018}
 {DUBROVINA, A. et al. Computational mammography using deep neural networks.
@@ -194,6 +188,12 @@ Acessado em 30 de Maio de 2018.}
   COURVILLE}{2016}
 {GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep learning}. [S.l.]: MIT
   press Cambridge, 2016. v.~1.}
+
+\bibitem[Google 2018]{gce}
+\abntrefinfo{Google}{GOOGLE}{2018}
+{GOOGLE. \emph{Compute Engine}. [S.l.]: Google, 2018.
+  \url{https://cloud.google.com/compute/}.
+Acessado em 14 de Junho de 2018.}
 
 \bibitem[Gross e Wilber 2016]{torch:resnet}
 \abntrefinfo{Gross e Wilber}{GROSS; WILBER}{2016}
@@ -276,6 +276,18 @@ Acessado em 31 de Maio de 2018.}
 \abntrefinfo{Justiça}{JUSTIçA}{2012}
 {JUSTIçA, S.~N. de. \emph{Classificação Indicativa Guia Pratico}. BRASIL:
   [s.n.], 2012.}
+
+\bibitem[Keras 2018]{keras:applications}
+\abntrefinfo{Keras}{KERAS}{2018a}
+{KERAS. \emph{Applications}. [S.l.]: Keras Documentation, 2018.
+  \url{https://keras.io/applications/}.
+Acessado em 01 de Junho de 2018.}
+
+\bibitem[Keras 2018]{keras}
+\abntrefinfo{Keras}{KERAS}{2018b}
+{KERAS. \emph{Keras: The Python Deep Learning library}. [S.l.]: Keras
+  Documentation, 2018. \url{https://keras.io/}.
+Acessado em 14 de Junho de 2018.}
 
 \bibitem[Khan et al. 2018]{Khan:Livro}
 \abntrefinfo{Khan et al.}{KHAN et al.}{2018}
@@ -388,6 +400,17 @@ ISBN 9780070428072. Dispon{\'\i}vel em:
 {NEWSROOM, S. \emph{Smart TV: Piece by Piece}. 2011.
   \url{https://news.samsung.com/global/smart-tv-piece-by-piece}.
 Acessado em 15 de Março de 2018.}
+
+\bibitem[NUMFOCUS 2018]{matplotlib}
+\abntrefinfo{NUMFOCUS}{NUMFOCUS}{2018a}
+{NUMFOCUS. \emph{MatPlotLib}. 2018. \url{https://matplotlib.org/}.
+Acessado em 14 de Junho de 2018.}
+
+\bibitem[NUMFOCUS 2018]{pandas}
+\abntrefinfo{NUMFOCUS}{NUMFOCUS}{2018b}
+{NUMFOCUS. \emph{Python Data Analysis Library}. [S.l.]: NUMFOCUS, 2018.
+  \url{https://pandas.pydata.org/}.
+Acessado em 14 de Junho de 2018.}
 
 \bibitem[Oktay et al. 2018]{oktay2018anatomically}
 \abntrefinfo{Oktay et al.}{OKTAY et al.}{2018}
@@ -523,6 +546,17 @@ Acessado em 11 de Junho de 2018.}
 {TENSORFLOW. \emph{Models and examples built with TensorFlow}. 2018.
   \url{https://github.com/tensorflow/models}.
 Acessado em 01 de Junho de 2018.}
+
+\bibitem[Tensorflow 2018]{tensorflow}
+\abntrefinfo{Tensorflow}{TENSORFLOW}{2018c}
+{TENSORFLOW. \emph{TensorFlow}. 2018. \url{https://www.tensorflow.org/}.
+Acessado em 14 de Junho de 2018.}
+
+\bibitem[Waskom 2018]{seaborn}
+\abntrefinfo{Waskom}{WASKOM}{2018}
+{WASKOM, M. \emph{seaborn: statistical data visualization}. 2018.
+  \url{https://seaborn.pydata.org/}.
+Acessado em 14 de Junho de 2018.}
 
 \bibitem[Widrow, E e Lehr 1994]{widrow1994neural}
 \abntrefinfo{Widrow, E e Lehr}{WIDROW; E; LEHR}{1994}

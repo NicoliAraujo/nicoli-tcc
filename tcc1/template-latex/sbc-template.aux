@@ -27,14 +27,8 @@
 \citation{correiopnad}
 \citation{estadao:explosaovideosonline}
 \providecommand \oddpage@label [2]{}
-\select@language{brazil}
-\@writefile{toc}{\select@language{brazil}}
-\@writefile{lof}{\select@language{brazil}}
-\@writefile{lot}{\select@language{brazil}}
-\select@language{brazil}
-\@writefile{toc}{\select@language{brazil}}
-\@writefile{lof}{\select@language{brazil}}
-\@writefile{lot}{\select@language{brazil}}
+\babel@aux{brazil}{}
+\babel@aux{brazil}{}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{section.1}}
 \newlabel{sec:intro}{{1}{1}{Introdução}{section.1}{}}
 \@writefile{tdo}{\contentsline {todo}{Igual \IeC {\`a} se\IeC {\c c}\IeC {\~a}o smart tvs. Mudar?}{1}{section*.1}}
@@ -269,6 +263,16 @@
 \citation{oquab2014learning}
 \citation{zeiler2014visualizing}
 \citation{oquab2014learning}
+\citation{pandas}
+\citation{seaborn}
+\citation{matplotlib}
+\citation{keras}
+\citation{tensorflow}
+\citation{gce}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Tecnologias Utilizadas}{26}{subsection.2.6}}
+\newlabel{sec:tecs}{{2.6}{26}{Tecnologias Utilizadas}{subsection.2.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Trabalhos Relacionados}{26}{section.3}}
+\newlabel{sec:trab_relac}{{3}{26}{Trabalhos Relacionados}{section.3}{}}
 \citation{fu2010age}
 \citation{kwon1999age}
 \citation{lanitis2002toward}
@@ -283,8 +287,6 @@
 \citation{ImagenetChall}
 \citation{pascalvoc}
 \citation{coco}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Trabalhos Relacionados}{26}{section.3}}
-\newlabel{sec:trab_relac}{{3}{26}{Trabalhos Relacionados}{section.3}{}}
 \citation{rothe2015dex}
 \citation{liu2015agenet}
 \citation{inception}
@@ -292,7 +294,6 @@
 \citation{brink2016real}
 \citation{brink2016real}
 \citation{IMDb_derivada}
-\citation{rothe2015dex}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Solu\IeC {\c c}\IeC {\~a}o Proposta}{28}{section.4}}
 \newlabel{sec:solucao_proposta}{{4}{28}{Solução Proposta}{section.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Tarefa de Aprendizado}{28}{subsection.4.1}}
@@ -300,13 +301,14 @@
 \newlabel{fig:deniro_cnn}{{15}{28}{Tarefa de aprendizado\relax }{figure.caption.24}{}}
 \newlabel{eq:rmse}{{13}{28}{Tarefa de Aprendizado}{equation.4.13}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Conjunto de Dados}{28}{subsection.4.2}}
+\citation{rothe2015dex}
 \@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Exemplo de imagem do conjunto de dados contendo apenas um rosto.\relax }}{29}{figure.caption.25}}
 \newlabel{tab:um_deniro}{{16}{29}{Exemplo de imagem do conjunto de dados contendo apenas um rosto.\relax }{figure.caption.25}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classifica\IeC {\c c}\IeC {\~a}o correta.\relax }}{29}{figure.caption.26}}
-\newlabel{tab:dois_deniro_correto}{{17}{29}{Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classificação correta.\relax }{figure.caption.26}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Limpeza e Pr\IeC {\'e}-processamento dos dados}{29}{subsection.4.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classifica\IeC {\c c}\IeC {\~a}o correta.\relax }}{30}{figure.caption.26}}
+\newlabel{tab:dois_deniro_correto}{{17}{30}{Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classificação correta.\relax }{figure.caption.26}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classifica\IeC {\c c}\IeC {\~a}o err\IeC {\^o}nea.\relax }}{30}{figure.caption.27}}
 \newlabel{tab:dois_deniro_errado}{{18}{30}{Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classificação errônea.\relax }{figure.caption.27}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Limpeza e Pr\IeC {\'e}-processamento dos dados}{30}{subsection.4.3}}
 \citation{tensorflow:alexnet}
 \citation{maas2013rectifier}
 \@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Histograma de frequ\IeC {\^e}ncia da idade do conjunto de dados utilizado.\relax }}{31}{figure.caption.28}}
@@ -314,16 +316,16 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Modelos de CNN Considerados}{31}{subsection.4.4}}
 \citation{djork2015elus}
 \citation{dabal2018elus}
-\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Fun\IeC {\c c}\IeC {\~a}o de Ativa\IeC {\c c}\IeC {\~a}o \emph  {Leaky ReLU}\relax }}{32}{figure.caption.29}}
-\newlabel{fig:lrelu}{{20}{32}{Função de Ativação \emph {Leaky ReLU}\relax }{figure.caption.29}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Resultados preliminares do treino e teste dos modelos propostos utilizando \emph  {ReLU} na camada de sa\IeC {\'\i }da.\relax }}{32}{table.caption.30}}
 \newlabel{tab:results_relu}{{5}{32}{Resultados preliminares do treino e teste dos modelos propostos utilizando \emph {ReLU} na camada de saída.\relax }{table.caption.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Fun\IeC {\c c}\IeC {\~a}o de Ativa\IeC {\c c}\IeC {\~a}o \emph  {Leaky ReLU}\relax }}{32}{figure.caption.29}}
+\newlabel{fig:lrelu}{{20}{32}{Função de Ativação \emph {Leaky ReLU}\relax }{figure.caption.29}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {5}Resultados Parciais}{32}{section.5}}
 \@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Resultados preliminares do treino e teste dos modelos propostos utilizando \emph  {Leaky ReLU} na camada de sa\IeC {\'\i }da.\relax }}{32}{table.caption.31}}
 \newlabel{tab:results_leaky}{{6}{32}{Resultados preliminares do treino e teste dos modelos propostos utilizando \emph {Leaky ReLU} na camada de saída.\relax }{table.caption.31}{}}
 \newlabel{sec:resultados}{{5}{32}{Resultados Parciais}{table.caption.31}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Considera\IeC {\c c}\IeC {\~o}es Finais}{32}{section.6}}
-\newlabel{sec:consid_finais}{{6}{32}{Considerações Finais}{section.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Considera\IeC {\c c}\IeC {\~o}es Parciais}{32}{section.6}}
+\newlabel{sec:consid_finais}{{6}{32}{Considerações Parciais}{section.6}{}}
 \bibdata{abntex2-options,sbc-template}
 \bibcite{bengio2012practical}{Bengio 2012}
 \bibciteEXPL{bengio2012practical}{Bengio}
@@ -401,10 +403,6 @@
 \bibciteEXPL{neuronio:perceptron}{Deshpande}
 \bibciteIMPL{neuronio:perceptron}{DESHPANDE}
 \bibciteYEAR{neuronio:perceptron}{2017}
-\bibcite{keras:applications}{Documentation 2018}
-\bibciteEXPL{keras:applications}{Documentation}
-\bibciteIMPL{keras:applications}{DOCUMENTATION}
-\bibciteYEAR{keras:applications}{2018}
 \bibcite{dubrovina2018mammography}{Dubrovina et al. 2018}
 \bibciteEXPL{dubrovina2018mammography}{Dubrovina et al.}
 \bibciteIMPL{dubrovina2018mammography}{DUBROVINA et al.}
@@ -445,6 +443,10 @@
 \bibciteEXPL{goodfellow2016deep}{Goodfellow, Bengio e Courville}
 \bibciteIMPL{goodfellow2016deep}{GOODFELLOW; BENGIO; COURVILLE}
 \bibciteYEAR{goodfellow2016deep}{2016}
+\bibcite{gce}{Google 2018}
+\bibciteEXPL{gce}{Google}
+\bibciteIMPL{gce}{GOOGLE}
+\bibciteYEAR{gce}{2018}
 \bibcite{torch:resnet}{Gross e Wilber 2016}
 \bibciteEXPL{torch:resnet}{Gross e Wilber}
 \bibciteIMPL{torch:resnet}{GROSS; WILBER}
@@ -501,6 +503,14 @@
 \bibciteEXPL{ci:guia}{Justi\IeC {\c c}a}
 \bibciteIMPL{ci:guia}{JUSTI\IeC {\c c}A}
 \bibciteYEAR{ci:guia}{2012}
+\bibcite{keras:applications}{Keras 2018}
+\bibciteEXPL{keras:applications}{Keras}
+\bibciteIMPL{keras:applications}{KERAS}
+\bibciteYEAR{keras:applications}{2018a}
+\bibcite{keras}{Keras 2018}
+\bibciteEXPL{keras}{Keras}
+\bibciteIMPL{keras}{KERAS}
+\bibciteYEAR{keras}{2018b}
 \bibcite{Khan:Livro}{Khan et al. 2018}
 \bibciteEXPL{Khan:Livro}{Khan et al.}
 \bibciteIMPL{Khan:Livro}{KHAN et al.}
@@ -577,6 +587,14 @@
 \bibciteEXPL{samsung:smarttv}{Newsroom}
 \bibciteIMPL{samsung:smarttv}{NEWSROOM}
 \bibciteYEAR{samsung:smarttv}{2011}
+\bibcite{matplotlib}{NUMFOCUS 2018}
+\bibciteEXPL{matplotlib}{NUMFOCUS}
+\bibciteIMPL{matplotlib}{NUMFOCUS}
+\bibciteYEAR{matplotlib}{2018a}
+\bibcite{pandas}{NUMFOCUS 2018}
+\bibciteEXPL{pandas}{NUMFOCUS}
+\bibciteIMPL{pandas}{NUMFOCUS}
+\bibciteYEAR{pandas}{2018b}
 \bibcite{oktay2018anatomically}{Oktay et al. 2018}
 \bibciteEXPL{oktay2018anatomically}{Oktay et al.}
 \bibciteIMPL{oktay2018anatomically}{OKTAY et al.}
@@ -665,6 +683,14 @@
 \bibciteEXPL{tensorflow:models}{Tensorflow}
 \bibciteIMPL{tensorflow:models}{TENSORFLOW}
 \bibciteYEAR{tensorflow:models}{2018b}
+\bibcite{tensorflow}{Tensorflow 2018}
+\bibciteEXPL{tensorflow}{Tensorflow}
+\bibciteIMPL{tensorflow}{TENSORFLOW}
+\bibciteYEAR{tensorflow}{2018c}
+\bibcite{seaborn}{Waskom 2018}
+\bibciteEXPL{seaborn}{Waskom}
+\bibciteIMPL{seaborn}{WASKOM}
+\bibciteYEAR{seaborn}{2018}
 \bibcite{widrow1994neural}{Widrow, E e Lehr 1994}
 \bibciteEXPL{widrow1994neural}{Widrow, E e Lehr}
 \bibciteIMPL{widrow1994neural}{WIDROW; E; LEHR}
