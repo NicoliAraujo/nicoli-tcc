@@ -84,6 +84,14 @@ Dispon{\'\i}vel em:
   \url{https://canaltech.com.br/internet/os-melhores-servicos-de-streaming-de-video-disponiveis-no-brasil/}.
 Acessado em 20 de Março de 2018.}
 
+\bibitem[Clevert, Unterthiner e Hochreiter 2015]{djork2015elus}
+\abntrefinfo{Clevert, Unterthiner e Hochreiter}{CLEVERT; UNTERTHINER;
+  HOCHREITER}{2015}
+{CLEVERT, D.; UNTERTHINER, T.; HOCHREITER, S. Fast and accurate deep network
+  learning by exponential linear units (elus).
+\emph{CoRR}, abs/1511.07289, 2015.
+Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1511.07289}.}
+
 \bibitem[Dechter 1986]{dechter1986learning}
 \abntrefinfo{Dechter}{DECHTER}{1986}
 {DECHTER, R. \emph{Learning while searching in constraint-satisfaction
@@ -394,6 +402,13 @@ Acessado em 15 de Março de 2018.}
   using convolutional neural networks. In:  IEEE. \emph{Computer Vision and
   Pattern Recognition (CVPR), 2014 IEEE Conference on}. [S.l.], 2014. p.
   1717--1724.}
+
+\bibitem[Pedamonti 2018]{dabal2018elus}
+\abntrefinfo{Pedamonti}{PEDAMONTI}{2018}
+{PEDAMONTI, D. Comparison of non-linear activation functions for deep neural
+  networks on {MNIST} classification task.
+\emph{CoRR}, abs/1804.02763, 2018.
+Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1804.02763}.}
 
 \bibitem[Perakakis e Ghinea 2015]{perakakis2015proposed}
 \abntrefinfo{Perakakis e Ghinea}{PERAKAKIS; GHINEA}{2015}

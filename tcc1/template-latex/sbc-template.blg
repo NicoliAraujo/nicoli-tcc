@@ -11,7 +11,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated field_info (elt_size=4) to 11003 items from 5000.
+Reallocated field_info (elt_size=4) to 11141 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: sbc-template.bib
 Warning--entry type for "Guardian:CameraSmartv" isn't style-file defined
@@ -29,45 +29,45 @@ Warning--campo year vazio ou faltando em neuronio_biologico
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 87 entries,
+You've used 89 entries,
             6714 wiz_defined-function locations,
-            1661 strings with 24349 characters,
-and the built_in function-call counts, 75206 in all, are:
-= -- 6220
-> -- 2484
-< -- 400
-+ -- 1261
-- -- 755
-* -- 5225
-:= -- 9849
-add.period$ -- 369
-call.type$ -- 87
-change.case$ -- 910
-chr.to.int$ -- 157
-cite$ -- 90
-duplicate$ -- 4283
-empty$ -- 5574
-format.name$ -- 3588
-if$ -- 17625
+            1671 strings with 24724 characters,
+and the built_in function-call counts, 77843 in all, are:
+= -- 6503
+> -- 2552
+< -- 466
++ -- 1349
+- -- 775
+* -- 5402
+:= -- 10185
+add.period$ -- 377
+call.type$ -- 89
+change.case$ -- 932
+chr.to.int$ -- 165
+cite$ -- 92
+duplicate$ -- 4536
+empty$ -- 5668
+format.name$ -- 3681
+if$ -- 18142
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 1594
-newline$ -- 410
-num.names$ -- 430
-pop$ -- 2106
+missing$ -- 1628
+newline$ -- 422
+num.names$ -- 440
+pop$ -- 2155
 preamble$ -- 1
-purify$ -- 335
+purify$ -- 343
 quote$ -- 0
-skip$ -- 4577
+skip$ -- 4832
 stack$ -- 1
-substring$ -- 2850
-swap$ -- 1948
-text.length$ -- 79
+substring$ -- 2950
+swap$ -- 2032
+text.length$ -- 81
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 8
 warning$ -- 4
-while$ -- 610
+while$ -- 624
 width$ -- 0
-write$ -- 1374
+write$ -- 1406
 (There were 5 warnings)
