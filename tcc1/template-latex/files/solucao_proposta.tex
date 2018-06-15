@@ -1,6 +1,6 @@
 %!TEX root = ../sbc-template.tex
-
-\subsection{Tarefa de Aprendizado}
+A solução proposta para a realização deste trabalho compreende a caracterização da tarefa de aprendizado, exposta na Seção \ref{subsec:tarefa}. A descrição do conjunto de dados estão na Seção \ref{subsec:dataset}. A Seção \ref{subsec:limpeza} compreende a limpeza, o pré-processamento e a consolidação do conjunto de dados. Por fim, na Seção \ref{subsec:modelos} estão os modelos e hiperparâmetros de CNNs considerados.
+\subsection{Tarefa de Aprendizado}\label{subsec:tarefa}
 A tarefa de aprendizado considerada para a estimação de idade de telespectadores é a regresssão. Neste contexto, uma imagem em cores RGB de dimensões $224 \times 224$ pixels contendo uma face humana centralizada será fornecida como entrada. A saída desejada é a estimativa de idade, em anos, da pessoa correspondente, conforme exemplificado na Figura \ref{fig:deniro_cnn}. Esta tarefa será abordada segundo o paradigma de aprendizado supervisionado.
 
 \begin{figure}[h!]
@@ -18,10 +18,10 @@ Os modelos propostos para esta tarefa terão seu desempenho aferido perante os d
      \textrm{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y})^2}.
 \end{equation}
 
-\subsection{Conjunto de Dados}
+\subsection{Conjunto de Dados}\label{subsec:dataset}
 \input{files/dataset.tex}
 
-\subsection{Limpeza e Pré-processamento dos dados}
+\subsection{Limpeza e Pré-processamento dos dados}\label{subsec:limpeza}
 
 A fim de adequar melhor o conjunto de dados para os modelos de CNNs utilizados, realizou-se uma limpeza e pré-processamento dos meta-dados e das imagens da base IMDb, que se iniciou com o cálculo do atributo alvo, a idade, a partir dos atributos originais fornecidos. A idade foi aferida através da data de nascimento da celebridade e do ano em que a fotografia em questão foi capturada.
 
@@ -38,8 +38,8 @@ Por fim, o conjunto de dados consolidado consiste de $47.950$ exemplos contendo 
      \label{fig:hist}
 \end{figure}
 
-\subsection{Modelos de CNN Considerados}
-Levando em conta a adoção de CNNs como o modelo de Aprendizado de Máquina a ser usado neste trabalho, considerou-se a utilização das arquiteturas LeNet e AlexNet. A implementação da AlexNet seguiu a prática atual de utilizar apenas uma GPU em seu treinamento, então as camadas dividas no trabalho original foram unificadas \cite{tensorflow:alexnet}. Todas as funções de ativação tangente hiperbólica disponíveis nas versões originais destas redes foram substituídas pela função \emph{ReLU}, por ser mais eficiente computacionalmente, evitar que o gradiente descendente tenda a zero e por promover uma convergência mais rápida \cite{maas2013rectifier}. Adotou-se um \emph{batch size} igual a $64$ para o treinamento, e o método de otimização do gradiente descendente foi o \emph{Adam}. O número de épocas e a taxa de aprendizado foram obtidas de maneira experimental, observando a perda obtida ao final de cada época.
+\subsection{Modelos de CNN Considerados} \label{subsec:modelos}
+Levando em conta a adoção de CNNs como o modelo de ML a ser usado neste trabalho, considerou-se a utilização das arquiteturas LeNet e AlexNet. A implementação da AlexNet seguiu a prática atual de utilizar apenas uma GPU em seu treinamento, então as camadas dividas no trabalho original foram unificadas \cite{tensorflow:alexnet}. Todas as funções de ativação tangente hiperbólica disponíveis nas versões originais destas redes foram substituídas pela função \emph{ReLU}, por ser mais eficiente computacionalmente, evitar que o gradiente descendente tenda a zero e por promover uma convergência mais rápida \cite{maas2013rectifier}. Adotou-se um \emph{batch size} igual a $64$ para o treinamento, e o método de otimização do gradiente descendente foi o \emph{Adam}. O número de épocas e a taxa de aprendizado foram obtidas de maneira experimental, observando a perda obtida ao final de cada época.
 
 A fim de caracterizar a tarefa de regressão proposta, as camadas de saída da LeNet e AlexNet com múltiplos neurônios voltados à classificação foram substituídas por apenas um neurônio com função de ativação \emph{ReLU}. Após análise dos resultados preliminares obtidos para estes modelos iniciais, substituiu-se a \emph{ReLU} da camada de saída por uma de suas variantes, chamada \emph{Leaky ReLU}, e expressa na Figura \ref{fig:lrelu}. A taxa de aprendizado inicial foi padronizada em um valor de $10^{-3}$ com decaimento de $10^{-10}$ para ambas as redes.
 

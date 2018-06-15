@@ -8,8 +8,9 @@
 \bibitem[Bengio 2012]{bengio2012practical}
 \abntrefinfo{Bengio}{BENGIO}{2012}
 {BENGIO, Y. Practical recommendations for gradient-based training of deep
-  architectures. In:  \emph{Neural networks: Tricks of the trade}. [S.l.]:
-  Springer, 2012. p. 437--478.}
+  architectures.
+\emph{CoRR}, abs/1206.5533, 2012.
+Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1206.5533}.}
 
 \bibitem[Bengio et al. 2009]{bengio2009learning}
 \abntrefinfo{Bengio et al.}{BENGIO et al.}{2009}
@@ -20,19 +21,21 @@
 \bibitem[Between 2017]{differencebetween}
 \abntrefinfo{Between}{BETWEEN}{2017}
 {BETWEEN, D. \emph{Difference between Smart TV and Normal TV}. 2017.
-  \url{http://www.differencebetween.info/difference-between-smart-tv-and-normal-tv}.
-Acessado em 21 de Março de 2018.}
+Acessado em 21 de Março de 2018.
+Dispon{\'\i}vel em:
+  \url{http://www.differencebetween.info/difference-between-smart-tv-and-normal-tv}.}
 
 \bibitem[Borth 2017]{dl_ILSVRC}
 \abntrefinfo{Borth}{BORTH}{2017}
-{BORTH, D.~D. \emph{Deep Learning -- Future of AI}. [S.l.]: SlideShare, 2017.
-  \url{https://www.slideshare.net/GroupeT2i/deep-learning-the-future-of-ai}.
-Acessado em 23 de Abril de 2018.}
+{BORTH, D.~D. \emph{Deep Learning -- Future of AI}. SlideShare, 2017.
+Acessado em 23 de Abril de 2018.
+Dispon{\'\i}vel em:
+  \url{https://www.slideshare.net/GroupeT2i/deep-learning-the-future-of-ai}.}
 
-\bibitem[Bracewell 1986]{bracewell1986fourier}
-\abntrefinfo{Bracewell}{BRACEWELL}{1986}
-{BRACEWELL, R.~N. \emph{The Fourier transform and its applications}. [S.l.]:
-  McGraw-Hill New York, 1986. v. 31999.}
+\bibitem[Bracewell 1978]{bracewell1986fourier}
+\abntrefinfo{Bracewell}{BRACEWELL}{1978}
+{BRACEWELL, R. \emph{The Fourier Transform and its Applications}. Second.
+  Tokyo: McGraw-Hill Kogakusha, Ltd., 1978.}
 
 \bibitem[Braga, Carvalho e Ludermir 2007]{Teresa:Livro}
 \abntrefinfo{Braga, Carvalho e Ludermir}{BRAGA; CARVALHO; LUDERMIR}{2007}
@@ -44,20 +47,23 @@ Acessado em 23 de Abril de 2018.}
 \abntrefinfo{Braziliense}{BRAZILIENSE}{2018}
 {BRAZILIENSE, C. \emph{Copa e novas tecnologias prometem aumentar venda de TVs
   no Brasil em 2018}. 2018.
-  \url{http://www.correiobraziliense.com.br/app/noticia/economia/2018/01/23/internas_economia,654966/copa-e-novas-tecnologias-prometem-aumentar-venda-de-tvs-no-brasil.shtml}.
-Acessado em 21 de Março de 2018.}
+Acessado em 21 de Março de 2018.
+Dispon{\'\i}vel em:
+  \url{http://www.correiobraziliense.com.br/app/noticia/economia/2018/01/23/internas\_economia,654966/copa-e-novas-tecnologias-prometem-aumentar-venda-de-tvs-no-brasil.shtml}.}
 
 \bibitem[Brink, Richards e Fetherolf 2016]{brink2016real}
 \abntrefinfo{Brink, Richards e Fetherolf}{BRINK; RICHARDS; FETHEROLF}{2016}
-{BRINK, H.; RICHARDS, J.; FETHEROLF, M. \emph{Real-world machine learning}.
-  [S.l.]: Manning Publications Co., 2016.}
+{BRINK, H.; RICHARDS, J.; FETHEROLF, M. \emph{Real-World Machine Learning}.
+  1st. ed. Greenwich, CT, USA: Manning Publications Co., 2016.
+ISBN 1617291927, 9781617291920.}
 
 \bibitem[Brownlee 2016]{ml:algos}
 \abntrefinfo{Brownlee}{BROWNLEE}{2016}
 {BROWNLEE, J. \emph{Parametric and Nonparametric Machine Learning Algorithms}.
-  [S.l.]: Machine Learning Mastery, 2016.
-  \url{https://machinelearningmastery.com/parametric-and-nonparametric-machine-learning-algorithms/}.
-Acessado em 13 de Junho de 2018.}
+  Machine Learning Mastery, 2016.
+Acessado em 13 de Junho de 2018.
+Dispon{\'\i}vel em:
+  \url{https://machinelearningmastery.com/parametric-and-nonparametric-machine-learning-algorithms/}.}
 
 \bibitem[Buduma 2017]{Buduma:Livro}
 \abntrefinfo{Buduma}{BUDUMA}{2017}
@@ -74,15 +80,17 @@ Dispon{\'\i}vel em:
 
 \bibitem[Chollet 2017]{chollet2017deep}
 \abntrefinfo{Chollet}{CHOLLET}{2017}
-{CHOLLET, F. \emph{Deep learning with python}. [S.l.]: Manning Publications
-  Co., 2017.}
+{CHOLLET, F. \emph{Deep Learning with Python}. 1st. ed. Greenwich, CT, USA:
+  Manning Publications Co., 2017.
+ISBN 1617294438, 9781617294433.}
 
-\bibitem[Ciriaco]{canaltech:streaming}
-\abntrefinfo{Ciriaco}{CIRIACO}{}
+\bibitem[Ciriaco 2018]{canaltech:streaming}
+\abntrefinfo{Ciriaco}{CIRIACO}{2018}
 {CIRIACO, D. \emph{Os melhores serviços de streaming de vídeo disponíveis no
-  Brasil}.
-  \url{https://canaltech.com.br/internet/os-melhores-servicos-de-streaming-de-video-disponiveis-no-brasil/}.
-Acessado em 20 de Março de 2018.}
+  Brasil}. 2018.
+Acessado em 20 de Março de 2018.
+Dispon{\'\i}vel em:
+  \url{https://canaltech.com.br/internet/os-melhores-servicos-de-streaming-de-video-disponiveis-no-brasil/}.}
 
 \bibitem[Clevert, Unterthiner e Hochreiter 2015]{djork2015elus}
 \abntrefinfo{Clevert, Unterthiner e Hochreiter}{CLEVERT; UNTERTHINER;
@@ -94,9 +102,10 @@ Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1511.07289}.}
 
 \bibitem[Dechter 1986]{dechter1986learning}
 \abntrefinfo{Dechter}{DECHTER}{1986}
-{DECHTER, R. \emph{Learning while searching in constraint-satisfaction
-  problems}. [S.l.]: University of California, Computer Science Department,
-  Cognitive Systems Laboratory, 1986.}
+{DECHTER, R. Learning while searching in constraint-satisfaction-problems. In:
+  KEHLER, T. (Ed.). \emph{AAAI}. Morgan Kaufmann, 1986. p. 178--185.
+  Dispon{\'\i}vel em:
+  \url{http://dblp.uni-trier.de/db/conf/aaai/aaai86-1.html\#Dechter86}.}
 
 \bibitem[Deng, Yu et al. 2014]{deng2014deep}
 \abntrefinfo{Deng, Yu et al.}{DENG; YU et al.}{2014}
@@ -107,21 +116,23 @@ Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1511.07289}.}
 \bibitem[Deputados 1995]{eca}
 \abntrefinfo{Deputados}{DEPUTADOS}{1995}
 {DEPUTADOS, C. dos. \emph{Estatuto da Criança e do Adolescente}. BRASIL:
-  [s.n.], 1995.}
+  Planalto, 1995.}
 
 \bibitem[Deshpande 2016]{9dlpapers}
 \abntrefinfo{Deshpande}{DESHPANDE}{2016}
 {DESHPANDE, A. \emph{The 9 Deep Learning Papers You Need To Know About
-  (Understanding CNNs Part 3)}. [S.l.]: Adeshpande, 2016.
-  \url{https://adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html}.
-Acessado em 30 de Maio de 2018.}
+  (Understanding CNNs Part 3)}. Adeshpande, 2016.
+Acessado em 30 de Maio de 2018.
+Dispon{\'\i}vel em:
+  \url{https://adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html}.}
 
 \bibitem[Deshpande 2017]{neuronio:perceptron}
 \abntrefinfo{Deshpande}{DESHPANDE}{2017}
-{DESHPANDE, M. \emph{Perceptrons: The First Neural Networks}. [S.l.]: Zenva
-  Academy, 2017.
-  \url{https://pythonmachinelearning.pro/perceptrons-the-first-neural-networks/}.
-Acessado em 11 de Junho de 2018.}
+{DESHPANDE, M. \emph{Perceptrons: The First Neural Networks}. Zenva Academy,
+  2017.
+Acessado em 11 de Junho de 2018.
+Dispon{\'\i}vel em:
+  \url{https://pythonmachinelearning.pro/perceptrons-the-first-neural-networks/}.}
 
 \bibitem[Dubrovina et al. 2018]{dubrovina2018mammography}
 \abntrefinfo{Dubrovina et al.}{DUBROVINA et al.}{2018}
@@ -132,21 +143,23 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1080/21681163.2015.1131197}.}
 
 \bibitem[Ecarlat 2017]{mediumcnn}
 \abntrefinfo{Ecarlat}{ECARLAT}{2017}
-{ECARLAT, P. \emph{CNN -- Do we need to go deeper?} [S.l.]: Medium, 2017.
-  \url{https://medium.com/finc-engineering/cnn-do-we-need-to-go-deeper-afe1041e263e}.
-Acessado em 23 de Abril de 2018.}
+{ECARLAT, P. \emph{CNN -- Do we need to go deeper?} Medium, 2017.
+Acessado em 23 de Abril de 2018.
+Dispon{\'\i}vel em:
+  \url{https://medium.com/finc-engineering/cnn-do-we-need-to-go-deeper-afe1041e263e}.}
 
 \bibitem[Everingham et al. 2014]{pascalvoc}
 \abntrefinfo{Everingham et al.}{EVERINGHAM et al.}{2014}
-{EVERINGHAM, M. et al. \emph{The PASCAL Visual Object Classes Homepage}.
-  [S.l.]: The PASCAL VOC project, 2014.
-  \url{http://host.robots.ox.ac.uk/pascal/VOC/}.
-Acessado em 13 de Junho de 2018.}
+{EVERINGHAM, M. et al. \emph{The PASCAL Visual Object Classes Homepage}. The
+  PASCAL VOC project, 2014.
+Acessado em 13 de Junho de 2018.
+Dispon{\'\i}vel em: \url{http://host.robots.ox.ac.uk/pascal/VOC/}.}
 
 \bibitem[Flach 2012]{flach2012machine}
 \abntrefinfo{Flach}{FLACH}{2012}
-{FLACH, P. \emph{Machine learning: the art and science of algorithms that make
-  sense of data}. [S.l.]: Cambridge University Press, 2012.}
+{FLACH, P. \emph{Machine Learning: The Art and Science of Algorithms That Make
+  Sense of Data}. New York, NY, USA: Cambridge University Press, 2012.
+ISBN 1107422221, 9781107422223.}
 
 \bibitem[Fu, Guo e Huang 2010]{fu2010age}
 \abntrefinfo{Fu, Guo e Huang}{FU; GUO; HUANG}{2010}
@@ -158,8 +171,10 @@ Acessado em 13 de Junho de 2018.}
 \bibitem[Fu, Xu e Huang 2007]{fu2007estimating}
 \abntrefinfo{Fu, Xu e Huang}{FU; XU; HUANG}{2007}
 {FU, Y.; XU, Y.; HUANG, T.~S. Estimating human age by manifold analysis of face
-  pictures and regression on aging features. In:  IEEE. \emph{Multimedia and
-  Expo, 2007 IEEE International Conference on}. [S.l.], 2007. p. 1383--1386.}
+  pictures and regression on aging features. In:  IEEE. \emph{2007 IEEE
+  International Conference on Multimedia and Expo}. Beijing, China, 2007. p.
+  1383--1386.
+ISSN 1945-7871.}
 
 \bibitem[Gao et al. 2018]{mingchen2018holistic}
 \abntrefinfo{Gao et al.}{GAO et al.}{2018}
@@ -172,52 +187,56 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1080/21681163.2015.1124249}.}
 \bibitem[Gill 2017]{rnas_tipos}
 \abntrefinfo{Gill}{GILL}{2017}
 {GILL, N.~S. \emph{Artificial Neural Networks, Neural Networks Applications and
-  Algorithms}. [S.l.]: XenonStack, 2017.
-  \url{https://www.xenonstack.com/blog/data-science/artificial-neural-networks-applications-algorithms/}.
-Acessado em 11 de Junho de 2018.}
+  Algorithms}. XenonStack, 2017.
+Acessado em 11 de Junho de 2018.
+Dispon{\'\i}vel em:
+  \url{https://www.xenonstack.com/blog/data-science/artificial-neural-networks-applications-algorithms/}.}
 
 \bibitem[Giovanelli e Pasqualin]{sinapse}
 \abntrefinfo{Giovanelli e Pasqualin}{GIOVANELLI; PASQUALIN}{}
 {GIOVANELLI, D.~E. de O.; PASQUALIN, D. L.~M. de A. \emph{Por que acontecem as
-  crises epilépticas?} [S.l.]: Neuro Vitta.
-  \url{http://neurovitta.com.br/ctd_noticias_detalhes.php?id=OQ==}.
-Acessado em 30 de Maio de 2018.}
+  crises epilépticas?} Neuro Vitta.
+Acessado em 30 de Maio de 2018.
+Dispon{\'\i}vel em:
+  \url{http://neurovitta.com.br/ctd\_noticias\_detalhes.php?id=OQ==}.}
 
 \bibitem[Goodfellow, Bengio e Courville 2016]{goodfellow2016deep}
 \abntrefinfo{Goodfellow, Bengio e Courville}{GOODFELLOW; BENGIO;
   COURVILLE}{2016}
-{GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep learning}. [S.l.]: MIT
-  press Cambridge, 2016. v.~1.}
+{GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep Learning}. MIT Press,
+  2016. Dispon{\'\i}vel em: \url{http://www.deeplearningbook.org}.}
 
 \bibitem[Google 2018]{gce}
 \abntrefinfo{Google}{GOOGLE}{2018}
-{GOOGLE. \emph{Compute Engine}. [S.l.]: Google, 2018.
-  \url{https://cloud.google.com/compute/}.
-Acessado em 14 de Junho de 2018.}
+{GOOGLE. \emph{Compute Engine}. Google, 2018.
+Acessado em 14 de Junho de 2018.
+Dispon{\'\i}vel em: \url{https://cloud.google.com/compute/}.}
 
 \bibitem[Gross e Wilber 2016]{torch:resnet}
 \abntrefinfo{Gross e Wilber}{GROSS; WILBER}{2016}
-{GROSS, S.; WILBER, M. \emph{Training and investigating Residual Nets}. [S.l.]:
-  Torch, 2016. \url{http://torch.ch/blog/2016/02/04/resnets.html}.
-Acessado em 01 de Junho de 2018.}
+{GROSS, S.; WILBER, M. \emph{Training and investigating Residual Nets}. Torch,
+  2016.
+Acessado em 01 de Junho de 2018.
+Dispon{\'\i}vel em: \url{http://torch.ch/blog/2016/02/04/resnets.html}.}
 
 \bibitem[Guimarães 2017]{leiajabuscasmart}
 \abntrefinfo{Guimarães}{GUIMARãES}{2017}
 {GUIMARãES, N. \emph{Com fim do sinal analógico, busca por smart TVs cresce
   11\%}. 2017.
-  \url{http://www.leiaja.com/tecnologia/2017/07/17/com-fim-do-sinal-analogico-busca-por-smart-tvs-cresce-11/}.
-Acessado em 22 de Março de 2018.}
+Acessado em 22 de Março de 2018.
+Dispon{\'\i}vel em:
+  \url{http://www.leiaja.com/tecnologia/2017/07/17/com-fim-do-sinal-analogico-busca-por-smart-tvs-cresce-11/}.}
 
 \bibitem[Haykin 2009]{haykin2009neural}
 \abntrefinfo{Haykin}{HAYKIN}{2009}
-{HAYKIN, S.~S. \emph{Neural networks and learning machines}. [S.l.]: Pearson
-  Upper Saddle River, NJ, USA:, 2009. v.~3.}
+{HAYKIN, S.~S. \emph{Neural networks and learning machines}. Third. Upper
+  Saddle River, NJ: Pearson Education, 2009.}
 
-\bibitem[He et al. 2016]{resnet}
-\abntrefinfo{He et al.}{HE et al.}{2016}
-{HE, K. et al. Deep residual learning for image recognition. In:
-  \emph{Proceedings of the IEEE conference on computer vision and pattern
-  recognition}. [S.l.: s.n.], 2016. p. 770--778.}
+\bibitem[He et al. 2015]{resnet}
+\abntrefinfo{He et al.}{HE et al.}{2015}
+{HE, K. et al. Deep residual learning for image recognition.
+\emph{CoRR}, abs/1512.03385, 2015.
+Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1512.03385}.}
 
 \bibitem[Hinton 2007]{hinton2007learning}
 \abntrefinfo{Hinton}{HINTON}{2007}
@@ -240,54 +259,59 @@ Acessado em 22 de Março de 2018.}
 \abntrefinfo{IBGE}{IBGE}{2015}
 {IBGE. \emph{Pesquisa Nacional por Amostra de Domicílios: Acesso à INternet e
   à Telvisão e Posse de Telefone Móvel Celular para Uso Pessoal}. 2015.
-  \url{https://biblioteca.ibge.gov.br/visualizacao/livros/liv99054.pdf}.
-Acessado em 16 de Março de 2018.}
+Acessado em 16 de Março de 2018.
+Dispon{\'\i}vel em:
+  \url{https://biblioteca.ibge.gov.br/visualizacao/livros/liv99054.pdf}.}
 
 \bibitem[IBM 2017]{ibm2017bigdata}
 \abntrefinfo{IBM}{IBM}{2017}
 {IBM, M.~C. \emph{10 Key Marketing Trends for 2017 and Ideas for Exceeding
   Customer Expectations}. 2017.
-  \url{https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN}.
-Acessado em 23 de Março de 2018.}
+Acessado em 23 de Março de 2018.
+Dispon{\'\i}vel em:
+  \url{https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN}.}
 
 \bibitem[ImageNet 2012]{ImagenetChall:2012}
 \abntrefinfo{ImageNet}{IMAGENET}{2012}
 {IMAGENET. \emph{Large Scale Visual Recognition Challenge 2012 (ILSVRC2012)}.
-  2012. \url{http://image-net.org/challenges/LSVRC/2012/index}.
-Acessado em 31 de Maio de 2018.}
+  2012.
+Acessado em 31 de Maio de 2018.
+Dispon{\'\i}vel em: \url{http://image-net.org/challenges/LSVRC/2012/index}.}
 
 \bibitem[ImageNet 2015]{ImagenetChall}
 \abntrefinfo{ImageNet}{IMAGENET}{2015}
 {IMAGENET. \emph{Large Scale Visual Recognition Challenge (ILSVRC)}. 2015.
-  \url{http://image-net.org/challenges/LSVRC/}.
-Acessado em 31 de Maio de 2018.}
+Acessado em 31 de Maio de 2018.
+Dispon{\'\i}vel em: \url{http://image-net.org/challenges/LSVRC/}.}
 
 \bibitem[ImageNet 2016]{Imagenet:main}
 \abntrefinfo{ImageNet}{IMAGENET}{2016}
-{IMAGENET. \emph{ImageNet}. 2016. \url{http://www.image-net.org/}.
-Acessado em 31 de Maio de 2018.}
+{IMAGENET. \emph{ImageNet}. 2016.
+Acessado em 31 de Maio de 2018.
+Dispon{\'\i}vel em: \url{http://www.image-net.org/}.}
 
 \bibitem[Justiça 2014]{portaria:ci}
 \abntrefinfo{Justiça}{JUSTIçA}{2014}
 {JUSTIçA, M. da. \emph{Política Pública de Classificação Indicativa}.
-  BRASIL: [s.n.], 2014.}
+  BRASIL: Ministério da Justiça, 2014.}
 
 \bibitem[Justiça 2012]{ci:guia}
 \abntrefinfo{Justiça}{JUSTIçA}{2012}
 {JUSTIçA, S.~N. de. \emph{Classificação Indicativa Guia Pratico}. BRASIL:
-  [s.n.], 2012.}
+  Ministério da Justiça, 2012.}
 
 \bibitem[Keras 2018]{keras:applications}
 \abntrefinfo{Keras}{KERAS}{2018a}
-{KERAS. \emph{Applications}. [S.l.]: Keras Documentation, 2018.
-  \url{https://keras.io/applications/}.
-Acessado em 01 de Junho de 2018.}
+{KERAS. \emph{Applications}. Keras Documentation, 2018.
+Acessado em 01 de Junho de 2018.
+Dispon{\'\i}vel em: \url{https://keras.io/applications/}.}
 
 \bibitem[Keras 2018]{keras}
 \abntrefinfo{Keras}{KERAS}{2018b}
-{KERAS. \emph{Keras: The Python Deep Learning library}. [S.l.]: Keras
-  Documentation, 2018. \url{https://keras.io/}.
-Acessado em 14 de Junho de 2018.}
+{KERAS. \emph{Keras: The Python Deep Learning library}. Keras Documentation,
+  2018.
+Acessado em 14 de Junho de 2018.
+Dispon{\'\i}vel em: \url{https://keras.io/}.}
 
 \bibitem[Khan et al. 2018]{Khan:Livro}
 \abntrefinfo{Khan et al.}{KHAN et al.}{2018}
@@ -297,15 +321,19 @@ Acessado em 14 de Junho de 2018.}
 \bibitem[Kovach 2010]{whatisasmarttv}
 \abntrefinfo{Kovach}{KOVACH}{2010}
 {KOVACH, S. \emph{What Is A Smart TV?} 2010.
-  \url{http://www.businessinsider.com/what-is-a-smart-tv-2010-12}.
-Acessado em 15 de Março de 2018.}
+Acessado em 15 de Março de 2018.
+Dispon{\'\i}vel em:
+  \url{http://www.businessinsider.com/what-is-a-smart-tv-2010-12}.}
 
 \bibitem[Krizhevsky, Sutskever e Hinton 2012]{alexnet}
 \abntrefinfo{Krizhevsky, Sutskever e Hinton}{KRIZHEVSKY; SUTSKEVER;
   HINTON}{2012}
 {KRIZHEVSKY, A.; SUTSKEVER, I.; HINTON, G.~E. Imagenet classification with deep
-  convolutional neural networks. In:  \emph{Advances in neural information
-  processing systems}. [S.l.: s.n.], 2012. p. 1097--1105.}
+  convolutional neural networks. In:  PEREIRA, F. et al. (Ed.). \emph{Advances
+  in Neural Information Processing Systems 25}. Curran Associates, Inc., 2012.
+  p. 1097--1105.
+Dispon{\'\i}vel em:
+  \url{http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf}.}
 
 \bibitem[Kwon e Lobo 1999]{kwon1999age}
 \abntrefinfo{Kwon e Lobo}{KWON; LOBO}{1999}
@@ -320,26 +348,31 @@ Acessado em 15 de Março de 2018.}
 \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, IEEE,
   v.~24, n.~4, p. 442--455, 2002.}
 
-\bibitem[Lathi 2006]{lathi2006sinais}
-\abntrefinfo{Lathi}{LATHI}{2006}
-{LATHI, B.~P. \emph{Sinais e Sistemas Lineares-2}. [S.l.]: Bookman, 2006.}
+\bibitem[Lathi 2007]{lathi2006sinais}
+\abntrefinfo{Lathi}{LATHI}{2007}
+{LATHI, B. \emph{Sinais e Sistemas Lineares - 2.ed}. BOOKMAN COMPANHIA ED,
+  2007.
+ISBN 9788560031139. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=ySxoo2TVeeYC}.}
 
 \bibitem[LeCun et al. 1998]{lenet}
 \abntrefinfo{LeCun et al.}{LECUN et al.}{1998}
 {LECUN, Y. et al. Gradient-based learning applied to document recognition.
 \emph{Proceedings of the IEEE}, IEEE, v.~86, n.~11, p. 2278--2324, 1998.}
 
-\bibitem[LeCun, Cortes e Burges]{mnist}
-\abntrefinfo{LeCun, Cortes e Burges}{LECUN; CORTES; BURGES}{}
+\bibitem[LeCun, Cortes e Burges 2018]{mnist}
+\abntrefinfo{LeCun, Cortes e Burges}{LECUN; CORTES; BURGES}{2018}
 {LECUN, Y.; CORTES, C.; BURGES, C.~J. \emph{THE MNIST DATABASE of handwritten
-  digits}. \url{http://yann.lecun.com/exdb/mnist/}.
-Acessado em 01 de Junho de 2018.}
+  digits}. 2018.
+Acessado em 01 de Junho de 2018.
+Dispon{\'\i}vel em: \url{http://yann.lecun.com/exdb/mnist/}.}
 
 \bibitem[Levi e Hassner 2015]{levi2015age}
 \abntrefinfo{Levi e Hassner}{LEVI; HASSNER}{2015}
 {LEVI, G.; HASSNER, T. Age and gender classification using convolutional neural
-  networks. In:  \emph{Proceedings of the IEEE Conference on Computer Vision
-  and Pattern Recognition Workshops}. [S.l.: s.n.], 2015. p. 34--42.}
+  networks. In:  \emph{IEEE Conf. on Computer Vision and Pattern Recognition
+  (CVPR) workshops}. IEEE, 2015. Dispon{\'\i}vel em:
+  \url{https://www.openu.ac.il/home/hassner/projects/cnn\_agegender}.}
 
 \bibitem[Lin et al. 2014]{coco}
 \abntrefinfo{Lin et al.}{LIN et al.}{2014}
@@ -347,16 +380,18 @@ Acessado em 01 de Junho de 2018.}
 \emph{CoRR}, abs/1405.0312, 2014.
 Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1405.0312}.}
 
-\bibitem[Liu et al. 2016]{ssd}
-\abntrefinfo{Liu et al.}{LIU et al.}{2016}
-{LIU, W. et al. Ssd: Single shot multibox detector. In:  SPRINGER.
-  \emph{European conference on computer vision}. [S.l.], 2016. p. 21--37.}
+\bibitem[Liu et al. 2015]{ssd}
+\abntrefinfo{Liu et al.}{LIU et al.}{2015a}
+{LIU, W. et al. Ssd: Single shot multibox detector. In:  . Amsterdam, The
+  Netherlands: CoRR, 2015. abs/1512.02325. Dispon{\'\i}vel em:
+  \url{http://arxiv.org/abs/1512.02325}.}
 
 \bibitem[Liu et al. 2015]{liu2015agenet}
-\abntrefinfo{Liu et al.}{LIU et al.}{2015}
+\abntrefinfo{Liu et al.}{LIU et al.}{2015b}
 {LIU, X. et al. Agenet: Deeply learned regressor and classifier for robust
   apparent age estimation. In:  \emph{Proceedings of the IEEE International
-  Conference on Computer Vision Workshops}. [S.l.: s.n.], 2015. p. 16--24.}
+  Conference on Computer Vision Workshops}. Santiago, Chile: IEEE, 2015. p.
+  16--24.}
 
 \bibitem[Lou et al. 2018]{lou2018expression}
 \abntrefinfo{Lou et al.}{LOU et al.}{2018}
@@ -367,13 +402,15 @@ Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1405.0312}.}
 \bibitem[Maas, Hannun e Ng 2013]{maas2013rectifier}
 \abntrefinfo{Maas, Hannun e Ng}{MAAS; HANNUN; NG}{2013}
 {MAAS, A.~L.; HANNUN, A.~Y.; NG, A.~Y. Rectifier nonlinearities improve neural
-  network acoustic models. In:  \emph{Proc. icml}. [S.l.: s.n.], 2013. v.~30,
-  n.~1, p.~3.}
+  network acoustic models. In:  ICML. \emph{in ICML Workshop on Deep Learning
+  for Audio, Speech and Language Processing}. 2013. Dispon{\'\i}vel em:
+  \url{http://web.stanford.edu/~awni/papers/relu\_hybrid\_icml2013\_final.pdf}.}
 
-\bibitem[Marsland 2015]{marsland2015machine}
-\abntrefinfo{Marsland}{MARSLAND}{2015}
-{MARSLAND, S. \emph{Machine learning: an algorithmic perspective}. [S.l.]: CRC
-  press, 2015.}
+\bibitem[Marsland 2009]{marsland2015machine}
+\abntrefinfo{Marsland}{MARSLAND}{2009}
+{MARSLAND, S. \emph{Machine Learning: An Algorithmic Perspective}. 1st. ed.
+  London, UK: Chapman \& Hall/CRC, 2009.
+ISBN 1420067184, 9781420067187.}
 
 \bibitem[McCulloch e Pitts 1943]{mcculloch1943logical}
 \abntrefinfo{McCulloch e Pitts}{MCCULLOCH; PITTS}{1943}
@@ -386,7 +423,7 @@ Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1405.0312}.}
 \abntrefinfo{Mich{\'e}le e Karpow}{MICH{\'E}LE; KARPOW}{2014}
 {MICH{\'E}LE, B.; KARPOW, A. Watch and be watched: Compromising all smart tv
   generations. In:  IEEE. \emph{Consumer Communications and Networking
-  Conference (CCNC), 2014 IEEE 11th}. [S.l.], 2014. p. 351--356.}
+  Conference (CCNC), 2014 IEEE 11th}. Las Vegas, NV, USA, 2014. p. 351--356.}
 
 \bibitem[Mitchell 1997]{mitchell1997machine}
 \abntrefinfo{Mitchell}{MITCHELL}{1997}
@@ -398,19 +435,21 @@ ISBN 9780070428072. Dispon{\'\i}vel em:
 \bibitem[Newsroom 2011]{samsung:smarttv}
 \abntrefinfo{Newsroom}{NEWSROOM}{2011}
 {NEWSROOM, S. \emph{Smart TV: Piece by Piece}. 2011.
-  \url{https://news.samsung.com/global/smart-tv-piece-by-piece}.
-Acessado em 15 de Março de 2018.}
+Acessado em 15 de Março de 2018.
+Dispon{\'\i}vel em:
+  \url{https://news.samsung.com/global/smart-tv-piece-by-piece}.}
 
 \bibitem[NUMFOCUS 2018]{matplotlib}
 \abntrefinfo{NUMFOCUS}{NUMFOCUS}{2018a}
-{NUMFOCUS. \emph{MatPlotLib}. 2018. \url{https://matplotlib.org/}.
-Acessado em 14 de Junho de 2018.}
+{NUMFOCUS. \emph{MatPlotLib}. 2018.
+Acessado em 14 de Junho de 2018.
+Dispon{\'\i}vel em: \url{https://matplotlib.org/}.}
 
 \bibitem[NUMFOCUS 2018]{pandas}
 \abntrefinfo{NUMFOCUS}{NUMFOCUS}{2018b}
-{NUMFOCUS. \emph{Python Data Analysis Library}. [S.l.]: NUMFOCUS, 2018.
-  \url{https://pandas.pydata.org/}.
-Acessado em 14 de Junho de 2018.}
+{NUMFOCUS. \emph{Python Data Analysis Library}. NUMFOCUS, 2018.
+Acessado em 14 de Junho de 2018.
+Dispon{\'\i}vel em: \url{https://pandas.pydata.org/}.}
 
 \bibitem[Oktay et al. 2018]{oktay2018anatomically}
 \abntrefinfo{Oktay et al.}{OKTAY et al.}{2018}
@@ -422,9 +461,9 @@ Acessado em 14 de Junho de 2018.}
 \bibitem[Oquab et al. 2014]{oquab2014learning}
 \abntrefinfo{Oquab et al.}{OQUAB et al.}{2014}
 {OQUAB, M. et al. Learning and transferring mid-level image representations
-  using convolutional neural networks. In:  IEEE. \emph{Computer Vision and
-  Pattern Recognition (CVPR), 2014 IEEE Conference on}. [S.l.], 2014. p.
-  1717--1724.}
+  using convolutional neural networks. In:  \emph{Computer Vision and Pattern
+  Recognition (CVPR), 2014 IEEE Conference on}. Columbus, OH, USA: IEEE, 2014.
+  p. 1717--1724.}
 
 \bibitem[Pedamonti 2018]{dabal2018elus}
 \abntrefinfo{Pedamonti}{PEDAMONTI}{2018}
@@ -436,26 +475,31 @@ Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1804.02763}.}
 \bibitem[Perakakis e Ghinea 2015]{perakakis2015proposed}
 \abntrefinfo{Perakakis e Ghinea}{PERAKAKIS; GHINEA}{2015}
 {PERAKAKIS, E.; GHINEA, G. A proposed model for cross-platform web 3d
-  applications on smart tv systems. In:  ACM. \emph{Proceedings of the 20th
-  International Conference on 3D Web Technology}. [S.l.], 2015. p. 165--166.}
+  applications on smart tv systems. In:  \emph{Proceedings of the 20th
+  International Conference on 3D Web Technology}. New York, NY, USA: ACM, 2015.
+   (Web3D '15), p. 165--166.
+ISBN 978-1-4503-3647-5. Dispon{\'\i}vel em:
+  \url{http://doi.acm.org/10.1145/2775292.2778303}.}
 
 \bibitem[Point 2018]{rna:feedback}
 \abntrefinfo{Point}{POINT}{2018}
 {POINT, T. \emph{Artificial Intelligence - Neural Networks}. 2018.
-  \url{https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_neural_networks.htm}.
-Acessado em 11 de Junho de 2018.}
+Acessado em 11 de Junho de 2018.
+Dispon{\'\i}vel em:
+  \url{https://www.tutorialspoint.com/artificial\_intelligence/artificial\_intelligence\_neural\_networks.htm}.}
 
 \bibitem[Quain 2018]{tomsguid:everythingsmart}
 \abntrefinfo{Quain}{QUAIN}{2018}
 {QUAIN, J.~R. \emph{Smart TVs: Everything You Need to Know}. 2018.
-  \url{https://www.tomsguide.com/us/smart-tv-faq,review-2111.html}.
-Acessado em 23 de Março de 2018.}
+Acessado em 23 de Março de 2018.
+Dispon{\'\i}vel em:
+  \url{https://www.tomsguide.com/us/smart-tv-faq,review-2111.html}.}
 
-\bibitem[Redmon et al. 2016]{redmon2016you}
-\abntrefinfo{Redmon et al.}{REDMON et al.}{2016}
+\bibitem[Redmon et al. 2015]{redmon2016you}
+\abntrefinfo{Redmon et al.}{REDMON et al.}{2015}
 {REDMON, J. et al. You only look once: Unified, real-time object detection. In:
-   \emph{Proceedings of the IEEE conference on computer vision and pattern
-  recognition}. [S.l.: s.n.], 2016. p. 779--788.}
+   . CoRR, 2015. abs/1506.02640. Dispon{\'\i}vel em:
+  \url{http://arxiv.org/abs/1506.02640}.}
 
 \bibitem[Rosenblatt 1958]{rosenblatt1958perceptron}
 \abntrefinfo{Rosenblatt}{ROSENBLATT}{1958}
@@ -467,15 +511,17 @@ Acessado em 23 de Março de 2018.}
 \bibitem[Rothe, Timofte e Gool 2015]{rothe2015dex}
 \abntrefinfo{Rothe, Timofte e Gool}{ROTHE; TIMOFTE; GOOL}{2015a}
 {ROTHE, R.; TIMOFTE, R.; GOOL, L.~V. Dex: Deep expectation of apparent age from
-  a single image. In:  \emph{Proceedings of the {IEEE} International Conference
-  on Computer Vision Workshops}. [S.l.: s.n.], 2015. p. 10--15.}
+  a single image. In:  \emph{2015 IEEE International Conference on Computer
+  Vision Workshop (ICCVW)}. Santiago, Chile: IEEE, 2015. v.~00, p. 252--257.
+  Dispon{\'\i}vel em: \url{doi.ieeecomputersociety.org/10.1109/ICCVW.2015.41}.}
 
 \bibitem[Rothe, Timofte e Gool 2015]{IMDb_derivada}
 \abntrefinfo{Rothe, Timofte e Gool}{ROTHE; TIMOFTE; GOOL}{2015b}
 {ROTHE, R.; TIMOFTE, R.; GOOL, L.~V. \emph{IMDB-WIKI – 500k+ face images with
   age and gender labels}. 2015.
-  \url{https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/}.
-Acessado em \today.}
+Acessado em \today.
+Dispon{\'\i}vel em:
+  \url{https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/}.}
 
 \bibitem[Rumelhart, Hinton e Williams 1986]{rumelhart1986backpropagation}
 \abntrefinfo{Rumelhart, Hinton e Williams}{RUMELHART; HINTON; WILLIAMS}{1986}
@@ -492,25 +538,26 @@ Acessado em \today.}
 \bibitem[Russell e Norvig 2016]{russell2016artificial}
 \abntrefinfo{Russell e Norvig}{RUSSELL; NORVIG}{2016}
 {RUSSELL, S.~J.; NORVIG, P. \emph{Artificial intelligence: a modern approach}.
-  [S.l.]: Malaysia; Pearson Education Limited,, 2016.}
+  Malaysia: Pearson Education Limited, 2016.}
 
 \bibitem[Santos]{neuronio_biologico}
 \abntrefinfo{Santos}{SANTOS}{}
-{SANTOS, V. S.~D. \emph{O que é neurônio?} [S.l.]: Brasil Escola.
-  \url{https://brasilescola.uol.com.br/o-que-e/biologia/o-que-e-neuronio.htm}.
-Acessado em 30 de Maio de 2018.}
+{SANTOS, V. S.~D. \emph{O que é neurônio?} Brasil Escola.
+Acessado em 30 de Maio de 2018.
+Dispon{\'\i}vel em:
+  \url{https://brasilescola.uol.com.br/o-que-e/biologia/o-que-e-neuronio.htm}.}
 
 \bibitem[SBT 2015]{sbt:tvconectada}
 \abntrefinfo{SBT}{SBT}{2015}
 {SBT. \emph{Smart {TV} -- {TV} Conectada}. 2015.
-  \url{http://www.sbt.com.br/tvconectada/}.
-Acessado em 23 de Março de 2018.}
+Acessado em 23 de Março de 2018.
+Dispon{\'\i}vel em: \url{http://www.sbt.com.br/tvconectada/}.}
 
 \bibitem[Schofield 2017]{Guardian:CameraSmartv}
 \abntrefinfo{Schofield}{SCHOFIELD}{2017}
 {SCHOFIELD, J. \emph{How can I make video calls from my TV set?} 2017.
-  \url{https://goo.gl/eCynUh}.
-Acessado em \today.}
+Acessado em \today.
+Dispon{\'\i}vel em: \url{https://goo.gl/eCynUh}.}
 
 \bibitem[Shin, Hwang e Choo 2013]{shin2013smart}
 \abntrefinfo{Shin, Hwang e Choo}{SHIN; HWANG; CHOO}{2013}
@@ -528,35 +575,41 @@ Acessado em \today.}
 \bibitem[Suo et al. 2008]{suo2008design}
 \abntrefinfo{Suo et al.}{SUO et al.}{2008}
 {SUO, J. et al. Design sparse features for age estimation using hierarchical
-  face model. In:  IEEE. \emph{Automatic Face \& Gesture Recognition, 2008.
-  FG'08. 8th IEEE International Conference on}. [S.l.], 2008. p.~1--6.}
+  face model. In:  \emph{Automatic Face \& Gesture Recognition, 2008. FG'08.
+  8th IEEE International Conference on}. Amsterdam, The Netherlands: IEEE,
+  2008. p.~1--6.}
 
 \bibitem[Szegedy et al. 2015]{inception}
 \abntrefinfo{Szegedy et al.}{SZEGEDY et al.}{2015}
-{SZEGEDY, C. et al. Going deeper with convolutions. In:  CVPR. [S.l.], 2015.}
+{SZEGEDY, C. et al. Going deeper with convolutions. In:  \emph{2015 IEEE
+  Conference on Computer Vision and Pattern Recognition (CVPR)}. Boston, MA,
+  USA: IEEE, 2015. p.~1--9.
+ISSN 1063-6919.}
 
 \bibitem[Tensorflow 2018]{tensorflow:alexnet}
 \abntrefinfo{Tensorflow}{TENSORFLOW}{2018a}
 {TENSORFLOW. \emph{AlexNet}. 2018.
-  \url{https://github.com/tensorflow/models/blob/master/research/slim/nets/alexnet.py}.
-Acessado em 11 de Junho de 2018.}
+Acessado em 11 de Junho de 2018.
+Dispon{\'\i}vel em:
+  \url{https://github.com/tensorflow/models/blob/master/research/slim/nets/alexnet.py}.}
 
 \bibitem[Tensorflow 2018]{tensorflow:models}
 \abntrefinfo{Tensorflow}{TENSORFLOW}{2018b}
 {TENSORFLOW. \emph{Models and examples built with TensorFlow}. 2018.
-  \url{https://github.com/tensorflow/models}.
-Acessado em 01 de Junho de 2018.}
+Acessado em 01 de Junho de 2018.
+Dispon{\'\i}vel em: \url{https://github.com/tensorflow/models}.}
 
 \bibitem[Tensorflow 2018]{tensorflow}
 \abntrefinfo{Tensorflow}{TENSORFLOW}{2018c}
-{TENSORFLOW. \emph{TensorFlow}. 2018. \url{https://www.tensorflow.org/}.
-Acessado em 14 de Junho de 2018.}
+{TENSORFLOW. \emph{TensorFlow}. 2018.
+Acessado em 14 de Junho de 2018.
+Dispon{\'\i}vel em: \url{https://www.tensorflow.org/}.}
 
 \bibitem[Waskom 2018]{seaborn}
 \abntrefinfo{Waskom}{WASKOM}{2018}
 {WASKOM, M. \emph{seaborn: statistical data visualization}. 2018.
-  \url{https://seaborn.pydata.org/}.
-Acessado em 14 de Junho de 2018.}
+Acessado em 14 de Junho de 2018.
+Dispon{\'\i}vel em: \url{https://seaborn.pydata.org/}.}
 
 \bibitem[Widrow, E e Lehr 1994]{widrow1994neural}
 \abntrefinfo{Widrow, E e Lehr}{WIDROW; E; LEHR}{1994}
@@ -567,13 +620,14 @@ Acessado em 14 de Junho de 2018.}
 \bibitem[Wikipedia 2018]{televisioncontentwiki}
 \abntrefinfo{Wikipedia}{WIKIPEDIA}{2018}
 {WIKIPEDIA. \emph{Television content rating system}. 2018.
-  \url{https://en.wikipedia.org/wiki/Television_content_rating_system#Countries_without_TV_rating_systems}.
-Acessado em 21 de Março de 2018.}
+Acessado em 21 de Março de 2018.
+Dispon{\'\i}vel em:
+  \url{https://en.wikipedia.org/wiki/Television\_content\_rating\_system\#Countries\_without\_TV\_rating\_systems}.}
 
 \bibitem[Zeiler e Fergus 2014]{zeiler2014visualizing}
 \abntrefinfo{Zeiler e Fergus}{ZEILER; FERGUS}{2014}
 {ZEILER, M.~D.; FERGUS, R. Visualizing and understanding convolutional
   networks. In:  SPRINGER. \emph{European conference on computer vision}.
-  [S.l.], 2014. p. 818--833.}
+  Zurich, Switzerland, 2014. p. 818--833.}
 
 \end{thebibliography}
