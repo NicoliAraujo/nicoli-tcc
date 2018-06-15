@@ -22,9 +22,6 @@ Conforme mencionado na Seção \ref{subsec:modelos}, os primeiros treinamentos e
 
 Ao observar as previsões realizadas para exemplos individuais, percebeu-se uma tendência destas redes após treinamento em preverem valores baixos, indicando possivelmente \emph{underfitting} em virtude do \emph{ReLU dying problem} \cite{djork2015elus, dabal2018elus}. Como alternativa, estes autores sugerem  utilizar variantes da \emph{ReLU} que não exibam saídas nulas, diferentes estratégias de inicialização e regularização de pesos e \emph{batches}, entre outras.
 
-Levando em conta estas sugestões, averiguou-se também a utilização das redes LeNet e AlexNet com a função de ativação \emph{Leaky ReLU} na camada de saída, cujos resultados encontram-se descritos na Tabela \ref{tab:results_leaky}.
-
-
 \begin{table}[h!]
      \caption{Resultados preliminares do treino e teste dos modelos propostos utilizando \emph{Leaky ReLU} na camada de saída.}
      \label{tab:results_leaky}
