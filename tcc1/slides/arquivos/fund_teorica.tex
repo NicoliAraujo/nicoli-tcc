@@ -353,19 +353,13 @@
    \end{itemize}
 \end{frame}
 
-begin{frame}{Transfer Learning}
+\begin{frame}{Transfer Learning}
    \ \  \\[0.1cm]
    \begin{itemize}
-     \item ResNet (2015)
-     \begin{itemize}
-       \item Total de 152 camadas
-       \item Treinamento em 8 GPUs por duas a três semanas
-       \item Erro top-5 de $3.6\%$
-     \end{itemize}
-     \begin{figure}[h!]
-     \centering
-     \caption{Bloco Residual da CNN ResNet.}\label{fig:bloco_residual}
-     \includegraphics[height=0.3\textheight]{img/resnets_modelvariants}
-     \end{figure}
+     \item CNNs com alto desempenho
+     \item COLOCAR UM BLOCK
+     \item Representações de imagens aprendidas por CNNs a partir de conjuntos de dados com grande número de exemplos podem ser transferidas eficientemente para outras tarefas de reconhecimento visual que tenham uma quantidade limitada de dados de treinamento
+     \item Transferir os parâmetros de peso $w$ e de bias $b$
+     \item Remove-se as últimas camadas
    \end{itemize}
 \end{frame}

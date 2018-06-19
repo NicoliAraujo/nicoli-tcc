@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.27)  19 JUN 2018 04:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.27)  19 JUN 2018 04:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1899,47 +1899,27 @@ Underfull \hbox (badness 8038) has occurred while \output is active
 
 [38
 
- </home/nicoli/github/nicoli-tcc/tcc1/slides/img/resnets_modelvariants.png>]
-/home/nicoli/github/nicoli-tcc/tcc1/slides/arquivos/fund_teorica.tex:367: You can't use `\unskip' in vertical mode.
-\reset@color ...mer@zeropt \else \ifvmode \unskip 
-                                                  \fi \ifhmode \unskip \fi \...
-l.367      \caption{Bloco Residual da CNN ResNet.}
-                                                  \label{fig:bloco_residual}
-Sorry...I usually can't take things from the current page.
-Try `I\vskip-\lastskip' instead.
-
-File: img/resnets_modelvariants.png Graphic file (type png)
-<use img/resnets_modelvariants.png>
-Package pdftex.def Info: img/resnets_modelvariants.png used on input line 368.
-(pdftex.def)             Requested size: 40.99036pt x 75.6232pt.
-
-/home/nicoli/github/nicoli-tcc/tcc1/slides/arquivos/fund_teorica.tex:371: Too many }'s.
-\endframe ->\egroup 
-                    \begingroup \def \@currenvir {frame}
-l.371 \end{frame}
-                 
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-)pdfTeX warning (ext4): destination with the same identifier (name{fig:bloco_residual}) has been already used, duplicate ignored
+ </home/nicoli/github/nicoli-tcc/tcc1/slides/img/resnets_modelvariants.png>]pdfTeX warning (ext4): destination with the same identifier (name{fig:bloco_residual}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.64 \section{Trabalhos Relacionados}
-                                      (/home/nicoli/github/nicoli-tcc/tcc1/slides/main.toc)
-Underfull \vbox (badness 7291) has occurred while \output is active []
+l.371 \end{frame}
+                 
+File: img/resnets_modelvariants.png Graphic file (type png)
+ <use img/resnets_modelvariants.png>
+Package pdftex.def Info: img/resnets_modelvariants.png used on input line 371.
+(pdftex.def)             Requested size: 40.99036pt x 75.6232pt.
 
-
-/home/nicoli/github/nicoli-tcc/tcc1/slides/main.tex:64: Arithmetic overflow.
+/home/nicoli/github/nicoli-tcc/tcc1/slides/arquivos/fund_teorica.tex:371: Arithmetic overflow.
 \beamer@@tmpl@background ...progressbar@tmpcounta 
                                                   \divide \progressbar@tmpdi...
-l.64 \section{Trabalhos Relacionados}
-                                     
+l.371 \end{frame}
+                 
 I can't carry out that multiplication or division,
 since the result is out of range.
 
 [39
 
-]
+]) (/home/nicoli/github/nicoli-tcc/tcc1/slides/main.toc)
 /home/nicoli/github/nicoli-tcc/tcc1/slides/main.tex:64: Arithmetic overflow.
 \beamer@@tmpl@background ...progressbar@tmpcounta 
                                                   \divide \progressbar@tmpdi...
@@ -1948,7 +1928,9 @@ l.64 \section{Trabalhos Relacionados}
 I can't carry out that multiplication or division,
 since the result is out of range.
 
-[40] (/home/nicoli/github/nicoli-tcc/tcc1/slides/arquivos/relacionados.tex
+[40
+
+] (/home/nicoli/github/nicoli-tcc/tcc1/slides/arquivos/relacionados.tex
 /home/nicoli/github/nicoli-tcc/tcc1/slides/arquivos/relacionados.tex:22: Arithmetic overflow.
 \beamer@@tmpl@background ...progressbar@tmpcounta 
                                                   \divide \progressbar@tmpdi...
@@ -2136,16 +2118,16 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
  ) 
 Here is how much of TeX's memory you used:
- 25773 strings out of 493029
- 487360 string characters out of 6136234
+ 25775 strings out of 493029
+ 487378 string characters out of 6136234
  594042 words of memory out of 5000000
- 28440 multiletter control sequences out of 15000+600000
+ 28442 multiletter control sequences out of 15000+600000
  457106 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,19n,92p,951b,927s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5tbsmu.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_a5mxzo.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_ggs4wk.enc}</usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-BoldIt.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourceserifpro/SourceSerifPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on /home/nicoli/github/nicoli-tcc/tcc1/slides/main.pdf (52 pages, 1121145 bytes).
+Output written on /home/nicoli/github/nicoli-tcc/tcc1/slides/main.pdf (52 pages, 1121256 bytes).
 PDF statistics:
  556 PDF objects out of 1000 (max. 8388607)
  451 compressed objects within 5 object streams
