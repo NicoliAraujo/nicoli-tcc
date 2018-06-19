@@ -142,11 +142,14 @@
 	% deal with progress bar stuff
 	% (calculate where it should go)
 	\progressbar@tmpcounta=\insertframenumber
+	\advance\progressbar@tmpcounta by -1
 	\progressbar@tmpcountb=\inserttotalframenumber
+	\advance\progressbar@tmpcountb by -1
 	\progressbar@tmpdim=\progressbar@pbwidth
+	\divide\progressbar@tmpdim by 100
 	\multiply\progressbar@tmpdim by \progressbar@tmpcounta
 	\divide\progressbar@tmpdim by \progressbar@tmpcountb
-
+	\multiply\progressbar@tmpdim  by 100
 	\begin{tikzpicture}
 		% set up the entire slide as the canvas
 		\useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
@@ -171,7 +174,7 @@
 			% add the date in the corner
 			\node[anchor=south east] at(\slidewidth,0cm) {\color{ExecusharesGrey}\tiny\insertdate};
 		\else
-		\ifnum\thepage=25\relax
+		\ifnum\thepage=65\relax
 			% the last page
 			% draw the fills
 			\fill[color=warmblack] (0, 5cm) rectangle(\slidewidth,0.90\slideheight);

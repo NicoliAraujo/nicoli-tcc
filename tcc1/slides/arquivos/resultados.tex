@@ -1,39 +1,47 @@
-\begin{frame}{Resultados}
+\begin{frame}{Resultados Parciais}
  \begin{itemize}
-   \item Identificação de uma rede neural para previsão do volume de precipitações em cada mês do ano
-   \ \ \newline
-   \item Acurácia média: $92,16\%$
-   \ \ \newline
-   \item Não foi possível identificar um único modelo de RNAs capaz de capturar todas as características de todos os meses
-   \begin{itemize}
-     \item Contraste com o trabalho de Lima \& Guedes
+   \item Estimação de idade a partir de uma imagem de face
+   \item LeNet e AlexNet
+   \begin{table}[h!]
+        \caption{Resultados preliminares do treino e teste dos modelos propostos utilizando \emph{ReLU} na camada de saída.}
+        \label{tab:results_relu}
+        \centering
+        \begin{tabular}{l l l}
+             \toprule
+             Modelo & Épocas &RMSE \\
+             \midrule
+             LeNet & $95$ & $41.08$ \\
+             AlexNet & $55$ & $41.96$\\
+             \bottomrule
+        \end{tabular}
+   \end{table}
    \end{itemize}
- \end{itemize}
 \end{frame}
 
-\begin{frame}{Resultados}
-  \begin{table}[H]
-    \caption{Redes neurais com maior acurácia para previsão do volume de precipitações em Manaus nos diferentes meses do ano.} \label{tab:melhores}
-    \centering
-    \begin{footnotesize}
-    \begin{tabular}{cccccc}
-      \toprule
-      \textbf{Mês} &  \textbf{Arquitetura} & \textbf{Função de Ativação} &  \textbf{Taxa de Aprendizado} &   \textbf{Taxa de Decréscimo} &  \textbf{Acurácia} \\
-      \midrule
-      1 &     (37, 9, 1) &  Tangente Hiperbólica &  0.0001 &  0.003 &      0.93 \\
-      2 &     (37, 7, 1) &             Sigmoidal &  0.0001 &  0.003 &      0.93 \\
-      3 &  (37, 8, 4, 1) &  Tangente Hiperbólica &  0.0001 &  0.001 &      1.00 \\
-      4 &     (37, 4, 1) &  Tangente Hiperbólica &  0.0001 &  0.001 &      0.87 \\
-      5 &     (37, 8, 1) &  Tangente Hiperbólica &  0.0100 &  0.001 &      0.93 \\
-      6 &     (37, 5, 1) &  Tangente Hiperbólica &  0.0100 &  0.003 &      0.87 \\
-      7 &     (37, 8, 1) &  Tangente Hiperbólica &  0.0100 &  0.003 &      0.93 \\
-      8 &  (37, 6, 6, 1) &             Sigmoidal &  0.0001 &  0.003 &      0.93 \\
-      9 &  (37, 8, 4, 1) &  Tangente Hiperbólica &  0.0001 &  0.003 &      1.00 \\
-      10 &     (37, 8, 1) &  Tangente Hiperbólica &  0.0001 &  0.003 &      0.87 \\
-      11 &     (37, 8, 1) &  Tangente Hiperbólica &  0.0001 &  0.001 &      0.93 \\
-      12 &  (37, 9, 3, 1) &  Tangente Hiperbólica &  0.0100 &  0.003 &      0.87 \\
-      \bottomrule
-    \end{tabular}
-  \end{footnotesize}
-  \end{table}
+\begin{frame}{Resultados Parciais}
+ \begin{itemize}
+   \item Tendência de ambas redes em preverem valores baixos
+   \item \emph{ReLU dying problem}
+   \item Possível \emph{underfitting}
+   \item Alternativas para endereçar o problema
+   \begin{itemize}
+        \item \emph{Leaky ReLU} na camada de saída
+   \end{itemize}
+   \end{itemize}
+\end{frame}
+
+\begin{frame}{Resultados Parciais}
+   \begin{table}[h!]
+        \caption{Resultados preliminares do treino e teste dos modelos propostos utilizando \emph{Leaky ReLU} na camada de saída.}
+        \label{tab:results_leaky}
+        \centering
+        \begin{tabular}{l l l}
+             \toprule
+             Modelo & Épocas & RMSE \\
+             \midrule
+             LeNet & $12$ & $41.55$ \\
+             AlexNet & $6$ & $14.38$\\
+             \bottomrule
+        \end{tabular}
+   \end{table}
 \end{frame}

@@ -1,22 +1,36 @@
+%!TEX root = ../main.tex
 \begin{frame}{Trabalhos Relacionados}
 \begin{itemize}
-  \item \alert{Lima \& Guedes} et al. (2015, 2016)
+  \item \alert{DEX} (Rothe,2015)
   \begin{itemize}
-    \item Previsão de precipitações um dia à frente
-    \item Tarefa de classificação
-    \item \emph{Time Delay Neural Networks}
-    \item Dados de 1970 a 2010
-    \item Acurácia: $99.7\%$
+    \item Ensemble de $20$ VGG-16
+    \item Pré-treinadas com a ImageNet
+    \item \emph{Fine Tuning} com imagens disponibilizadas pelos sites do IMDb, da Wikipedia, e o conjunto de dados \emph{Looking At People}
+    \item Problema de classificação: idade entre $0$ e $100$
+    \item MAE (\emph{Mean Average Error}) de $3.221$ na fase de testes
   \end{itemize}
-  \item \alert{Limitação}:
-  \begin{itemize}
-    \item Ausência do volume associado às precipitações
   \end{itemize}
-  \item \alert{Vantagens}:
+\end{frame}
+
+\begin{frame}{Trabalhos Relacionados}
+\begin{itemize}
+  \item \alert{AgeNet} (Liu et al., 2015)
   \begin{itemize}
-    \item Dados advindos de estações meteorológicas
-    \item Utilização de dados defasados
-    \item Tipo de redes neurais considerado
+    \item Ensemble de modelos regresssores e classificadores com diferentes métodos de normalização de face
+    \item CNNs inspiradas na \emph{GoogLeNet}
+    \item MAE de $3.3345$
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Trabalhos Relacionados}
+\begin{itemize}
+  \item (Levi e Hassner, 2015):
+  \begin{itemize}
+    \item Idade e gênero
+    \item Três camadas convolucionais com \emph{dropout} e funções de ativação \emph{ReLU}, seguidas por três camadas totalmente conectadas
+    \item Problema de classificação: 8 classes de idade
+    \item Acurácia de $84.7\% \pm 2.2$
   \end{itemize}
 \end{itemize}
 \end{frame}
