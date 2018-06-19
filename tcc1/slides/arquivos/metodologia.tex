@@ -1,0 +1,81 @@
+\begin{frame}{Metodologia}
+  \begin{itemize}
+  	\item Utilização de Séries Temporais
+    \begin{itemize}
+      \item Janela de tempo: $6$ meses
+      \item Precipitação, Índices Niño e TSA
+      \item \emph{Time Delay Neural Networks}
+      \item Atributos de entrada: 36
+    \end{itemize}
+  	\ \ \newline
+    \item Normalização dos dados
+    \begin{itemize}
+      \item $\tilde N(0,1)$
+      \item Amortizar os dados na mesma escala
+      \item Precipitação e índices Niño
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Metodologia}
+  \begin{itemize}
+    \item Cálculo da \alert{anomalia}
+    \begin{itemize}
+      \item Diferença em relação à média histórica: $x_i - \overline{x}$
+      \item Muito adotada na Meteorologia
+      \item Captura noção de tendência
+    \end{itemize}
+  \end{itemize}
+  \pause
+  \begin{block}{Abordagem}
+  Prever a classificação da anomalia mensal do volume de precipitações em Manaus, Amazonas
+  \end{block}
+\end{frame}
+
+\begin{frame}{Metodologia}
+\begin{itemize}
+  \item Dimensionamento das redes neurais
+  \ \ \newline
+  \item Camada de entrada: $N_i = 36$
+  \item Camada de saída: $N_o = 1$
+  \item Camadas ocultas: 1 a 2
+  \item Neurônios nas camadas ocultas: regra da pirâmide geométrica
+  \begin{equation}
+  N_h = \alpha \sqrt{N_i \cdot N_o},
+  \end{equation}
+ \item com  $0.5 \leq \alpha \leq 2$
+ \ \ \newline
+ \item \alert{Resultado}: $3 \leq N_h \leq 12$
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Metodologia}
+\begin{itemize}
+\item Outros parâmetros:
+\begin{itemize}
+  \item Função de Ativação: Logística ou Tangente Hiperbólica
+  \item Épocas: 2000
+  \item Taxa de Aprendizado Inicial: $0.001$ ou $0.003$
+  \item Fração de Decréscimo: $0.0001$ ou $0.01$
+\end{itemize}
+\end{itemize}
+\begin{block}{Resultado do Dimensionamento}
+  136 redes neurais a serem treinadas e testadas para cada mês do ano!
+\end{block}
+\end{frame}
+
+\begin{frame}{Metodologia}
+  \begin{itemize}
+  \item Partição do conjunto de dados:
+  \begin{itemize}
+    \item De 1950 a 2000 -- 77$\%$: Treinamento
+    \item 10$\%$ dos dados de treinamento reservados para validação
+    \item De 2001 a 2015 -- 23$\%$: Teste
+  \end{itemize}
+  \ \ \newline
+  \item Métrica de performance: Acurácia
+  \end{itemize}
+  \begin{equation}
+		Acuracia(\%) = \frac{100}{n}\sum_{t=1}^n 1 - \abs{y_t - p_t}
+	\end{equation}
+\end{frame}

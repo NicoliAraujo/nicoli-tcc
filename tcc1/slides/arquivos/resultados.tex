@@ -1,0 +1,39 @@
+\begin{frame}{Resultados}
+ \begin{itemize}
+   \item Identificação de uma rede neural para previsão do volume de precipitações em cada mês do ano
+   \ \ \newline
+   \item Acurácia média: $92,16\%$
+   \ \ \newline
+   \item Não foi possível identificar um único modelo de RNAs capaz de capturar todas as características de todos os meses
+   \begin{itemize}
+     \item Contraste com o trabalho de Lima \& Guedes
+   \end{itemize}
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Resultados}
+  \begin{table}[H]
+    \caption{Redes neurais com maior acurácia para previsão do volume de precipitações em Manaus nos diferentes meses do ano.} \label{tab:melhores}
+    \centering
+    \begin{footnotesize}
+    \begin{tabular}{cccccc}
+      \toprule
+      \textbf{Mês} &  \textbf{Arquitetura} & \textbf{Função de Ativação} &  \textbf{Taxa de Aprendizado} &   \textbf{Taxa de Decréscimo} &  \textbf{Acurácia} \\
+      \midrule
+      1 &     (37, 9, 1) &  Tangente Hiperbólica &  0.0001 &  0.003 &      0.93 \\
+      2 &     (37, 7, 1) &             Sigmoidal &  0.0001 &  0.003 &      0.93 \\
+      3 &  (37, 8, 4, 1) &  Tangente Hiperbólica &  0.0001 &  0.001 &      1.00 \\
+      4 &     (37, 4, 1) &  Tangente Hiperbólica &  0.0001 &  0.001 &      0.87 \\
+      5 &     (37, 8, 1) &  Tangente Hiperbólica &  0.0100 &  0.001 &      0.93 \\
+      6 &     (37, 5, 1) &  Tangente Hiperbólica &  0.0100 &  0.003 &      0.87 \\
+      7 &     (37, 8, 1) &  Tangente Hiperbólica &  0.0100 &  0.003 &      0.93 \\
+      8 &  (37, 6, 6, 1) &             Sigmoidal &  0.0001 &  0.003 &      0.93 \\
+      9 &  (37, 8, 4, 1) &  Tangente Hiperbólica &  0.0001 &  0.003 &      1.00 \\
+      10 &     (37, 8, 1) &  Tangente Hiperbólica &  0.0001 &  0.003 &      0.87 \\
+      11 &     (37, 8, 1) &  Tangente Hiperbólica &  0.0001 &  0.001 &      0.93 \\
+      12 &  (37, 9, 3, 1) &  Tangente Hiperbólica &  0.0100 &  0.003 &      0.87 \\
+      \bottomrule
+    \end{tabular}
+  \end{footnotesize}
+  \end{table}
+\end{frame}

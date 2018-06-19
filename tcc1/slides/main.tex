@@ -1,0 +1,80 @@
+\documentclass[dvipsnames,table,mathserif,aspectratio=169]{beamer} % Definição do tipo de arquivo
+
+\usepackage[T1]{fontenc}      %---------------------------------%
+\usepackage[utf8]{inputenc} % Para língua portuguesa          %
+\usepackage[brazil]{babel}    %---------------------------------%
+\usepackage{times}
+\usepackage[export]{adjustbox}
+\usepackage[framesassubsections]{beamerprosper} % opções: email, institution,
+\usepackage{caption}
+\usepackage{stackengine}
+\usepackage[portuguese,ruled,lined]{algorithm2e}
+\usepackage{algorithmic}
+\usepackage{graphicx,url}
+\usepackage{enumerate}
+\usepackage{adjustbox}
+\usepackage{amsmath,amsfonts,amsthm,bbm,amssymb}
+\usepackage{epsfig}
+\usepackage{booktabs}
+\usepackage{scalefnt}
+\usepackage{commath}
+\usepackage[caption=true,font=footnotesize]{subfig}
+
+\newtheorem{myobj}{Objetivos}
+\newtheorem{myobjgeral}{Objetivo Geral}
+\newtheorem{myobjesp}{Objetivos Específicos}
+\usetheme{Execushares}
+
+
+\title[TCC I]{\LARGE{\textbf{Estimação Inteligente de Idade de Telespectadores para Aplicações de Sugestão de Conteúdo em \emph{Smart} TVs}}\\ \ \ \newline \small{Trabalho de Conclusão de Curso I}}
+\author[Araújo, Guedes]{Nicoli P. Araújo, Elloá B. Guedes\\\small\email{\{npda.eng, ebgcosta, \}@uea.edu.br}}
+\institute[NUCOMP, EST, UEA]
+{
+  Núcleo de Computação\\
+  Escola Superior de Tecnologia\\
+  Universidade do Estado do Amazonas\\
+  Manaus -- Amazonas -- Brasil
+}
+\date{\today}
+
+
+\setcounter{showSlideNumbers}{1}
+
+\AtBeginSection[]
+{
+  \begin{frame}[plain]{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\begin{document}
+\nocite{*}
+\selectlanguage{brazil}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+  \section{Apresentação}
+\input{arquivos/apres.tex}
+
+\section{Fundamentação Teórica}
+\input{arquivos/fund_teorica.tex}
+
+\section{Trabalhos Relacionados}
+\input{arquivos/relacionados.tex}
+
+\section{Conjunto de Dados}
+\input{./arquivos/conjunto}
+
+\section{Resultados}
+\input{./arquivos/resultados}
+
+\section{Considerações Finais}
+\input{./arquivos/considera}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\end{document}

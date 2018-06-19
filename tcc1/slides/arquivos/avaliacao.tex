@@ -1,0 +1,70 @@
+%!TEX root = ../main.tex
+\begin{frame}{Separação dos Dados}
+	\begin{itemize}
+		\item Total de amostras: 65
+		\item De 1950 a 2015
+		\item Separação de dados:
+		\begin{itemize}
+			\item De 1950 a 2000 -- 77$\%$: Treinamento
+			\item 10$\%$ dos dados de treinamento -- Validação
+			\item De 2001 a 2015 -- 23$\%$: Teste
+		\end{itemize}
+		\item Dados do teste serão avaliados
+		\item Cada arquitetura treinada e testada 100 vezes
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Medida de Performance: Acurácia}
+	\begin{itemize}
+		\item Dada por:
+	\end{itemize}
+	\begin{equation}
+		Acuracia(\%) = \frac{100}{n}\sum_{t=1}^n 1 - \abs{y_t - p_t}
+	\end{equation}
+	\begin{itemize}
+		\item Sendo:
+		\begin{itemize}
+			\item $y_t$: valor real
+			\item $p_t$: valor previsto
+			\item n: Quantidade de exemplos
+		\end{itemize}
+		\item Das 100 execuções, considera-se a rede com melhor acurácia
+		\item Acurácia baseia-se nos dados de teste
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[b]{Análise da Acurácia das Redes Neurais}
+	\begin{figure}
+		\includegraphics[width=0.8\textwidth]{./img/boxplot_acuracia}
+		\caption{Gráfico de \emph{boxplot} para a média das acurácias obtidas.}
+		 \label{fig:boxplotResultados}
+
+	\end{figure}
+\end{frame}
+\begin{frame}{Análise da Acurácia das Redes Neurais}
+	\begin{table}[H]
+  \centering
+  \begin{adjustbox}{width=1\textwidth}
+  \begin{tabular}{cccccc}
+    \toprule
+    \textbf{Mês} &  \textbf{Arquitetura} & \textbf{Função de Ativação} &  \textbf{Taxa de Aprendizado} &   \textbf{Taxa de Decréscimo} &  \textbf{Acurácia} \\
+    \midrule
+    1 &     (37, 9, 1) &  Tangente Hiperbólica &  0.0001 &  0.003 &      0.93 \\
+    2 &     (37, 7, 1) &             Sigmoidal &  0.0001 &  0.003 &      0.93 \\
+    3 &  (37, 8, 4, 1) &  Tangente Hiperbólica &  0.0001 &  0.001 &      1.00 \\
+    4 &     (37, 4, 1) &  Tangente Hiperbólica &  0.0001 &  0.001 &      0.87 \\
+    5 &     (37, 8, 1) &  Tangente Hiperbólica &  0.0100 &  0.001 &      0.93 \\
+    6 &     (37, 5, 1) &  Tangente Hiperbólica &  0.0100 &  0.003 &      0.87 \\
+    7 &     (37, 8, 1) &  Tangente Hiperbólica &  0.0100 &  0.003 &      0.93 \\
+    8 &  (37, 6, 6, 1) &             Sigmoidal &  0.0001 &  0.003 &      0.93 \\
+    9 &  (37, 8, 4, 1) &  Tangente Hiperbólica &  0.0001 &  0.003 &      1.00 \\
+    10 &     (37, 8, 1) &  Tangente Hiperbólica &  0.0001 &  0.003 &      0.87 \\
+    11 &     (37, 8, 1) &  Tangente Hiperbólica &  0.0001 &  0.001 &      0.93 \\
+    12 &  (37, 9, 3, 1) &  Tangente Hiperbólica &  0.0100 &  0.003 &      0.87 \\
+    \bottomrule
+  \end{tabular}
+\end{adjustbox}
+\caption{Redes neurais com maior acurácia para previsão do volume de precipitações em Manaus nos diferentes meses do ano.} \label{tab:melhores}
+\end{table}
+\end{frame}
