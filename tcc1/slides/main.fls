@@ -441,6 +441,7 @@ INPUT /home/nicoli/github/nicoli-tcc/tcc1/slides/arquivos/apres.tex
 INPUT /home/nicoli/github/nicoli-tcc/tcc1/slides/arquivos/apres.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Bold-lf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-BoldIt-lf-t1.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-It-lf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -467,16 +468,15 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/sourceserifpro/T1SourceSerifPro-LF
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourceserifpro/SourceSerifPro-Regular-lf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourceserifpro/SourceSerifPro-Regular-lf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourceserifpro/SourceSerifPro-Regular-lf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-It-lf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-BoldIt-lf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-BoldIt-lf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-Bold-lf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Bold-lf-t1--base.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-It-lf-t1.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-It-lf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/sourceserifpro/SourceSerifPro-Regular-lf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourceserifpro/SourceSerifPro-Regular-lf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourceserifpro/SourceSerifPro-Regular-lf-t1--lcdfj.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-It-lf-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-It-lf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-It-lf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-It-lf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-It-lf-t1--base.tfm
@@ -650,8 +650,8 @@ OUTPUT /home/nicoli/github/nicoli-tcc/tcc1/slides/main.snm
 INPUT /home/nicoli/github/nicoli-tcc/tcc1/slides/main.aux
 INPUT /home/nicoli/github/nicoli-tcc/tcc1/slides/main.out
 INPUT /home/nicoli/github/nicoli-tcc/tcc1/slides/main.out
-INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5tbsmu.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/sourceserifpro/a_a5mxzo.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5tbsmu.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_ggs4wk.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb
