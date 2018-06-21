@@ -63,17 +63,18 @@
 % \end{itemize}
 % \end{frame}
 
-\begin{frame}{Machine Learning}
+\begin{frame}{\emph{Machine Learning}}
    \ \  \\[0.1cm]
   \begin{itemize}
   \item Estudo sistemático de algoritmos e sistemas que são capazes de melhorar seu desempenho com a experiência
-  \item Modelo ou função que mapeie as instâncias do espaço de entrada para o de saída
+  \ \ \newline
   \item Paradigmas de Aprendizado
   \begin{itemize}
     \item Aprendizado Supervisionado
     \item Aprendizado Não-Supervisionado
     \item Aprendizado por Reforço
   \end{itemize}
+  \ \ \newline
   \item Tarefas de Aprendizado
   \begin{itemize}
     \item Classificação
@@ -86,36 +87,20 @@
    \ \  \\[0.1cm]
   \begin{itemize}
   \item Cérebro humano
+  \ \ \newline
   \item Neurônios: unidades de processamento simples
+    \ \ \newline
   \item Capacidade de capturar tendências
+    \ \ \newline
   \item Generalização
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Redes Neurais Artificiais}
-     \ \  \\[0.1cm]
-
-\begin{figure}
-	\caption{Redes neurais biológicas.}
-	\begin{minipage}[h]{0.5\linewidth}
-          \centering
-		\caption{Neurônio biológico e seus componentes.}
-		\label{fig:neuronio_biologico}
-		\includegraphics[width=0.7\linewidth]{img/neuronio}
-	\end{minipage}%
-	\begin{minipage}[h]{0.6\linewidth}
-          \centering
-		\caption{Sinapse entre neurônios.}
-		\label{fig:redeneuralbiologica}
-		\includegraphics[width=0.7\linewidth]{./img/redeneuralbiologica.jpg}
-	\end{minipage}%
-\end{figure}
-\end{frame}
 
 \begin{frame}{Redes Neurais Artificiais}
    \ \  \\[0.1cm]
   \begin{itemize}
-  \item McCulloch e Pitts
+  \item McCulloch e Pitts, 1943
   \begin{figure}[ht]
   	\centering
   	\label{fig:neuronio}
@@ -127,49 +112,53 @@
 
 \begin{frame}{Redes Neurais Artificiais}
    \ \  \\[0.1cm]
-  \begin{itemize}
-  \item Perceptron de Rosenblatt (1958)
-  \begin{itemize}
-    \item Algoritmo de aprendizado
-    \item Endereçar apenas problemas linearmente separáveis
-  \end{itemize}
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Redes Neurais Artificiais}
-   \ \  \\[0.1cm]
-   \begin{figure}[!h]
-   	\label{fig:popular_archs}
-   	\includegraphics[width=0.6\linewidth]{img/popular_archs}
-     \caption{Arquiteturas populares de RNAs}
-   \end{figure}
-\end{frame}
-
-\begin{frame}{Redes Neurais Artificiais}
-   \ \  \\[0.1cm]
    \input{./arquivos/tab_ativacao}
 \end{frame}
 
 \begin{frame}{Redes Neurais Artificiais}
    \ \  \\[0.1cm]
-   \begin{itemize}
-        \item Redes Neurais \emph{Multilayer Feedforward Perceptron}
-        \begin{itemize}
-             \item Função perda ou Erro
-             \item Fase \emph{forward}
-             \item Fase \emph{backward}
-             \item Atualização dos pesos e \emph{bias}
-        \end{itemize}
-   \end{itemize}
-
-   \begin{figure}[ht]
-   	\centering
-   	\label{fig:mlp}
-   	\includegraphics[width=0.4\textwidth]{img/mlprna.jpg}
-     \caption{Rede Neural MLP com duas camadas ocultas.}
-   \end{figure}
+  \begin{itemize}
+  \item Perceptron de Rosenblatt (1958)
+  \begin{itemize}
+    \item Algoritmo de aprendizado
+    \item Endereçava apenas problemas linearmente separáveis
+  \end{itemize}
+  \ \ \newline
+  \pause
+  \item Redes Neurais Artificiais
+  \begin{itemize}
+    \item Organização de múltiplos neurônios artificiais sob a forma de uma rede
+    \item Resolução de problemas não-linearmente separáveis
+  \end{itemize}
+\end{itemize}
 \end{frame}
 
+
+
+\begin{frame}{Redes Neurais Artificiais}
+   \ \  \\[0.1cm]
+   \begin{itemize}
+        \item Redes Neurais \alert{\emph{Multilayer Feedforward Perceptron}}
+        \begin{itemize}
+          \item Camada de entrada, camadas ocultas e camada de saída
+          \item \emph{Feedforward} e completamente conectada
+          \item Algoritmo \emph{Backpropagation}
+          \begin{itemize}
+               \item Fase \emph{forward}
+               \item Fase \emph{backwards}
+          \end{itemize}
+\end{itemize}
+   \end{itemize}
+   \begin{figure}[ht]
+    \centering
+    \label{fig:mlp}
+    \includegraphics[width=0.35\textwidth]{img/mlprna.jpg}
+     \caption{Rede Neural MLP com duas camadas ocultas.}
+   \end{figure}
+
+\end{frame}
+
+\iffalse
 \begin{frame}{Redes Neurais Artificiais}
    \ \  \\[0.1cm]
    \begin{itemize}
@@ -183,6 +172,7 @@
      \end{itemize}
    \end{itemize}
 \end{frame}
+\fi
 
 % \begin{frame}{Redes Neurais Artificiais}
 %    \ \  \\[0.1cm]
@@ -203,72 +193,38 @@
 % \end{itemize}
 % \end{frame}
 
-\begin{frame}{Deep Learning}
+\begin{frame}{\emph{Deep Learning}}
    \ \  \\[0.1cm]
    \begin{itemize}
      \item Representar e reconhecer características sucessivamente complexas
+     \ \ \newline
      \item Adição de níveis ou camadas de operações não-lineares
+     \ \ \newline
      \item Resolver problemas complexos com um desempenho cada vez maior
      \begin{itemize}
        \item Aumento recente da quantidade de dados disponíveis sobre temas complexos
        \item Aumento da disponibilidade de recursos computacionais para executar modelos mais robustos
      \end{itemize}
-   \end{itemize}
-\end{frame}
-
-\begin{frame}{Deep Learning}
-   \ \  \\[0.1cm]
-   \begin{figure}[ht]
-   	\centering
-   	\label{fig:compara_redes}
-   	\includegraphics[width=0.5\textwidth]{img/compara_redes.png}
-     \caption{\footnotesize{Evolução de profunidade, taxa de erro e número de parâmetros das redes neurais profundas com o passar dos anos.}}
-   \end{figure}
-\end{frame}
-
-\begin{frame}{Deep Learning}
-   \ \  \\[0.1cm]
-   \begin{itemize}
-     \item Breve Histórico
-     \begin{itemize}
-       \item (1950) Modelos lineares simples: McCulloch e Pitts; Perceptron
-       \item (1980) Interconexão entre vários neurônios e algoritmo \emph{back-propagation}
-       \begin{itemize}
-         \item LeNet
-       \end{itemize}
-       \item (2006) Deep Belief Networks
-     \end{itemize}
-   \end{itemize}
-\end{frame}
-
-\begin{frame}{Deep Learning}
-   \ \  \\[0.1cm]
-   \begin{itemize}
+     \ \ \newline
      \item \emph{ImageNet Large Scale Visual Recognition Challenge} (ILSVRC)
-     \begin{itemize}
-       \item Imagenet
-       \item $14$ milhões de imagens de $21$ mil categorias organizadas hierarquicamente
-       \item Erro top-5
-     \end{itemize}
+     \item $14$ milhões de imagens de $21$ mil categorias organizadas hierarquicamente
    \end{itemize}
 \end{frame}
 
-\begin{frame}{Deep Learning}
-   \ \  \\[0.1cm]
-   \begin{figure}[ht]
-   	\centering
-   	\caption{Evolução do erro dos modelos vencedores da competição ILSVRC pela profundidade das redes neurais}
-   	\label{fig:compara_redes_ilsvrc}
-   	\includegraphics[width=0.6\textwidth]{img/compara_redes_ilsvrc.png}
-   \end{figure}
-\end{frame}
 
 \begin{frame}{Redes Neurais Convolucionais}
    \ \  \\[0.1cm]
    \begin{itemize}
      \item Topologia bem definida e estrutura em grid
-     \item Operações de convolução em pelo menos uma de suas camadas
-     \item Destaca-se no reconhecimento de padrões em dados de alta dimensionalidade
+    \item Destaca-se no reconhecimento de padrões em dados de alta dimensionalidade
+     \ \ \newline
+     \item Diferentes tipos de camadas:
+     \begin{itemize}
+       \item Camada convolucional
+       \item Camada de ativação
+       \item Camada de pooling
+     \end{itemize}
+
    \end{itemize}
 \end{frame}
 
@@ -288,129 +244,22 @@
    \end{figure}
 \end{frame}
 
-\begin{frame}{Redes Neurais Convolucionais}
-   \ \  \\[0.1cm]
-   \begin{figure}
-   	\centering
-   	\caption{Componentes de uma camada de uma rede neural convolucional.}
-   	\label{fig:cnn_camada}
-   	\includegraphics[width=\textwidth]{img/cnn_camada_ipe.png}
-   \end{figure}
-\end{frame}
-
-\begin{frame}{Redes Neurais Convolucionais}
-   \ \  \\[0.1cm]
-   \begin{itemize}
-     \item Hiperparâmetros de uma CNN
-     \begin{itemize}
-       \item Tamanho e quantidade de filtros
-       \item Pooling
-       \item Padding
-       \item Strides
-     \end{itemize}
-   \end{itemize}
-\end{frame}
-
 \begin{frame}{\LARGE{Modelos Canônicos de Redes Neurais Convolucionais}}
    \ \  \\[0.1cm]
    \begin{itemize}
      \item Arquiteturas que trouxeram contribuições importantes
      \item Comuns ainda hoje no cenário de DL
-   \end{itemize}
-\end{frame}
-
-\begin{frame}{\LARGE{Modelos Canônicos de Redes Neurais Convolucionais}}
-   \ \  \\[0.1cm]
-   \begin{itemize}
+     \ \ \newline
      \item LeNet (1998)
-     \begin{itemize}
-       \item Conjunto de dados \emph{Modified National Institute of Standards and Technology} (MNIST)
-       \item Imagens em escala de cinza de tamanho $32 \times 32$
-       \item Amplamente utilizada por bancos
-     \end{itemize}
-     \begin{figure}
-          \centering
-          \includegraphics[width=0.8\textwidth]{img/LENET5}
-     \end{figure}
-   \end{itemize}
-\end{frame}
-
-\begin{frame}{\LARGE{Modelos Canônicos de Redes Neurais Convolucionais}}
-   \ \  \\[0.1cm]
-   \begin{itemize}
      \item AlexNet (2012)
-     \begin{itemize}
-       \item Primeira CNN ganhadora do desafio ILSVRC
-       \item Imagens de 1000 categorias da ImageNet
-       \item Erro top-5 igual a $15.4\%$
-       \item Treinamento: duas GPU GTX 580 por 5 a 6 dias
- \end{itemize}
-     \begin{figure}
-          \centering
-          \includegraphics[width=0.8\textwidth]{img/alexnet}
-     \end{figure}
-   \end{itemize}
-\end{frame}
-
-\begin{frame}{\LARGE{Modelos Canônicos de Redes Neurais Convolucionais}}
-   \ \  \\[0.1cm]
-   \begin{itemize}
      \item VGG (2014)
-     \begin{itemize}
-       \item Erro top$-$5 de $7.3\%$
-       \item Treinamento em 4 GPUs Nvidia Titan Black por duas a três semanas
-       \item Erro top$-$5 igual a $15.4\%$
-     \end{itemize}
-     \begin{figure}
-          \centering
-          \includegraphics[width=0.8\textwidth]{img/vgg}
-     \end{figure}
-   \end{itemize}
-\end{frame}
-
-\begin{frame}{\LARGE{Modelos Canônicos de Redes Neurais Convolucionais}}
-   \ \  \\[0.1cm]
-   \begin{itemize}
-     \item Inception ou GoogLeNet (2014)
-     \begin{itemize}
-       \item 22 camadas convolucionais
-       \item Treinamento em algumas GPUs de alta performance por uma semana
-       \item Erro top-5 de $6.7\%$
-     \end{itemize}
-     \begin{figure}[h!]
-     	\centering
-     	\caption{Bloco Inception da CNN GoogLeNet}
-     	\includegraphics[width=0.7\linewidth]{img/GoogLeNet}
-     	\label{fig:bloco_inception}
-     \end{figure}
-   \end{itemize}
-\end{frame}
-
-\begin{frame}{\LARGE{Modelos Canônicos de Redes Neurais Convolucionais}}
-     \ \  \\[0.5cm]
-     \begin{figure}[h!]
-     	\centering
-     	\includegraphics[width=0.7\linewidth]{img/inception}
-     	\caption{GoogLeNet}
-     \end{figure}
-\end{frame}
-
-\begin{frame}{\LARGE{Modelos Canônicos de Redes Neurais Convolucionais}}
-   \ \  \\[0.1cm]
-   \begin{itemize}
+     \item Inception (2014)
      \item ResNet (2015)
-     \begin{itemize}
-       \item Total de 152 camadas
-       \item Treinamento em 8 GPUs por duas a três semanas
-       \item Erro top-5 de $3.6\%$
-     \end{itemize}
-     \begin{figure}[h!]
-     \centering
-     \caption{Bloco Residual da CNN ResNet.}\label{fig:bloco_residual}
-     \includegraphics[height=0.3\textheight]{img/resnets_modelvariants}
-     \end{figure}
+     \ \ \newline
+     \item \emph{Transfer Learning}: Aproveitamento de parâmetros treinados
    \end{itemize}
 \end{frame}
+
 
 \begin{frame}{Transfer Learning}
    \ \  \\[0.1cm]

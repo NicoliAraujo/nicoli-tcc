@@ -3,33 +3,29 @@
 \begin{itemize}
   \item \alert{DEX} (Rothe,2015)
   \begin{itemize}
-    \item Ensemble de $20$ VGG-16
-    \item Pré-treinadas com a ImageNet
-    \item \emph{Fine Tuning} com imagens disponibilizadas pelos sites do IMDb, da Wikipedia, e o conjunto de dados \emph{Looking At People}
     \item Problema de classificação: idade entre $0$ e $100$
+    \item Dataset: \emph{Looking At People}
+    \item Ensemble de $20$ VGG-16, \emph{Transfer Learning}
     \item MAE (\emph{Mean Average Error}) de $3.221$ na fase de testes
   \end{itemize}
-  \end{itemize}
-\end{frame}
-
-\begin{frame}{Trabalhos Relacionados}
-\begin{itemize}
+  \ \ \newline \pause
   \item \alert{AgeNet} (Liu et al., 2015)
   \begin{itemize}
     \item Ensemble de modelos regresssores e classificadores com diferentes métodos de normalização de face
     \item CNNs inspiradas na \emph{GoogLeNet}
     \item MAE de $3.3345$
   \end{itemize}
-\end{itemize}
+  \end{itemize}
 \end{frame}
+
 
 \begin{frame}{Trabalhos Relacionados}
 \begin{itemize}
-  \item (Levi e Hassner, 2015):
+  \item \alert{Levi e Hassner, 2015}:
   \begin{itemize}
     \item Idade e gênero
-    \item Três camadas convolucionais com \emph{dropout} e funções de ativação \emph{ReLU}, seguidas por três camadas totalmente conectadas
     \item Problema de classificação: 8 classes de idade
+    \item Três camadas convolucionais com \emph{dropout} e funções de ativação \emph{ReLU}, seguidas por três camadas totalmente conectadas
     \item Acurácia de $84.7\% \pm 2.2$
   \end{itemize}
 \end{itemize}

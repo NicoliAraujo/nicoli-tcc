@@ -1,8 +1,8 @@
-\babel@toc {brazil}{}
-\babel@toc {brazil}{}
+\select@language {brazil}
+\select@language {brazil}
 \beamer@sectionintoc {1}{Apresenta\IeC {\c c}\IeC {\~a}o}{2}{0}{1}
-\beamer@sectionintoc {2}{Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{9}{0}{2}
-\beamer@sectionintoc {3}{Trabalhos Relacionados}{37}{0}{3}
-\beamer@sectionintoc {4}{Solu\IeC {\c c}\IeC {\~a}o Proposta}{41}{0}{4}
-\beamer@sectionintoc {5}{Resultados Parciais}{57}{0}{5}
-\beamer@sectionintoc {6}{Considera\IeC {\c c}\IeC {\~o}es Parciais}{61}{0}{6}
+\beamer@sectionintoc {2}{Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{10}{0}{2}
+\beamer@sectionintoc {3}{Trabalhos Relacionados}{24}{0}{3}
+\beamer@sectionintoc {4}{Solu\IeC {\c c}\IeC {\~a}o Proposta}{28}{0}{4}
+\beamer@sectionintoc {5}{Resultados Parciais}{39}{0}{5}
+\beamer@sectionintoc {6}{Considera\IeC {\c c}\IeC {\~o}es Parciais}{43}{0}{6}

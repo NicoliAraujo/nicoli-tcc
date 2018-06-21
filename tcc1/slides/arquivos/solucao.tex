@@ -1,7 +1,7 @@
 %!TEX root = ../main.tex
 \begin{frame}{Tarefa de Aprendizado}
 \begin{itemize}
-  \item Tarefa de Regressão
+  \item \alert{Tarefa de Regressão}
   \item \alert{Entrada}:
   \begin{itemize}
     \item Imagem em cores RGB de dimensões $224 \times 224$ pixels contendo uma face humana centralizada
@@ -11,23 +11,15 @@
         \item Estimativa de idade, em anos, da pessoa correspondente
    \end{itemize}
 \end{itemize}
+\begin{center}
+     \includegraphics[width=0.60\textwidth]{img/deniro_cnn}
+\end{center}
 \end{frame}
 
-\begin{frame}{Tarefa de Aprendizado}
-  \begin{figure}[h!]
-    \centering
-       \caption{Tarefa de aprendizado}
-       \includegraphics[width=0.8\textwidth]{img/deniro_cnn}
-       \label{fig:deniro_cnn}
-  \end{figure}
-\end{frame}
 
 \begin{frame}{Tarefa de Aprendizado}
      \begin{itemize}
-          \item Métrica de desempenho
-          \begin{itemize}
-               \item \emph{Root Mean Squared Error} (RMSE)
-          \end{itemize}
+          \item Métrica de desempenho: \emph{Root Mean Squared Error} (RMSE)
      \end{itemize}
      \begin{equation}\label{eq:rmse}
           \textrm{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y})^2}.
@@ -38,9 +30,10 @@
   \begin{itemize}
     \item Base de dados experimentais IMDb
     \begin{itemize}
-      \item $452.132$ exemplares
+      \item $452.132$ exemplos
       \item $20.284$ dos atores mais populares listados no site IMDb
-      \item Organizada por Rothe et al.
+      \item Organizada por Rothe et al., 2015
+      \item Imagens e meta-dados
     \end{itemize}
   \end{itemize}
 \end{frame}
@@ -76,36 +69,6 @@
      \end{figure}
 \end{frame}
 
-\begin{frame}{Conjunto de Dados}
-     \ \  \\[0.1cm]
-     \begin{figure}[ht]
-          \label{tab:dois_deniro_correto}
-               \begin{minipage}[c]{0.62\linewidth}
-               \begin{small}
-               \centering
-               \begin{tabular}{p{3.3cm} p{5cm}}\toprule
-     			   \textbf{Meta-dado} & \textbf{Valor} \\ \midrule
-                    ID Celebridade & 16349 \\
-                    Nome & Robert De Niro \\
-                    Endereço da imagem & \footnotesize{imdb$/$34$/$nm0000134$\_$rm17663 60064$\_$1943-8-17$\_$2010.jpg} \\
-                    Pontuação da Face & $5.12527$ \\
-                    Pontuação da Segunda Face & $5.08887$ \\
-                    Localização da Face & $(914.886, 1426.31, $ $287.31, 798.734)$ \\
-                    Data de Nascimento  & $1943-08-17$\\
-                    Ano da Foto & 2010 \\
-                    Gênero & Masculino \\
-                    \bottomrule
-               \end{tabular}
-          \end{small}
-          \end{minipage}
-          \hfill
-          \begin{minipage}[c]{0.35\linewidth}
-               \centering
-               \includegraphics[width=\linewidth]{img/deniro_many_plt_correto}
-          \end{minipage}
-     \caption{Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classificação correta.}
-     \end{figure}
-\end{frame}
 
 \begin{frame}{Conjunto de Dados}
      \ \  \\[0.1cm]
@@ -137,16 +100,14 @@
      \end{figure}
 \end{frame}
 
-\begin{frame}{Conjunto de Dados}
-     \begin{itemize}
-          \item Versão original: $267$ GB
-          \item Faces recortadas: $7,1$ GB
-     \end{itemize}
-\end{frame}
 
 \begin{frame}{Limpeza e Pré-processamento dos dados}
      \begin{itemize}
+       \item Versão original: $267$ GB
+       \item Faces recortadas: $7,1$ GB
+       \ \ \newline
           \item Cálculo do atributo alvo: \alert{Idade}
+          \ \ \newline
           \item Itens descartados:
           \begin{itemize}
                \item Idade e gênero apresentando valores nulos, inválidos ou negativos
@@ -165,18 +126,20 @@
                \item $224 \times 224$ \emph{pixels}
                \item RGB
           \end{itemize}
+          \  \ \newline
           \item Descarte de meta-dados irrelevantes para a tarefa de aprendizado
      \end{itemize}
 \end{frame}
 
 \begin{frame}{Limpeza e Pré-processamento dos dados}
      \begin{itemize}
-          \item Conjunto de dados consolidado
+          \item Conjunto de dados consolidado:
           \begin{itemize}
                \item $47.950$ exemplos
                \item $14.607$ celebridades
                \item $1,2 GB$ em disco
           \end{itemize}
+          \ \ \newline
           \item Divisão obedecendo o método \emph{Holdout}
           \begin{itemize}
                \item Treinamento$-$Validação$-$Teste
@@ -189,8 +152,10 @@
 \begin{frame}{Modelos de CNN Considerados}
      \begin{itemize}
           \item Arquiteturas LeNet e AlexNet
+          \ \ \newline
           \item Funções de ativação tangente hiperbólica substituídas pela função \emph{ReLU}
           \item Método de otimização do gradiente descendente \emph{Adam}
+          \ \ \newline
           \item Camadas de saída com apenas um neurônio
           \item \emph{batch size} igual a $64$
           \item Número de épocas obtida de maneira experimental
@@ -199,18 +164,14 @@
 
 \begin{frame}{Modelos de CNN Considerados}
      \begin{itemize}
-          \item Primeiro ciclo de treinamento e teste
+          \item \alert{Primeiro ciclo de treinamento e teste}
           \begin{itemize}
                \item LeNet e AlexNet
                \item Neurônio da camada de saída com função de ativação \emph{ReLU}
                \item Taxa de aprendizado obtida de maneira experimental
           \end{itemize}
-     \end{itemize}
-\end{frame}
-
-\begin{frame}{Modelos de CNN Considerados}
-     \begin{itemize}
-          \item Segundo ciclo de treinamento e teste
+          \ \ \newline
+          \item \alert{Segundo ciclo de treinamento e teste}
           \begin{itemize}
                \item LeNet e AlexNet
                \item Neurônio da camada de saída com função de ativação \emph{Leaky ReLU}
@@ -218,13 +179,4 @@
                \item Decaimento de $10^{-10}$
           \end{itemize}
      \end{itemize}
-\end{frame}
-
-\begin{frame}{Modelos de CNN Considerados}
-               \begin{figure}[h!]
-                    \centering
-                    \includegraphics[width=0.3\textwidth]{img/lrelu}
-                    \caption{Função de Ativação \emph{Leaky ReLU}}
-                    \label{fig:lrelu}
-               \end{figure}
 \end{frame}
