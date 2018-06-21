@@ -174,7 +174,7 @@
 			% add the date in the corner
 			\node[anchor=south east] at(\slidewidth,0cm) {\color{ExecusharesGrey}\tiny\insertdate};
 		\else
-		\ifnum\thepage=41\relax
+		\ifnum\thepage=45\relax
 			% the last page
 			% draw the fills
 			\fill[color=warmblack] (0, 5cm) rectangle(\slidewidth,0.90\slideheight);
@@ -202,8 +202,8 @@
 			% (I disable the progress bar and slide numbers for the "Appendix" slides)
 			\ifnum \value{showProgressBar}>0\relax%
 				% the the progress bar icon in the middle of the screen
-				\draw[fill=ExecusharesGrey,draw=none] (0cm,0cm) rectangle(\slidewidth,0.25cm);
-				\draw[fill=ExecusharesGreen,draw=none] (0cm,0cm) rectangle(\progressbar@tmpdim,0.25cm);
+				%\draw[fill=ExecusharesGrey,draw=none] (0cm,0cm) rectangle(\slidewidth,0.25cm);
+				%\draw[fill=ExecusharesGreen,draw=none] (0cm,0cm) rectangle(\progressbar@tmpdim,0.25cm);
 
 				% bottom information
 				\node[anchor=south west] at(0cm,0.25cm) {\color{ExecusharesGrey}\tiny\vphantom{lp}\insertsection};
@@ -221,7 +221,7 @@
 			% don't show the progress bar?
 			\else
 				% section title in the bottom left
-				\node[anchor=south west] at(0cm,0cm) {\color{ExecusharesGrey}\tiny\vphantom{lp}\insertsection};
+				\node[anchor=south west] at(0cm,0cm) %{\color{ExecusharesGrey}\tiny\vphantom{lp}\insertsection};
 				% if we're showing slide numbers
 				\ifnum \value{showSlideNumbers}>0\relax%
 					% if slide totals are active

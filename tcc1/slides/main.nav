@@ -97,10 +97,13 @@
 \headcommand {\beamer@framepages {43}{43}}
 \headcommand {\slideentry {6}{0}{3}{44/44}{}{0}}
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\slideentry {6}{0}{4}{45/45}{}{0}}
+\headcommand {\sectionentry {7}{*}{45}{*}{0}}
+\headcommand {\beamer@sectionpages {42}{44}}
+\headcommand {\beamer@subsectionpages {42}{44}}
+\headcommand {\slideentry {7}{0}{1}{45/45}{}{0}}
 \headcommand {\beamer@framepages {45}{45}}
 \headcommand {\beamer@partpages {1}{45}}
-\headcommand {\beamer@subsectionpages {42}{45}}
-\headcommand {\beamer@sectionpages {42}{45}}
+\headcommand {\beamer@subsectionpages {45}{45}}
+\headcommand {\beamer@sectionpages {45}{45}}
 \headcommand {\beamer@documentpages {45}}
 \headcommand {\def \inserttotalframenumber {41}}
