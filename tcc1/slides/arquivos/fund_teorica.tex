@@ -68,31 +68,16 @@
   \begin{itemize}
   \item Estudo sistemático de algoritmos e sistemas que são capazes de melhorar seu desempenho com a experiência
   \ \ \newline
-  \item Paradigmas de Aprendizado
-  \begin{itemize}
-    \item Aprendizado Supervisionado
-    \item Aprendizado Não-Supervisionado
-    \item Aprendizado por Reforço
-  \end{itemize}
-  \ \ \newline
-  \item Tarefas de Aprendizado
-  \begin{itemize}
-    \item Classificação
-    \item Regressão
-  \end{itemize}
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Redes Neurais Artificiais}
-   \ \  \\[0.1cm]
+  \item \alert{Redes Neurais Artificiais}
   \begin{itemize}
   \item Cérebro humano
   \ \ \newline
   \item Neurônios: unidades de processamento simples
-    \ \ \newline
+   \ \ \newline
   \item Capacidade de capturar tendências
-    \ \ \newline
+   \ \ \newline
   \item Generalização
+\end{itemize}
 \end{itemize}
 \end{frame}
 
@@ -156,41 +141,6 @@
    \end{figure}
 \end{frame}
 
-\iffalse
-\begin{frame}{Redes Neurais Artificiais}
-   \ \  \\[0.1cm]
-   \begin{itemize}
-     \item Hiperparâmetros de uma RNA
-     \begin{itemize}
-       \item Taxa de aprendizado
-       \item Funções de ativação
-       \item Arquitetura da rede
-       \item \emph{batch size}
-       \item Número de épocas
-     \end{itemize}
-   \end{itemize}
-\end{frame}
-\fi
-
-% \begin{frame}{Redes Neurais Artificiais}
-%    \ \  \\[0.1cm]
-%   \begin{itemize}
-%   \item Algoritmo de treinamento de uma RNA
-%   \item Entrada: Conjuntos de exemplos e respectivos rótulos $(X,Y)$, rede neural a ser treinada, número de épocas $e$, taxa de aprendizado $\eta$ e \emph{batch size} $b$.
-%   \item Saida: Rede neural treinada.
-%   \begin{enumerate}
-%
-%     \item Inicialização dos vetores de pesos $w$ e \emph{bias} $b$
-%     \item Para cada \emph{batch} = 1,\ldots, b do conjunto de dados:
-%     \begin{enumerate}
-%       \item Fase \emph{forward}: Calcular previsões $\hat{y}$ e custos $J$.
-%       \item Fase \emph{backwards}: Calcular gradientes dos pesos $\nabla_{w^c}$ e \emph{bias} $\nabla_{b^c}$
-%       \item Atualizar valores dos pesos e \emph{bias} a partir do gradiente descendente.
-%     \end{enumerate}
-%   \end{enumerate}
-% \end{itemize}
-% \end{frame}
-
 \begin{frame}{\emph{Deep Learning}}
    \ \  \\[0.1cm]
    \begin{itemize}
@@ -207,16 +157,6 @@
      \item \emph{ImageNet Large Scale Visual Recognition Challenge} (ILSVRC)
      \item $14$ milhões de imagens de $21$ mil categorias organizadas hierarquicamente
    \end{itemize}
-\end{frame}
-
-\begin{frame}{Deep Learning}
-   \ \  \\[0.1cm]
-   \begin{figure}[ht]
-   	\centering
-   	\label{fig:compara_redes}
-   	\includegraphics[width=0.5\textwidth]{img/compara_redes.png}
-     \caption{\footnotesize{Evolução de profunidade, taxa de erro e número de parâmetros das redes neurais profundas com o passar dos anos.}}
-   \end{figure}
 \end{frame}
 
 \begin{frame}{Redes Neurais Convolucionais}
@@ -266,4 +206,3 @@
      \item \emph{Transfer Learning}: Aproveitamento de parâmetros treinados
    \end{itemize}
 \end{frame}
-

@@ -1,0 +1,104 @@
+%!TEX root = novoIndex.tex
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ae}
+\usepackage[brazil]{babel}
+\usepackage{a4wide}
+\usepackage{comment}
+\usepackage{stackengine}
+\usepackage{adjustbox}
+%\usepackage{subfig}
+\usepackage{caption, subcaption}
+\usepackage[pdftex]{color}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{rotating}
+\usepackage{varwidth}
+\usepackage{fancyvrb}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{lscape}
+\usepackage{textcase}
+\usepackage{anysize}
+\usepackage{booktabs}
+\usepackage{cite}
+\usepackage{bbm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{dsfont}
+%% Cores, fontes e afins
+\usepackage[colorlinks,linkcolor=black,urlcolor=black,citecolor=black]{hyperref}
+
+\usepackage{xcolor}
+\definecolor{lightblue}{RGB}{0,191,255}
+\usepackage[textsize=tiny,backgroundcolor=lightblue,linecolor=lightblue]{todonotes}
+
+\usepackage[portuguese,ruled,lined]{algorithm2e}
+\usepackage{algorithmic}
+\usepackage{scalefnt}
+
+\usepackage[alf]{abntex2cite}
+\marginsize{20mm}{20mm}{20mm}{15mm}
+
+
+%% Cabe�alhos
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+\renewcommand{\floatpagefraction}{1}
+\renewcommand{\textfraction}{0}
+%\renewcommand{\baselinestretch}{2}
+\doublespacing %espa�amento duplo
+\sloppy
+
+%% Nomes
+\floatstyle{plain}  %%% tipos: plain, boxed, ruled
+\newfloat{codigo}{tbp}{lop}[section]
+\floatname{codigo}{C�digo}
+
+%%% nome para ser usado no sum�rio
+
+\newcommand{\listofcodename}{Lista de C\'{o}digos}
+
+
+
+% RESUMO ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\newcommand{\resumo}[1]{
+\begin{center} \LARGE \bf Resumo \end{center}
+
+\vskip 4em
+\input{#1}
+
+\newpage
+
+}
+
+% ABSTRACT ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\newcommand{\abstractt}[1]{
+\begin{center} \LARGE \bf Abstract \end{center}
+
+\vskip 4em
+\input{#1}
+
+\newpage
+
+}
+
+% Sum�rio -----------
+\newcommand{\sumario}{
+\renewcommand{\contentsname}{Sum\'{a}rio}
+\tableofcontents
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+
+\newpage
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+\addcontentsline{toc}{chapter}{\listofcodename}
+\listof{codigo}{\listofcodename}  % Lista de C�digos
+
+\clearpage
+}

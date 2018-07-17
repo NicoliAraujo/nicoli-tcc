@@ -1,0 +1,91 @@
+%!TEX root = ../../novoIndex.tex
+Para a tarefa de aprendizado apresentada, dispôs-se da base de dados experimentais IMDb, composta de $452.132$ exemplares contendo imagens e outras informações de $20.284$ dos atores mais populares listados no site IMDb. O conjunto de dados foi construído utilizando técnicas de \emph{web crawling} aplicadas aos perfis de atores do site, em que foram coletadas todas as imagens relacionadas à celebridade, além de informações como data de nascimento, nome e gênero \cite{IMDb_derivada}.
+
+A base de imagens oriunda do site IMDb foi organizada por Rothe et al. considerando uma tarefa de aprendizado análoga à deste trabalho, conforme mencionado na Seção  \ref{sec:trab_relac} \cite{rothe2015dex}.  Nesta base, há também as coordenadas da localização de um rosto detectado na imagem, além de uma pontuação atribuída ao rosto produzida pelo detector de face, quantificando o grau de certeza na detecção do rosto. Partindo da possibilidade de haver mais de um rosto por imagem, uma segunda pontuação é atribuída pelo detector, referente ao grau de certeza de que há outro rosto na mesma imagem.
+
+Neste contexto, cada exemplo deste conjunto de dados é referente a uma imagem, cujos meta-dados estão descritos em seus atributos, que compreendem o nome, gênero, data de nascimento e um número de identificação da celebridade cujo perfil estava atrelado à imagem, o endereço da foto em disco, a suposta localização da face da celebridade, e pontuações referentes a duas possíveis faces encontradas. Assim, há exemplos de imagens em que há apenas um rosto, como mostrado na Figura \ref{tab:um_deniro}. Já na Figura \ref{tab:dois_deniro_correto} está o exemplo de uma imagem onde há mais de um rosto, porém a localização do rosto está correta. Por fim, na Figura \ref{tab:dois_deniro_errado} há uma imagem com mais de um rosto, porém o rosto identificado neste item não é o da celebridade cujos dados estão referenciados.
+
+\begin{figure}[ht]
+     \caption{Exemplo de imagem do conjunto de dados contendo apenas um rosto.}
+     \label{tab:um_deniro}
+          \begin{minipage}[c]{0.62\linewidth}
+          \begin{small}
+          \centering
+          \begin{tabular}{p{3.3cm} p{5cm}}\toprule
+               \textbf{Meta-dado} & \textbf{Valor} \\ \midrule
+               ID Celebridade & 16349 \\
+               Nome & Robert De Niro \\
+               Endereço da imagem & \footnotesize{imdb$/$34$/$nm0000134$\_$rm334009 0368$\_$1943-8-17$\_$2011.jpg} \\
+               Pontuação da Face & $5.21396$ \\
+               Pontuação da Segunda Face & NaN \\
+               Localização da Face & $(663.65, 992.475, $ $590.134, 918.959)$ \\
+               Data de Nascimento  & $1943-08-17$\\
+               Ano da Foto & 2011 \\
+               Gênero & Masculino \\
+               \bottomrule
+          \end{tabular}
+     \end{small}
+     \end{minipage}
+     \hfill
+     \begin{minipage}[c]{0.35\linewidth}
+          \centering
+          \includegraphics[width=\linewidth]{img/deniro_plt}
+     \end{minipage}
+\end{figure}
+
+\begin{figure}[ht]
+     \caption{Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classificação correta.}
+     \label{tab:dois_deniro_correto}
+          \begin{minipage}[c]{0.62\linewidth}
+          \begin{small}
+          \centering
+          \begin{tabular}{p{3.3cm} p{5cm}}\toprule
+			   \textbf{Meta-dado} & \textbf{Valor} \\ \midrule
+               ID Celebridade & 16349 \\
+               Nome & Robert De Niro \\
+               Endereço da imagem & \footnotesize{imdb$/$34$/$nm0000134$\_$rm17663 60064$\_$1943-8-17$\_$2010.jpg} \\
+               Pontuação da Face & $5.12527$ \\
+               Pontuação da Segunda Face & $5.08887$ \\
+               Localização da Face & $(914.886, 1426.31, $ $287.31, 798.734)$ \\
+               Data de Nascimento  & $1943-08-17$\\
+               Ano da Foto & 2010 \\
+               Gênero & Masculino \\
+               \bottomrule
+          \end{tabular}
+     \end{small}
+     \end{minipage}
+     \hfill
+     \begin{minipage}[c]{0.35\linewidth}
+          \centering
+          \includegraphics[width=\linewidth]{img/deniro_many_plt_correto}
+     \end{minipage}
+\end{figure}
+
+\begin{figure}[ht]
+     \caption{Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classificação errônea.}
+     \label{tab:dois_deniro_errado}
+          \begin{minipage}[c]{0.62\linewidth}
+          \begin{small}
+          \centering
+          \begin{tabular}{p{3.3cm} p{5cm}}\toprule
+               \textbf{Meta-dado} & \textbf{Valor} \\ \midrule
+               ID Celebridade & 16349 \\
+               Nome & Robert De Niro \\
+               Endereço da imagem & \footnotesize{imdb$/$34$/$nm0000134$\_$rm14800 44288$\_$1943-8-17$\_$2012.jpg} \\
+               Pontuação da Face & $5.51656$ \\
+               Pontuação da Segunda Face & $4.55379$ \\
+               Localização da Face & $(1392.72, 1614.18, $ $225.55, 447.003)$ \\
+               Data de Nascimento  & $1943-08-17$\\
+               Ano da Foto & 2012 \\
+               Gênero & Masculino \\ \bottomrule
+          \end{tabular}
+     \end{small}
+     \end{minipage}
+     \hfill
+     \begin{minipage}[c]{0.35\linewidth}
+          \centering
+          \includegraphics[width=\linewidth]{img/deniro_many_plt_errado}
+     \end{minipage}
+\end{figure}
+
+A versão original das imagens do conjunto de dados IMDb ocupava 267 GB em disco. Porém, uma versão pré-processada dessas imagens está disponível, contendo as faces recortadas com $40\%$ da largura e altura da imagem original, totalizando $7,1$ GB de dados. Esta versão foi considerada neste trabalho.

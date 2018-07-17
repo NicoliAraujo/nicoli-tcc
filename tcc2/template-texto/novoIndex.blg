@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: novoIndex.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated field_info (elt_size=4) to 11555 items from 5000.
+Database file #1: abntex2-options.bib
+Database file #2: novoIndex.bib
+Warning--entry type for "Guardian:CameraSmartv" isn't style-file defined
+--line 1681 of file novoIndex.bib
+A bad cross reference---entry "dechter1986learning"
+refers to entry "conf/aaai/1986-1", which doesn't exist
+Warning--I didn't find a database entry for "conf/aaai/1986-1"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo year vazio ou faltando em sinapse
+Warning--campo year vazio ou faltando em neuronio_biologico
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 95 entries,
+            6714 wiz_defined-function locations,
+            1739 strings with 25975 characters,
+and the built_in function-call counts, 134967 in all, are:
+= -- 15291
+> -- 2659
+< -- 3279
++ -- 4202
+- -- 808
+* -- 8491
+:= -- 16586
+add.period$ -- 427
+call.type$ -- 95
+change.case$ -- 948
+chr.to.int$ -- 185
+cite$ -- 96
+duplicate$ -- 12968
+empty$ -- 6004
+format.name$ -- 3841
+if$ -- 27544
+int.to.chr$ -- 6
+int.to.str$ -- 0
+missing$ -- 1708
+newline$ -- 502
+num.names$ -- 472
+pop$ -- 2315
+preamble$ -- 1
+purify$ -- 361
+quote$ -- 0
+skip$ -- 13233
+stack$ -- 1
+substring$ -- 5773
+swap$ -- 4816
+text.length$ -- 122
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 11
+warning$ -- 2
+while$ -- 699
+width$ -- 0
+write$ -- 1521
+(There was 1 error message)
