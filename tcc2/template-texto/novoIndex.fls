@@ -648,6 +648,9 @@ INPUT /home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/idade_hist_clean.pn
 INPUT /home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/idade_hist_clean.png
 INPUT /home/nicoli/github/nicoli-tcc/tcc2/template-texto/files/solucao/modelos-considerados.tex
 INPUT /home/nicoli/github/nicoli-tcc/tcc2/template-texto/files/solucao/modelos-considerados.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/ae/aer6.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmu10.tfm
 INPUT /home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/lrelu.png
 INPUT /home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/lrelu.png
 INPUT /home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/lrelu.png
@@ -679,6 +682,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
