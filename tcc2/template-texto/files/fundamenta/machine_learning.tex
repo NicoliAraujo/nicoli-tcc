@@ -4,13 +4,13 @@
 
 Para consolidar o aprendizado, os algoritmos de ML precisam passar por um processo de aquisição da experiência, comumente chamado de treinamento. De acordo Mitchell \cite{mitchell1997machine}, um algoritmo que aprende a partir da experiência $E$ quanto a um conjunto de tarefas $T$ e medida de performance $P$, se sua performance nas tarefas em $T$, medida por $P$, melhora com a experiência $E$.
 
-Ao preparar um algoritmo de ML para desenvolver determinada tarefa, busca-se um modelo, ou seja, uma função, que mapeie as instâncias do espaço de entrada para o de saída \cite{flach2012machine}. Estes modelos podem ser agrupados em diferentes categorias ao se considerar o tipo de aprendizado e a saída desejada para o algoritmo. A Figura \ref{fig:ml_algorithms} apresenta uma visão geral do estado da arte acerca dos modelos de ML e suas subdivisões.
-
-\begin{sidewaysfigure}[h!]
+\begin{sidewaysfigure}[H]
 	\includegraphics[width=\linewidth]{img/machinelearningalgorithms.png}
 	\caption{Mapa mental dos algoritmos de \emph{Machine Learning} organizados por área e sub-área \cite{ml:algos}.}
 	\label{fig:ml_algorithms}
 \end{sidewaysfigure}
+
+Ao preparar um algoritmo de ML para desenvolver determinada tarefa, busca-se um modelo, ou seja, uma função, que mapeie as instâncias do espaço de entrada para o de saída \cite{flach2012machine}. Estes modelos podem ser agrupados em diferentes categorias ao se considerar o tipo de aprendizado e a saída desejada para o algoritmo. A Figura \ref{fig:ml_algorithms} apresenta uma visão geral do estado da arte acerca dos modelos de ML e suas subdivisões.
 
 Quanto ao tipo de aprendizado, as tarefas de ML podem ser agrupadas em três tipos diferentes, a depender da presença e do tipo de resposta dada ao algoritmo quanto ao desempenho de suas saídas. No \emph{aprendizado supervisionado}, o algoritmo deve aprender a inferir valores a partir de atributos preditores e do respectivo atributo alvo fornecido como exemplo, ou seja, de cenários em que os valores de saída são conhecidos. Os modelos mais frequentemente utilizados neste tipo de aprendizado são as máquinas de vetores de suporte, redes neurais artificiais \emph{feedforward}, regressão linear e logística, etc. Já no \emph{aprendizado não-supervisionado}, o algoritmo deve inferir padrões e estruturas a partir de dados não rotulados, buscando alguma estrutura interna que os caracterize. Exemplos de modelos aplicáveis a este cenário são os algoritmos \emph{k-means} e \emph{k-medoids}.  Por fim, no \emph{aprendizado por reforço} o algoritmo não recebe dados nem tampouco rótulos, e deve aprender a partir das recompensas positivas ou negativas dadas por ações que modifiquem o ambiente de maneira satisfatória ou não \cite{flach2012machine}.
 

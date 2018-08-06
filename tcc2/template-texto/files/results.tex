@@ -2,8 +2,7 @@
 
 Considerando a abordagem descrita na solução proposta, os resultados preliminares da execução das CNNs aplicadas ao problema de estimação de idade a partir de uma imagem de face são apresentados a seguir.
 
-Conforme mencionado na Seção \ref{subsec:modelos}, os primeiros treinamentos e testes compreenderam as arquiteturas canônicas LeNet e AlexNet com função de ativação \emph{ReLU} na camada de saída. Obedecendo ao método de validação cruzada \emph{holdout} previamente mencionado, os resultados da etapa de teste foram obtidos, detalhados na Tabela \ref{tab:results_relu}.
-
+Conforme mencionado na Seção \ref{subsec:modelos}, os primeiros treinamentos e testes compreenderam as arquiteturas canônicas LeNet e AlexNet com função de ativação \emph{ReLU} na camada de saída, tendo como entrada as imagens do conjunto de dados sem normalização e equalização. Obedecendo ao método de validação cruzada \emph{holdout} previamente mencionado, os resultados da etapa de teste foram obtidos, detalhados na Tabela \ref{tab:results_relu}.
 
 \begin{table}[!ht]
      \caption{Resultados preliminares do treino e teste dos modelos propostos utilizando \emph{ReLU} na camada de saída.}
@@ -36,3 +35,77 @@ Ao observar as previsões realizadas para exemplos individuais, percebeu-se uma 
 \end{table}
 
 Observa-se que houve uma resposta positiva da AlexNet que melhorou a qualidade das previsões para o problema considerado. Porém, observa-se uma tendência desta rede em prever valores médios, o que ainda enseja melhorias. Assim, ainda é necessário investigar outros parâmetros e modelos para o problema em questão.
+
+
+\begin{figure}[hb!]
+	\caption{Redes neurais biológicas.}
+	\begin{subfigure}[hb]{0.5\linewidth}
+		\caption{Treinamento Alexnet LRelU com imagens normalizadas e equalizadas}
+		\label{fig:histalexlrelunorm}
+		\includegraphics[width=\linewidth]{img/graficos-fase2/fig-history-alexnet-lrelu-data-augmentation-22.png}
+	\end{subfigure}%
+	\begin{subfigure}[hb]{0.5\linewidth}
+		\caption{Treinamento Alexnet ReLU com imagens normalizadas e equalizadas}
+		\label{fig:redeneuralbiologica}
+		\includegraphics[width=\linewidth]{img/graficos-fase2/fig-history-alexnet-relu-data-augmentation-21.png}
+	\end{subfigure}%
+  \begin{subfigure}[hb]{0.5\linewidth}
+    \caption{Treinamento LeNet ReLU com imagens normalizadas e equalizadas}
+    \label{fig:redeneuralbiologica}
+    \includegraphics[width=\linewidth]{img/graficos-fase2/fig-history-lenet-relu-data-augmentation-21.png}%
+  \end{subfigure}%
+  % \begin{subfigure}[hb]{0.5\linewidth}
+  %   \caption{Treinamento LeNet RelU com imagens normalizadas e equalizadas}
+  %   \label{fig:redeneuralbiologica}
+  %   \includegraphics[width=\linewidth]{img/grafico-fase2/fig-history-lenet-relu-data-augmentation-21}
+  % \end{subfigure}%
+\end{figure}
+
+
+\begin{figure}[hb!]
+	\caption{Redes neurais biológicas.}
+	\begin{subfigure}[hb]{0.5\linewidth}
+		\caption{Reta-0 Alexnet LRelU com imagens normalizadas e equalizadas}
+		\label{fig:histalexlrelunorm}
+		\includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augmentation-22.png}
+	\end{subfigure}%
+	\begin{subfigure}[hb]{0.5\linewidth}
+		\caption{Reta-0 Alexnet ReLU com imagens normalizadas e equalizadas}
+		\label{fig:redeneuralbiologica}
+		\includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentation-21.png}
+	\end{subfigure}%
+  \begin{subfigure}[hb]{0.5\linewidth}
+    \caption{Reta-0 LeNet ReLU com imagens normalizadas e equalizadas}
+    \label{fig:redeneuralbiologica}
+    \includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-0-lenet-relu-data-augmentation-21.png}%
+  \end{subfigure}%
+  % \begin{subfigure}[hb]{0.5\linewidth}
+  %   \caption{Reta-0 LeNet RelU com imagens normalizadas e equalizadas}
+  %   \label{fig:redeneuralbiologica}
+  %  \includegraphics[width=\linewidth]{img/grafico-fase2/fig-reta-0-lenet-relu-data-augmentation-21}
+  % \end{subfigure}%
+\end{figure}
+
+\begin{figure}[hb!]
+	\caption{Redes neurais biológicas.}
+	\begin{subfigure}[hb]{0.5\linewidth}
+		\caption{Diferença de previsões Alexnet LRelU com imagens normalizadas e equalizadas}
+		\label{fig:histalexlrelunorm}
+		\includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-dif-alexnet-lrelu-data-augmentation-22.png}
+	\end{subfigure}%
+	\begin{subfigure}[hb]{0.5\linewidth}
+		\caption{Diferença de previsões Alexnet ReLU com imagens normalizadas e equalizadas}
+		\label{fig:redeneuralbiologica}
+		\includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-dif-alexnet-relu-data-augmentation-21.png}
+	\end{subfigure}%
+  \begin{subfigure}[hb]{0.5\linewidth}
+    \caption{Diferença de previsões LeNet ReLU com imagens normalizadas e equalizadas}
+    \label{fig:redeneuralbiologica}
+    \includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-dif-lenet-relu-data-augmentation-21.png}%
+  \end{subfigure}%
+  % \begin{subfigure}[hb]{0.5\linewidth}
+  %   \caption{Diferença de previsões LeNet RelU com imagens normalizadas e equalizadas}
+  %   \label{fig:redeneuralbiologica}
+  %   \includegraphics[width=\linewidth]{img/grafico-fase2/fig-reta-dif-lenet-relu-data-agmentation-21}
+  % \end{subfigure}%
+\end{figure}

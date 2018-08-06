@@ -1,27 +1,29 @@
-\babel@toc {brazil}{}
+\select@language {brazil}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrama representativo de uma \emph {Smart} TV e seus componentes \cite {samsung:smarttv}. Ver legenda dos componentes na Tabela \ref {tab:smart}.\relax }}{9}{figure.caption.6}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Aplicativo SBT. Fonte: \cite {sbt:tvconectada}\relax }}{10}{figure.caption.8}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Mapa mental dos algoritmos de \emph {Machine Learning} organizados por \IeC {\'a}rea e sub-\IeC {\'a}rea \cite {ml:algos}.\relax }}{33}{figure.caption.10}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Redes neurais biol\IeC {\'o}gicas.\relax }}{34}{figure.caption.11}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o de um neur\IeC {\^o}nio artificial. Fonte: \cite {neuronio:perceptron}\relax }}{34}{figure.caption.12}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Arquiteturas populares de RNAs. Fonte: \cite {rnas_tipos}\relax }}{35}{figure.caption.14}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Exemplos de RNA com diferentes tipos de conex\IeC {\~o}es entre neur\IeC {\^o}nios \cite {rna:feedback}.\relax }}{35}{figure.caption.15}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Rede Neural MLP com duas camadas ocultas.\relax }}{36}{figure.caption.16}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o de profunidade, taxa de erro e n\IeC {\'u}mero de par\IeC {\^a}metros das redes neurais profundas com o passar dos anos. Fonte: \cite {mediumcnn}.\relax }}{36}{figure.caption.20}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do erro dos modelos vencedores da competi\IeC {\c c}\IeC {\~a}o ILSVRC pela profundidade das redes neurais \cite {dl_ILSVRC, ImagenetChall}\relax }}{37}{figure.caption.21}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Papel das camadas convolucionais e \emph {feature maps} nas CNNs. Fonte: \cite {Khan:Livro}.\relax }}{37}{figure.caption.22}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Componentes de uma camada de uma rede neural convolucional. Adaptado de \cite {goodfellow2016deep}.\relax }}{37}{figure.caption.23}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Bloco Inception da CNN GoogLeNet. Fonte: \cite {9dlpapers}.\relax }}{38}{figure.caption.24}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Bloco Residual da CNN ResNet. Fonte: \cite {torch:resnet}.\relax }}{38}{figure.caption.25}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Redes neurais biol\IeC {\'o}gicas.\relax }}{15}{figure.caption.11}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o de um neur\IeC {\^o}nio artificial. Fonte: \cite {neuronio:perceptron}\relax }}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Arquiteturas populares de RNAs. Fonte: \cite {rnas_tipos}\relax }}{18}{figure.caption.14}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Exemplos de RNA com diferentes tipos de conex\IeC {\~o}es entre neur\IeC {\^o}nios \cite {rna:feedback}.\relax }}{19}{figure.caption.15}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Rede Neural MLP com duas camadas ocultas.\relax }}{20}{figure.caption.16}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o de profunidade, taxa de erro e n\IeC {\'u}mero de par\IeC {\^a}metros das redes neurais profundas com o passar dos anos. Fonte: \cite {mediumcnn}.\relax }}{26}{figure.caption.20}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do erro dos modelos vencedores da competi\IeC {\c c}\IeC {\~a}o ILSVRC pela profundidade das redes neurais \cite {dl_ILSVRC, ImagenetChall}\relax }}{28}{figure.caption.21}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Papel das camadas convolucionais e \emph {feature maps} nas CNNs. Fonte: \cite {Khan:Livro}.\relax }}{30}{figure.caption.22}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Componentes de uma camada de uma rede neural convolucional. Adaptado de \cite {goodfellow2016deep}.\relax }}{30}{figure.caption.23}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Bloco Inception da CNN GoogLeNet. Fonte: \cite {9dlpapers}.\relax }}{33}{figure.caption.24}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Bloco Residual da CNN ResNet. Fonte: \cite {torch:resnet}.\relax }}{34}{figure.caption.25}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Tarefa de aprendizado\relax }}{43}{figure.caption.26}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Exemplo de imagem do conjunto de dados contendo apenas um rosto.\relax }}{44}{figure.caption.27}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classifica\IeC {\c c}\IeC {\~a}o correta.\relax }}{45}{figure.caption.28}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classifica\IeC {\c c}\IeC {\~a}o err\IeC {\^o}nea.\relax }}{45}{figure.caption.29}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Histograma de frequ\IeC {\^e}ncia da idade do conjunto de dados utilizado.\relax }}{47}{figure.caption.31}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Fun\IeC {\c c}\IeC {\~a}o de Ativa\IeC {\c c}\IeC {\~a}o \emph {Leaky ReLU}\relax }}{48}{figure.caption.32}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Tarefa de aprendizado\relax }}{41}{figure.caption.26}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Exemplo de imagem do conjunto de dados contendo apenas um rosto.\relax }}{42}{figure.caption.27}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classifica\IeC {\c c}\IeC {\~a}o correta.\relax }}{43}{figure.caption.28}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classifica\IeC {\c c}\IeC {\~a}o err\IeC {\^o}nea.\relax }}{43}{figure.caption.29}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Histograma de frequ\IeC {\^e}ncia da idade do conjunto de dados utilizado.\relax }}{45}{figure.caption.31}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Fun\IeC {\c c}\IeC {\~a}o de Ativa\IeC {\c c}\IeC {\~a}o \emph {Leaky ReLU}\relax }}{46}{figure.caption.32}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Redes neurais biol\IeC {\'o}gicas.\relax }}{48}{figure.caption.35}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Redes neurais biol\IeC {\'o}gicas.\relax }}{49}{figure.caption.36}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Redes neurais biol\IeC {\'o}gicas.\relax }}{49}{figure.caption.37}
 \addvspace {10\p@ }
