@@ -1,0 +1,36 @@
+
+\subsection{Abordagem do TCC1}
+
+A primeira abordagem de treinamento das CNNs constitiu na utilização das imagens da base de dados sem pré-processamento. Conforme mencionado na Seção \ref{subsec:modelos}, os primeiros treinamentos e testes compreenderam as arquiteturas canônicas LeNet e AlexNet com função de ativação \emph{ReLU} na camada de saída, tendo como entrada as imagens do conjunto de dados sem normalização e equalização. Obedecendo ao método de validação cruzada \emph{holdout} previamente mencionado, os resultados da etapa de teste foram obtidos, detalhados na Tabela \ref{tab:results_relu}.
+
+\begin{table}[!ht]
+     \caption{Resultados preliminares do treino e teste dos modelos propostos utilizando \emph{ReLU} na camada de saída.}
+     \label{tab:results_relu}
+     \centering
+     \begin{tabular}{l l l}
+          \toprule
+          Modelo & Épocas &RMSE \\
+          \midrule
+          LeNet & $95$ & $41.08$ \\
+          AlexNet & $55$ & $41.96$\\
+          \bottomrule
+     \end{tabular}
+\end{table}
+
+Ao observar as previsões realizadas para exemplos individuais, percebeu-se uma tendência destas redes após treinamento em preverem valores baixos, indicando possivelmente \emph{underfitting} em virtude do \emph{ReLU dying problem} \cite{djork2015elus, dabal2018elus}. Como alternativa, estes autores sugerem  utilizar variantes da \emph{ReLU} que não exibam saídas nulas, diferentes estratégias de inicialização e regularização de pesos e \emph{batches}, entre outras. Como exposto na Seção \ref{subsec:modelos}, adotou-se a \emph{Leaky ReLU} como função de ativação da camada de saída. Os resultados deste treinamento estão expostos na Tabela \ref{tab:results_leaky}.
+
+\begin{table}[!ht]
+     \caption{Resultados preliminares do treino e teste dos modelos propostos utilizando \emph{Leaky ReLU} na camada de saída.}
+     \label{tab:results_leaky}
+     \centering
+     \begin{tabular}{l l l}
+          \toprule
+          Modelo & Épocas & RMSE \\
+          \midrule
+          LeNet & $12$ & $41.55$ \\
+          AlexNet & $6$ & $14.38$\\
+          \bottomrule
+     \end{tabular}
+\end{table}
+
+Observa-se que houve uma resposta positiva da AlexNet que melhorou a qualidade das previsões para o problema considerado. Porém, observa-se uma tendência desta rede em prever valores médios, o que ainda enseja melhorias. Assim, ainda é necessário investigar outros parâmetros e modelos para o problema em questão.

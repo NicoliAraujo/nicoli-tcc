@@ -5,19 +5,4 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[Clevert, Unterthiner e Hochreiter 2015]{djork2015elus}
-\abntrefinfo{Clevert, Unterthiner e Hochreiter}{CLEVERT; UNTERTHINER;
-  HOCHREITER}{2015}
-{CLEVERT, D.; UNTERTHINER, T.; HOCHREITER, S. Fast and accurate deep network
-  learning by exponential linear units (elus).
-\emph{CoRR}, abs/1511.07289, 2015.
-Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1511.07289}.}
-
-\bibitem[Pedamonti 2018]{dabal2018elus}
-\abntrefinfo{Pedamonti}{PEDAMONTI}{2018}
-{PEDAMONTI, D. Comparison of non-linear activation functions for deep neural
-  networks on {MNIST} classification task.
-\emph{CoRR}, abs/1804.02763, 2018.
-Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1804.02763}.}
-
 \end{thebibliography}
