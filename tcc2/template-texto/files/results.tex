@@ -5,6 +5,9 @@
 A primeira abordagem de treinamento das CNNs constitiu na utilização das imagens da base de dados sem pré-processamento. Duas funções de ativação distintas: relu (introduz não linearidade),lrelu (usado na literatura ...)
 Não há utilização de pesos previamente calculados.
 
+- Normalização das imagens
+- 1 técnica de data augmentation: horizontal flip
+
 (\ldots)
 % Explicação da le net, gráficos da le net
 
@@ -131,3 +134,12 @@ Observa-se que houve uma resposta positiva da AlexNet que melhorou a qualidade d
 
 - Mesmas redes
 - Normalização das imagens, equalização por histograma -> o que é
+- data augmentation ->  mais técnicas de data augmentation
+
+\subsection{Abordagem 3}
+
+Outras arquiteturas
+VGG
+com transfer learning
+1. Retirar última camada (softmax) e adicionar leaky relu
+2. Retirar duas últimas camadas (dense e softmax) e adicionar leaky relu
