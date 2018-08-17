@@ -8,6 +8,13 @@ Considerando a abordagem descrita na solução proposta, os resultados da execu�
 A primeira abordagem de treinamento das CNNs utilizou as imagens da base de dados com equalização por histograma de frequência, normalizadas, e com $50\%$ de chance de estarem rotacionadas horizontalmente. Conforme mencionado na Seção \ref{subsec:modelos}, os treinamentos e testes compreenderam as arquiteturas canônicas LeNet e AlexNet com funções de ativação \emph{ReLU} e \emph{LeakyRelU} nas camadas ocultas e de ativação. Obedecendo ao método de validação cruzada \emph{holdout} previamente mencionado, os resultados da etapa de teste foram obtidos, e estão detalhados na Tabela
 Não foram utilizadas técnicas de transfer learning.
 
+<<<<<<< HEAD
+=======
+- Normalização das imagens
+- 1 técnica de data augmentation: horizontal flip
+
+(\ldots)
+>>>>>>> 7287c22bb31ec1eff67afb9f84f8c7a1378bd888
 % Explicação da le net, gráficos da le net
 
 % Explicação da alexnet, gráficos da alexnet
@@ -62,11 +69,12 @@ Não foram utilizadas técnicas de transfer learning.
     \includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-0-lenetregressor-relu-data-augmentation-2-1.png}%
   \end{subfigure}%
   \begin{subfigure}[hb]{0.5\linewidth}
-    \caption{Reta-0 LeNet ReLU com imagens normalizadas e equalizadas}
+    \caption{Reta-0 LeNet RelU com imagens normalizadas e equalizadas}
     \label{fig:redeneuralbiologica}
    \includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-0-lenetregressor-relu-data-augmentation-2-1.png}
   \end{subfigure}%
 \end{figure}
+
 
 
 \subsection{Abordagem 2}
