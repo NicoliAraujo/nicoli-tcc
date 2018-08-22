@@ -4,42 +4,60 @@ Considerando a abordagem descrita na solução proposta, os resultados da execu�
 
 %\input{files/results-tcc1}
 
-\subsection{Abordagem 1}
-A primeira abordagem de treinamento das CNNs utilizou as imagens da base de dados com equalização por histograma de frequência, normalizadas, e com $50\%$ de chance de estarem rotacionadas horizontalmente. Conforme mencionado na Seção \ref{subsec:modelos}, os treinamentos e testes compreenderam as arquiteturas canônicas LeNet e AlexNet com funções de ativação \emph{ReLU} e \emph{LeakyRelU} nas camadas ocultas e de ativação. Obedecendo ao método de validação cruzada \emph{holdout} previamente mencionado, os resultados da etapa de teste foram obtidos, e estão detalhados na Tabela
-Não foram utilizadas técnicas de transfer learning.
+\subsection{Abordagem 1}%fase2
+A primeira abordagem de treinamento das CNNs utilizou as imagens da base de dados com equalização por histograma de frequência, normalizadas, e com $50\%$ de chance de estarem rotacionadas horizontalmente. Conforme mencionado na Seção \ref{subsec:modelos}, os treinamentos e testes compreenderam as arquiteturas canônicas LeNet e AlexNet com funções de ativação \emph{ReLU} e \emph{Leaky ReLU} nas camadas ocultas e de ativação. É importante ressaltar que neste momento não foram utilizadas técnicas de \emph{transfer learning}. Obedecendo ao método de validação cruzada \emph{holdout} previamente mencionado, os resultados da etapa de teste foram obtidos, e estão detalhados na Tabela \ref{tab:results-2}.
 
 % Explicação da le net, gráficos da le net
+A CNN que implementa a arquitetura LeNet com função de ativação \emph{ReLU} foi treinada por 43 épocas, obteve MAE de $14.09$ e RMSE $17.93$. A LeNet com função de ativação \emph{Leaky ReLU} foi treinada por 15 épocas, obteve MAE de $14.44$ anos e RMSE de $18.18$ anos. Os treinamentos duraram aproximadamente $16$ e $12$ horas respectivamente, em uma instância do Google Compute Engine com 4 CPus virtuais e 15 GB de RAM. Os gráficos de treinamento e as retas zero obtidas a partir da apresentação do conjunto de teste aos modelos consolidados podem ser vistos na Figura \ref{fig:lenet-abordagem1}. É possível notar que ambas as redes sofreram com overfitting e obtiveram grande margem de erro, no entanto a LeNet que utilizou \emph{Leaky ReLU} como função de ativação obteve um desempenho mais satisfatório.
+.
+\begin{figure}[hb!]
+	\caption{Resultados do treinamento e teste da CNN LeNet.}\label{fig:lenet-abordagem1}
+  \begin{subfigure}[hb]{0.5\linewidth}
+    \caption{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph{ReLU}.}
+    \label{fig:redeneuralbiologica}
+    \includegraphics[width=\linewidth]{img/graficos-fase2/fig-history-lenet-relu-data-augmentation-2-1.png}%
+  \end{subfigure}%
+	\begin{subfigure}[hb]{0.5\linewidth}
+		\caption{Reta-0 LeNet \emph{ReLU}.}
+		\label{fig:redeneuralbiologica}
+		\includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-0-lenetregressor-relu-data-augmentation-2-1.png}%
+	\end{subfigure}\\
+  \begin{subfigure}[hb]{0.5\linewidth}
+    \caption{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph{Leaky ReLU}.}
+    \label{fig:redeneuralbiologica}
+    \includegraphics[width=\linewidth]{img/graficos-fase2/fig-history-lenet-lrelu-data-augmentation-2-2.png}
+  \end{subfigure}
+	\begin{subfigure}[hb]{0.5\linewidth}
+		\caption{Reta-0 LeNet \emph{Leaky ReLU}.}
+		\label{fig:redeneuralbiologica}
+	 \includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-0-lenetregressor-lrelu-data-augmentation-2-2.png}
+	\end{subfigure}%
+\end{figure}
 
-% Explicação da alexnet, gráficos da alexnet
-
-
-%% Sumário
-%% Tabela
-%  Rede | Função de ativação | Parâmetros | Tempo de treinamento | RMSE obtido | MAE obtido
-
+A CNN que implementa a arquitetura AlexNet com função de ativação \emph{ReLU} foi treinada por 10 épocas, obteve MAE de $38.63$ anos e RMSE de $41.22$ anos. A AlexNet com função de ativação \emph{Leaky ReLU} foi treinada por 30 épocas, obteve MAE de $14.44$ anos e RMSE de $15.33$ anos. Os treinamentos duraram aproximadamente $15$ e $38$ horas respectivamente, na mesma instância do Google Compute Engine utilizada para o treinamento das redes LeNet. Os gráficos de treinamento e as retas zero obtidas a partir da apresentação do conjunto de teste aos modelos consolidados podem ser vistos na Figura \ref{fig:alexnet-abordagem1}. É possível notar que enquanto a AlexNet que utiliza \emph{ReLU} sofreu de \emph{dying ReLU problem} e previu idade zero para todos os exemplos do conjunto de teste, a AlexNet que utilizou \emph{Leaky ReLU} como função de ativação foi capaz de convergir para uma solução e prever idades mais próximas às reais.
 
 \begin{figure}[hb!]
-	\caption{Redes neurais biológicas.}
+	\caption{Resultados do treinamento e teste da CNN AlexNet.}\label{fig:alexnet-abordagem1}
 	\begin{subfigure}[hb]{0.5\linewidth}
-		\caption{Treinamento Alexnet LRelU com imagens normalizadas e equalizadas}
+		\caption{Treinamento AlexNet \emph{ReLU}.}
+		\label{fig:redeneuralbiologica}
+		\includegraphics[width=\linewidth]{img/graficos-fase2/fig-history-alexnet-relu-data-augmentation-2-1.png}
+	\end{subfigure}
+  \begin{subfigure}[hb]{0.5\linewidth}
+    \caption{Reta-0 AlexNet \emph{ReLU}.}
+    \label{fig:redeneuralbiologica}
+    \includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentation-2-1.png}%
+  \end{subfigure}\\
+	\begin{subfigure}[hb]{0.5\linewidth}
+		\caption{Treinamento AlexNet \emph{Leaky ReLU}.}
 		\label{fig:histalexlrelunorm}
     \centering
 		\includegraphics[width=\linewidth]{img/graficos-fase2/fig-history-alexnet-lrelu-data-augmentation-2-2.png}
 	\end{subfigure}
-	\begin{subfigure}[hb]{0.5\linewidth}
-		\caption{Treinamento Alexnet ReLU com imagens normalizadas e equalizadas}
-		\label{fig:redeneuralbiologica}
-		\includegraphics[width=\linewidth]{img/graficos-fase2/fig-history-alexnet-relu-data-augmentation-2-1.png}
-	\end{subfigure}\\
   \begin{subfigure}[hb]{0.5\linewidth}
-    \caption{Treinamento LeNet ReLU com imagens normalizadas e equalizadas}
+    \caption{Reta-0 AlexNet \emph{Leaky ReLU}.}
     \label{fig:redeneuralbiologica}
-    \includegraphics[width=\linewidth]{img/graficos-fase2/fig-history-lenet-relu-data-augmentation-2-1.png}%
-  \end{subfigure}%
-  \begin{subfigure}[hb]{0.5\linewidth}
-    \caption{Treinamento LeNet RelU com imagens normalizadas e equalizadas}
-    \label{fig:redeneuralbiologica}
-    \includegraphics[width=\linewidth]{img/graficos-fase2/fig-history-lenet-relu-data-augmentation-2-1.png}
+    \includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augmentation-2-2.png}
   \end{subfigure}%
 \end{figure}
 
@@ -55,19 +73,24 @@ Não foram utilizadas técnicas de transfer learning.
 		\caption{Reta-0 Alexnet ReLU com imagens normalizadas e equalizadas}
 		\label{fig:redeneuralbiologica}
 		\includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentation-2-1.png}
-	\end{subfigure}\\
-  \begin{subfigure}[hb]{0.5\linewidth}
-    \caption{Reta-0 LeNet ReLU com imagens normalizadas e equalizadas}
-    \label{fig:redeneuralbiologica}
-    \includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-0-lenetregressor-relu-data-augmentation-2-1.png}%
-  \end{subfigure}%
-  \begin{subfigure}[hb]{0.5\linewidth}
-    \caption{Reta-0 LeNet ReLU com imagens normalizadas e equalizadas}
-    \label{fig:redeneuralbiologica}
-   \includegraphics[width=\linewidth]{img/graficos-fase2/fig-reta-0-lenetregressor-relu-data-augmentation-2-1.png}
-  \end{subfigure}%
+	\end{subfigure}
 \end{figure}
 
+\begin{table}[!ht]
+	\caption{Resultados do treino e teste dos modelos propostos.}
+	\label{tab:results-2}
+	\begin{adjustbox}{width=1\textwidth}
+		\begin{tabular}{l l l l l l l}
+			\toprule
+			Rede & Função de ativação & Parâmetros & Épocas & Tempo de treinamento & MAE Teste & RMSE Teste \\
+			\midrule
+			LeNet & \emph{Leaky ReLU} & params & 15 & 12 h & 14.44 & 18.18 \\
+			LeNet & \emph{ReLU} & params & 43 & 16 h & 14.09 & 17.93 \\
+			AlexNet & \emph{ReLU} & $58.286.145$ & 10 & 15 h & 38.63 & 41.22 \\
+			AlexNet & \emph{Leaky ReLU} & params & 30 & 40 h & 15.33 & 18.58 \\
+		\end{tabular}
+	\end{adjustbox}
+\end{table}
 
 \subsection{Abordagem 2}
 
