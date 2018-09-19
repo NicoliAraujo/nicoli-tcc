@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.6.18)  22 AUG 2018 15:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.6.18)  19 SEP 2018 15:01
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **novoIndex.tex
 (/home/nicoli/github/nicoli-tcc/tcc2/template-texto/novoIndex.tex
@@ -23,81 +24,58 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/home/nicoli/github/nicoli-tcc/tcc2/template-texto/config.tex
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+) (/home/nicoli/github/nicoli-tcc/tcc2/template-texto/config.tex (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/ae/ae.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/ae/ae.sty
 Package: ae 2001/02/12 1.3 Almost European Computer Modern
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )
 LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
-
-(/usr/share/texlive/texmf-dist/tex/latex/ae/t1aer.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+))) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2018/05/02 3.20 The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2018/05/02 3.20 Babel switching mechanism
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/05/02 3.20 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count90
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/a4wide/a4wide.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/a4wide/a4wide.sty
 Package: a4wide 1994/08/30
-
-(/usr/share/texlive/texmf-dist/tex/latex/ntgclass/a4.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/ntgclass/a4.sty
 Package: a4 2004/04/15 v1.2g A4 based page layout
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
-
-Excluding comment 'comment')
-(/usr/share/texlive/texmf-dist/tex/latex/stackengine/stackengine.sty
-Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
-ways
-
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+ Excluding comment 'comment') (/usr/share/texlive/texmf-dist/tex/latex/stackengine/stackengine.sty
+Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient ways
+ (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count91
-)
-(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.sty
-(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.sty (/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.tex
 \loi_nestcnt=\count92
 )
-Package: listofitems 2018/03/13 v1.53 Grab items in lists using user-specified 
-sep char (CT)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: listofitems 2018/03/13 v1.53 Grab items in lists using user-specified sep char (CT)
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count93
 \calc@Bcount=\count94
@@ -120,50 +98,37 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \stackedbox=\box28
 \@centerbox=\box29
 \c@ROWcellindex@=\count97
-)
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2018/04/08 v1.1 Adjusting TeX boxes (trim, clip, ...)
-
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks16
 \XKV@tempa@toks=\toks17
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count98
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
--ends (calc, etex, pgfmath)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
-)
-(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box30
 )
@@ -172,8 +137,7 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@urx=\dimen110
 \tc@ury=\dimen111
 Package trimclip Info: Using driver 'tc-pdftex.def'.
-
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen112
@@ -184,22 +148,18 @@ File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
 \adjbox@pheight=\dimen117
 \adjbox@pdepth=\dimen118
 \adjbox@ptotalheight=\dimen119
-
-(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count99
-)
-(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box31
 \sift@deathcycles=\count100
 \@vwid@loff=\dimen120
 \@vwid@roff=\dimen121
-))
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2017/03/19 v3.3-145 Customizing captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2018/04/15 v1.7-167 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen122
@@ -211,21 +171,17 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@hangindent=\dimen128
 )
 \c@ContinuedFloat=\count101
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count102
 \c@subtable=\count103
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip50
 \LTright=\skip51
@@ -242,16 +198,14 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@tables=\count107
 \c@LT@chunks=\count108
 \LT@p@ftn=\toks18
-)
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count109
 \float@exts=\toks19
 \float@box=\box36
 \@float@everytoks=\toks20
 \@floatcapt=\box37
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -262,22 +216,17 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip55
 \rot@float@box=\box38
 \rot@mess@toks=\toks21
-)
-(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2008/02/07
-
-Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
-<2008/02/07> (tvz)
+ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix <2008/02/07> (tvz)
 \FV@CodeLineNo=\count111
 \FV@InFile=\read1
 \FV@TabBox=\box39
 \c@FancyVerbLine=\count112
 \FV@StepNumber=\count113
 \FV@OutFile=\write4
-)
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
 \f@nch@headwidth=\skip56
 \f@nch@O@elh=\skip57
 \f@nch@O@erh=\skip58
@@ -287,17 +236,13 @@ s
 \f@nch@O@erf=\skip62
 \f@nch@O@olf=\skip63
 \f@nch@O@orf=\skip64
-)
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/anysize/anysize.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/anysize/anysize.sty
 Package: anysize 1994/08/13 setting margin sizes
 
 document style option `anysize' loaded
@@ -326,37 +271,31 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@thisruleclass=\count116
 \@lastruleclass=\count117
 \@thisrulewidth=\dimen146
-)
-(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-)
-(/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/bbm.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/bbm.sty
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 (Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip65
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
 \ex@=\dimen147
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen148
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count118
@@ -396,18 +335,15 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks27
 \thm@bodyfont=\toks28
@@ -418,18 +354,13 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@postskip=\skip69
 \thm@headsep=\skip70
 \dth@everypar=\toks32
-)
-(/usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -443,15 +374,13 @@ Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
-)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -463,21 +392,17 @@ Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen156
 \Hy@linkcounter=\count130
 \Hy@pagecounter=\count131
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
@@ -496,8 +421,7 @@ Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count133
-
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -520,23 +444,18 @@ LaTeX Info: Redefining \pageref on input line 6443.
 \c@Hfootnote=\count137
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count138
 \c@bookmark@seq@number=\count139
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip71
-)
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -550,41 +469,28 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
-
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks33
 \pgfutil@tempdima=\dimen160
 \pgfutil@tempdimb=\dimen161
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box42
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks34
 \pgfkeys@temptoks=\toks35
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks36
 ))
 \pgf@x=\dimen162
@@ -608,60 +514,30 @@ ex
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count144
 \pgfsyssoftpath@bigbuffer@items=\count145
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen170
 \pgfmath@count=\count146
 \pgfmath@box=\box43
 \pgfmath@toks=\toks40
 \pgfmath@stack@operand=\toks41
 \pgfmath@stack@operation=\toks42
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count147
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen171
 \pgf@picmaxx=\dimen172
@@ -677,114 +553,75 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@yy=\dimen182
 \pgf@zx=\dimen183
 \pgf@zy=\dimen184
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen185
 \pgf@path@lasty=\dimen186
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen187
 \pgf@shorten@start@additional=\dimen188
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box44
 \pgf@hbox=\box45
 \pgf@layerbox@main=\box46
 \pgf@picture@serial@count=\count148
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen189
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen190
 \pgf@pt@y=\dimen191
 \pgf@pt@temp=\dimen192
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen193
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen194
 \pgf@sys@shading@range@num=\count149
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box47
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box48
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen195
 \pgf@nodesepend=\dimen196
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen197
 \pgffor@skip=\dimen198
 \pgffor@stack=\toks43
 \pgffor@toks=\toks44
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count150
 \pgfplotmarksize=\dimen199
@@ -803,34 +640,27 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofchildren=\count152
 \tikznumberofcurrentchild=\count153
 \tikz@fig@count=\count154
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count155
 \pgfmatrixcurrentcolumn=\count156
 \pgf@matrix@numberofcolumns=\count157
 )
 \tikz@expandcount=\count158
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
 \c@@todonotes@numberoftodonotes=\count159
-)
-(/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
 \c@AlgoLine=\count160
 \algocf@hangindent=\skip72
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \skiptotal=\skip73
@@ -868,8 +698,7 @@ Package: relsize 2013/03/29 ver 4.1
 \c@algocf=\count163
 \algocf@algoframe=\box59
 \algocf@algobox=\box60
-)
-(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count164
 \c@ALC@line=\count165
@@ -877,12 +706,9 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@depth=\count167
 \ALC@tlm=\skip91
 \algorithmicindent=\skip92
-)
-(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
-(/home/nicoli/github/nicoli-tcc/tcc2/template-texto/abntex2cite.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/home/nicoli/github/nicoli-tcc/tcc2/template-texto/abntex2cite.sty
 Package: abntex2cite 2015/04/28 v1.9.5 abnTeX2
-
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
+ (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 \minimumbiblabelwidth=\skip93
 \ABCIauxlen=\skip94
 \c@ABCIaux=\count168
@@ -895,9 +721,7 @@ LaTeX Info: Redefining \citeonline on input line 677.
 )
 \@float@every@codigo=\toks46
 \c@codigo=\count170
-)
-(./source/folhaRosto.tex)
-(/home/nicoli/github/nicoli-tcc/tcc2/template-texto/novoIndex.aux
+) (./source/folhaRosto.tex) (/home/nicoli/github/nicoli-tcc/tcc2/template-texto/novoIndex.aux
 
 LaTeX Warning: Label `fig:redeneuralbiologica' multiply defined.
 
@@ -978,38 +802,30 @@ LaTeX Font Info:    ... okay on input line 25.
 \everyMPtoPDFconversion=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box62
 Package hyperref Info: Link coloring ON on input line 25.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count177
@@ -1017,14 +833,11 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 25.
 LaTeX Info: Redefining \pageref on input line 25.
 LaTeX Info: Redefining \nameref on input line 25.
-
-(/home/nicoli/github/nicoli-tcc/tcc2/template-texto/novoIndex.out)
-(/home/nicoli/github/nicoli-tcc/tcc2/template-texto/novoIndex.out)
+ (/home/nicoli/github/nicoli-tcc/tcc2/template-texto/novoIndex.out) (/home/nicoli/github/nicoli-tcc/tcc2/template-texto/novoIndex.out)
 \@outlinefile=\write6
 \openout6 = `novoIndex.out'.
 
-
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 Underfull \hbox (badness 2073) in paragraph at lines 27--27
 \T1/aer/m/n/12 de Com-pu-ta-ção, da Es-cola Su-pe-rior de
  []
@@ -1039,8 +852,7 @@ LaTeX Font Info:    Try loading font information for U+msa on input line 27.
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 27.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package babel Info: Redefining portuges shorthand "|
@@ -1052,6 +864,173 @@ Package babel Info: Redefining portuges shorthand "|
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Cap\'{\i }tulo 1.
 Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 55.
+(/home/nicoli/github/nicoli-tcc/tcc2/template-texto/files/solucao_proposta.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 4.
+ (/home/nicoli/github/nicoli-tcc/tcc2/template-texto/files/solucao/tarefa_aprendizado.tex
+<img/deniro_cnn.png, id=60, 1112.155pt x 391.4625pt>
+File: img/deniro_cnn.png Graphic file (type png)
+<use img/deniro_cnn.png>
+Package pdftex.def Info: img/deniro_cnn.png  used on input line 7.
+(pdftex.def)             Requested size: 386.95897pt x 136.20155pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 16.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 16.
+ [2
+
+]
+
+LaTeX Warning: Reference `sec:trab_relac' on page iii undefined on input line 25.
+
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 7.
+ (/home/nicoli/github/nicoli-tcc/tcc2/template-texto/files/solucao/dataset.tex
+
+LaTeX Warning: Reference `sec:trab_relac' on page iii undefined on input line 4.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 5.
+[3 </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/deniro_cnn.png>]
+Underfull \hbox (badness 1975) in paragraph at lines 18--18
+[]\T1/aer/m/n/10.95 Endereço da ima-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+[]\T1/aer/m/n/10 imdb$\OML/cmm/m/it/10 =$\T1/aer/m/n/10 34$\OML/cmm/m/it/10 =$\T1/aer/m/n/10 nm0000134$[]$rm334009
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 20--20
+[]\T1/aer/m/n/10.95 Pontuação da Se-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[]$\OT1/cmr/m/n/10.95 (663\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 65\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 992\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 475\OML/cmm/m/it/10.95 ;$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]\T1/aer/m/n/10.95 Data de Nas-ci-
+ []
+
+<img/deniro_plt.png, id=94, 1013.7875pt x 1445.4pt>
+File: img/deniro_plt.png Graphic file (type png)
+<use img/deniro_plt.png>
+Package pdftex.def Info: img/deniro_plt.png  used on input line 32.
+(pdftex.def)             Requested size: 169.29684pt x 241.36992pt.
+
+Underfull \hbox (badness 1975) in paragraph at lines 46--46
+[]\T1/aer/m/n/10.95 Endereço da ima-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+[]\T1/aer/m/n/10 imdb$\OML/cmm/m/it/10 =$\T1/aer/m/n/10 34$\OML/cmm/m/it/10 =$\T1/aer/m/n/10 nm0000134$[]$rm17663
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 48--48
+[]\T1/aer/m/n/10.95 Pontuação da Se-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[]$\OT1/cmr/m/n/10.95 (914\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 886\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1426\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 31\OML/cmm/m/it/10.95 ;$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]\T1/aer/m/n/10.95 Data de Nas-ci-
+ []
+
+<img/deniro_many_plt_correto.png, id=96, 1479.5275pt x 1132.23pt>
+File: img/deniro_many_plt_correto.png Graphic file (type png)
+<use img/deniro_many_plt_correto.png>
+Package pdftex.def Info: img/deniro_many_plt_correto.png  used on input line 60.
+(pdftex.def)             Requested size: 169.29684pt x 129.55585pt.
+
+Underfull \hbox (badness 1975) in paragraph at lines 74--74
+[]\T1/aer/m/n/10.95 Endereço da ima-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+[]\T1/aer/m/n/10 imdb$\OML/cmm/m/it/10 =$\T1/aer/m/n/10 34$\OML/cmm/m/it/10 =$\T1/aer/m/n/10 nm0000134$[]$rm14800
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 76--76
+[]\T1/aer/m/n/10.95 Pontuação da Se-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+[]$\OT1/cmr/m/n/10.95 (1392\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 72\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1614\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 18\OML/cmm/m/it/10.95 ;$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[]\T1/aer/m/n/10.95 Data de Nas-ci-
+ []
+
+<img/deniro_many_plt_errado.png, id=97, 1479.5275pt x 1082.0425pt>
+File: img/deniro_many_plt_errado.png Graphic file (type png)
+<use img/deniro_many_plt_errado.png>
+Package pdftex.def Info: img/deniro_many_plt_errado.png  used on input line 87.
+(pdftex.def)             Requested size: 169.29684pt x 123.81311pt.
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 9.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 9.
+ [4 </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/deniro_plt.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 10.
+ (/home/nicoli/github/nicoli-tcc/tcc2/template-texto/files/solucao/pre-processamento.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+ [5 </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/deniro_many_plt_correto.png> </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/deniro_many_plt_errado.png>]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 6.
+<img/idade_hist_clean.png, id=118, 433.62pt x 289.08pt>
+File: img/idade_hist_clean.png Graphic file (type png)
+<use img/idade_hist_clean.png>
+Package pdftex.def Info: img/idade_hist_clean.png  used on input line 12.
+(pdftex.def)             Requested size: 338.58632pt x 225.73291pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 15.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 15.
+ [6])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 13.
+ (/home/nicoli/github/nicoli-tcc/tcc2/template-texto/files/solucao/modelos-considerados.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+ [7 </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/idade_hist_clean.png>]
+<img/lrelu.png, id=139, 542.025pt x 495.8525pt>
+File: img/lrelu.png Graphic file (type png)
+<use img/lrelu.png>
+Package pdftex.def Info: img/lrelu.png  used on input line 8.
+(pdftex.def)             Requested size: 145.11053pt x 132.74704pt.
+))
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 58.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 58.
+ [8 </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/lrelu.png (PNG copy)>]
+Cap\'{\i }tulo 2.
+Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 58.
 (/home/nicoli/github/nicoli-tcc/tcc2/template-texto/files/results.tex
 
@@ -1060,43 +1039,32 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 7.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 12.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 12.
+[9
 
-LaTeX Warning: Reference `subsec:modelos' on page ii undefined on input line 8.
-
-
-<img/graficos-fase2/fig-history-lenet-relu-data-augmentation-2-1.png, id=37, 43
-3.62pt x 289.08pt>
-File: img/graficos-fase2/fig-history-lenet-relu-data-augmentation-2-1.png Graph
-ic file (type png)
+]
+<img/graficos-fase2/fig-history-lenet-relu-data-augmentation-2-1.png, id=155, 433.62pt x 289.08pt>
+File: img/graficos-fase2/fig-history-lenet-relu-data-augmentation-2-1.png Graphic file (type png)
 <use img/graficos-fase2/fig-history-lenet-relu-data-augmentation-2-1.png>
-Package pdftex.def Info: img/graficos-fase2/fig-history-lenet-relu-data-augment
-ation-2-1.png  used on input line 18.
+Package pdftex.def Info: img/graficos-fase2/fig-history-lenet-relu-data-augmentation-2-1.png  used on input line 18.
 (pdftex.def)             Requested size: 241.84843pt x 161.23528pt.
-<img/graficos-fase2/fig-reta-0-lenetregressor-relu-data-augmentation-2-1.png, i
-d=39, 433.62pt x 289.08pt>
-File: img/graficos-fase2/fig-reta-0-lenetregressor-relu-data-augmentation-2-1.p
-ng Graphic file (type png)
-<use img/graficos-fase2/fig-reta-0-lenetregressor-relu-data-augmentation-2-1.pn
-g>
-Package pdftex.def Info: img/graficos-fase2/fig-reta-0-lenetregressor-relu-data
--augmentation-2-1.png  used on input line 23.
+<img/graficos-fase2/fig-reta-0-lenetregressor-relu-data-augmentation-2-1.png, id=156, 433.62pt x 289.08pt>
+File: img/graficos-fase2/fig-reta-0-lenetregressor-relu-data-augmentation-2-1.png Graphic file (type png)
+<use img/graficos-fase2/fig-reta-0-lenetregressor-relu-data-augmentation-2-1.png>
+Package pdftex.def Info: img/graficos-fase2/fig-reta-0-lenetregressor-relu-data-augmentation-2-1.png  used on input line 23.
 (pdftex.def)             Requested size: 241.84843pt x 161.23528pt.
-<img/graficos-fase2/fig-history-lenet-lrelu-data-augmentation-2-2.png, id=40, 4
-33.62pt x 289.08pt>
-File: img/graficos-fase2/fig-history-lenet-lrelu-data-augmentation-2-2.png Grap
-hic file (type png)
+<img/graficos-fase2/fig-history-lenet-lrelu-data-augmentation-2-2.png, id=157, 433.62pt x 289.08pt>
+File: img/graficos-fase2/fig-history-lenet-lrelu-data-augmentation-2-2.png Graphic file (type png)
 <use img/graficos-fase2/fig-history-lenet-lrelu-data-augmentation-2-2.png>
-Package pdftex.def Info: img/graficos-fase2/fig-history-lenet-lrelu-data-augmen
-tation-2-2.png  used on input line 28.
+Package pdftex.def Info: img/graficos-fase2/fig-history-lenet-lrelu-data-augmentation-2-2.png  used on input line 28.
 (pdftex.def)             Requested size: 241.84843pt x 161.23528pt.
-<img/graficos-fase2/fig-reta-0-lenetregressor-lrelu-data-augmentation-2-2.png, 
-id=41, 433.62pt x 289.08pt>
-File: img/graficos-fase2/fig-reta-0-lenetregressor-lrelu-data-augmentation-2-2.
-png Graphic file (type png)
-<use img/graficos-fase2/fig-reta-0-lenetregressor-lrelu-data-augmentation-2-2.p
-ng>
-Package pdftex.def Info: img/graficos-fase2/fig-reta-0-lenetregressor-lrelu-dat
-a-augmentation-2-2.png  used on input line 33.
+<img/graficos-fase2/fig-reta-0-lenetregressor-lrelu-data-augmentation-2-2.png, id=158, 433.62pt x 289.08pt>
+File: img/graficos-fase2/fig-reta-0-lenetregressor-lrelu-data-augmentation-2-2.png Graphic file (type png)
+<use img/graficos-fase2/fig-reta-0-lenetregressor-lrelu-data-augmentation-2-2.png>
+Package pdftex.def Info: img/graficos-fase2/fig-reta-0-lenetregressor-lrelu-data-augmentation-2-2.png  used on input line 33.
 (pdftex.def)             Requested size: 241.84843pt x 161.23528pt.
 
 Overfull \hbox (2.61609pt too wide) in paragraph at lines 15--35
@@ -1104,54 +1072,29 @@ Overfull \hbox (2.61609pt too wide) in paragraph at lines 15--35
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 36.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 36.
-[2
-
-]
-Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 38.
- [3 </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/graficos-fase2/fig-
-history-lenet-relu-data-augmentation-2-1.png> </home/nicoli/github/nicoli-tcc/t
-cc2/template-texto/img/graficos-fase2/fig-reta-0-lenetregressor-relu-data-augme
-ntation-2-1.png> </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/grafic
-os-fase2/fig-history-lenet-lrelu-data-augmentation-2-2.png> </home/nicoli/githu
-b/nicoli-tcc/tcc2/template-texto/img/graficos-fase2/fig-reta-0-lenetregressor-l
-relu-data-augmentation-2-2.png>]
-<img/graficos-fase2/fig-history-alexnet-relu-data-augmentation-2-1.png, id=61, 
-433.62pt x 289.08pt>
-File: img/graficos-fase2/fig-history-alexnet-relu-data-augmentation-2-1.png Gra
-phic file (type png)
+[10 </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/graficos-fase2/fig-history-lenet-relu-data-augmentation-2-1.png> </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/graficos-fase2/fig-reta-0-lenetregressor-relu-data-augmentation-2-1.png> </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/graficos-fase2/fig-history-lenet-lrelu-data-augmentation-2-2.png> </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/graficos-fase2/fig-reta-0-lenetregressor-lrelu-data-augmentation-2-2.png>]
+<img/graficos-fase2/fig-history-alexnet-relu-data-augmentation-2-1.png, id=170, 433.62pt x 289.08pt>
+File: img/graficos-fase2/fig-history-alexnet-relu-data-augmentation-2-1.png Graphic file (type png)
 <use img/graficos-fase2/fig-history-alexnet-relu-data-augmentation-2-1.png>
-Package pdftex.def Info: img/graficos-fase2/fig-history-alexnet-relu-data-augme
-ntation-2-1.png  used on input line 44.
+Package pdftex.def Info: img/graficos-fase2/fig-history-alexnet-relu-data-augmentation-2-1.png  used on input line 44.
 (pdftex.def)             Requested size: 241.84843pt x 161.23528pt.
-<img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentation-2-1.png, id=62, 4
-33.62pt x 289.08pt>
-File: img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentation-2-1.png Grap
-hic file (type png)
+<img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentation-2-1.png, id=171, 433.62pt x 289.08pt>
+File: img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentation-2-1.png Graphic file (type png)
 <use img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentation-2-1.png>
-Package pdftex.def Info: img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmen
-tation-2-1.png  used on input line 49.
+Package pdftex.def Info: img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentation-2-1.png  used on input line 49.
 (pdftex.def)             Requested size: 241.84843pt x 161.23528pt.
-<img/graficos-fase2/fig-history-alexnet-lrelu-data-augmentation-2-2.png, id=63,
- 433.62pt x 289.08pt>
-File: img/graficos-fase2/fig-history-alexnet-lrelu-data-augmentation-2-2.png Gr
-aphic file (type png)
+<img/graficos-fase2/fig-history-alexnet-lrelu-data-augmentation-2-2.png, id=172, 433.62pt x 289.08pt>
+File: img/graficos-fase2/fig-history-alexnet-lrelu-data-augmentation-2-2.png Graphic file (type png)
 <use img/graficos-fase2/fig-history-alexnet-lrelu-data-augmentation-2-2.png>
-Package pdftex.def Info: img/graficos-fase2/fig-history-alexnet-lrelu-data-augm
-entation-2-2.png  used on input line 55.
+Package pdftex.def Info: img/graficos-fase2/fig-history-alexnet-lrelu-data-augmentation-2-2.png  used on input line 55.
 (pdftex.def)             Requested size: 241.84843pt x 161.23528pt.
-<img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augmentation-2-2.png, id=64, 
-433.62pt x 289.08pt>
-File: img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augmentation-2-2.png Gra
-phic file (type png)
+<img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augmentation-2-2.png, id=173, 433.62pt x 289.08pt>
+File: img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augmentation-2-2.png Graphic file (type png)
 <use img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augmentation-2-2.png>
-Package pdftex.def Info: img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augme
-ntation-2-2.png  used on input line 60.
+Package pdftex.def Info: img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augmentation-2-2.png  used on input line 60.
 (pdftex.def)             Requested size: 241.84843pt x 161.23528pt.
 
 Overfull \hbox (2.61609pt too wide) in paragraph at lines 41--62
@@ -1163,17 +1106,13 @@ Overfull \hbox (2.61609pt too wide) in paragraph at lines 41--62
 []$ $[]$ 
  []
 
-File: img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augmentation-2-2.png Gra
-phic file (type png)
+File: img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augmentation-2-2.png Graphic file (type png)
 <use img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augmentation-2-2.png>
-Package pdftex.def Info: img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augme
-ntation-2-2.png  used on input line 70.
+Package pdftex.def Info: img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augmentation-2-2.png  used on input line 70.
 (pdftex.def)             Requested size: 241.84843pt x 161.23528pt.
-File: img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentation-2-1.png Grap
-hic file (type png)
+File: img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentation-2-1.png Graphic file (type png)
 <use img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentation-2-1.png>
-Package pdftex.def Info: img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmen
-tation-2-1.png  used on input line 75.
+Package pdftex.def Info: img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentation-2-1.png  used on input line 75.
 (pdftex.def)             Requested size: 241.84843pt x 161.23528pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 95.
@@ -1181,13 +1120,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 101.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 101.
-[4 </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/graficos-fase2/fig-h
-istory-alexnet-relu-data-augmentation-2-1.png> </home/nicoli/github/nicoli-tcc/
-tcc2/template-texto/img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentatio
-n-2-1.png> </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/graficos-fas
-e2/fig-history-alexnet-lrelu-data-augmentation-2-2.png> </home/nicoli/github/ni
-coli-tcc/tcc2/template-texto/img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-a
-ugmentation-2-2.png>]
+[11 </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/graficos-fase2/fig-history-alexnet-relu-data-augmentation-2-1.png> </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/graficos-fase2/fig-reta-0-alexnet-relu-data-augmentation-2-1.png> </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/graficos-fase2/fig-history-alexnet-lrelu-data-augmentation-2-2.png> </home/nicoli/github/nicoli-tcc/tcc2/template-texto/img/graficos-fase2/fig-reta-0-alexnet-lrelu-data-augmentation-2-2.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 101.
 )
@@ -1195,8 +1128,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 61.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 61.
- [5]
-Cap\'{\i }tulo 2.
+ [12]
+Cap\'{\i }tulo 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 61.
 (/home/nicoli/github/nicoli-tcc/tcc2/template-texto/files/consid_finais.tex)
@@ -1204,24 +1137,19 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 63.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 63.
-
-[6
+ [13
 
 ] (/home/nicoli/github/nicoli-tcc/tcc2/template-texto/novoIndex.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
- [7]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 8.
-
-)
+ [14])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 70.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 70.
- [8
+ [15
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
@@ -1230,7 +1158,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `novoIndex.out' has not changed.
-(rerunfilecheck)             Checksum: E8A20025F4FEAF2FD6DFB91BA3BC3A6E;321.
+(rerunfilecheck)             Checksum: 7FE78505C1B50BADE027720559E4B4D4;668.
 
 
 LaTeX Warning: There were undefined references.
@@ -1240,25 +1168,19 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22114 strings out of 492648
- 399239 string characters out of 6132015
- 499078 words of memory out of 5000000
- 25464 multiletter control sequences out of 15000+600000
- 34175 words of font info for 71 fonts, out of 8000000 for 9000
+ 22352 strings out of 492648
+ 404430 string characters out of 6132015
+ 505445 words of memory out of 5000000
+ 25633 multiletter control sequences out of 15000+600000
+ 53090 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,10n,92p,1053b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on /home/nicoli/github/nicoli-tcc/tcc2/template-texto/novoIndex.
-pdf (8 pages, 163834 bytes).
+ 64i,16n,92p,1053b,706s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on /home/nicoli/github/nicoli-tcc/tcc2/template-texto/novoIndex.pdf (15 pages, 8291492 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
