@@ -5,45 +5,4 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[Brink, Richards e Fetherolf 2016]{brink2016real}
-\abntrefinfo{Brink, Richards e Fetherolf}{BRINK; RICHARDS; FETHEROLF}{2016}
-{BRINK, H.; RICHARDS, J.; FETHEROLF, M. \emph{Real-World Machine Learning}.
-  1st. ed. Greenwich, CT, USA: Manning Publications Co., 2016.
-ISBN 1617291927, 9781617291920.}
-
-\bibitem[Maas, Hannun e Ng 2013]{maas2013rectifier}
-\abntrefinfo{Maas, Hannun e Ng}{MAAS; HANNUN; NG}{2013}
-{MAAS, A.~L.; HANNUN, A.~Y.; NG, A.~Y. Rectifier nonlinearities improve neural
-  network acoustic models. In:  ICML. \emph{in ICML Workshop on Deep Learning
-  for Audio, Speech and Language Processing}. 2013. Dispon{\'\i}vel em:
-  \url{http://web.stanford.edu/~awni/papers/relu\_hybrid\_icml2013\_final.pdf}.}
-
-\bibitem[Rothe, Timofte e Gool 2015]{rothe2015dex}
-\abntrefinfo{Rothe, Timofte e Gool}{ROTHE; TIMOFTE; GOOL}{2015a}
-{ROTHE, R.; TIMOFTE, R.; GOOL, L.~V. Dex: Deep expectation of apparent age from
-  a single image. In:  \emph{2015 IEEE International Conference on Computer
-  Vision Workshop (ICCVW)}. Santiago, Chile: IEEE, 2015. v.~00, p. 252--257.
-  Dispon{\'\i}vel em: \url{doi.ieeecomputersociety.org/10.1109/ICCVW.2015.41}.}
-
-\bibitem[Rothe, Timofte e Gool 2015]{IMDb_derivada}
-\abntrefinfo{Rothe, Timofte e Gool}{ROTHE; TIMOFTE; GOOL}{2015b}
-{ROTHE, R.; TIMOFTE, R.; GOOL, L.~V. \emph{IMDB-WIKI – 500k+ face images with
-  age and gender labels}. 2015.
-Acessado em \today.
-Dispon{\'\i}vel em:
-  \url{https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/}.}
-
-\bibitem[Tensorflow 2018]{tensorflow:alexnet}
-\abntrefinfo{Tensorflow}{TENSORFLOW}{2018}
-{TENSORFLOW. \emph{AlexNet}. 2018.
-Acessado em 11 de Junho de 2018.
-Dispon{\'\i}vel em:
-  \url{https://github.com/tensorflow/models/blob/master/research/slim/nets/alexnet.py}.}
-
-\bibitem[Willmott e Matsuura 2005]{willmott2005advantages}
-\abntrefinfo{Willmott e Matsuura}{WILLMOTT; MATSUURA}{2005}
-{WILLMOTT, C.~J.; MATSUURA, K. Advantages of the mean absolute error (mae) over
-  the root mean square error (rmse) in assessing average model performance.
-\emph{Climate research}, v.~30, n.~1, p. 79--82, 2005.}
-
 \end{thebibliography}
