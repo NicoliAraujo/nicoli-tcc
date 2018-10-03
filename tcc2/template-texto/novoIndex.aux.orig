@@ -20,66 +20,113 @@
 \citation{abnt-url-package=url}
 \providecommand \oddpage@label [2]{}
 \babel@aux{brazil}{}
+<<<<<<< HEAD
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Resultados e Discuss\IeC {\~a}o}{ii}{chapter.1}}
+=======
+\citation{brink2016real}
+\citation{willmott2005advantages}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Solu\IeC {\c c}\IeC {\~a}o Proposta}{ii}{chapter.1}}
+>>>>>>> 11176e7c61353cbd1377c5ca11831deae2a4e115
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.0.1}Abordagem 1}{ii}{subsection.1.0.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Resultados do treinamento e teste da CNN LeNet.\relax }}{iii}{figure.caption.1}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 <<<<<<< HEAD
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.0.2}Abordagem 2}{ii}{subsection.1.0.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.0.3}Abordagem 3}{iii}{subsection.1.0.3}}
-\newlabel{sec:resultados}{{1.0.3}{iii}{Abordagem 3}{subsection.1.0.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Redes neurais biol\IeC {\'o}gicas.\relax }}{iii}{figure.caption.1}}
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:histalexlrelunorm}{{1.1a}{iii}{Treinamento Alexnet LRelU com imagens normalizadas e equalizadas\relax }{figure.caption.1}{}}
-\newlabel{sub@fig:histalexlrelunorm}{{a}{iii}{Treinamento Alexnet LRelU com imagens normalizadas e equalizadas\relax }{figure.caption.1}{}}
-\newlabel{fig:redeneuralbiologica}{{1.1b}{iii}{Treinamento Alexnet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.1}{}}
-\newlabel{sub@fig:redeneuralbiologica}{{b}{iii}{Treinamento Alexnet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.1}{}}
-\newlabel{fig:redeneuralbiologica}{{1.1c}{iii}{Treinamento LeNet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.1}{}}
-\newlabel{sub@fig:redeneuralbiologica}{{c}{iii}{Treinamento LeNet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.1}{}}
-\newlabel{fig:redeneuralbiologica}{{1.1d}{iii}{Treinamento LeNet RelU com imagens normalizadas e equalizadas\relax }{figure.caption.1}{}}
-\newlabel{sub@fig:redeneuralbiologica}{{d}{iii}{Treinamento LeNet RelU com imagens normalizadas e equalizadas\relax }{figure.caption.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Redes neurais biol\IeC {\'o}gicas.\relax }}{iv}{figure.caption.2}}
-\newlabel{fig:histalexlrelunorm}{{1.2a}{iv}{Reta-0 Alexnet LRelU com imagens normalizadas e equalizadas\relax }{figure.caption.2}{}}
-\newlabel{sub@fig:histalexlrelunorm}{{a}{iv}{Reta-0 Alexnet LRelU com imagens normalizadas e equalizadas\relax }{figure.caption.2}{}}
-\newlabel{fig:redeneuralbiologica}{{1.2b}{iv}{Reta-0 Alexnet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.2}{}}
-\newlabel{sub@fig:redeneuralbiologica}{{b}{iv}{Reta-0 Alexnet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.2}{}}
-\newlabel{fig:redeneuralbiologica}{{1.2c}{iv}{Reta-0 LeNet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.2}{}}
-\newlabel{sub@fig:redeneuralbiologica}{{c}{iv}{Reta-0 LeNet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.2}{}}
-\newlabel{fig:redeneuralbiologica}{{1.2d}{iv}{Reta-0 LeNet RelU com imagens normalizadas e equalizadas\relax }{figure.caption.2}{}}
-\newlabel{sub@fig:redeneuralbiologica}{{d}{iv}{Reta-0 LeNet RelU com imagens normalizadas e equalizadas\relax }{figure.caption.2}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {2}Considera\IeC {\c c}\IeC {\~o}es Finais}{v}{chapter.2}}
-=======
-\@writefile{lot}{\contentsline {table}{\numberline {1.1}{\ignorespaces Resultados preliminares do treino e teste dos modelos propostos utilizando \emph  {ReLU} na camada de sa\IeC {\'\i }da.\relax }}{ii}{table.caption.1}}
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{tab:results_relu}{{1.1}{ii}{Resultados preliminares do treino e teste dos modelos propostos utilizando \emph {ReLU} na camada de saída.\relax }{table.caption.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {1.2}{\ignorespaces Resultados preliminares do treino e teste dos modelos propostos utilizando \emph  {Leaky ReLU} na camada de sa\IeC {\'\i }da.\relax }}{iii}{table.caption.2}}
-\newlabel{tab:results_leaky}{{1.2}{iii}{Resultados preliminares do treino e teste dos modelos propostos utilizando \emph {Leaky ReLU} na camada de saída.\relax }{table.caption.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.0.2}Abordagem 2}{iii}{subsection.1.0.2}}
-\newlabel{sec:resultados}{{1.0.2}{iii}{Abordagem 2}{subsection.1.0.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Redes neurais biol\IeC {\'o}gicas.\relax }}{iv}{figure.caption.3}}
-\newlabel{fig:histalexlrelunorm}{{1.1a}{iv}{Treinamento Alexnet LRelU com imagens normalizadas e equalizadas\relax }{figure.caption.3}{}}
-\newlabel{sub@fig:histalexlrelunorm}{{a}{iv}{Treinamento Alexnet LRelU com imagens normalizadas e equalizadas\relax }{figure.caption.3}{}}
-\newlabel{fig:redeneuralbiologica}{{1.1b}{iv}{Treinamento Alexnet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.3}{}}
-\newlabel{sub@fig:redeneuralbiologica}{{b}{iv}{Treinamento Alexnet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.3}{}}
-\newlabel{fig:redeneuralbiologica}{{1.1c}{iv}{Treinamento LeNet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.3}{}}
-\newlabel{sub@fig:redeneuralbiologica}{{c}{iv}{Treinamento LeNet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Redes neurais biol\IeC {\'o}gicas.\relax }}{v}{figure.caption.4}}
-\newlabel{fig:histalexlrelunorm}{{1.2a}{v}{Reta-0 Alexnet LRelU com imagens normalizadas e equalizadas\relax }{figure.caption.4}{}}
-\newlabel{sub@fig:histalexlrelunorm}{{a}{v}{Reta-0 Alexnet LRelU com imagens normalizadas e equalizadas\relax }{figure.caption.4}{}}
-\newlabel{fig:redeneuralbiologica}{{1.2b}{v}{Reta-0 Alexnet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.4}{}}
-\newlabel{sub@fig:redeneuralbiologica}{{b}{v}{Reta-0 Alexnet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.4}{}}
-\newlabel{fig:redeneuralbiologica}{{1.2c}{v}{Reta-0 LeNet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.4}{}}
-\newlabel{sub@fig:redeneuralbiologica}{{c}{v}{Reta-0 LeNet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Redes neurais biol\IeC {\'o}gicas.\relax }}{v}{figure.caption.5}}
-\newlabel{fig:histalexlrelunorm}{{1.3a}{v}{Diferença de previsões Alexnet LRelU com imagens normalizadas e equalizadas\relax }{figure.caption.5}{}}
-\newlabel{sub@fig:histalexlrelunorm}{{a}{v}{Diferença de previsões Alexnet LRelU com imagens normalizadas e equalizadas\relax }{figure.caption.5}{}}
-\newlabel{fig:redeneuralbiologica}{{1.3b}{v}{Diferença de previsões Alexnet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.5}{}}
-\newlabel{sub@fig:redeneuralbiologica}{{b}{v}{Diferença de previsões Alexnet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.5}{}}
-\newlabel{fig:redeneuralbiologica}{{1.3c}{v}{Diferença de previsões LeNet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.5}{}}
-\newlabel{sub@fig:redeneuralbiologica}{{c}{v}{Diferença de previsões LeNet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.5}{}}
+\newlabel{fig:lenet-abordagem1}{{1.1}{iii}{Resultados do treinamento e teste da CNN LeNet.\relax }{figure.caption.1}{}}
+\newlabel{fig:redeneuralbiologica}{{1.1a}{iii}{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph {ReLU}.\relax }{figure.caption.1}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{a}{iii}{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph {ReLU}.\relax }{figure.caption.1}{}}
+\newlabel{fig:redeneuralbiologica}{{1.1b}{iii}{Reta-0 LeNet \emph {ReLU}.\relax }{figure.caption.1}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{b}{iii}{Reta-0 LeNet \emph {ReLU}.\relax }{figure.caption.1}{}}
+\newlabel{fig:redeneuralbiologica}{{1.1c}{iii}{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph {Leaky ReLU}.\relax }{figure.caption.1}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{c}{iii}{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph {Leaky ReLU}.\relax }{figure.caption.1}{}}
+\newlabel{fig:redeneuralbiologica}{{1.1d}{iii}{Reta-0 LeNet \emph {Leaky ReLU}.\relax }{figure.caption.1}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{d}{iii}{Reta-0 LeNet \emph {Leaky ReLU}.\relax }{figure.caption.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Resultados do treinamento e teste da CNN AlexNet.\relax }}{iv}{figure.caption.2}}
+\newlabel{fig:alexnet-abordagem1}{{1.2}{iv}{Resultados do treinamento e teste da CNN AlexNet.\relax }{figure.caption.2}{}}
+\newlabel{fig:redeneuralbiologica}{{1.2a}{iv}{Treinamento AlexNet \emph {ReLU}.\relax }{figure.caption.2}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{a}{iv}{Treinamento AlexNet \emph {ReLU}.\relax }{figure.caption.2}{}}
+\newlabel{fig:reta0reludying}{{1.2b}{iv}{Reta-0 AlexNet \emph {ReLU}.\relax }{figure.caption.2}{}}
+\newlabel{sub@fig:reta0reludying}{{b}{iv}{Reta-0 AlexNet \emph {ReLU}.\relax }{figure.caption.2}{}}
+\newlabel{fig:histalexlrelunorm}{{1.2c}{iv}{Treinamento AlexNet \emph {Leaky ReLU}.\relax }{figure.caption.2}{}}
+\newlabel{sub@fig:histalexlrelunorm}{{c}{iv}{Treinamento AlexNet \emph {Leaky ReLU}.\relax }{figure.caption.2}{}}
+\newlabel{fig:redeneuralbiologica}{{1.2d}{iv}{Reta-0 AlexNet \emph {Leaky ReLU}.\relax }{figure.caption.2}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{d}{iv}{Reta-0 AlexNet \emph {Leaky ReLU}.\relax }{figure.caption.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1.1}{\ignorespaces Resultados do treino e teste dos modelos propostos na Abordagem 1.\relax }}{iv}{table.caption.4}}
+\newlabel{tab:results-2}{{1.1}{iv}{Resultados do treino e teste dos modelos propostos na Abordagem 1.\relax }{table.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.0.2}Abordagem 2}{v}{subsection.1.0.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.0.3}Abordagem 3}{v}{subsection.1.0.3}}
+\newlabel{sec:resultados}{{1.0.3}{v}{Abordagem 3}{subsection.1.0.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Redes neurais biol\IeC {\'o}gicas.\relax }}{v}{figure.caption.3}}
+\newlabel{fig:histalexlrelunorm}{{1.3a}{v}{Reta-0 Alexnet LRelU com imagens normalizadas e equalizadas\relax }{figure.caption.3}{}}
+\newlabel{sub@fig:histalexlrelunorm}{{a}{v}{Reta-0 Alexnet LRelU com imagens normalizadas e equalizadas\relax }{figure.caption.3}{}}
+\newlabel{fig:redeneuralbiologica}{{1.3b}{v}{Reta-0 Alexnet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.3}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{b}{v}{Reta-0 Alexnet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.3}{}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Considera\IeC {\c c}\IeC {\~o}es Finais}{vi}{chapter.2}}
->>>>>>> 7287c22bb31ec1eff67afb9f84f8c7a1378bd888
+=======
+\newlabel{fig:deniro_cnn}{{1.1}{iii}{Tarefa de aprendizado\relax }{figure.caption.1}{}}
+\newlabel{eq:rmse}{{1.1}{iii}{Tarefa de Aprendizado}{equation.1.1.1}{}}
+\newlabel{eq:mae}{{1.2}{iii}{Tarefa de Aprendizado}{equation.1.1.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Conjunto de Dados}{iii}{section.1.2}}
+\newlabel{subsec:dataset}{{1.2}{iii}{Conjunto de Dados}{section.1.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Exemplo de imagem do conjunto de dados contendo apenas um rosto.\relax }}{iv}{figure.caption.2}}
+\newlabel{tab:um_deniro}{{1.2}{iv}{Exemplo de imagem do conjunto de dados contendo apenas um rosto.\relax }{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classifica\IeC {\c c}\IeC {\~a}o correta.\relax }}{v}{figure.caption.3}}
+\newlabel{tab:dois_deniro_correto}{{1.3}{v}{Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classificação correta.\relax }{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classifica\IeC {\c c}\IeC {\~a}o err\IeC {\^o}nea.\relax }}{v}{figure.caption.4}}
+\newlabel{tab:dois_deniro_errado}{{1.4}{v}{Exemplo de imagem do conjunto de dados contendo mais de um rosto com a classificação errônea.\relax }{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Limpeza e Pr\IeC {\'e}-processamento dos dados}{vi}{section.1.3}}
+\newlabel{subsec:limpeza}{{1.3}{vi}{Limpeza e Pré-processamento dos dados}{section.1.3}{}}
+\@writefile{tdo}{\contentsline {todo}{figura com e sem equaliza\IeC {\c c}\IeC {\~a}o do histogram, colocar cita\IeC {\c c}\IeC {\~a}o da normaliza\IeC {\c c}\IeC {\~a}o e da equaliza\IeC {\c c}\IeC {\~a}o por histograma}{vi}{section*.5}}
+\pgfsyspdfmark {pgfid1}{29658786}{18034937}
+\pgfsyspdfmark {pgfid4}{37844000}{18052043}
+\pgfsyspdfmark {pgfid5}{39603723}{17781317}
+\citation{tensorflow:alexnet}
+\citation{maas2013rectifier}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces Histograma de frequ\IeC {\^e}ncia da idade do conjunto de dados utilizado.\relax }}{vii}{figure.caption.6}}
+\newlabel{fig:hist}{{1.5}{vii}{Histograma de frequência da idade do conjunto de dados utilizado.\relax }{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}Modelos de CNN Considerados}{vii}{section.1.4}}
+\newlabel{subsec:modelos}{{1.4}{vii}{Modelos de CNN Considerados}{section.1.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces Fun\IeC {\c c}\IeC {\~a}o de Ativa\IeC {\c c}\IeC {\~a}o \emph  {Leaky ReLU}\relax }}{viii}{figure.caption.7}}
+\newlabel{fig:lrelu}{{1.6}{viii}{Função de Ativação \emph {Leaky ReLU}\relax }{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Resultados e Discuss\IeC {\~a}o}{ix}{chapter.2}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{loa}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.0.1}Abordagem 1}{ix}{subsection.2.0.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Resultados do treinamento e teste da CNN LeNet.\relax }}{x}{figure.caption.8}}
+\newlabel{fig:lenet-abordagem1}{{2.1}{x}{Resultados do treinamento e teste da CNN LeNet.\relax }{figure.caption.8}{}}
+\newlabel{fig:redeneuralbiologica}{{2.1a}{x}{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph {ReLU}.\relax }{figure.caption.8}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{a}{x}{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph {ReLU}.\relax }{figure.caption.8}{}}
+\newlabel{fig:redeneuralbiologica}{{2.1b}{x}{Reta-0 LeNet \emph {ReLU}.\relax }{figure.caption.8}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{b}{x}{Reta-0 LeNet \emph {ReLU}.\relax }{figure.caption.8}{}}
+\newlabel{fig:redeneuralbiologica}{{2.1c}{x}{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph {Leaky ReLU}.\relax }{figure.caption.8}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{c}{x}{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph {Leaky ReLU}.\relax }{figure.caption.8}{}}
+\newlabel{fig:redeneuralbiologica}{{2.1d}{x}{Reta-0 LeNet \emph {Leaky ReLU}.\relax }{figure.caption.8}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{d}{x}{Reta-0 LeNet \emph {Leaky ReLU}.\relax }{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Resultados do treinamento e teste da CNN AlexNet.\relax }}{xi}{figure.caption.9}}
+\newlabel{fig:alexnet-abordagem1}{{2.2}{xi}{Resultados do treinamento e teste da CNN AlexNet.\relax }{figure.caption.9}{}}
+\newlabel{fig:redeneuralbiologica}{{2.2a}{xi}{Treinamento AlexNet \emph {ReLU}.\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{a}{xi}{Treinamento AlexNet \emph {ReLU}.\relax }{figure.caption.9}{}}
+\newlabel{fig:redeneuralbiologica}{{2.2b}{xi}{Reta-0 AlexNet \emph {ReLU}.\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{b}{xi}{Reta-0 AlexNet \emph {ReLU}.\relax }{figure.caption.9}{}}
+\newlabel{fig:histalexlrelunorm}{{2.2c}{xi}{Treinamento AlexNet \emph {Leaky ReLU}.\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:histalexlrelunorm}{{c}{xi}{Treinamento AlexNet \emph {Leaky ReLU}.\relax }{figure.caption.9}{}}
+\newlabel{fig:redeneuralbiologica}{{2.2d}{xi}{Reta-0 AlexNet \emph {Leaky ReLU}.\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{d}{xi}{Reta-0 AlexNet \emph {Leaky ReLU}.\relax }{figure.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces Resultados do treino e teste dos modelos propostos.\relax }}{xi}{table.caption.11}}
+\newlabel{tab:results-2}{{2.1}{xi}{Resultados do treino e teste dos modelos propostos.\relax }{table.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.0.2}Abordagem 2}{xii}{subsection.2.0.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.0.3}Abordagem 3}{xii}{subsection.2.0.3}}
+\newlabel{sec:resultados}{{2.0.3}{xii}{Abordagem 3}{subsection.2.0.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Redes neurais biol\IeC {\'o}gicas.\relax }}{xii}{figure.caption.10}}
+\newlabel{fig:histalexlrelunorm}{{2.3a}{xii}{Reta-0 Alexnet LRelU com imagens normalizadas e equalizadas\relax }{figure.caption.10}{}}
+\newlabel{sub@fig:histalexlrelunorm}{{a}{xii}{Reta-0 Alexnet LRelU com imagens normalizadas e equalizadas\relax }{figure.caption.10}{}}
+\newlabel{fig:redeneuralbiologica}{{2.3b}{xii}{Reta-0 Alexnet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.10}{}}
+\newlabel{sub@fig:redeneuralbiologica}{{b}{xii}{Reta-0 Alexnet ReLU com imagens normalizadas e equalizadas\relax }{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Considera\IeC {\c c}\IeC {\~o}es Finais}{xiii}{chapter.3}}
+>>>>>>> 11176e7c61353cbd1377c5ca11831deae2a4e115
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
