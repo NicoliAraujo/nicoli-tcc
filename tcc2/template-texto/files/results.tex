@@ -14,22 +14,22 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 		\caption{Resultados do treinamento e teste da CNN LeNet de acordo com a Abordagem 1.}\label{fig:lenet-abordagem1}
 	  \begin{subfigure}[hb]{0.5\linewidth}
 	    \caption{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph{ReLU}.}
-	    \label{fig:redeneuralbiologica}
+
 	    \includegraphics[width=\linewidth]{img/graficos/history/lenet/fig-history-image-treat-1-lenet-relu-rmse.png}%
 	  \end{subfigure}%
 		\begin{subfigure}[hb]{0.5\linewidth}
 			\caption{Reta-0 LeNet \emph{ReLU}.}
-			\label{fig:redeneuralbiologica}
+
 			\includegraphics[width=\linewidth]{img/graficos/reta0/lenet/fig-reta-0-image-treat-1-lenet-relu.png}%
 		\end{subfigure}\\
 	  \begin{subfigure}[hb]{0.5\linewidth}
 	    \caption{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph{Leaky ReLU}.}
-	    \label{fig:redeneuralbiologica}
+
 	    \includegraphics[width=\linewidth]{img/graficos/history/lenet/fig-history-image-treat-1-lenet-lrelu-rmse.png}
 	  \end{subfigure}
 		\begin{subfigure}[hb]{0.5\linewidth}
 			\caption{Reta-0 LeNet \emph{Leaky ReLU}.}
-			\label{fig:redeneuralbiologica}
+
 		 \includegraphics[width=\linewidth]{img/graficos/reta0/lenet/fig-reta-0-image-treat-1-lenet-lrelu.png}
 		\end{subfigure}%
 	\end{figure}
@@ -38,7 +38,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 		\caption{Resultados do treinamento e teste da CNN AlexNet de acordo com a Abordagem 1.}\label{fig:alexnet-abordagem1}
 		\begin{subfigure}[hb]{0.5\linewidth}
 			\caption{Treinamento AlexNet \emph{ReLU}.}
-			\label{fig:redeneuralbiologica}
+
 			\includegraphics[width=\linewidth]{img/graficos/history/alexnet/fig-history-image-treat-1-alexnet-relu-rmse.png}
 		\end{subfigure}
 	  \begin{subfigure}[hb]{0.5\linewidth}
@@ -54,7 +54,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 		\end{subfigure}
 	  \begin{subfigure}[hb]{0.5\linewidth}
 	    \caption{Reta-0 AlexNet \emph{Leaky ReLU}.}
-	    \label{fig:redeneuralbiologica}
+
 	    \includegraphics[width=\linewidth]{img/graficos/reta0/alexnet/fig-reta-0-image-treat-1-alexnet-lrelu.png}
 	  \end{subfigure}%
 	\end{figure}
@@ -149,7 +149,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 	O efeito positivo esperado pelo \emph{data augmentation} não se mostrou tão evidente quanto se esperava inicialmente. Porém, isto pode acontecer em razão dos valores dos hiperparâmetros e da necessidade de melhor pré-processamento das imagens antes da apresentação às CNNs, o que motivou a realização da abordagem a seguir.
 
 \section{Abordagem 3: Introduzindo Equalização de Histograma}%com data augmentation, com normalização e com equalização
-	A terceira abordagem utilizou as imagens da base de dados normalizadas e técnicas de \emph{data augmentation} previamente mencionadas. Considerando os resultados obtidos na abordagem anterior, introduziu-se o processo de equalização das imagens por histograma, que ajusta o contraste da imagem utilizando o histograma de cores. Este método aumenta o contraste global de imagens, especialmente quando os dados úteis da imagem são representados por cores próximas. Isto faz com que áreas de contraste menor ganhem mais contraste. No contexto da detecção de idade por meio da imagem da face de determinado indivíduo, a equalização por histograma reforça marcas de expressões e outras imperfeições \cite{acharya2005image}. %É possivel observar na Figura \ref{} uma imagem do conjunto de dados original e após o processo de equalização por histograma.
+	A terceira abordagem utilizou as imagens da base de dados normalizadas e técnicas de \emph{data augmentation} previamente mencionadas. Considerando os resultados obtidos na abordagem anterior, introduziu-se o processo de equalização das imagens por histograma, que ajusta o contraste da imagem utilizando o histograma de cores. Este método aumenta o contraste global de imagens, especialmente quando os dados úteis da imagem são representados por cores próximas. No contexto da detecção de idade por meio da imagem da face de determinado indivíduo, a equalização por histograma reforça marcas de expressões e outras imperfeições \cite{acharya2005image}. %É possivel observar na Figura \ref{} uma imagem do conjunto de dados original e após o processo de equalização por histograma.
 
 	A partir desta abordagem foran obtidos os gráficos de trenamento e a reta-0 das redes LeNet e AlexNet, que estão nas Figuras \ref{fig:lenet-abordagem3} e \ref{fig:alexnet-abordagem3}, respectivamente.
 
@@ -224,7 +224,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 		\begin{subfigure}[hb]{0.5\linewidth}
 			\caption{Reta-0 LeNet \emph{ReLU}.}
 			\includegraphics[width=\linewidth]{img/graficos/reta0/lenet/fig-reta-0-abordagem-4-lenet-relu.png}%
-		\end{subfigure}\\
+		\end{subfigure}
 	\end{figure}
 
 	Obedecendo ao método de validação cruzada \emph{holdout} previamente mencionado, os resultados desta abordagem encontram-se sintetizados na Tabela \ref{tab:results-4}.
@@ -276,7 +276,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 
 
 \section{Abordagem 6: VGG-16}
-	Após a utilização exaustiva de redes mais simples, decidiu-se por utilizar uma rede canônica mais extensa. A VGG-16, detalhada na Seção \ref{sec:canonicos} \todo{add label}, foi treinada sem utilizar técnicas de \emph{transfer learning}. Removeu-se a última camada, responsável pela classificação, e adicionou-se uma camada densa com função de ativação ReLU. Os resultados obtidos estão na Figura \ref{fig:vgg-abordagem6}.
+	Após a vasta utilização das redes canônicas LeNet e AlexNet, decidiu-se por utilizar uma rede canônica mais extensa. A VGG-16, detalhada na Seção \ref{subsec:modelos}, foi treinada para a tarefa de predição de idade sem utilizar técnicas de \emph{transfer learning}. Removeu-se a última camada, responsável pela classificação, e adicionou-se uma camada densa com função de ativação \emph{ReLU}. Os resultados obtidos estão na Figura \ref{fig:vgg-abordagem6}.
 
 		\begin{figure}[hb!]
 			\caption{Resultados do treinamento e teste da CNN VGG-16 de acordo com a Abordagem 6.}\label{fig:vgg-abordagem6}
@@ -293,30 +293,30 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 \begin{table}[!ht]
 	\centering
 	\caption{Resultados do treino e teste dos modelos propostos na Abordagem 6.}
-	\label{tab:results-2}
+	\label{tab:results-6}
 		\begin{tabular}{l l l l l l l}
 			\toprule
 			Rede & Função de ativação & Épocas & MAE Teste & RMSE Teste \\
 			\midrule
-			%%LeNet & \emph{ReLU} & 9 &  10.09 & 13.04 \\
+			VGG-16 & \emph{ReLU} & 11 & 40.90 & 38.35 \\
 			\bottomrule
 		\end{tabular}
 	\end{table}
-	Observa-se que a rede foi vítima de \emph{Dying ReLU problem}. Com o objetivo de contornar este problema, decidiu-se utilizar \emph{Data Augmentation} e normalização por histograma de frequência.
+	Observa-se que a rede foi vítima de \emph{dying ReLU problem}. Com o objetivo de contornar este problema, decidiu-se utilizar \emph{data augmentation} e normalização por histograma de frequência.
 
 \section{Abordagem 7: VGG-16 com Data Augmentation}
 
-	A rede VGG-16 foi instanciada e treinada utilizando os mesmos parâmetros descritos na Abordagem 6. Porém, passou-se a utilizar \emph{Data Augmentation}, repetindo-se a configuração utilziada nas Abordagens 3 e 4.
+	A rede VGG-16 utilizada nesta abordagem foi instanciada e treinada com os mesmos parâmetros descritos na Abordagem 6. Porém, passou-se a utilizar \emph{data augmentation}, repetindo-se a configuração utiliziada nas Abordagens 2 a 4. Gráficos do treinamento e reta-0 estão na Figura \ref{fig:vgg-abordagem7}.
 
 		\begin{figure}[hb!]
-			\caption{Resultados do treinamento e teste da CNN VGG-16 de acordo com a Abordagem 7.}\label{fig:vgg-abordagem6}
+			\caption{Resultados do treinamento e teste da CNN VGG-16 de acordo com a Abordagem 7.}\label{fig:vgg-abordagem7}
 			\begin{subfigure}[hb]{0.5\linewidth}
 				\caption{MAE de treinamento da arquitetura VGG-16 utilizando funções de ativação \emph{ReLU}.}
 				\includegraphics[width=\linewidth]{img/graficos/history/vgg16/fig-history-abordagem7-vgg16-relu-mae.png}%
 			\end{subfigure}%
 			\begin{subfigure}[hb]{0.5\linewidth}
 				\caption{Reta-0 LeNet \emph{ReLU}.}
-				\includegraphics[width=\linewidth]{img/graficos/reta0/vgg6/fig-reta-0-abordagem7-vgg16-relu.png}%
+				\includegraphics[width=\linewidth]{img/graficos/reta0/vgg16/fig-reta-0-abordagem7-vgg16-relu.png}%
 			\end{subfigure}\\
 		\end{figure}
 
@@ -328,15 +328,14 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 			\toprule
 			Rede & Função de ativação & Épocas & MAE Teste & RMSE Teste \\
 			\midrule
-			%%LeNet & \emph{ReLU} & 9 &  10.09 & 13.04 \\
+			VGG-16 & \emph{ReLU} & 23 & 40.99 & 38.39 \\
 			\bottomrule
 		\end{tabular}
 	\end{table}
-	Observa-se que a rede foi vítima de \emph{Dying ReLU problem}. Com o objetivo de contornar este problema, decidiu-se utilizar \emph{Data Augmentation} e normalização por histograma de frequência.
 
+	Assim como na abordagem 6, a VGG-16 foi vítima de \emph{dying ReLU problem}, mesmo havendo mudanças nos hiperparâmetros da rede neural. Portanto, foi necessário realizar ajustes diretamente nos parâmetros da rede.
 
-
-\section{Abordagem 8: VGG-16 com Leaky ReLU e taxa de aprendizado de $0.003$}
-
-
-\section{Abordagem 9: SqueezeNet}
+% \section{Abordagem 8: VGG-16 com Leaky ReLU e taxa de aprendizado de $0.003$}
+%
+%
+% \section{Abordagem 9: SqueezeNet}
