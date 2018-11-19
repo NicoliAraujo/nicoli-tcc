@@ -176,7 +176,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 	\begin{figure}[hb!]
 		\caption{Resultados do treinamento e teste da CNN AlexNet de acordo com a Abordagem 3.}\label{fig:alexnet-abordagem3}
 		\begin{subfigure}[hb]{0.5\linewidth}
-			\caption{Treinamento AlexNet \emph{ReLU}.}
+			\caption{RMSE de treinamento da arquitetura AlexNet utilizando funções de ativação \emph{ReLU}.}
 			\includegraphics[width=\linewidth]{img/graficos/history/alexnet/fig-history-image-treat-3-alexnet-relu-rmse.png}
 		\end{subfigure}
 		\begin{subfigure}[hb]{0.5\linewidth}
@@ -184,7 +184,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 			\includegraphics[width=\linewidth]{img/graficos/reta0/alexnet/fig-reta-0-image-treat-3-alexnet-relu.png}%
 		\end{subfigure}\\
 		\begin{subfigure}[hb]{0.5\linewidth}
-			\caption{Treinamento AlexNet \emph{Leaky ReLU}.}
+			\caption{RMSE de treinamento da arquitetura AlexNet utilizando funções de ativação RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph{Leaky ReLU}.}
 			\centering
 			\includegraphics[width=\linewidth]{img/graficos/history/alexnet/fig-history-image-treat-3-alexnet-lrelu-rmse.png}
 		\end{subfigure}
@@ -218,7 +218,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 	\begin{figure}[hb!]
 		\caption{Resultados do treinamento e teste da CNN LeNet de acordo com a Abordagem 4.}\label{fig:lenet-abordagem4}
 		\begin{subfigure}[hb]{0.5\linewidth}
-			\caption{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph{ReLU}.}
+			\caption{MAE de treinamento da arquitetura LeNet utilizando funções de ativação \emph{ReLU}.}
 			\includegraphics[width=\linewidth]{img/graficos/history/lenet/fig-history-abordagem-4-lenet-relu-mae.png}%
 		\end{subfigure}%
 		\begin{subfigure}[hb]{0.5\linewidth}
@@ -250,7 +250,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 	\begin{figure}[hb!]
 		\caption{Resultados do treinamento e teste da CNN LeNet de acordo com a Abordagem 5.}\label{fig:lenet-abordagem5}
 		\begin{subfigure}[hb]{0.5\linewidth}
-			\caption{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph{ReLU}.}
+			\caption{MAE de treinamento da arquitetura LeNet utilizando funções de ativação \emph{ReLU}.}
 			\includegraphics[width=\linewidth]{img/graficos/history/lenet/fig-history-abordagem-5-lenet-relu-mae.png}%
 		\end{subfigure}%
 		\begin{subfigure}[hb]{0.5\linewidth}
@@ -264,7 +264,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 	\begin{table}[!ht]
 		\centering
 		\caption{Resultados do treino e teste dos modelos propostos na Abordagem 5.}
-		\label{tab:results-2}
+		\label{tab:results-5}
 			\begin{tabular}{l l l l l l l}
 				\toprule
 				Rede & Função de ativação & Épocas & MAE Teste & RMSE Teste \\
@@ -275,16 +275,68 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 		\end{table}
 
 
-\section{Abordagem x}
+\section{Abordagem 6: VGG-16}
+	Após a utilização exaustiva de redes mais simples, decidiu-se por utilizar uma rede canônica mais extensa. A VGG-16, detalhada na Seção \ref{sec:canonicos} \todo{add label}, foi treinada sem utilizar técnicas de \emph{transfer learning}. Removeu-se a última camada, responsável pela classificação, e adicionou-se uma camada densa com função de ativação ReLU. Os resultados obtidos estão na Figura \ref{fig:vgg-abordagem6}.
 
-- Mesmas redes
-- Normalização das imagens, equalização por histograma -> o que é
-- data augmentation ->  mais técnicas de data augmentation
+		\begin{figure}[hb!]
+			\caption{Resultados do treinamento e teste da CNN VGG-16 de acordo com a Abordagem 6.}\label{fig:vgg-abordagem6}
+			\begin{subfigure}[hb]{0.5\linewidth}
+				\caption{MAE de treinamento da arquitetura VGG-16 utilizando funções de ativação \emph{ReLU}.}
+				\includegraphics[width=\linewidth]{img/graficos/history/vgg16/fig-history-abordagem6-vgg16-relu-mae.png}%
+			\end{subfigure}%
+			\begin{subfigure}[hb]{0.5\linewidth}
+				\caption{Reta-0 LeNet \emph{ReLU}.}
+				\includegraphics[width=\linewidth]{img/graficos/reta0/vgg16/fig-reta-0-abordagem6-vgg16-relu.png}%
+			\end{subfigure}\\
+		\end{figure}
 
-\section{Abordagem x+1}
+\begin{table}[!ht]
+	\centering
+	\caption{Resultados do treino e teste dos modelos propostos na Abordagem 6.}
+	\label{tab:results-2}
+		\begin{tabular}{l l l l l l l}
+			\toprule
+			Rede & Função de ativação & Épocas & MAE Teste & RMSE Teste \\
+			\midrule
+			%%LeNet & \emph{ReLU} & 9 &  10.09 & 13.04 \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	Observa-se que a rede foi vítima de \emph{Dying ReLU problem}. Com o objetivo de contornar este problema, decidiu-se utilizar \emph{Data Augmentation} e normalização por histograma de frequência.
 
-Outras arquiteturas
-VGG
-com transfer learning
-1. Retirar última camada (softmax) e adicionar leaky relu
-2. Retirar duas últimas camadas (dense e softmax) e adicionar leaky relu
+\section{Abordagem 7: VGG-16 com Data Augmentation}
+
+	A rede VGG-16 foi instanciada e treinada utilizando os mesmos parâmetros descritos na Abordagem 6. Porém, passou-se a utilizar \emph{Data Augmentation}, repetindo-se a configuração utilziada nas Abordagens 3 e 4.
+
+		\begin{figure}[hb!]
+			\caption{Resultados do treinamento e teste da CNN VGG-16 de acordo com a Abordagem 7.}\label{fig:vgg-abordagem6}
+			\begin{subfigure}[hb]{0.5\linewidth}
+				\caption{MAE de treinamento da arquitetura VGG-16 utilizando funções de ativação \emph{ReLU}.}
+				\includegraphics[width=\linewidth]{img/graficos/history/vgg16/fig-history-abordagem7-vgg16-relu-mae.png}%
+			\end{subfigure}%
+			\begin{subfigure}[hb]{0.5\linewidth}
+				\caption{Reta-0 LeNet \emph{ReLU}.}
+				\includegraphics[width=\linewidth]{img/graficos/reta0/vgg6/fig-reta-0-abordagem7-vgg16-relu.png}%
+			\end{subfigure}\\
+		\end{figure}
+
+\begin{table}[!ht]
+	\centering
+	\caption{Resultados do treino e teste dos modelos propostos na Abordagem 6.}
+	\label{tab:results-2}
+		\begin{tabular}{l l l l l l l}
+			\toprule
+			Rede & Função de ativação & Épocas & MAE Teste & RMSE Teste \\
+			\midrule
+			%%LeNet & \emph{ReLU} & 9 &  10.09 & 13.04 \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	Observa-se que a rede foi vítima de \emph{Dying ReLU problem}. Com o objetivo de contornar este problema, decidiu-se utilizar \emph{Data Augmentation} e normalização por histograma de frequência.
+
+
+
+\section{Abordagem 8: VGG-16 com Leaky ReLU e taxa de aprendizado de $0.003$}
+
+
+\section{Abordagem 9: SqueezeNet}

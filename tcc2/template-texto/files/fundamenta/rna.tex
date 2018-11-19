@@ -47,8 +47,80 @@ Na ocasião de sua proposição, o modelo Perceptron apresentava algumas limita�
 \begin{figure}[!ht]
 	\caption{Arquiteturas populares de RNAs. Fonte: \cite{rnas_tipos}}
 	\label{fig:popular_archs}
-	\includegraphics[width=\linewidth]{img/popular_archs}
+
+	\begin{subfigure}[h]{0.15\linewidth}
+		\caption{Perceptron de Camada Única}
+		\label{fig:slp}
+		\centering
+		\includegraphics[width=0.6\linewidth]{img/pop_arch/single_layer_perceptron.jpg}
+	\end{subfigure}
+	\hspace{0.1cm}
+	\begin{subfigure}[h]{0.15\linewidth}
+		\caption{Radial Basis Network -- RBN}
+		\label{fig:rbm}
+		\centering
+		\includegraphics[width=0.9\linewidth]{img/pop_arch/radial_basis_network.jpg}
+	\end{subfigure}
+	\hspace{0.1cm}
+	\begin{subfigure}[h]{0.3\linewidth}
+		\caption{Multi Layer Perceptron -- MLP}
+		\label{fig:mlp}
+		\centering
+		\includegraphics[width=0.75\linewidth]{img/pop_arch/mlp.jpg}
+	\end{subfigure}
+	\hspace{0.1cm}
+	\begin{subfigure}[h]{0.3\linewidth}
+		\centering
+		\caption{Recurrent Neural Network -- RNN}
+		\label{fig:rnn}
+		\includegraphics[width=0.6\linewidth]{img/pop_arch/rnn.jpg}
+	\end{subfigure}\\
+
+	\begin{subfigure}[h]{0.3\linewidth}
+		\centering
+		\caption{Long Short-Time Memory RNNs}
+		\label{fig:lstm}
+		\includegraphics[width=0.6\linewidth]{img/pop_arch/lstm.jpg}
+	\end{subfigure}
+	\hspace{0.5cm}
+	\begin{subfigure}[h]{0.3\linewidth}
+		\centering
+		\caption{Hopfield Network}
+		\label{fig:hopfield}
+		\includegraphics[width=0.6\linewidth]{img/pop_arch/hopfield.jpg}
+	\end{subfigure}
+	\hspace{0.5cm}
+	\begin{subfigure}[h]{0.3\linewidth}
+		\centering
+		\caption{Boltzmann Machine}
+		\label{fig:boltzmann}
+		\includegraphics[width=0.6\linewidth]{img/pop_arch/boltzmann.jpg}
+	\end{subfigure}
 \end{figure}
+
+\begin{table}[H]
+	\centering
+	\caption{Legenda das unidades presentes nas redes neurais da Figura \ref{fig:popular_archs}.}
+	\label{tab:legenda_unidades}
+		\begin{tabular}{l l}
+			\toprule
+			Imagem 			 		& Unidade\\
+			\midrule
+			\Centerstack{\includegraphics[width=0.03\textwidth]{img/pop_arch/entrada.jpg}} & Entrada \\
+			\hline
+			\Centerstack{\includegraphics[width=0.03\textwidth]{img/pop_arch/saida.jpg}} & Saída \\
+			\hline
+			\Centerstack{\includegraphics[width=0.03\textwidth]{img/pop_arch/oculta.jpg}} & Oculta \\
+			\hline
+			\Centerstack{\includegraphics[width=0.05\textwidth]{img/pop_arch/feedback_memoria.jpg}} & Feedback com memória \\
+			\hline
+			\Centerstack{\includegraphics[width=0.05\textwidth]{img/pop_arch/backfeed.jpg}} & Entrada retroalimentada \\
+			\hline
+			\Centerstack{\includegraphics[width=0.05\textwidth]{img/pop_arch/probabilistica.jpg}} & Oculta probabilística \\
+			\bottomrule
+		\end{tabular}
+\end{table}
+
 
 % Desnecessário
 %No que tange à conectividade, uma RNA pode ser classificada como parcialmente ou totalmente conectada. O primeiro caso ocorre quando apenas alguns dos neurônios da camada anterior estão conectados aos da camada posterior. A RNA é dita totalmente conectada se todos os neurônios da camada anterior estão conectados aos da camada posterior.
