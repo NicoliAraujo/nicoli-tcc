@@ -1,16 +1,16 @@
 %!TEX root = ../novoIndex.tex
 
-Considerando a estratégia descrita na solução proposta, os resultados da execução das CNNs aplicadas ao problema de estimação de idade a partir de uma imagem de face são apresentados a seguir. Estes resultados estão organizados segundo abordagens sequenciais, que contemplam desde as técnicas mais elementares, e que vão aumentando o grau de complexidade conforme uso de estratégias específicas da prática de DL para a resolução de problemas práticos.
+Considerando a estratégia descrita na solução proposta, os resultados da execução das CNNs aplicadas ao problema de estimação de idade a partir de uma imagem de face são apresentados a seguir. Estes resultados estão organizados segundo abordagens sequenciais, que contemplam desde as técnicas mais elementares, e que vão aumentando o grau de complexidade conforme uso de estratégias específicas da prática de DL visando obter melhores resultados.
 
 \section{Abordagem 1: LeNet e AlexNet com Imagens Normalizadas}%sem data augmentation, com normalização e sem equalização
 
-	A primeira abordagem de treinamento considerou o uso dos modelos de maneira canônica, isto é, tais como são definidos na literatura. Adotou-se as funções de ativação não-lineares \emph{ReLU} e \emph{Leaky ReLU} por serem simples de calcular e por satisfazerem os critérios de continuidade e diferenciação, requeridos pelo algoritmo de \emph{backpropagation}, conforme discutido anteriormente na Seção \ref{subsec:modelos}.
+	A primeira abordagem de treinamento considerou o uso dos modelos LeNet e AlexNet de maneira canônica, isto é, tais como são definidos na literatura. Adotou-se as funções de ativação não-lineares \emph{ReLU} e \emph{Leaky ReLU} por serem simples de calcular e por satisfazerem os critérios de continuidade e diferenciação, requeridos pelo algoritmo de \emph{backpropagation}, conforme discutido anteriormente na Seção \ref{subsec:modelos}.
 
-	As imagens da base de dados foram normalizadas antes de serem apresentadas às redes. Todos os valores dos pixels componentes das imagens foram escalonados para o intervalo $[0,1]$ por meio de uma divisão por $255$. A prévia normalização das imagens antes da apresentação às CNNs colabora para uma melhor execução do gradiente descendente e diminui a variância nos pesos.
+	As imagens da base de dados foram normalizadas antes de serem apresentadas às redes, conforme a estratégia de pré-processamento previamente definida, isto é, todos os valores dos \emph{pixels} componentes das imagens foram escalonados para o intervalo $[0,1]$ por meio de uma divisão por $255$. Conforme mencionado, a prévia normalização das imagens antes da apresentação às CNNs colabora para uma melhor execução do gradiente descendente e diminui a variância nos pesos.
 
-	Os treinamentos destas duas arquiteturas duraram aproximadamente $16$ e $12$ horas respectivamente, em uma instância do Google Compute Engine com 4 CPus virtuais e 15 GB de RAM. Os gráficos de treinamento e as retas zero obtidas a partir da apresentação do conjunto de teste aos modelos consolidados podem ser vistos na Figura \ref{fig:lenet-abordagem1}. É possível notar que ambas as redes sofreram \emph{overfitting} e obtiveram grande margem de erro.
+	Os treinamentos destas duas arquiteturas duraram aproximadamente $16$ e $12$ horas respectivamente, em uma instância do Google Compute Engine com 4 CPus virtuais e 15 GB de RAM. Os gráficos de treinamento e as retas zero obtidas a partir da apresentação do conjunto de teste aos modelos treinados podem ser vistos na Figura \ref{fig:lenet-abordagem1}.
 
-	\begin{figure}[hb!]
+	\begin{figure}[h!]
 		\caption{Resultados do treinamento e teste da CNN LeNet de acordo com a Abordagem 1.}\label{fig:lenet-abordagem1}
 	  \begin{subfigure}[hb]{0.5\linewidth}
 	    \caption{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph{ReLU}.}
@@ -34,7 +34,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 		\end{subfigure}%
 	\end{figure}
 
-	\begin{figure}[hb!]
+	\begin{figure}[ht!]
 		\caption{Resultados do treinamento e teste da CNN AlexNet de acordo com a Abordagem 1.}\label{fig:alexnet-abordagem1}
 		\begin{subfigure}[hb]{0.5\linewidth}
 			\caption{Treinamento AlexNet \emph{ReLU}.}
@@ -59,7 +59,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 	  \end{subfigure}%
 	\end{figure}
 
-	Obedecendo ao método de validação cruzada \emph{holdout} previamente mencionado, os resultados desta abordagem encontram-se sintetizados na Tabela \ref{tab:results-1}. É possível constatar que as CNNs com função de ativação \emph{ReLU} obtiveram melhor desempenho, com a arquitetura LeNet, em particular, com resultados ligeiramente superiores.
+	Obedecendo ao método de validação cruzada \emph{holdout} previamente mencionado, os resultados desta abordagem encontram-se sintetizados na Tabela \ref{tab:results-1}. De maneira geral, ambas as redes obtiveram melhor desempenho com o uso da função de ativação \emph{ReLU} em que, em particular,  a arquitetura LeNet apresento resultados ligeiramente superiores. Apesar disso, nota-se que o treinamento não seguiu de maneira estável, com grande variação entre as métricas de treinamento e validação, ocasionando \emph{early stopping} após um número relativamente curto de épocas. Tal cenário é sugestivo de \emph{overfitting}, especialmente mais evidentes nos casos em que se utilizou a função de ativação \emph{Leaky ReLU}.
 
   \begin{table}[!ht]
 		\caption{Resultados do treino e teste dos modelos propostos na Abordagem 1.}
@@ -80,13 +80,13 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 
 \section{Abordagem 2: Introduzindo \emph{Data Augmentation}}%com data augmentation, com normalização e sem equalização
 
-	A abordagem anterior consistiu essencialmente da utilização dos modelos tal como foram definidos e com uma simples operação de adequação dos dados de entrada por meio de normalização. Porém, em problemas de Visão Computacional, é comum aplicar técnicas de \emph{data augmentation} com vistas a aumentar artificialmente o conjunto de dados, fazendo com que o modelo, em sua fase de treinamento, não seja exposto à mesma entrada em mais de uma ocasião. Isto previne \emph{overfitting} e colabora para uma melhor generalização \cite{chollet2017deep}.
+	A abordagem anterior consistiu essencialmente da utilização dos modelos tal como foram definidos e com uma simples operação de adequação dos dados de entrada por meio de normalização. Porém, em problemas de Visão Computacional, é comum aplicar técnicas de \emph{data augmentation} com vistas a aumentar artificialmente o conjunto de dados, fazendo com que o modelo, em sua fase de treinamento, não seja exposto à mesma entrada em mais de uma ocasião. Esta estratégia de regularização colabora na mitigação do \emph{overfitting} e costuma promover uma melhor generalização \cite{chollet2017deep}.
 
 	As técnicas de \emph{data augmentation} consideradas foram a rotação entre $0$ e $20$ graus no sentido horário ou anti-horário, zoom de $0.8$ a $1.2$ vezes, inversão horizontal com probabilidade de ocorrência de $0.5$ ou translação com probabilidade igual a $0.2$.
 
-	Os gráficos das métricas de desempenho coletadas durante o treinamento e a reta-0 obtida a partir dos dados de teste em cada uma destas quatro configurações são ilustrados nas Figuras \ref{fig:lenet-abordagem2} e \ref{fig:alexnet-abordagem2}.
+	Desta feita, após o aumento artificial do conjunto de dados, partiu-se então para o treinamento e teste dos modelos conforme a metodologia adotada, considerando as arquiteturas LeNet e AlexNet e as funções de ativação \emph{ReLU} e \emph{Leaky ReLU}. Os gráficos das métricas de desempenho coletadas durante o treinamento e a reta-0 obtida a partir dos dados de teste em cada uma destas quatro configurações são ilustrados nas Figuras \ref{fig:lenet-abordagem2} e \ref{fig:alexnet-abordagem2}.
 
-	\begin{figure}[h!]
+	\begin{figure}[hb!]
 		\caption{Resultados do treinamento e teste da CNN LeNet de acordo com a Abordagem 2.}\label{fig:lenet-abordagem2}
 		\begin{subfigure}[hb]{0.5\linewidth}
 			\caption{RMSE de treinamento da arquitetura LeNet utilizando funções de ativação \emph{ReLU}.}
@@ -106,7 +106,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 		\end{subfigure}%
 	\end{figure}
 
-	\begin{figure}[h!]
+	\begin{figure}[ht!]
 		\caption{Resultados do treinamento e teste da CNN AlexNet de acordo com a Abordagem 2.}\label{fig:alexnet-abordagem2}
 		\begin{subfigure}[hb]{0.5\linewidth}
 			\caption{Treinamento AlexNet \emph{ReLU}.}
@@ -127,9 +127,9 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 		\end{subfigure}%
 	\end{figure}
 
-	De maneira análoga, as métricas de desempenho coletadas encontram-se detalhadas na Tabela \ref{tab:results2}. Nota-se que o número de épocas no treinamento foi maior que a abordagem anterior, indicando que houve um cenário mais favorável para o aprendizado dos padrões nos dados. De maneira geral, as métricas obtidas não fornecem uma evidência forte de que esta segunda abordagem produz resultados mais significativos que a primeira mas, no caso da CNN AlexNet com \emph{ReLU}, os resultados foram comparáveis.
+	De maneira análoga, as métricas de desempenho coletadas encontram-se detalhadas na Tabela \ref{tab:results2}. Nota-se que o número de épocas no treinamento foi maior que a abordagem anterior, indicando que houve um cenário mais favorável para o aprendizado dos padrões nos dados. De maneira geral, as métricas obtidas não fornecem uma evidência forte de que esta segunda abordagem produz resultados mais significativos que a primeira mas, no caso da CNN AlexNet com \emph{ReLU}, os resultados foram comparáveis. O efeito positivo esperado pelo \emph{data augmentation} não se mostrou tão evidente quanto se esperava inicialmente. Porém, isto pode acontecer em razão dos valores dos hiperparâmetros e da necessidade de melhor pré-processamento das imagens antes da apresentação às CNNs, o que motivou a realização da abordagem a seguir.
 
-	\begin{table}[!ht]
+	\begin{table}[!hb]
 		\caption{Resultados do treino e teste dos modelos propostos na Abordagem 2.}
 		\label{tab:results2}
 		\begin{center}
@@ -146,12 +146,13 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 		\end{center}
 	\end{table}
 
-	O efeito positivo esperado pelo \emph{data augmentation} não se mostrou tão evidente quanto se esperava inicialmente. Porém, isto pode acontecer em razão dos valores dos hiperparâmetros e da necessidade de melhor pré-processamento das imagens antes da apresentação às CNNs, o que motivou a realização da abordagem a seguir.
+
 
 \section{Abordagem 3: Introduzindo Equalização de Histograma}%com data augmentation, com normalização e com equalização
-	A terceira abordagem utilizou as imagens da base de dados normalizadas e técnicas de \emph{data augmentation} previamente mencionadas. Considerando os resultados obtidos na abordagem anterior, introduziu-se o processo de equalização das imagens por histograma, que ajusta o contraste da imagem utilizando o histograma de cores. Este método aumenta o contraste global de imagens, especialmente quando os dados úteis da imagem são representados por cores próximas. No contexto da detecção de idade por meio da imagem da face de determinado indivíduo, a equalização por histograma reforça marcas de expressões e outras imperfeições \cite{acharya2005image}. %É possivel observar na Figura \ref{} uma imagem do conjunto de dados original e após o processo de equalização por histograma.
+	A terceira abordagem utilizou as imagens da base de dados normalizadas e técnicas de \emph{data augmentation} previamente mencionadas. Além disto, visando melhorar as métricas de desempenho, introduziu-se o processo de equalização das imagens por histograma, que ajusta o contraste da imagem utilizando o histograma de cores. Conforme mencionado na Seção \ref{subsec:limpeza}, este método aumenta o contraste global de imagens, especialmente quando os dados úteis da imagem são representados por cores próximas. No contexto da detecção de idade por meio da imagem da face de determinado indivíduo, a equalização por histograma reforça marcas de expressões e outras imperfeições \cite{acharya2005image}. %É possivel observar na Figura \ref{} uma imagem do conjunto de dados original e após o processo de equalização por histograma.
 
-	A partir desta abordagem foran obtidos os gráficos de trenamento e a reta-0 das redes LeNet e AlexNet, que estão nas Figuras \ref{fig:lenet-abordagem3} e \ref{fig:alexnet-abordagem3}, respectivamente.
+	Considerado uma nova equalização do conjunto de dados segundo o histograma, somado à normalização anterior e à aplicação de \emph{data augmentation}, consolidou-se então o treinamento e teste das redes LeNet e AlexNet com função de ativação \emph{ReLu} e \emph{Leaky ReLU} segundo a terceira abordagem. Os gráficos de treinamento e a reta-0 obtidos encontram-se nas Figuras \ref{fig:lenet-abordagem3} e \ref{fig:alexnet-abordagem3}, respectivamente. A partir destes gráficos, observa-se um treinamento mais consistente, com queda progressiva da perda à medida que se avançam as épocas. Apesar disso, nota-se também que houve retrocessos na métrica de perda da validação ao longo do treinamento, o que promoveu \emph{early stopping}.
+
 
 	\begin{figure}[hb!]
 		\caption{Resultados do treinamento e teste da CNN LeNet de acordo com a Abordagem 3.}\label{fig:lenet-abordagem3}
@@ -194,7 +195,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 		\end{subfigure}%
 	\end{figure}
 
-	Obedecendo ao método de validação cruzada \emph{holdout} previamente mencionado, os resultados desta abordagem encontram-se sintetizados na Tabela \ref{tab:results-3}.
+	Obedecendo ao método de validação cruzada \emph{holdout} previamente mencionado, os resultados desta abordagem encontram-se sintetizados na Tabela \ref{tab:results-3}. É interessante notar que o aumento nas épocas do treinamento não foi efetivo em obter melhores métricas de testes. Tem-se que, embora as CNNs aprendam por mais épocas que nos cenários anteriores, este aprendizado é menor para fins de generalização. Apesar de estar havendo um esforço de pré-processamento por meio de \emph{data augmentation} e de equalização por histograma, seguindo práticas tipicamente adotadas em trabalhos desta área \cite{chollet2017deep}, as melhorias promovidas por estas estratégias são de cunho heurístico, podendo ser boas em determinados cenários, mas não garantidamente em todos, tal como ocorreu no contexto em questão.
 
 	\begin{table}[!ht]
 		\caption{Resultados do treino e teste dos modelos propostos na Abordagem 3.}
@@ -212,8 +213,10 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 			\end{tabular}
 	\end{table}
 
-\section{Abordagem 4: Utilizando MAE para o cálculo da perda}%com data augmentation, com normalização e com equalização, usando mae pra loss
-	A análise dos gráficos de treinamento das redes anteriores levou à suposição de que a métrica utilizada para a atualização dos pesos RMSE estivesse trazendo instabilidade para o treinamento. Desta maneira, esta abordagem considera o treinamento da rede LeNet com \emph{data augmentation}, imagens normalizadas e com equalização por histograma, utilizando MAE para cálculo da perda. Os gráficos do treinamento e reta-0 desta abordagem estão nas Figuras \ref{fig:lenet-abordagem4}.
+\section{Abordagem 4: Utilizando MAE para o Cálculo da Perda}%com data augmentation, com normalização e com equalização, usando mae pra loss
+	A análise dos gráficos de treinamento das redes anteriores levou à suposição de que a métrica utilizada para a atualização dos pesos RMSE estivesse trazendo instabilidade para o treinamento. Desta maneira, esta abordagem considera a rede com melhor desempenho verificado até então, LeNet com função de ativação \emph{ReLU} \todo{checar se a rede é esta mesmo} sujeita à \emph{data augmentation}, imagens normalizadas e com equalização por histograma, mas com a  utilização do MAE para cálculo da perda.
+
+	Esta abordagem foi considerada em virtude do treinamento com o otimizador \emph{Adam} construir superfícies estocásticas de erro a partir da métrica de perda. Assim, após treinamento e teste, obteve-se os gráficos ilustrados  nas Figuras \ref{fig:lenet-abordagem4}.
 
 	\begin{figure}[hb!]
 		\caption{Resultados do treinamento e teste da CNN LeNet de acordo com a Abordagem 4.}\label{fig:lenet-abordagem4}
@@ -242,10 +245,10 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 			\end{tabular}
 	\end{table}
 
-	É possível notar que esta abordagem trouxe métrocas de desempenho mais satisfatórias que as obtidas até então. Porém, as escolhas da rede, função de ativação e pré-processamento de imagens de entrada foram feitas a partir do palpite de que \emph{data augmentation} e equalização por histograma trariam redes mais fortes. Assim, há a necessidade de verificar o desempenho de uma rede similar, porém sem estes processos.
+	Os resultados obtidos evidenciam melhores métricas de desempenho até então, oferecendo diretrizes positivas a cerca das estratégias adotadas. Apesar da identificação de uma rede satisfatória até então, fica o questionamento se as melhorias obtidas em si foram introduzidas pelas heurísticas de pré-processamento ou se são intrínsecas do modelo adotado. Como a equalização por histograma e os processos de \emph{data augmentation} introduzem ônus de pré-processamento aos dados, desejou-se verificar se o desempenho positivo desta rede seria mantido mesmo sem tais práticas, o que motivou a realização da abordagem seguinte.
 
-\section{Abordagem 5: Rede com melhor desempenho}% sem data augmentation, com normalização e sem equalização, usando mae pra loss, batch de 128, sem patience
-	A quinta abordagem adotou a rede com melhor desempenho obtido até o momento. Neste caso, considerou-se a rede LeNet treinada com imagens da base de dados normalizadas, mas sem equalização de histograma de cores ou técnicas de \emph{data augmentation}. Seguiu-se utilizando a métrica MAE para o cálculo da perda e da atualização dos pesos. Buscando garantir maior estabilidade nas métricas de desempenho durante o treinamento, aumentou-se o tamanho do batch para 128, haja vista a característica instável do treinamento mostrada nas abordagens anteriores.
+\section{Abordagem 5: LeNet Apenas com Normalização da Entrada}% sem data augmentation, com normalização e sem equalização, usando mae pra loss, batch de 128, sem patience
+	A quinta abordagem adotou a rede com melhor desempenho obtido até o momento, a LeNet com função de ativação \emph{ReLU}, treinada apenas com imagens da base de dados normalizadas, mas sem equalização de histograma de cores nem tampouco técnicas de \emph{data augmentation}. Seguiu-se utilizando a métrica MAE para o cálculo da perda e da atualização dos pesos. Buscando garantir maior estabilidade nas métricas de desempenho durante o treinamento, aumentou-se o tamanho do batch para $128$, com vistas a estimar melhor a superfície de erro à medida que o algoritmo de otimização percorre o gradiente descendente.
 
 	\begin{figure}[hb!]
 		\caption{Resultados do treinamento e teste da CNN LeNet de acordo com a Abordagem 5.}\label{fig:lenet-abordagem5}
@@ -259,7 +262,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 		\end{subfigure}\\
 	\end{figure}
 
-	Obedecendo ao método de validação cruzada \emph{holdout} previamente mencionado, os resultados desta abordagem encontram-se sintetizados na Tabela \ref{tab:results-5}.
+	Obedecendo ao método de validação cruzada \emph{holdout}, os resultados desta abordagem encontram-se sintetizados na Tabela \ref{tab:results-5}. É interessante notar que não houve melhorias na métrica de desempenho, pelo contrário, o erro aumentou em relação ao cenário anterior, sugerindo que as práticas de pré-processamento colaboram positivamente no melhor aprendizado das características da tarefa considerada. Uma vez que foram exploradas diferentes práticas de treinamento das redes LeNet e AlexNet, em que as melhorias alcançadas estagnaram após a quarta abordagem, partiu-se então para a avaliação de arquiteturas mais profundas aplicadas ao problema considerado, o que ensejou as abordagens a seguir.
 
 	\begin{table}[!ht]
 		\centering
@@ -275,8 +278,10 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 		\end{table}
 
 
-\section{Abordagem 6: VGG-16}
-	Após a vasta utilização das redes canônicas LeNet e AlexNet, decidiu-se por utilizar uma rede canônica mais extensa. A VGG-16, detalhada na Seção \ref{subsec:modelos}, foi treinada para a tarefa de predição de idade sem utilizar técnicas de \emph{transfer learning}. Removeu-se a última camada, responsável pela classificação, e adicionou-se uma camada densa com função de ativação \emph{ReLU}. Os resultados obtidos estão na Figura \ref{fig:vgg-abordagem6}.
+\section{Abordagem 6: VGG-16 e Dados Normalizados}
+	A sexta abordagem considerou a utilização da arquitetura VGG-16, previamente apresentada na Seção \ref{subsec:modelos}. Para utilização neste contexto, de maneira análoga aos cenários anteriores, removeu-se a camada de saída, tipicamente utilizada para fins de classificação, e adicionou-se uma camada densa com função de ativação \emph{ReLU}. Embora tipicamente esta rede seja utilizada com \emph{transfer learning} do conjunto de dados ImageNet, optou-se por seguir a prática adotada nas demais redes, com inicialização aleatória dos pesos e treinamento integral com o conjunto de dados apenas sujeito à normalização.
+
+	Em decorrência do treinamento e teste nos mesmos moldes dos cenários anteriores, obteve-se os gráficos ilustrados na Figura \ref{fig:vgg-abordagem6}. As métricas de desempenho obtidas são elencadas na Tabela \ref{tab:results-6}.
 
 		\begin{figure}[hb!]
 			\caption{Resultados do treinamento e teste da CNN VGG-16 de acordo com a Abordagem 6.}\label{fig:vgg-abordagem6}
@@ -290,25 +295,28 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 			\end{subfigure}\\
 		\end{figure}
 
-\begin{table}[!ht]
-	\centering
-	\caption{Resultados do treino e teste dos modelos propostos na Abordagem 6.}
-	\label{tab:results-6}
-		\begin{tabular}{l l l l l l l}
-			\toprule
-			Rede & Função de ativação & Épocas & MAE Teste & RMSE Teste \\
-			\midrule
-			VGG-16 & \emph{ReLU} & 11 & 40.90 & 38.35 \\
-			\bottomrule
-		\end{tabular}
-	\end{table}
-	Observa-se que a rede foi vítima de \emph{dying ReLU problem}. Com o objetivo de contornar este problema, decidiu-se utilizar \emph{data augmentation} e normalização por histograma de frequência.
+		\begin{table}[!ht]
+			\centering
+			\caption{Resultados do treino e teste dos modelos propostos na Abordagem 6.}
+			\label{tab:results-6}
+			\begin{tabular}{l l l l l l l}
+				\toprule
+				Rede & Função de ativação & Épocas & MAE Teste & RMSE Teste \\
+				\midrule
+				VGG-16 & \emph{ReLU} & 11 & 40.90 & 38.35 \\
+				\bottomrule
+			\end{tabular}
+		\end{table}
 
-\section{Abordagem 7: VGG-16 com Data Augmentation}
+		É interessante notar que a rede VGG-16 é mais profunda em termos de camadas que as redes LeNet e AlexNet, o que impacta em uma maior quantidade de parâmetros livres a serem calculados e que acaba por exigir mais recursos computacionais para seu treino. Segundo as ideias de DL, imagina-se que uma rede com um número maior de camadas hierárquicas seja capaz de produzir melhores representações, impactando positivamente no aprendizado da tarefa. Apesar disso, teve desempenho aquém. Uma suposição para este resultado é que a rede sofreu \emph{dying ReLU problem}, pois apenas produziu saídas iguais a zero, maximizando o erro aferido no teste. Para contornar este problema, esta arquitetura foi novamente testada, mas introduzindo também \emph{data augmentation} e normalização por histograma de frequência.
 
-	A rede VGG-16 utilizada nesta abordagem foi instanciada e treinada com os mesmos parâmetros descritos na Abordagem 6. Porém, passou-se a utilizar \emph{data augmentation}, repetindo-se a configuração utiliziada nas Abordagens 2 a 4. Gráficos do treinamento e reta-0 estão na Figura \ref{fig:vgg-abordagem7}.
+\section{Abordagem 7: VGG-16 com \emph{Data Augmentation} e Equalização de Histograma}
 
-		\begin{figure}[hb!]
+	A rede VGG-16 utilizada nesta abordagem foi instanciada e treinada com os mesmos parâmetros descritos na Abordagem 6, porém, passou-se a utilizar \emph{data augmentation} e equalização de histograma \todo{Veja que ao longo do texto há termos diferentes pra denotar esta mesma coisa: normalização por histograma, equalização por histograma, normalização por histograma de frequência e equalização de histograma. Sugiro padronizar, a banca pegará no pé.}, obedecendo às mesmas práticas de configuração utilizada nas Abordagens 2 a 4 para as redes LeNet e AlexNet e dos resultados positivos observados.
+
+	Os resultados obtidos do treinamento e teste encontram-se ilustrados nos gráficos do treinamento e reta-0 da Figura \ref{fig:vgg-abordagem7} e detalhados na Tabela \ref{tab:results-7}. É interessante notar que as técnicas para mitigar \emph{overfitting} não foram efetivas para contornar o \emph{dying ReLU problem} previamente verificado, impactando em métricas análogas de erro.
+
+		\begin{figure}[h!]
 			\caption{Resultados do treinamento e teste da CNN VGG-16 de acordo com a Abordagem 7.}\label{fig:vgg-abordagem7}
 			\begin{subfigure}[hb]{0.5\linewidth}
 				\caption{MAE de treinamento da arquitetura VGG-16 utilizando funções de ativação \emph{ReLU}.}
@@ -323,8 +331,8 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 \begin{table}[!ht]
 	\centering
 	\caption{Resultados do treino e teste dos modelos propostos na Abordagem 6.}
-	\label{tab:results-2}
-		\begin{tabular}{l l l l l l l}
+	\label{tab:results-7}
+		\begin{tabular}{l l l l l }
 			\toprule
 			Rede & Função de ativação & Épocas & MAE Teste & RMSE Teste \\
 			\midrule
@@ -333,9 +341,30 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 		\end{tabular}
 	\end{table}
 
-	Assim como na abordagem 6, a VGG-16 foi vítima de \emph{dying ReLU problem}, mesmo havendo mudanças nos hiperparâmetros da rede neural. Portanto, foi necessário realizar ajustes diretamente nos parâmetros da rede.
+	%% Na minha opinião, não houve mudança de hiperparâmetros de acordo com o texto, só mudanças na entrada.
+	% Assim como na abordagem 6, a VGG-16 foi vítima de \emph{dying ReLU problem}, mesmo havendo mudanças nos hiperparâmetros da rede neural. Portanto, foi necessário realizar ajustes diretamente nos parâmetros da rede.
 
-% \section{Abordagem 8: VGG-16 com Leaky ReLU e taxa de aprendizado de $0.003$}
+
+%% FALTA -- elloa
+\section{Abordagem 8: VGG-16 com \emph{Leaky ReLU}}
+
+ A abordagem agora considerada tenta endereçar de maneira mais objetiva a superação do \emph{dying ReLU problem}, pois considera a adoção da função de ativação \emph{Leaky ReLU} que não está sujeita à este fenômeno. Além ddisto, tentou-se utilizar uma taxa de aprendizado inicial menor, igual a $0.003$, tentando favorecer uma caminhada mais estável no gradiente descendente em função do método de otimização utilizado.  É importante salientar que, embora possa implicar em uma melhor estabilidade na eventual convergência, esta taxa de aprendizado torna o treinamento consideravelmente mais demorado.
+
+
 %
 %
-% \section{Abordagem 9: SqueezeNet}
+
+%% FALTA -- elloa
+\section{Abordagem 9: SqueezeNet}
+
+	A última abordagem considerada neste trabalho, buscando sempre a perspectiva de melhores métricas e uma boa adequação ao contexto final de utilização do modelo, tratou do treinamento e teste da rede SqueezeNet. Dada a proposição recente deste modelo na literatura, ainda há poucos guias práticos sobre sugestões de uso e inicialização. Assim, esta arquitetura foi mantida tal como inicialmente proposta, mas considerou-se o uso de \emph{data augmentation} e equalização por histograma, objetivando os mesmos ganhos verificados nas abordagens anteriores melhor sucedidas até então.
+
+	(...)
+
+\section{Sumarizando os Resultados}
+
+Considerando todas as abordagens conduzidas, a Tabela \ref{tab:resultsAll} sintetiza todos os treinamentos e testes realizados e os resultados obtidos da métrica de desempenho MAE adotada para esta tarefa. Pode-se identificar então que, para a tarefa elencada, a rede com melhor desempenho observado foi a X sujeita à treinamento com \todo{Sumarizar a rede, a abordagem e suas características.}
+
+\input{./files/tabela-sintetiza}
+
+É interessante notar que o ajuste de parâmetros e hiperparâmetros para as redes neurais convolucionais segue as mesmas dificuldades das redes neurais \emph{multilayer perceptron}, em que a superfície de erro é hiperdimensional e complexa, e que, quanto maior o número de pesos na rede, maior é o espaço de busca pelos parâmetros ideais, dificultando, por conseguinte, a tarefa de encontrá-los \cite{Teresa:Livro}. No caso das CNNs, em especial, soma-se isto ao fato do aprendizado destas redes ser naturalmente mais oneroso em virtude do número de operações necessárias para realização das convoluções e do algoritmo de \emph{backpropagation}.

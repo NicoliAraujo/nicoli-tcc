@@ -1,0 +1,28 @@
+\begin{table}[!ht]
+	\caption{Sumário dos resultados obtidos de todas as abordagens conduzidas.}
+	\label{tab:resultsAll}
+  \begin{center}
+		\begin{tabular}{cccccc}
+			\toprule
+			Abordagem & Rede & Função de ativação & Épocas & MAE Teste & RMSE Teste \\
+			\midrule
+			1 & LeNet & \emph{ReLU}  & 4 & 10.53 & 13.55 \\
+			1 & LeNet & \emph{Leaky ReLU} & 8 & 38.33 & 40.82 \\
+			1 & AlexNet & \emph{ReLU}  & 5 & 11.03 & 13.76 \\
+			1 & AlexNet & \emph{Leaky ReLU} & 5 & 39.27 & 41.97 \\
+			2 & LeNet & \emph{ReLU}  & 39 & 37.85 & 40.27 \\
+			2 & LeNet & \emph{Leaky ReLU} & 21 & 38.50 & 41.06 \\
+			2 & AlexNet & \emph{ReLU}  & 16 & 11.59 & 14.59 \\
+			2 & AlexNet & \emph{Leaky ReLU} & 16 & 28.06 & 31.81 \\
+			3 & LeNet & \emph{ReLU} & 46 &  38.66 & 41.20 \\
+			3 & LeNet & \emph{Leaky ReLU} &  38 & 38.26 & 40.85 \\
+			3 & AlexNet & \emph{ReLU} & 7 & 13.10 & 15.88 \\
+			3 & AlexNet & \emph{Leaky ReLU} & 18 & 35.25 & 38.04 \\
+			4 &	LeNet & \emph{Leaky ReLU} & 38 & 9.98 & 12.91 \\
+			5 & LeNet & \emph{ReLU} & 9 &  10.09 & 13.04 \\
+			6 & VGG-16 & \emph{ReLU} & 11 & 40.90 & 38.35 \\
+			7 & VGG-16 & \emph{ReLU} & 23 & 40.99 & 38.39 \\
+			\bottomrule
+		\end{tabular}
+  \end{center}
+\end{table}

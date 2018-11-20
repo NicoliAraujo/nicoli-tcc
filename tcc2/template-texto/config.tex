@@ -31,8 +31,8 @@
 %% Cores, fontes e afins
 \usepackage[colorlinks,linkcolor=black,urlcolor=black,citecolor=black]{hyperref}
 
-\definecolor{lightblue}{RGB}{0,191,255}
-\usepackage[textsize=tiny,backgroundcolor=lightblue,linecolor=lightblue]{todonotes}
+
+\usepackage[textsize=tiny,backgroundcolor=lightgray,linecolor=gray]{todonotes}
 
 \usepackage[portuguese,ruled,lined]{algorithm2e}
 \usepackage{algorithmic}
@@ -51,21 +51,14 @@
 \doublespacing %espa�amento duplo
 \sloppy
 
-%% Nomes
-\floatstyle{plain}  %%% tipos: plain, boxed, ruled
-\newfloat{codigo}{tbp}{lop}[section]
-\floatname{codigo}{Código}
-
-%%% nome para ser usado no sum�rio
-
-\newcommand{\listofcodename}{Lista de C\'{o}digos}
 
 
 
-% RESUMO ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+% RESUMO --------
 
 \newcommand{\resumo}[1]{
-\begin{center} \LARGE \bf Resumo \end{center}
+\chapter*{Resumo}
 
 \vskip 4em
 \input{#1}
@@ -74,10 +67,10 @@
 
 }
 
-% ABSTRACT ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+% ABSTRACT --------
 
 \newcommand{\abstractt}[1]{
-\begin{center} \LARGE \bf Abstract \end{center}
+\chapter*{\emph{Abstract}}
 
 \vskip 4em
 \input{#1}
@@ -85,6 +78,35 @@
 \newpage
 
 }
+
+% Agradecimento --------
+
+\newcommand{\agradece}[1]{
+ \chapter*{Agradecimentos}
+
+ \vskip 4em
+ \input{#1}
+
+ \newpage
+
+ }
+
+
+ \newcommand{\Epigrafe}[2]{
+ \chapter*{ } % Nao apagar
+ \pagestyle{empty}
+ \ \
+ \vspace{13cm}
+ \begin{flushright}
+ \textbf{Epígrafe}\\
+ \end{flushright}
+ \begin{flushright}
+ \emph{#1.}\\
+ #2
+ \end{flushright}
+
+ \newpage
+ }
 
 % Sum�rio -----------
 \newcommand{\sumario}{
@@ -96,8 +118,7 @@
 \newpage
 \addcontentsline{toc}{chapter}{\listfigurename}
 \listoffigures
-\addcontentsline{toc}{chapter}{\listofcodename}
-\listof{codigo}{\listofcodename}  % Lista de C�digos
+
 
 \clearpage
 }
