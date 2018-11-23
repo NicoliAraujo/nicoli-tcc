@@ -290,7 +290,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 				\includegraphics[width=\linewidth]{img/graficos/history/vgg16/fig-history-abordagem6-vgg16-relu-mae.png}%
 			\end{subfigure}%
 			\begin{subfigure}[hb]{0.5\linewidth}
-				\caption{Reta-0 LeNet \emph{ReLU}.}
+				\caption{Reta-0 VGG-16 \emph{ReLU}.}
 				\includegraphics[width=\linewidth]{img/graficos/reta0/vgg16/fig-reta-0-abordagem6-vgg16-relu.png}%
 			\end{subfigure}\\
 		\end{figure}
@@ -310,6 +310,8 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 
 		É interessante notar que a rede VGG-16 é mais profunda em termos de camadas que as redes LeNet e AlexNet, o que impacta em uma maior quantidade de parâmetros livres a serem calculados e que acaba por exigir mais recursos computacionais para seu treino. Segundo as ideias de DL, imagina-se que uma rede com um número maior de camadas hierárquicas seja capaz de produzir melhores representações, impactando positivamente no aprendizado da tarefa. Apesar disso, teve desempenho aquém. Uma suposição para este resultado é que a rede sofreu \emph{dying ReLU problem}, pois apenas produziu saídas iguais a zero, maximizando o erro aferido no teste. Para contornar este problema, esta arquitetura foi novamente testada, mas introduzindo também \emph{data augmentation} e normalização por histograma de frequência.
 
+		Esta rede previa o valor 37.047264 para todas as imagens de entrada.
+
 \section{Abordagem 7: VGG-16 com \emph{Data Augmentation} e Equalização de Histograma}
 
 	A rede VGG-16 utilizada nesta abordagem foi instanciada e treinada com os mesmos parâmetros descritos na Abordagem 6, porém, passou-se a utilizar \emph{data augmentation} e equalização de histograma \todo{Veja que ao longo do texto há termos diferentes pra denotar esta mesma coisa: normalização por histograma, equalização por histograma, normalização por histograma de frequência e equalização de histograma. Sugiro padronizar, a banca pegará no pé.}, obedecendo às mesmas práticas de configuração utilizada nas Abordagens 2 a 4 para as redes LeNet e AlexNet e dos resultados positivos observados.
@@ -323,7 +325,7 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 				\includegraphics[width=\linewidth]{img/graficos/history/vgg16/fig-history-abordagem7-vgg16-relu-mae.png}%
 			\end{subfigure}%
 			\begin{subfigure}[hb]{0.5\linewidth}
-				\caption{Reta-0 LeNet \emph{ReLU}.}
+				\caption{Reta-0 VGG-16 \emph{ReLU}.}
 				\includegraphics[width=\linewidth]{img/graficos/reta0/vgg16/fig-reta-0-abordagem7-vgg16-relu.png}%
 			\end{subfigure}\\
 		\end{figure}
@@ -344,13 +346,37 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 	%% Na minha opinião, não houve mudança de hiperparâmetros de acordo com o texto, só mudanças na entrada.
 	% Assim como na abordagem 6, a VGG-16 foi vítima de \emph{dying ReLU problem}, mesmo havendo mudanças nos hiperparâmetros da rede neural. Portanto, foi necessário realizar ajustes diretamente nos parâmetros da rede.
 
-
+Esta rede previa apenas o valor 37.01601 para todas as entradas.
 %% FALTA -- elloa
 \section{Abordagem 8: VGG-16 com \emph{Leaky ReLU}}
 
- A abordagem agora considerada tenta endereçar de maneira mais objetiva a superação do \emph{dying ReLU problem}, pois considera a adoção da função de ativação \emph{Leaky ReLU} que não está sujeita à este fenômeno. Além ddisto, tentou-se utilizar uma taxa de aprendizado inicial menor, igual a $0.003$, tentando favorecer uma caminhada mais estável no gradiente descendente em função do método de otimização utilizado.  É importante salientar que, embora possa implicar em uma melhor estabilidade na eventual convergência, esta taxa de aprendizado torna o treinamento consideravelmente mais demorado.
+ A abordagem agora considerada tenta endereçar de maneira mais objetiva a superação do \emph{dying ReLU problem}, pois considera a adoção da função de ativação \emph{Leaky ReLU} que não está sujeita à este fenômeno. Além disto, tentou-se utilizar uma taxa de aprendizado inicial maior, igual a $0.003$, tentando favorecer uma caminhada mais estável no gradiente descendente em função do método de otimização utilizado.  É importante salientar que, embora possa implicar em uma melhor estabilidade na eventual convergência, esta taxa de aprendizado torna o treinamento consideravelmente mais demorado.
 
+ \begin{figure}[h!]
+	 \caption{Resultados do treinamento e teste da CNN VGG-16 de acordo com a Abordagem 8.}\label{fig:vgg-abordagem7}
+	 \begin{subfigure}[hb]{0.5\linewidth}
+		 \caption{MAE de treinamento da arquitetura VGG-16 utilizando funções de ativação \emph{Leaky ReLU}.}
+		 \includegraphics[width=\linewidth]{img/graficos/history/vgg16/fig-history-abordagem9-vgg16-lrelu-mae.png}%
+	 \end{subfigure}%
+	 \begin{subfigure}[hb]{0.5\linewidth}
+		 \caption{Reta-0 VGG-16 \emph{Leaky ReLU}.}
+		 \includegraphics[width=\linewidth]{img/graficos/reta0/vgg16/fig-reta-0-abordagem9-vgg16-lrelu.png}%
+	 \end{subfigure}\\
+ \end{figure}
 
+\begin{table}[!ht]
+\centering
+\caption{Resultados do treino e teste dos modelos propostos na Abordagem 6.}
+\label{tab:results-7}
+ \begin{tabular}{l l l l l }
+	 \toprule
+	 Rede & Função de ativação & Épocas & MAE Teste & RMSE Teste \\
+	 \midrule
+	 VGG-16 & \emph{ReLU} & 23 & 40.99 & 38.39 \\
+	 \bottomrule
+ \end{tabular}
+\end{table}
+Esta rede previa apenas a média 36.999367 para todas as entradas.
 %
 %
 
@@ -359,7 +385,33 @@ Considerando a estratégia descrita na solução proposta, os resultados da exec
 
 	A última abordagem considerada neste trabalho, buscando sempre a perspectiva de melhores métricas e uma boa adequação ao contexto final de utilização do modelo, tratou do treinamento e teste da rede SqueezeNet. Dada a proposição recente deste modelo na literatura, ainda há poucos guias práticos sobre sugestões de uso e inicialização. Assim, esta arquitetura foi mantida tal como inicialmente proposta, mas considerou-se o uso de \emph{data augmentation} e equalização por histograma, objetivando os mesmos ganhos verificados nas abordagens anteriores melhor sucedidas até então.
 
+	\begin{figure}[h!]
+		\caption{Resultados do treinamento e teste da CNN SqueezeNet de acordo com a Abordagem 9.}\label{fig:vgg-abordagem7}
+		\begin{subfigure}[hb]{0.5\linewidth}
+			\caption{MAE de treinamento da arquitetura SqueezeNet utilizando funções de ativação \emph{ReLU}.}
+			\includegraphics[width=\linewidth]{img/graficos/history/squeeze/fig-history-abordagem-squeeze1-squeeze-relu-mae.png}%
+		\end{subfigure}%
+		\begin{subfigure}[hb]{0.5\linewidth}
+			\caption{Reta-0 LeNet \emph{ReLU}.}
+			\includegraphics[width=\linewidth]{img/graficos/reta0/squeeze/fig-reta-0-abordagem-squeeze1-squeeze-relu.png}%
+		\end{subfigure}\\
+	\end{figure}
+
+	\begin{table}[!ht]
+	\centering
+	\caption{Resultados do treino e teste dos modelos propostos na Abordagem 6.}
+	\label{tab:results-7}
+		\begin{tabular}{l l l l l }
+			\toprule
+			Rede & Função de ativação & Épocas & MAE Teste & RMSE Teste \\
+			\midrule
+			VGG-16 & \emph{ReLU} & 23 & 40.99 & 38.39 \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+
 	(...)
+	Esta rede foi capaz de gerar valores diferenciados para cada imagem de entrada, ou seja, não ficou presa em algum valor para todas as entradas.
 
 \section{Sumarizando os Resultados}
 
