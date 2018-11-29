@@ -1,6 +1,0 @@
-PWD /home/nicoli/github/nicoli-tcc/tcc1/slides
-INPUT /etc/texmf/web2c/texmf.cnf
-INPUT /usr/share/texmf/web2c/texmf.cnf
-INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
-INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-OUTPUT /home/nicoli/github/nicoli-tcc/tcc1/slides/texput.log
