@@ -1,28 +1,44 @@
 %!TEX root = ../main.tex
-\begin{frame}{Considerações Parciais}
+\begin{frame}{Considerações Finais}
 	\begin{itemize}
 		\item \alert{Resultados Preliminares}
 		\item Elaborar estratégias inteligentes para estimação de idade de telespectadores de  \emph{Smart} TVs a partir de suas respectivas fotografias faciais\\
-		\item Modelos de CNNs baseados na LeNet e AlexNet
-		\item Dois perfis de hiperparâmetros considerados
-		\item Melhoria de performance verificada na AlexNet
-		\item Em suma:
+		\item Modelos de CNNs considerados: LeNet, AlexNet, VGG-16, SqueezeNet
+		\item 9 Abordagens
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Considerações Finais}
+	\begin{itemize}
+		\item Não foi possível constatar melhora progressiva
+		\item Trabalho conduzido conforme práticas de natureza heurística sugeridas por diversos autores da literatura
+		\ \ \newline
+		\item Melhor rede: \alert{LeNet sujeita à abordagem 4}
 		\begin{itemize}
-			\item LeNet exibiu valores positivos e negativos próximos de zero
-			\item AlexNet forneceu previsões que giravam em torno da média dos dados
+			\item Entradas: normalização, \emph{data augmentation}, equalização por histograma
+			\item Função de ativação \emph{ReLU}
+			\item MAE de $9.98$ anos
 		\end{itemize}
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Considerações Parciais}
-	\begin{block}{Próximos Passos}
+\begin{frame}{Considerações Finais}
+	\begin{itemize}
+		\item Condução assertiva da metodologia
+		\item	Prática de métodos e tecnologias em \alert{Deep Learning}
+		\item Patamar para comparação
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Considerações Finais}
+	\begin{block}{Trabalhos futuros}
 		\begin{itemize}
-			\item Pesquisar e adotar estratégias que possam minimizar os problemas identificados
-			\begin{itemize}
-				\item Considerar a tarefa como um problema de classificação?
-			\end{itemize}
+			\item Tarefa de classificação
+			\item Avaliação do impacto da utilização de técnicas de \emph{transfer learning}
 			\ \ \newline
-			\item Proposição, treinamento e teste de outras redes inspiradas em outros modelos canônicos
+			\item  Análise mais detalhada dos grupos de idade com maior e menor índice de erro
+			\ \ \newline
+			\item Auxílio no desenvolvimento de soluções de recomendação de conteúdo e controle parental em \emph{Smart} TVs
 		\end{itemize}
 	\end{block}
 \end{frame}
