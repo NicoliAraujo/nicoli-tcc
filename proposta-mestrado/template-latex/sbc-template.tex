@@ -1,0 +1,73 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+
+% Codificação UTF-8
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+
+% Tabelas e figuras
+\usepackage{graphicx,url}
+\usepackage{stackengine}
+\usepackage{adjustbox}
+\usepackage{caption, subcaption}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{rotating}
+\usepackage{varwidth}
+\usepackage{bbm,amsmath,amssymb}
+
+%% Comentários
+\usepackage{xcolor}
+\definecolor{lightblue}{RGB}{0,191,255}
+\usepackage[textsize=tiny,backgroundcolor=lightblue,linecolor=lightblue]{todonotes}
+
+%novo nível de seção
+\usepackage{titlesec}
+
+%% Cores, fontes e afins
+\usepackage[colorlinks,linkcolor=black,urlcolor=black,citecolor=black]{hyperref}
+
+% Citações abnt
+\usepackage[alf]{abntex2cite}
+
+\usepackage[portuguese,ruled,lined]{algorithm2e}
+\usepackage{algorithmic}
+\usepackage{amsmath,amssymb,amsfonts, bbm, amsthm, dsfont}
+\usepackage{scalefnt}
+
+
+\setcounter{secnumdepth}{4}
+
+\title{Estimação Inteligente de Idade Utilizando \emph{Deep Learning}}
+
+
+\author{Nicoli Pinheiro de Araujo}
+
+%\address{Email:\email{npda.eng@uea.edu.br}}
+
+\begin{document}
+\selectlanguage{brazil}
+
+\maketitle
+
+\section{Apresentação e Justificativa}\label{sec:intro}
+\input{files/intro}
+\input{files/introducao/justificativa}
+
+\section{Objetivos}\label{sec:objetivo}
+\input{files/introducao/objetivo}
+
+\section{Contextualização Bibliográfica}\label{sec:fund_teorica}
+\input{files/fund_teorica}
+
+\section{Metodologia}\label{sec:metodo}
+\input{files/introducao/metodo}
+
+\section{Cronograma}\label{sec:crono}
+\input{files/introducao/crono}
+
+\bibliography{sbc-template}
+
+\end{document}

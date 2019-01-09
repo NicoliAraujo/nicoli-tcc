@@ -1,0 +1,47 @@
+%!TEX root = ../../sbc-template.tex
+
+\emph{Deep Learning} (DL), também conhecido como Aprendizado Profundo, compreende um conjunto de técnicas de ML que podem ser aplicadas em problemas de aprendizado supervisionado e não-supervisionado. A principal característica dos modelos neste domínio é a capacidade de representar e reconhecer características sucessivamente complexas, por meio da adição de níveis ou camadas de operações não-lineares em sua arquiteturas, a exemplo das redes neurais profundas, máquinas de Boltzmann profundas e fórmulas proposicionais. Modelos deste tipo ganharam popularidade ao se mostraram capazes de resolver problemas complexos com um desempenho cada vez maior \cite{bengio2009learning}.
+
+A melhoria do desempenho de modelos de DL é decorrente do aumento recente da quantidade de dados disponíveis sobre temas complexos, aliado ao aumento da disponibilidade de recursos computacionais para executar modelos mais robustos \cite{goodfellow2016deep,deng2014deep}. Alguns dados fornecidos pela IBM reforçam esta afirmação: em $2017$ foram gerados $2,5$ quintilhões de bytes de dados por dia, e $90\%$ do volume total de dados gerados até $2017$ no mundo foi criado somente nos últimos dois anos \cite{ibm2017bigdata}. Estes fatores possibilitaram a implementação de modelos que apresentaram uma melhoria significativa na eficiência de generalização frente a modelos existentes até então, especialmente em virtude da capacidade de organizar a computação como uma composição de várias operações não-lineares (funções de ativação) e uma hierarquia de características re-utilizadas (adição de camadas) \cite{goodfellow2016deep}.
+% 
+% Para exemplificar o efeito da adição de camadas aos modelos de DL, a Figura \ref{fig:compara_redes} mostra uma visão geral do aumento da profundidade das camadas de redes neurais e o desempenho destas em problemas de detecção de objetos em imagens. Nota-se que, à medida que a profundidade aumenta, há uma diminuição no erro. Mais recentemente, isto também tem implicado na redução do número de parâmetros treináveis, por meio da implementação de técnicas de subamostragem \cite{haykin2009neural}. Este panorama reforça a hipótese de que o aumento da profundidade das redes neurais impacta positivamente na captura de características e que estes avanços têm tornado as tarefas mais factíveis, com uma diminuição do esforço computacional associado, em comparação com modelos mais rasos \cite{goodfellow2016deep}.
+%
+% \begin{figure}[ht]
+% 	\centering
+% 	\caption{Evolução de profunidade, taxa de erro e número de parâmetros das redes neurais profundas com o passar dos anos. Fonte: \cite{mediumcnn}.}
+% 	\label{fig:compara_redes}
+% 	\includegraphics[width=0.8\textwidth]{img/compara_redes.png}
+% \end{figure}
+
+% \subsection{Breve Histórico}
+%
+% O termo \emph{Deep Learning} (DL) não é recente, foi utilizado pela primeira vez por Dechter, no contexto da descoberta de todas as configurações de conflitos mínimas a fim de resolver um problema de satisfação de restrições \cite{dechter1986learning}. Porém, ganhou força a partir de pesquisas sobre RNAs \emph{feedforward} com muitas camadas ocultas, também conhecidas por redes neurais profundas \cite{deng2014deep}.
+%
+% Considera-se que o desenvolvimento de DL pode ser dividido em três momentos. No primeiro momento, houve a proposição de modelos lineares simples, compostos apenas por um neurônio, a exemplo dos neurônios de McCulloch e Pitts \cite{mcculloch1943logical} e \emph{Perceptron} de Rosenblatt  \cite{rosenblatt1958perceptron}. No segundo instante, iniciado nos anos 1980, teve-se como eixo central a interconexão entre vários neurônios e a proposição do algoritmo \emph{back-propagation} para ajuste de pesos no treinamento das RNAs \cite{rumelhart1986parallel,rumelhart1986backpropagation}. Com estas contribuições, houve aplicação das RNAs em diversos domínios. Ainda no final deste segundo momento, duas contribuições relevantes foram feitas: os modelos \emph{Long Short-Term Memory} (LSTM) e LeNet. Esta última utiliza o algoritmo de \emph{backpropagation} para treinar uma rede neural convolucional profunda para reconhecer dígitos escritos à mão \cite{lenet}.
+%
+% A terceira fase tem um marco inicial definido: compreende o ano de $2006$, quando Hinton utilizou o termo \emph{deep belief network} para designar um tipo de modelo de RNA MLP cujo treinamento adota uma estratégia gulosa e orientada a camadas. Cada camada é pré-treinada individualmente como uma máquina de Boltzmann restrita, e o modelo inteiro é então ajustado utilizando técnicas de treinamento supervisionado, incluindo o algoritmo de \emph{backpropagation}. A partir deste marco, outros pesquisadores passaram a investigar a técnica de Hinton e, com o tempo, o termo \emph{deep learning} passou a designar modelos compostos de várias camadas sucessivas de operações não lineares utilizados para o aprendizado de determinada tarefa \cite{hinton2006fast, hinton2007learning, goodfellow2016deep, deng2014deep}.
+%
+% Na conjectura atual, modelos de DL têm superado significativamente o estado da arte de modelos inteligentes em diversas competições em todo o mundo. A \emph{ImageNet Large Scale Visual Recognition Challenge} (ILSVRC) \cite{ImagenetChall} é uma competição em que equipes de pesquisa avaliam seus algoritmos em um conjunto de dados fornecido, e competem para chegar à melhor acurácia em várias tarefas de reconhecimento visual automático. O conjunto de dados utilizado, denominado ImageNet \cite{Imagenet:main}, consiste de um conjunto de aproximadamente $14$ milhões de imagens de $21$ mil categorias organizadas hierarquicamente, em que cada uma contém algumas centenas de imagens de exemplo. A performance dos modelos submetidos para a competição é chamada taxa de erro top-5, e representa o erro computado quando a classe alvo não se encontra entre as 5 apontadas pelo modelo como as que têm maior probabilidade de estarem na imagem. Em 2011, os melhores resultados de  classificação no ILSVRC tinham por volta de $25\%$ de erro top-5 nas tarefas propostas. Em 2012, o modelo AlexNet, uma rede neural convolucional proposta segundo as ideias de DL, atingiu apenas $16,4\%$ de erro, propondo um ganho até então nunca visto entre duas edições sucessivas da competição \cite{ImagenetChall:2012}.
+%
+% O gráfico da Figura \ref{fig:compara_redes} sintetiza o histórico da competição ILSVRC, em que a partir do ano de 2012 houve a introdução de modelos baseados em DL. O histograma mostra a diminuição do erro na tarefa de aprendizado proposta e a linha tracejada enfatiza o número de camadas ocultas utilizadas nos modelos vencedores.
+%
+% \begin{figure}[ht]
+% 	\centering
+% 	\caption{Evolução do erro dos modelos vencedores da competição ILSVRC pela profundidade das redes neurais \cite{dl_ILSVRC, ImagenetChall}}
+% 	\label{fig:compara_redes_ilsvrc}
+% 	\includegraphics[width=0.8\textwidth]{img/compara_redes_ilsvrc.png}
+% \end{figure}
+%
+% Apesar do foco inicial de DL ter sido concentrado no desenvolvimento de técnicas de aprendizado não-supervisionado e na habilidade de modelos profundos de boa generalização a partir de conjuntos de dados pequenos, o cenário atual das pesquisas nesta área consideram o uso de técnicas de aprendizado supervisionado visando o endereçamento de conjuntos de dados massivos e categorizados, e também redes neurais profundas híbridas, que misturem técnicas e conceitos de diferentes origens \cite{deng2014deep,goodfellow2016deep}.
+%
+% Dentre estes resultados de vanguarda no ILSVRC destacam-se os modelos de DL construídos com redes neurais convolucionais, que têm impulsionado os mais recentes avanços na área de Visão Computacional desde a proposição na literatura da rede LeNet \cite{lenet}. Em particular, desde a proposição e vitória do modelo AlexNet \cite{alexnet} no ano de 2012, as redes neurais convolucionais têm dominado o ranking dos anos seguintes da competição, conforme ilustrado na Figura \ref{fig:compara_redes_ilsvrc} \cite{deng2014deep}. Dada a importância deste tipo de rede neural, os conceitos sobre as mesmas e os modelos canônicos serão apresentados a seguir.
+
+
+\subsection{Redes Neurais Convolucionais} \label{subsubsec:rnc}
+\input{./files/fundamenta/cnns}
+
+% \subsection{Modelos Canônicos de Redes Neurais Convolucionais} \label{subsubsec:modelos_canonicos}
+% \input{./files/fundamenta/canonicos}
+%
+% \subsection{\emph{Transfer Learning}}
+% \input{./files/fundamenta/transferLearning}

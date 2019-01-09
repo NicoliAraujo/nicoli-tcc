@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: sbc-template.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: abntex2-options.bib
+Database file #2: sbc-template.bib
+Repeated entry---line 1499 of file sbc-template.bib
+ :   @article{fu2010age
+ :                     ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "Guardian:CameraSmartv" isn't style-file defined
+--line 1757 of file sbc-template.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 28 entries,
+            6714 wiz_defined-function locations,
+            1372 strings with 14491 characters,
+and the built_in function-call counts, 33600 in all, are:
+= -- 3418
+> -- 962
+< -- 529
++ -- 899
+- -- 285
+* -- 2304
+:= -- 4289
+add.period$ -- 119
+call.type$ -- 28
+change.case$ -- 323
+chr.to.int$ -- 66
+cite$ -- 27
+duplicate$ -- 2550
+empty$ -- 1788
+format.name$ -- 1379
+if$ -- 7319
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 505
+newline$ -- 139
+num.names$ -- 135
+pop$ -- 699
+preamble$ -- 1
+purify$ -- 120
+quote$ -- 0
+skip$ -- 2685
+stack$ -- 1
+substring$ -- 1326
+swap$ -- 1006
+text.length$ -- 36
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 7
+warning$ -- 0
+while$ -- 206
+width$ -- 0
+write$ -- 448
+(There was 1 error message)

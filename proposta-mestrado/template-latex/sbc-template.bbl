@@ -1,0 +1,180 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Bengio et al. 2009]{bengio2009learning}
+\abntrefinfo{Bengio et al.}{BENGIO et al.}{2009}
+{BENGIO, Y. et al. Learning deep architectures for ai.
+\emph{Foundations and trends{\textregistered} in Machine Learning}, Now
+  Publishers, Inc., v.~2, n.~1, p. 1--127, 2009.}
+
+\bibitem[Bracewell 1978]{bracewell1986fourier}
+\abntrefinfo{Bracewell}{BRACEWELL}{1978}
+{BRACEWELL, R. \emph{The Fourier Transform and its Applications}. Second.
+  Tokyo: McGraw-Hill Kogakusha, Ltd., 1978.}
+
+\bibitem[Buduma 2017]{Buduma:Livro}
+\abntrefinfo{Buduma}{BUDUMA}{2017}
+{BUDUMA, N. \emph{Fundamentals of Deep Learning}. Estados Unidos: Editora
+  O'Relly, 2017.}
+
+\bibitem[Deng, Yu et al. 2014]{deng2014deep}
+\abntrefinfo{Deng, Yu et al.}{DENG; YU et al.}{2014}
+{DENG, L.; YU, D. et al. Deep learning: methods and applications.
+\emph{Foundations and Trends{\textregistered} in Signal Processing}, Now
+  Publishers, Inc., v.~7, n.~3--4, p. 197--387, 2014.}
+
+\bibitem[Everingham et al. 2014]{pascalvoc}
+\abntrefinfo{Everingham et al.}{EVERINGHAM et al.}{2014}
+{EVERINGHAM, M. et al. \emph{The PASCAL Visual Object Classes Homepage}. The
+  PASCAL VOC project, 2014.
+Acessado em 13 de Junho de 2018.
+Dispon{\'\i}vel em: \url{http://host.robots.ox.ac.uk/pascal/VOC/}.}
+
+\bibitem[Fu, Guo e Huang 2010]{fu2010age}
+\abntrefinfo{Fu, Guo e Huang}{FU; GUO; HUANG}{2010}
+{FU, Y.; GUO, G.; HUANG, T.~S. Age synthesis and estimation via faces: A
+  survey.
+\emph{IEEE transactions on pattern analysis and machine intelligence}, IEEE,
+  v.~32, n.~11, p. 1955--1976, 2010.}
+
+\bibitem[Fu, Xu e Huang 2007]{fu2007estimating}
+\abntrefinfo{Fu, Xu e Huang}{FU; XU; HUANG}{2007}
+{FU, Y.; XU, Y.; HUANG, T.~S. Estimating human age by manifold analysis of face
+  pictures and regression on aging features. In:  IEEE. \emph{2007 IEEE
+  International Conference on Multimedia and Expo}. Beijing, China, 2007. p.
+  1383--1386.
+ISSN 1945-7871.}
+
+\bibitem[Goodfellow, Bengio e Courville 2016]{goodfellow2016deep}
+\abntrefinfo{Goodfellow, Bengio e Courville}{GOODFELLOW; BENGIO;
+  COURVILLE}{2016}
+{GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep Learning}. MIT Press,
+  2016. Dispon{\'\i}vel em: \url{http://www.deeplearningbook.org}.}
+
+\bibitem[He et al. 2015]{resnet}
+\abntrefinfo{He et al.}{HE et al.}{2015}
+{HE, K. et al. Deep residual learning for image recognition.
+\emph{CoRR}, abs/1512.03385, 2015.
+Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1512.03385}.}
+
+\bibitem[IBM 2017]{ibm2017bigdata}
+\abntrefinfo{IBM}{IBM}{2017}
+{IBM, M.~C. \emph{10 Key Marketing Trends for 2017 and Ideas for Exceeding
+  Customer Expectations}. 2017.
+Acessado em 23 de Março de 2018.
+Dispon{\'\i}vel em:
+  \url{https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN}.}
+
+\bibitem[ImageNet 2015]{ImagenetChall}
+\abntrefinfo{ImageNet}{IMAGENET}{2015}
+{IMAGENET. \emph{Large Scale Visual Recognition Challenge (ILSVRC)}. 2015.
+Acessado em 31 de Maio de 2018.
+Dispon{\'\i}vel em: \url{http://image-net.org/challenges/LSVRC/}.}
+
+\bibitem[Khan et al. 2018]{Khan:Livro}
+\abntrefinfo{Khan et al.}{KHAN et al.}{2018}
+{KHAN, S. et al. \emph{A Guide to Convolutional Neural Networks for Computer
+  Vision}. Austrália: Morgan \& Claypool, 2018.}
+
+\bibitem[Kwon e Lobo 1999]{kwon1999age}
+\abntrefinfo{Kwon e Lobo}{KWON; LOBO}{1999}
+{KWON, Y.~H.; LOBO, N. da V. Age classification from facial images.
+\emph{Computer vision and image understanding}, Elsevier, v.~74, n.~1, p.
+  1--21, 1999.}
+
+\bibitem[Lanitis, Taylor e Cootes 2002]{lanitis2002toward}
+\abntrefinfo{Lanitis, Taylor e Cootes}{LANITIS; TAYLOR; COOTES}{2002}
+{LANITIS, A.; TAYLOR, C.~J.; COOTES, T.~F. Toward automatic simulation of aging
+  effects on face images.
+\emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, IEEE,
+  v.~24, n.~4, p. 442--455, 2002.}
+
+\bibitem[Lathi 2007]{lathi2006sinais}
+\abntrefinfo{Lathi}{LATHI}{2007}
+{LATHI, B. \emph{Sinais e Sistemas Lineares - 2.ed}. BOOKMAN COMPANHIA ED,
+  2007.
+ISBN 9788560031139. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=ySxoo2TVeeYC}.}
+
+\bibitem[Levi e Hassner 2015]{levi2015age}
+\abntrefinfo{Levi e Hassner}{LEVI; HASSNER}{2015}
+{LEVI, G.; HASSNER, T. Age and gender classification using convolutional neural
+  networks. In:  \emph{IEEE Conf. on Computer Vision and Pattern Recognition
+  (CVPR) workshops}. IEEE, 2015. Dispon{\'\i}vel em:
+  \url{https://www.openu.ac.il/home/hassner/projects/cnn\_agegender}.}
+
+\bibitem[Lin et al. 2014]{coco}
+\abntrefinfo{Lin et al.}{LIN et al.}{2014}
+{LIN, T. et al. Microsoft {COCO:} common objects in context.
+\emph{CoRR}, abs/1405.0312, 2014.
+Dispon{\'\i}vel em: \url{http://arxiv.org/abs/1405.0312}.}
+
+\bibitem[Liu et al. 2015]{ssd}
+\abntrefinfo{Liu et al.}{LIU et al.}{2015a}
+{LIU, W. et al. Ssd: Single shot multibox detector. In:  . Amsterdam, The
+  Netherlands: CoRR, 2015. abs/1512.02325. Dispon{\'\i}vel em:
+  \url{http://arxiv.org/abs/1512.02325}.}
+
+\bibitem[Liu et al. 2015]{liu2015agenet}
+\abntrefinfo{Liu et al.}{LIU et al.}{2015b}
+{LIU, X. et al. Agenet: Deeply learned regressor and classifier for robust
+  apparent age estimation. In:  \emph{Proceedings of the IEEE International
+  Conference on Computer Vision Workshops}. Santiago, Chile: IEEE, 2015. p.
+  16--24.}
+
+\bibitem[Lou et al. 2018]{lou2018expression}
+\abntrefinfo{Lou et al.}{LOU et al.}{2018}
+{LOU, Z. et al. Expression-invariant age estimation using structured learning.
+\emph{IEEE transactions on pattern analysis and machine intelligence}, IEEE,
+  v.~40, n.~2, p. 365--375, 2018.}
+
+\bibitem[Marsland 2009]{marsland2015machine}
+\abntrefinfo{Marsland}{MARSLAND}{2009}
+{MARSLAND, S. \emph{Machine Learning: An Algorithmic Perspective}. 1st. ed.
+  London, UK: Chapman \& Hall/CRC, 2009.
+ISBN 1420067184, 9781420067187.}
+
+\bibitem[Redmon et al. 2015]{redmon2016you}
+\abntrefinfo{Redmon et al.}{REDMON et al.}{2015}
+{REDMON, J. et al. You only look once: Unified, real-time object detection. In:
+   . CoRR, 2015. abs/1506.02640. Dispon{\'\i}vel em:
+  \url{http://arxiv.org/abs/1506.02640}.}
+
+\bibitem[Rothe, Timofte e Gool 2015]{rothe2015dex}
+\abntrefinfo{Rothe, Timofte e Gool}{ROTHE; TIMOFTE; GOOL}{2015}
+{ROTHE, R.; TIMOFTE, R.; GOOL, L.~V. Dex: Deep expectation of apparent age from
+  a single image. In:  \emph{2015 IEEE International Conference on Computer
+  Vision Workshop (ICCVW)}. Santiago, Chile: IEEE, 2015. v.~00, p. 252--257.
+  Dispon{\'\i}vel em: \url{doi.ieeecomputersociety.org/10.1109/ICCVW.2015.41}.}
+
+\bibitem[Schofield 2017]{Guardian:CameraSmartv}
+\abntrefinfo{Schofield}{SCHOFIELD}{2017}
+{SCHOFIELD, J. \emph{How can I make video calls from my TV set?} 2017.
+Acessado em \today.
+Dispon{\'\i}vel em: \url{https://goo.gl/eCynUh}.}
+
+\bibitem[Simonyan e Zisserman 2014]{vggnet}
+\abntrefinfo{Simonyan e Zisserman}{SIMONYAN; ZISSERMAN}{2014}
+{SIMONYAN, K.; ZISSERMAN, A. Very deep convolutional networks for large-scale
+  image recognition.
+\emph{arXiv preprint arXiv:1409.1556}, 2014.}
+
+\bibitem[Suo et al. 2008]{suo2008design}
+\abntrefinfo{Suo et al.}{SUO et al.}{2008}
+{SUO, J. et al. Design sparse features for age estimation using hierarchical
+  face model. In:  \emph{Automatic Face \& Gesture Recognition, 2008. FG'08.
+  8th IEEE International Conference on}. Amsterdam, The Netherlands: IEEE,
+  2008. p.~1--6.}
+
+\bibitem[Szegedy et al. 2015]{inception}
+\abntrefinfo{Szegedy et al.}{SZEGEDY et al.}{2015}
+{SZEGEDY, C. et al. Going deeper with convolutions. In:  \emph{2015 IEEE
+  Conference on Computer Vision and Pattern Recognition (CVPR)}. Boston, MA,
+  USA: IEEE, 2015. p.~1--9.
+ISSN 1063-6919.}
+
+\end{thebibliography}

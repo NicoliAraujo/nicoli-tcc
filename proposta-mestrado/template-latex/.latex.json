@@ -1,0 +1,11 @@
+{
+  "projectPath": "/home/nicoli/github/nicoli-tcc/tcc1/template-latex",
+  "title": "LaTeX-Plus Project",
+  "root": "sbc-template.sty",
+  "program": "pdflatex",
+  "latexmkOptions": "-bibtex -pdf -shell-escape",
+  "output": ".latex",
+  "openOutput": "true",
+  "postAction": "link",
+  "postPath": ""
+}
