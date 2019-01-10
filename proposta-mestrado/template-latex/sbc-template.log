@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.6.18)  9 JAN 2019 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.6.18)  10 JAN 2019 16:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -943,8 +943,6 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 50.
 LaTeX Info: Redefining \pageref on input line 50.
 LaTeX Info: Redefining \nameref on input line 50.
-
-(./sbc-template.out) (./sbc-template.out)
 \@outlinefile=\write4
 \openout4 = `sbc-template.out'.
 
@@ -968,8 +966,18 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 55.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 55.
- (./files/intro.tex)
-(./files/introducao/justificativa.tex
+ (./files/intro.tex
+
+LaTeX Warning: Citation `fu2010age' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Citation `fu2010age' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Guardian:CameraSmartv' on page 1 undefined on input li
+ne 9.
+
+) (./files/introducao/justificativa.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining portuges shorthand "|
@@ -993,119 +1001,258 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 62.
  (./files/fund_teorica.tex
 
-LaTeX Warning: Reference `sec:rnas' on page 2 undefined on input line 4.
+LaTeX Warning: Reference `sec:dl' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Reference `subsubsec:rnc' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Reference `sec:trab_relac' on page 2 undefined on input line 4.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 12.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 12.
 (./files/fundamenta/deep_learning.tex
+
+LaTeX Warning: Citation `bengio2009learning' on page 2 undefined on input line 
+3.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4.
- [2]
+[2]
+
+LaTeX Warning: Citation `goodfellow2016deep' on page 3 undefined on input line 
+5.
+
+
+LaTeX Warning: Citation `deng2014deep' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `ibm2017bigdata' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `goodfellow2016deep' on page 3 undefined on input line 
+5.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 40.
- (./files/fundamenta/cnns.tex
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 4.
+(./files/fundamenta/cnns.tex
 
+LaTeX Warning: Citation `goodfellow2016deep' on page 3 undefined on input line 
+2.
+
+
+LaTeX Warning: Citation `Khan:Livro' on page 3 undefined on input line 2.
+
+
+LaTeX Warning: Citation `bracewell1986fourier' on page 3 undefined on input lin
+e 4.
+
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 4.
 (/usr/share/texlive/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 )
+
+LaTeX Warning: Reference `eq:int_convolucao' on page 3 undefined on input line 
+4.
+
+
+LaTeX Warning: Citation `lathi2006sinais' on page 3 undefined on input line 4.
+
+
+LaTeX Warning: Reference `eq:int_convolucao' on page 3 undefined on input line 
+10.
+
+
+LaTeX Warning: Reference `eq:conv_img' on page 3 undefined on input line 10.
+
+
+LaTeX Warning: Citation `goodfellow2016deep' on page 3 undefined on input line 
+14.
+
+
+LaTeX Warning: Citation `Buduma:Livro' on page 3 undefined on input line 16.
+
+
+LaTeX Warning: Reference `fig:convolutions' on page 3 undefined on input line 1
+6.
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 17.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 16.
- [3]
-<./img/fundamenta/convolutions.png, id=122, 970.62625pt x 286.06876pt>
+(babel)             in language  on input line 17.
+[3]
+
+LaTeX Warning: Citation `Khan:Livro' on page 4 undefined on input line 20.
+
+
+LaTeX Warning: Citation `Khan:Livro' on page 4 undefined on input line 20.
+
+<./img/fundamenta/convolutions.png, id=45, 970.62625pt x 286.06876pt>
 File: ./img/fundamenta/convolutions.png Graphic file (type png)
 <use ./img/fundamenta/convolutions.png>
 Package pdftex.def Info: ./img/fundamenta/convolutions.png  used on input line 
 22.
 (pdftex.def)             Requested size: 341.43437pt x 100.6319pt.
 
+LaTeX Warning: Reference `fig:cnn_camada' on page 4 undefined on input line 25.
 
-LaTeX Warning: Reference `sec:rnas' on page 4 undefined on input line 25.
 
 
-LaTeX Warning: Reference `tab:ativacoes' on page 4 undefined on input line 25.
+LaTeX Warning: Citation `goodfellow2016deep' on page 4 undefined on input line 
+29.
 
-<img/cnn_camada_ipe.png, id=129, 946.53625pt x 80.3pt>
+
+LaTeX Warning: Citation `goodfellow2016deep' on page 4 undefined on input line 
+29.
+
+<img/cnn_camada_ipe.png, id=47, 946.53625pt x 80.3pt>
 File: img/cnn_camada_ipe.png Graphic file (type png)
 <use img/cnn_camada_ipe.png>
 Package pdftex.def Info: img/cnn_camada_ipe.png  used on input line 31.
 (pdftex.def)             Requested size: 426.79135pt x 36.20694pt.
-)
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 42.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 42.
- [4 <./img/fundamenta/convolutions.png> <./img/cnn_camada_ipe.png>])
+
+LaTeX Warning: Citation `goodfellow2016deep' on page 4 undefined on input line 
+34.
+
+))
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 15.
+ (./files/trab_relac.tex
 
-(./files/trab_relac.tex
+LaTeX Warning: Citation `fu2010age' on page 4 undefined on input line 5.
+
+
+LaTeX Warning: Citation `kwon1999age' on page 4 undefined on input line 5.
+
+
+LaTeX Warning: Citation `lanitis2002toward' on page 4 undefined on input line 5
+.
+
+
+LaTeX Warning: Citation `fu2007estimating' on page 4 undefined on input line 5.
+
+
+
+LaTeX Warning: Citation `suo2008design' on page 4 undefined on input line 5.
+
+
+LaTeX Warning: Citation `lou2018expression' on page 4 undefined on input line 5
+.
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 12.
+(babel)             in language  on input line 6.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 12.
- [5]))
+(babel)             in language  on input line 6.
+[4 <./img/fundamenta/convolutions.png> <./img/cnn_camada_ipe.png>]
+
+LaTeX Warning: Citation `vggnet' on page 5 undefined on input line 7.
+
+
+LaTeX Warning: Citation `resnet' on page 5 undefined on input line 7.
+
+
+LaTeX Warning: Citation `inception' on page 5 undefined on input line 7.
+
+
+LaTeX Warning: Citation `redmon2016you' on page 5 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ssd' on page 5 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ImagenetChall' on page 5 undefined on input line 7.
+
+
+LaTeX Warning: Citation `pascalvoc' on page 5 undefined on input line 7.
+
+
+LaTeX Warning: Citation `coco' on page 5 undefined on input line 7.
+
+
+LaTeX Warning: Citation `rothe2015dex' on page 5 undefined on input line 9.
+
+
+LaTeX Warning: Citation `liu2015agenet' on page 5 undefined on input line 11.
+
+
+LaTeX Warning: Citation `inception' on page 5 undefined on input line 11.
+
+
+LaTeX Warning: Citation `liu2015agenet' on page 5 undefined on input line 11.
+
+
+LaTeX Warning: Citation `levi2015age' on page 5 undefined on input line 13.
+
+))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 64.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 64.
+ [5]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 65.
- (./files/introducao/metodo.tex)
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 68.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 68.
- [6]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 68.
 
-(./files/introducao/crono.tex
+(./files/introducao/metodo.tex
+
+LaTeX Warning: Citation `marsland2015machine' on page 6 undefined on input line
+ 4.
+
+
+Overfull \hbox (22.78479pt too wide) in paragraph at lines 4--5
+\T1/ptm/m/it/12 de ati-vi-da-des de ma-chine le-ar-ning \T1/ptm/m/n/12 (\T1/ptm
+/b/n/12 ??\T1/ptm/m/n/12 ). Ini-ci-al-mente, houve a aqui-si-ção e o pré-proces
+samento
+ []
+
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 68.
+ (./files/introducao/crono.tex
+
+LaTeX Warning: Reference `tab:cronograma' on page 6 undefined on input line 3.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 14.
 
-Overfull \hbox (2.87221pt too wide) in paragraph at lines 12--35
- [] 
+Underfull \hbox (badness 2556) in paragraph at lines 17--17
+[]\T1/ptm/b/n/12 Consolidação da Base de
  []
 
-) (./sbc-template.bbl
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 11.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 51.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 51.
- [7]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 153.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 153.
- [8])
+No file sbc-template.bbl.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 73.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 73.
- [9]
+[6]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 73.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 73.
+ [7]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
  (./sbc-template.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
-Package rerunfilecheck Info: File `sbc-template.out' has not changed.
-(rerunfilecheck)             Checksum: 6616BADDFB9DFBA9169E4CE0522761C6;488.
 
+
+Package rerunfilecheck Warning: File `sbc-template.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `sbc-template.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  6616BADDFB9DFBA9169E4CE0522761C6;488.
 
 LaTeX Warning: There were undefined references.
 
@@ -1114,13 +1261,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 22235 strings out of 492648
- 398118 string characters out of 6132015
- 511603 words of memory out of 5000000
- 25581 multiletter control sequences out of 15000+600000
- 46397 words of font info for 68 fonts, out of 8000000 for 9000
+ 22094 strings out of 492648
+ 395823 string characters out of 6132015
+ 515718 words of memory out of 5000000
+ 25482 multiletter control sequences out of 15000+600000
+ 34862 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,92p,1408b,706s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,92p,1408b,706s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -1133,10 +1280,10 @@ rom12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on sbc-template.pdf (9 pages, 341169 bytes).
+Output written on sbc-template.pdf (7 pages, 323502 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 265 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 119 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
+ 27 named destinations out of 1000 (max. 500000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
